@@ -18,6 +18,7 @@ from .wowaudit_client import (
     apply_weekly_mplus,
     fetch_current_period,
     fetch_roster,
+    fetch_team_info,
     fetch_weekly_mplus,
 )
 
@@ -61,9 +62,14 @@ def _dump(dir_: Path | None, name: str, payload) -> None:
     (dir_ / name).write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
-def _load_characters(config: Config, dump_dir: Path | None) -> list[Character]:
+def _load_characters(
+    config: Config, dump_dir: Path | None
+) -> tuple[list[Character], dict | None]:
     roster = fetch_roster(config)
     _dump(dump_dir, "wowaudit_characters.json", [c.model_dump(mode="json") for c in roster])
+
+    team = fetch_team_info(config)
+    _dump(dump_dir, "wowaudit_team.json", team)
 
     period = fetch_current_period(config)
     _dump(dump_dir, "wowaudit_period.json", {"current_period": period})
@@ -72,7 +78,7 @@ def _load_characters(config: Config, dump_dir: Path | None) -> list[Character]:
     _dump(dump_dir, "wowaudit_historical_data.json", counts)
 
     apply_weekly_mplus(roster, counts)
-    return roster
+    return roster, team.get("last_refreshed")
 
 
 def _enrich(characters: list[Character], config: Config, dump_dir: Path | None) -> None:
@@ -119,7 +125,7 @@ def main(argv: list[str] | None = None) -> int:
     config = load_config(args.config)
 
     try:
-        characters = _load_characters(config, args.dump_dir)
+        characters, last_refreshed = _load_characters(config, args.dump_dir)
     except (RuntimeError, httpx.HTTPError) as exc:
         print(f"wowaudit fetch failed: {exc}", file=sys.stderr)
         return 2
@@ -142,6 +148,7 @@ def main(argv: list[str] | None = None) -> int:
         config=config,
         snapshots_root=args.output,
         now=datetime.now(timezone.utc),
+        last_refreshed=last_refreshed,
     )
     _print_summary(graded, dashboard_path)
     return 0

@@ -70,6 +70,33 @@
   .pill.info { color: var(--accent); border-color: var(--accent); }
   .detail-card.ambig h4 { color: var(--warn); }
 
+  .freshness {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    font-size: 12px;
+  }
+  .freshness.pass { border-color: var(--border); }
+  .freshness.warn { border-color: var(--warn); background: rgba(201, 163, 58, 0.08); }
+  .freshness.fail { border-color: var(--fail); background: rgba(216, 82, 79, 0.08); }
+  .freshness-label { color: var(--muted); font-weight: 600; margin-right: 4px; }
+  .freshness-item { display: inline-flex; align-items: center; gap: 4px; }
+  .freshness-item .k { color: var(--muted); }
+  .freshness-item.pass .v { color: var(--pass); }
+  .freshness-item.warn .v { color: var(--warn); }
+  .freshness-item.fail .v { color: var(--fail); font-weight: 600; }
+  .freshness-help {
+    color: var(--muted);
+    font-size: 11px;
+    margin-left: auto;
+  }
+
   .role-filter {
     display: flex; gap: 8px; flex-wrap: wrap;
     margin-bottom: 16px;
@@ -211,6 +238,23 @@
     <span class="pill warn">Warn: {{ warn_count }}</span>
     <span class="pill fail">Fail: {{ fail_count }}</span>
   </div>
+
+  {% if freshness %}
+  {% set statuses = freshness | map(attribute='status') | list %}
+  {% set worst = 'fail' if 'fail' in statuses else ('warn' if 'warn' in statuses else 'pass') %}
+  <div class="freshness {{ worst }}">
+    <span class="freshness-label">wowaudit sync:</span>
+    {% for f in freshness %}
+    <span class="freshness-item {{ f.status }}" title="{{ f.iso }}">
+      <span class="k">{{ f.label }}:</span>
+      <span class="v">{{ f.relative }}</span>
+    </span>
+    {% endfor %}
+    {% if worst != 'pass' %}
+    <span class="freshness-help">Force a refresh on wowaudit's team page to get newer numbers.</span>
+    {% endif %}
+  </div>
+  {% endif %}
 
   <div class="role-filter" id="role-filter">
     <span class="role-chip active" data-filter="all">All</span>

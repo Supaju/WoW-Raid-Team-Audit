@@ -4,7 +4,7 @@ import json
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Iterable
+from typing import Any, Iterable
 
 from urllib.parse import quote as url_quote
 
@@ -39,6 +39,71 @@ def role_group(role: str | None) -> str:
 def raiderio_url(region: str, realm: str, character_name: str) -> str:
     slug = realm_slug(realm)
     return f"https://raider.io/characters/{region}/{slug}/{url_quote(character_name)}"
+
+
+# Only the refresh fields that feed data we actually display. wowaudit's
+# `percentiles` field tracks Warcraft Logs scraping, which we don't surface,
+# so it's intentionally omitted.
+_FRESHNESS_LABELS = {
+    "mythic_plus": "M+ runs",
+    "blizzard": "Gear & profile",
+}
+
+
+def _relative_age(age: timedelta) -> str:
+    seconds = int(age.total_seconds())
+    if seconds < 60:
+        return "just now"
+    if seconds < 3600:
+        m = seconds // 60
+        return f"{m}m ago"
+    if seconds < 86400:
+        h = seconds // 3600
+        return f"{h}h ago"
+    d = seconds // 86400
+    return f"{d}d ago"
+
+
+def _staleness_level(age: timedelta) -> str:
+    """pass | warn | fail based on age. Thresholds tuned for the wowaudit data
+    refresh cadence — fresh if under 6h, stale past 24h."""
+    h = age.total_seconds() / 3600
+    if h >= 24:
+        return "fail"
+    if h >= 6:
+        return "warn"
+    return "pass"
+
+
+def format_freshness(last_refreshed: dict | None, now: datetime) -> list[dict[str, Any]]:
+    """Turn the raw /v1/team last_refreshed dict into a list of entries for the
+    template. Sorted stale → fresh so the worst offender is visually first."""
+    if not last_refreshed:
+        return []
+    entries = []
+    for key, iso in last_refreshed.items():
+        if key not in _FRESHNESS_LABELS:
+            continue
+        label = _FRESHNESS_LABELS[key]
+        try:
+            ts = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        except (ValueError, AttributeError):
+            continue
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        age = now - ts
+        entries.append(
+            {
+                "key": key,
+                "label": label,
+                "iso": ts.strftime("%Y-%m-%d %H:%M UTC"),
+                "relative": _relative_age(age),
+                "status": _staleness_level(age),
+                "age_hours": age.total_seconds() / 3600,
+            }
+        )
+    entries.sort(key=lambda e: -e["age_hours"])
+    return entries
 
 
 UTC = timezone.utc
@@ -91,6 +156,7 @@ def render_dashboard(
     generated_at: datetime,
     season_name: str,
     region: str,
+    freshness: list[dict[str, Any]] | None = None,
 ) -> str:
     env = _jinja_env()
     template = env.get_template("dashboard.html.j2")
@@ -100,6 +166,7 @@ def render_dashboard(
         generated_at=generated_at.strftime("%Y-%m-%d %H:%M UTC"),
         season_name=season_name,
         region=region,
+        freshness=freshness or [],
     )
 
 
@@ -127,6 +194,7 @@ def write_snapshot(
     config: Config,
     snapshots_root: Path,
     now: datetime | None = None,
+    last_refreshed: dict | None = None,
 ) -> Path:
     """Render dashboard + data.json for the current week, then refresh index.html.
 
@@ -138,12 +206,14 @@ def write_snapshot(
     week_dir = snapshots_root / week_key
     week_dir.mkdir(parents=True, exist_ok=True)
 
+    freshness = format_freshness(last_refreshed, now)
     dashboard_html = render_dashboard(
         graded,
         week_key=week_key,
         generated_at=now,
         season_name=config.season.name,
         region=config.blizzard.region,
+        freshness=freshness,
     )
     dashboard_path = week_dir / "dashboard.html"
     dashboard_path.write_text(dashboard_html, encoding="utf-8")

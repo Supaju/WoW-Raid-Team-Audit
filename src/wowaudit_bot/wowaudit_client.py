@@ -46,6 +46,12 @@ def fetch_current_period(config: Config) -> int:
     return int(data["current_period"])
 
 
+def fetch_team_info(config: Config) -> dict:
+    """Return the /v1/team payload. We use `last_refreshed` timestamps to surface
+    wowaudit's data freshness on the dashboard."""
+    return _get(config, "/v1/team")
+
+
 def fetch_roster(config: Config) -> list[Character]:
     """Return roster as Character stubs (name/realm/class/role only; no gear/M+ yet)."""
     data = _get(config, "/v1/characters")
