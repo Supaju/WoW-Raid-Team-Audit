@@ -70,6 +70,33 @@
   .pill.info { color: var(--accent); border-color: var(--accent); }
   .detail-card.ambig h4 { color: var(--warn); }
 
+  .freshness {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    font-size: 12px;
+  }
+  .freshness.pass { border-color: var(--border); }
+  .freshness.warn { border-color: var(--warn); background: rgba(201, 163, 58, 0.08); }
+  .freshness.fail { border-color: var(--fail); background: rgba(216, 82, 79, 0.08); }
+  .freshness-label { color: var(--muted); font-weight: 600; margin-right: 4px; }
+  .freshness-item { display: inline-flex; align-items: center; gap: 4px; }
+  .freshness-item .k { color: var(--muted); }
+  .freshness-item.pass .v { color: var(--pass); }
+  .freshness-item.warn .v { color: var(--warn); }
+  .freshness-item.fail .v { color: var(--fail); font-weight: 600; }
+  .freshness-help {
+    color: var(--muted);
+    font-size: 11px;
+    margin-left: auto;
+  }
+
   .role-filter {
     display: flex; gap: 8px; flex-wrap: wrap;
     margin-bottom: 16px;
@@ -196,7 +223,7 @@
   <header>
     <div>
       <h1>Raid Readiness — 2026-W16</h1>
-      <div class="subtitle">Midnight S1 · generated 2026-04-19 22:08 UTC</div>
+      <div class="subtitle">Midnight S1 · generated 2026-04-19 22:18 UTC</div>
     </div>
     <a class="back-link" href="../index.html">← All weeks</a>
   </header>
@@ -206,6 +233,19 @@
     <span class="pill pass">OK: 6</span>
     <span class="pill warn">Warn: 12</span>
     <span class="pill fail">Fail: 10</span>
+  </div>
+
+  <div class="freshness fail">
+    <span class="freshness-label">wowaudit sync:</span>
+    <span class="freshness-item fail" title="2026-04-18 04:58 UTC">
+      <span class="k">M+ runs:</span>
+      <span class="v">1d ago</span>
+    </span>
+    <span class="freshness-item pass" title="2026-04-19 22:03 UTC">
+      <span class="k">Gear & profile:</span>
+      <span class="v">15m ago</span>
+    </span>
+    <span class="freshness-help">Force a refresh on wowaudit's team page to get newer numbers.</span>
   </div>
 
   <div class="role-filter" id="role-filter">
@@ -2549,7 +2589,7 @@
     </tbody>
   </table>
 
-  <footer>Raid week 2026-W16 · generated 2026-04-19 22:08 UTC</footer>
+  <footer>Raid week 2026-W16 · generated 2026-04-19 22:18 UTC</footer>
 </div>
 
 <script>
