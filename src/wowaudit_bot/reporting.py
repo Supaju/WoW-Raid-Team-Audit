@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -136,6 +136,46 @@ def current_raid_week_key(region: str, now: datetime | None = None) -> str:
     return f"{iso_year}-W{iso_week:02d}"
 
 
+def _reset_date_for_iso_week(week_key: str, region: str) -> date | None:
+    """'2026-W16' + 'us' -> date(2026, 4, 14) (that week's Tuesday reset date)."""
+    reset = _RESET.get(region)
+    if reset is None:
+        return None
+    iso_weekday = reset["weekday"] + 1  # Python weekday (Mon=0) -> ISO (%u Mon=1)
+    try:
+        dt = datetime.strptime(f"{week_key}-{iso_weekday}", "%G-W%V-%u")
+    except ValueError:
+        return None
+    return dt.date()
+
+
+def _format_week_range(reset_date: date) -> str:
+    """'Apr 14–20' for single-month range, 'Apr 28–May 4' for cross-month."""
+    end = reset_date + timedelta(days=6)
+    start_month = reset_date.strftime("%b")
+    if reset_date.month == end.month:
+        return f"{start_month} {reset_date.day}\u2013{end.day}"
+    end_month = end.strftime("%b")
+    return f"{start_month} {reset_date.day}\u2013{end_month} {end.day}"
+
+
+def build_week_label(
+    week_key: str, season_start: date | None, region: str
+) -> str:
+    """'Raid Week 5 · Apr 14–20' when we can compute the raid week, else
+    '2026-W16 · Apr 14–20' (pre-season or missing season info)."""
+    reset_date = _reset_date_for_iso_week(week_key, region)
+    if reset_date is None:
+        return week_key
+    range_label = _format_week_range(reset_date)
+    if season_start is not None:
+        days_since = (reset_date - season_start).days
+        if days_since >= 0:
+            raid_week = days_since // 7 + 1
+            return f"Raid Week {raid_week} \u00b7 {range_label}"
+    return f"{week_key} \u00b7 {range_label}"
+
+
 def _jinja_env() -> Environment:
     env = Environment(
         loader=FileSystemLoader(str(_TEMPLATES_DIR)),
@@ -153,6 +193,7 @@ def render_dashboard(
     graded: list[GradedCharacter],
     *,
     week_key: str,
+    week_label: str,
     generated_at: datetime,
     season_name: str,
     region: str,
@@ -163,6 +204,7 @@ def render_dashboard(
     return template.render(
         graded=graded,
         week_key=week_key,
+        week_label=week_label,
         generated_at=generated_at.strftime("%Y-%m-%d %H:%M UTC"),
         season_name=season_name,
         region=region,
@@ -170,10 +212,14 @@ def render_dashboard(
     )
 
 
-def render_index(weeks: list[str], latest_week: str) -> str:
+def render_index(
+    weeks: list[str], latest_week: str, week_labels: dict[str, str]
+) -> str:
     env = _jinja_env()
     template = env.get_template("index.html.j2")
-    return template.render(weeks=weeks, latest_week=latest_week)
+    return template.render(
+        weeks=weeks, latest_week=latest_week, week_labels=week_labels
+    )
 
 
 def _list_week_dirs(snapshots_root: Path) -> list[str]:
@@ -195,6 +241,7 @@ def write_snapshot(
     snapshots_root: Path,
     now: datetime | None = None,
     last_refreshed: dict | None = None,
+    season_start: date | None = None,
 ) -> Path:
     """Render dashboard + data.json for the current week, then refresh index.html.
 
@@ -202,14 +249,17 @@ def write_snapshot(
     """
     if now is None:
         now = datetime.now(UTC)
-    week_key = current_raid_week_key(config.reset.region, now)
+    region = config.reset.region
+    week_key = current_raid_week_key(region, now)
     week_dir = snapshots_root / week_key
     week_dir.mkdir(parents=True, exist_ok=True)
 
     freshness = format_freshness(last_refreshed, now)
+    week_label = build_week_label(week_key, season_start, region)
     dashboard_html = render_dashboard(
         graded,
         week_key=week_key,
+        week_label=week_label,
         generated_at=now,
         season_name=config.season.name,
         region=config.blizzard.region,
@@ -223,6 +273,8 @@ def write_snapshot(
         json.dumps(
             {
                 "week": week_key,
+                "week_label": week_label,
+                "season_start": season_start.isoformat() if season_start else None,
                 "generated_at": now.isoformat(),
                 "season": config.season.name,
                 "characters": _serializable_graded(graded),
@@ -235,7 +287,8 @@ def write_snapshot(
     weeks = _list_week_dirs(snapshots_root)
     if week_key not in weeks:
         weeks.insert(0, week_key)
-    index_html = render_index(weeks, latest_week=week_key)
+    week_labels = {w: build_week_label(w, season_start, region) for w in weeks}
+    index_html = render_index(weeks, latest_week=week_key, week_labels=week_labels)
     (snapshots_root / "index.html").write_text(index_html, encoding="utf-8")
 
     return dashboard_path

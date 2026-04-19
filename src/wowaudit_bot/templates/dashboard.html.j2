@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Raid Readiness — {{ week_key }}</title>
+<title>Raid Readiness — {{ week_label }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   :root {
@@ -222,7 +222,7 @@
 <div class="wrap">
   <header>
     <div>
-      <h1>Raid Readiness — {{ week_key }}</h1>
+      <h1>Raid Readiness — {{ week_label }}</h1>
       <div class="subtitle">{{ season_name }} · generated {{ generated_at }}</div>
     </div>
     <a class="back-link" href="../index.html">← All weeks</a>
@@ -410,7 +410,7 @@
     </tbody>
   </table>
 
-  <footer>Raid week {{ week_key }} · generated {{ generated_at }}</footer>
+  <footer>{{ week_label }} · generated {{ generated_at }}</footer>
 </div>
 
 <script>

@@ -41,9 +41,11 @@ def _get(config: Config, path: str, *, params: dict | None = None, timeout: floa
     return response.json()
 
 
-def fetch_current_period(config: Config) -> int:
-    data = _get(config, "/v1/period")
-    return int(data["current_period"])
+def fetch_current_period(config: Config) -> dict:
+    """Return the full /v1/period payload — includes current_period (keystone
+    period id used by /v1/historical_data) and current_season (with start_date).
+    """
+    return _get(config, "/v1/period")
 
 
 def fetch_team_info(config: Config) -> dict:

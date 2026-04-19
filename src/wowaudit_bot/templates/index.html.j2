@@ -59,7 +59,7 @@
     <select id="week-select">
       {% for w in weeks %}
         <option value="{{ w }}/dashboard.html" {% if w == latest_week %}selected{% endif %}>
-          {{ w }}{% if w == latest_week %} (latest){% endif %}
+          {{ week_labels.get(w, w) }}{% if w == latest_week %} (latest){% endif %}
         </option>
       {% endfor %}
     </select>
@@ -67,7 +67,7 @@
 
     <ul class="weeks">
       {% for w in weeks %}
-        <li><a href="{{ w }}/dashboard.html">{{ w }}</a></li>
+        <li><a href="{{ w }}/dashboard.html">{{ week_labels.get(w, w) }}</a></li>
       {% endfor %}
     </ul>
   {% else %}

@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import httpx
@@ -64,21 +64,29 @@ def _dump(dir_: Path | None, name: str, payload) -> None:
 
 def _load_characters(
     config: Config, dump_dir: Path | None
-) -> tuple[list[Character], dict | None]:
+) -> tuple[list[Character], dict | None, date | None]:
     roster = fetch_roster(config)
     _dump(dump_dir, "wowaudit_characters.json", [c.model_dump(mode="json") for c in roster])
 
     team = fetch_team_info(config)
     _dump(dump_dir, "wowaudit_team.json", team)
 
-    period = fetch_current_period(config)
-    _dump(dump_dir, "wowaudit_period.json", {"current_period": period})
+    period_info = fetch_current_period(config)
+    _dump(dump_dir, "wowaudit_period.json", period_info)
+    period = int(period_info["current_period"])
+    season_start = None
+    raw_start = (period_info.get("current_season") or {}).get("start_date")
+    if raw_start:
+        try:
+            season_start = date.fromisoformat(raw_start)
+        except ValueError:
+            season_start = None
 
     counts = fetch_weekly_mplus(config, period)
     _dump(dump_dir, "wowaudit_historical_data.json", counts)
 
     apply_weekly_mplus(roster, counts)
-    return roster, team.get("last_refreshed")
+    return roster, team.get("last_refreshed"), season_start
 
 
 def _enrich(characters: list[Character], config: Config, dump_dir: Path | None) -> None:
@@ -125,7 +133,7 @@ def main(argv: list[str] | None = None) -> int:
     config = load_config(args.config)
 
     try:
-        characters, last_refreshed = _load_characters(config, args.dump_dir)
+        characters, last_refreshed, season_start = _load_characters(config, args.dump_dir)
     except (RuntimeError, httpx.HTTPError) as exc:
         print(f"wowaudit fetch failed: {exc}", file=sys.stderr)
         return 2
@@ -149,6 +157,7 @@ def main(argv: list[str] | None = None) -> int:
         snapshots_root=args.output,
         now=datetime.now(timezone.utc),
         last_refreshed=last_refreshed,
+        season_start=season_start,
     )
     _print_summary(graded, dashboard_path)
     return 0
