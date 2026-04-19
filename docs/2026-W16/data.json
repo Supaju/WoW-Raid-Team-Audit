@@ -1,6 +1,6 @@
 {
   "week": "2026-W16",
-  "generated_at": "2026-04-19T21:57:36.675241+00:00",
+  "generated_at": "2026-04-19T22:08:32.358446+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5757,7 +5757,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 276.6,
-        "mythic_plus_weekly": 6,
+        "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -5920,7 +5920,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
