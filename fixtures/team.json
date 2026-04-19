@@ -1,0 +1,80 @@
+{
+  "team": {"name": "Noted", "realm": "Stormrage", "region": "us"},
+  "characters": [
+    {
+      "name": "Paladinbro",
+      "realm": "Stormrage",
+      "class": "Paladin",
+      "role": "Tank",
+      "item_level": 284.0,
+      "mythic_plus": {"weekly_runs": 8},
+      "items": [
+        {"slot": "head",       "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "neck",       "item_level": 282, "track": "myth",     "enchant": {"present": false}, "sockets": [{"filled": true}]},
+        {"slot": "shoulders",  "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "back",       "item_level": 279, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "chest",      "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "wrist",      "item_level": 272, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "hands",      "item_level": 272, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "waist",      "item_level": 276, "track": "hero",     "enchant": {"present": false}, "sockets": [{"filled": true}]},
+        {"slot": "legs",       "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "feet",       "item_level": 272, "track": "hero",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "finger_1",   "item_level": 272, "track": "hero",     "enchant": {"present": true},  "sockets": [{"filled": true}]},
+        {"slot": "finger_2",   "item_level": 266, "track": "hero",     "enchant": {"present": true},  "sockets": [{"filled": true}]},
+        {"slot": "trinket_1",  "item_level": 285, "track": "myth",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "trinket_2",  "item_level": 272, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "main_hand",  "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []}
+      ]
+    },
+    {
+      "name": "Druidette",
+      "realm": "Stormrage",
+      "class": "Druid",
+      "role": "Healer",
+      "item_level": 278.0,
+      "mythic_plus": {"weekly_runs": 3},
+      "items": [
+        {"slot": "head",       "item_level": 272, "track": "hero",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "neck",       "item_level": 272, "track": "hero",     "enchant": {"present": false}, "sockets": [{"filled": true}]},
+        {"slot": "shoulders",  "item_level": 272, "track": "hero",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "back",       "item_level": 266, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "chest",      "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "wrist",      "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "hands",      "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "waist",      "item_level": 269, "track": "hero",     "enchant": {"present": false}, "sockets": [{"filled": false}]},
+        {"slot": "legs",       "item_level": 272, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "feet",       "item_level": 263, "track": "champion", "enchant": {"present": true},  "sockets": []},
+        {"slot": "finger_1",   "item_level": 263, "track": "champion", "enchant": {"present": true},  "sockets": [{"filled": true}]},
+        {"slot": "finger_2",   "item_level": 263, "track": "champion", "enchant": {"present": true},  "sockets": [{"filled": false}]},
+        {"slot": "trinket_1",  "item_level": 285, "track": "myth",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "trinket_2",  "item_level": 269, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "main_hand",  "item_level": 285, "track": "myth",     "enchant": {"present": true},  "sockets": []}
+      ]
+    },
+    {
+      "name": "Warriordude",
+      "realm": "Stormrage",
+      "class": "Warrior",
+      "role": "DPS",
+      "item_level": 265.0,
+      "mythic_plus": {"weekly_runs": 0},
+      "items": [
+        {"slot": "head",       "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "neck",       "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": [{"filled": false}]},
+        {"slot": "shoulders",  "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "back",       "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "chest",      "item_level": 266, "track": "hero",     "enchant": {"present": true},  "sockets": []},
+        {"slot": "wrist",      "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "hands",      "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "waist",      "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "legs",       "item_level": 263, "track": "champion", "enchant": {"present": true},  "sockets": []},
+        {"slot": "feet",       "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "finger_1",   "item_level": 263, "track": "champion", "enchant": {"present": true},  "sockets": [{"filled": true}]},
+        {"slot": "finger_2",   "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": [{"filled": false}]},
+        {"slot": "trinket_1",  "item_level": 266, "track": "hero",     "enchant": {"present": false}, "sockets": []},
+        {"slot": "trinket_2",  "item_level": 263, "track": "champion", "enchant": {"present": false}, "sockets": []},
+        {"slot": "main_hand",  "item_level": 272, "track": "hero",     "enchant": {"present": true},  "sockets": []}
+      ]
+    }
+  ]
+}

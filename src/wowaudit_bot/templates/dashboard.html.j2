@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Raid Readiness — {{ week_key }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --bg: #15181d;
+    --panel: #1c2027;
+    --panel-alt: #232830;
+    --border: #2e343e;
+    --text: #e4e6eb;
+    --muted: #8a93a3;
+    --pass: #2f9e5a;
+    --pass-bg: #1d3a2a;
+    --warn: #c9a33a;
+    --warn-bg: #3b3218;
+    --fail: #d8524f;
+    --fail-bg: #3e1f1f;
+    --accent: #79a9ff;
+
+    /* Standard WoW class colors */
+    --cls-death-knight: #C41E3A;
+    --cls-demon-hunter: #A330C9;
+    --cls-druid:        #FF7C0A;
+    --cls-evoker:       #33937F;
+    --cls-hunter:       #AAD372;
+    --cls-mage:         #3FC7EB;
+    --cls-monk:         #00FF98;
+    --cls-paladin:      #F48CBA;
+    --cls-priest:       #FFFFFF;
+    --cls-rogue:        #FFF468;
+    --cls-shaman:       #0070DD;
+    --cls-warlock:      #8788EE;
+    --cls-warrior:      #C69B6D;
+    --cls-unknown:      #e4e6eb;
+  }
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap { max-width: 1300px; margin: 0 auto; padding: 24px; }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  .subtitle { color: var(--muted); font-size: 13px; }
+  .back-link { color: var(--accent); text-decoration: none; font-size: 13px; }
+  .back-link:hover { text-decoration: underline; }
+  .summary {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .pill {
+    padding: 4px 10px; border-radius: 999px; font-size: 12px;
+    border: 1px solid var(--border); background: var(--panel-alt);
+  }
+  .pill.pass { color: var(--pass); border-color: var(--pass); }
+  .pill.warn { color: var(--warn); border-color: var(--warn); }
+  .pill.fail { color: var(--fail); border-color: var(--fail); }
+  .pill.info { color: var(--accent); border-color: var(--accent); }
+  .detail-card.ambig h4 { color: var(--warn); }
+
+  .role-filter {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .role-chip {
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    border: 1px solid var(--border);
+    background: var(--panel-alt);
+    color: var(--muted);
+    cursor: pointer;
+    user-select: none;
+  }
+  .role-chip:hover { color: var(--text); }
+  .role-chip.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(121, 169, 255, 0.08);
+  }
+
+  table {
+    width: 100%; border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 13px;
+  }
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  table#roster th:not(:first-child),
+  table#roster tbody tr.char-row td:not(:first-child) {
+    text-align: center;
+  }
+  th {
+    background: var(--panel-alt);
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  th .sort-arrow { opacity: 0.4; margin-left: 4px; }
+  th.sorted-asc .sort-arrow, th.sorted-desc .sort-arrow { opacity: 1; color: var(--accent); }
+  tr.char-row:hover { background: var(--panel-alt); }
+  tr.char-row.expandable { cursor: pointer; }
+  tr.char-row.hidden, tr.detail-row.hidden { display: none; }
+  td.num { font-variant-numeric: tabular-nums; }
+  td.status span {
+    display: inline-block;
+    min-width: 44px;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  td.status .pass { background: var(--pass-bg); color: var(--pass); }
+  td.status .warn { background: var(--warn-bg); color: var(--warn); }
+  td.status .fail { background: var(--fail-bg); color: var(--fail); }
+  td .cell-pass { color: var(--pass); }
+  td .cell-warn { color: var(--warn); }
+  td .cell-fail { color: var(--fail); }
+  tr.detail-row { display: none; background: var(--panel-alt); }
+  tr.detail-row.open { display: table-row; }
+  tr.detail-row.open.hidden { display: none; }
+  tr.detail-row td { padding: 14px 18px; }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+  }
+  .detail-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+  }
+  .detail-card h4 { margin: 0 0 6px 0; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; }
+  .detail-card ul { margin: 4px 0 0 0; padding-left: 18px; font-size: 12px; }
+  .detail-card ul li { margin-bottom: 2px; }
+  .item-hint { color: var(--muted); font-size: 11px; }
+  .toggle { color: var(--muted); font-size: 11px; margin-left: 6px; }
+  .char-name {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cls-unknown);
+  }
+  .char-name:hover { text-decoration: underline; }
+  .realm { color: var(--muted); font-size: 11px; margin-left: 6px; }
+  .class-hint { color: var(--muted); font-size: 11px; margin-left: 6px; }
+
+  /* Class color overrides */
+  .class-death-knight { color: var(--cls-death-knight); }
+  .class-demon-hunter { color: var(--cls-demon-hunter); }
+  .class-druid        { color: var(--cls-druid); }
+  .class-evoker       { color: var(--cls-evoker); }
+  .class-hunter       { color: var(--cls-hunter); }
+  .class-mage         { color: var(--cls-mage); }
+  .class-monk         { color: var(--cls-monk); }
+  .class-paladin      { color: var(--cls-paladin); }
+  .class-priest       { color: var(--cls-priest); }
+  .class-rogue        { color: var(--cls-rogue); }
+  .class-shaman       { color: var(--cls-shaman); }
+  .class-warlock      { color: var(--cls-warlock); }
+  .class-warrior      { color: var(--cls-warrior); }
+
+  footer {
+    margin-top: 20px;
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Raid Readiness — {{ week_key }}</h1>
+      <div class="subtitle">{{ season_name }} · generated {{ generated_at }}</div>
+    </div>
+    <a class="back-link" href="../index.html">← All weeks</a>
+  </header>
+
+  {% set total = graded | length %}
+  {% set pass_count = graded | selectattr('overall_status.value', 'equalto', 'pass') | list | length %}
+  {% set warn_count = graded | selectattr('overall_status.value', 'equalto', 'warn') | list | length %}
+  {% set fail_count = graded | selectattr('overall_status.value', 'equalto', 'fail') | list | length %}
+  <div class="summary">
+    <span class="pill">Total: {{ total }}</span>
+    <span class="pill pass">OK: {{ pass_count }}</span>
+    <span class="pill warn">Warn: {{ warn_count }}</span>
+    <span class="pill fail">Fail: {{ fail_count }}</span>
+  </div>
+
+  <div class="role-filter" id="role-filter">
+    <span class="role-chip active" data-filter="all">All</span>
+    <span class="role-chip" data-filter="tank">Tank</span>
+    <span class="role-chip" data-filter="healer">Healer</span>
+    <span class="role-chip" data-filter="dps">DPS</span>
+  </div>
+
+  <table id="roster">
+    <thead>
+      <tr>
+        <th data-sort="name">Character<span class="sort-arrow">▾</span></th>
+        <th data-sort="mplus" data-type="num">M+ Week<span class="sort-arrow">▾</span></th>
+        <th data-sort="avgkey" data-type="num">Avg Key<span class="sort-arrow">▾</span></th>
+        <th data-sort="ilvl" data-type="num">Ilvl<span class="sort-arrow">▾</span></th>
+        <th data-sort="myth" data-type="num">Myth<span class="sort-arrow">▾</span></th>
+        <th data-sort="hero" data-type="num">Hero<span class="sort-arrow">▾</span></th>
+        <th data-sort="champ" data-type="num">Champ<span class="sort-arrow">▾</span></th>
+        <th data-sort="crafted" data-type="num">Crafted<span class="sort-arrow">▾</span></th>
+        <th data-sort="enchants" data-type="num">Enchants<span class="sort-arrow">▾</span></th>
+        <th data-sort="sockets" data-type="num">Sockets<span class="sort-arrow">▾</span></th>
+        <th data-sort="status">Status<span class="sort-arrow">▾</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for g in graded %}
+      {% set c = g.character %}
+      {% set row_id = 'row-' ~ loop.index %}
+      {% set rgroup = c.role | role_group %}
+      {% set cslug = c.class_name | class_slug %}
+      {% set items_by_slot = {} %}
+      {% for it in c.items %}{% if items_by_slot.update({it.slot: it}) %}{% endif %}{% endfor %}
+      <tr class="char-row expandable"
+          data-target="{{ row_id }}"
+          data-role="{{ rgroup }}"
+          data-name="{{ c.name | lower }}"
+          data-mplus="{{ g.mythic_plus.count }}"
+          data-avgkey="{{ c.mythic_plus_avg_level }}"
+          data-ilvl="{{ c.item_level }}"
+          data-myth="{{ g.gear.myth }}"
+          data-hero="{{ g.gear.hero }}"
+          data-champ="{{ g.gear.champion }}"
+          data-crafted="{{ g.gear.crafted }}"
+          data-enchants="{{ g.enchants.enchanted }}"
+          data-sockets="{{ g.sockets.filled }}"
+          data-status="{{ g.overall_status.value }}">
+        <td>
+          <a class="char-name class-{{ cslug }}"
+             href="{{ raiderio_url(region, c.realm, c.name) }}"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">{{ c.name }}</a>
+          <span class="realm">{{ c.realm }}</span>
+          {% if c.class_name %}<span class="class-hint">· {{ c.class_name }}</span>{% endif %}
+          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-{{ g.mythic_plus.status.value }}">{{ g.mythic_plus.count }}/{{ g.mythic_plus.target }}</span>
+        </td>
+        <td class="num">
+          {% if c.mythic_plus_avg_level %}
+            {{ c.mythic_plus_avg_level }}<span class="item-hint"> · max {{ c.mythic_plus_highest }}</span>
+          {% else %}—{% endif %}
+        </td>
+        <td class="num">{{ c.item_level | round(1) }}</td>
+        <td class="num">{{ g.gear.myth }}</td>
+        <td class="num">{{ g.gear.hero }}</td>
+        <td class="num">{{ g.gear.champion }}</td>
+        <td class="num">{{ g.gear.crafted }}</td>
+        <td class="num">
+          <span class="cell-{{ g.enchants.status.value }}">{{ g.enchants.enchanted }}/{{ g.enchants.required }}</span>
+        </td>
+        <td class="num">
+          <span class="cell-{{ g.sockets.status.value }}">{{ g.sockets.filled }}/{{ g.sockets.total }}</span>
+        </td>
+        <td class="status">
+          <span class="{{ g.overall_status.value }}">{{ g.overall_status.value | upper }}</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="{{ row_id }}" data-role="{{ rgroup }}">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>{{ g.mythic_plus.count }} of {{ g.mythic_plus.target }} runs</div>
+              {% if c.mythic_plus_avg_level %}
+              <div class="item-hint">avg key +{{ c.mythic_plus_avg_level }} · highest +{{ c.mythic_plus_highest }}</div>
+              {% endif %}
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+              {% if g.enchants.missing_slots %}
+                <ul>
+                {% for s in g.enchants.missing_slots %}
+                  {% set item = items_by_slot.get(s) %}
+                  <li>
+                    {{ s }}
+                    {% if item and item.item_name %}
+                      <span class="item-hint">— {{ item.item_name }} ({{ item.item_level }})</span>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+                </ul>
+              {% else %}
+                <div>None — all required slots enchanted.</div>
+              {% endif %}
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+              {% if g.sockets.missing_slots %}
+                <ul>
+                {% for s in g.sockets.missing_slots %}
+                  {% set item = items_by_slot.get(s) %}
+                  <li>
+                    {{ s }}
+                    {% if item and item.item_name %}
+                      <span class="item-hint">— {{ item.item_name }} ({{ item.item_level }})</span>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+                </ul>
+              {% else %}
+                <div>None — all sockets gemmed.</div>
+              {% endif %}
+              <div class="item-hint" style="margin-top:4px;">
+                {{ g.sockets.filled }} of {{ g.sockets.total }} filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: {{ g.gear.myth }}</div>
+              <div>Hero: {{ g.gear.hero }}</div>
+              <div>Champion: {{ g.gear.champion }}</div>
+              <div>Crafted: {{ g.gear.crafted }}</div>
+              <div>Lower: {{ g.gear.lower }}</div>
+            </div>
+            {% if g.ambiguous_items %}
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier ({{ g.ambiguous_items | length }})</h4>
+              <ul>
+                {% for a in g.ambiguous_items %}
+                <li>
+                  {{ a.slot }} ({{ a.item_level }}) — counted {{ a.classified_as }}, may be {{ a.could_also_be }}
+                  {% if a.item_name %}<div class="item-hint">{{ a.item_name }}</div>{% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <footer>Raid week {{ week_key }} · generated {{ generated_at }}</footer>
+</div>
+
+<script>
+(function() {
+  var statusRank = { pass: 0, warn: 1, fail: 2 };
+  var table = document.getElementById('roster');
+  var tbody = table.querySelector('tbody');
+
+  // Row expansion
+  tbody.addEventListener('click', function(e) {
+    var row = e.target.closest('tr.char-row');
+    if (!row) return;
+    var target = document.getElementById(row.getAttribute('data-target'));
+    if (target) target.classList.toggle('open');
+    var toggle = row.querySelector('.toggle');
+    if (toggle) toggle.textContent = target && target.classList.contains('open') ? '▾' : '▸';
+  });
+
+  // Column sorting
+  var headers = table.querySelectorAll('th[data-sort]');
+  headers.forEach(function(th) {
+    th.addEventListener('click', function() {
+      var key = th.getAttribute('data-sort');
+      var type = th.getAttribute('data-type') || 'str';
+      var asc = !th.classList.contains('sorted-asc');
+      headers.forEach(function(h) { h.classList.remove('sorted-asc', 'sorted-desc'); });
+      th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+
+      var pairs = [];
+      var charRows = tbody.querySelectorAll('tr.char-row');
+      charRows.forEach(function(cr) {
+        var detail = document.getElementById(cr.getAttribute('data-target'));
+        pairs.push({ row: cr, detail: detail });
+      });
+      pairs.sort(function(a, b) {
+        var av = a.row.getAttribute('data-' + key);
+        var bv = b.row.getAttribute('data-' + key);
+        if (type === 'num') {
+          av = parseFloat(av); bv = parseFloat(bv);
+        } else if (key === 'status') {
+          av = statusRank[av]; bv = statusRank[bv];
+        } else {
+          av = av || ''; bv = bv || '';
+        }
+        if (av < bv) return asc ? -1 : 1;
+        if (av > bv) return asc ? 1 : -1;
+        return 0;
+      });
+      pairs.forEach(function(p) {
+        tbody.appendChild(p.row);
+        if (p.detail) tbody.appendChild(p.detail);
+      });
+    });
+  });
+
+  // Role filter
+  var roleFilter = document.getElementById('role-filter');
+  roleFilter.addEventListener('click', function(e) {
+    var chip = e.target.closest('.role-chip');
+    if (!chip) return;
+    var filter = chip.getAttribute('data-filter');
+    roleFilter.querySelectorAll('.role-chip').forEach(function(c) { c.classList.remove('active'); });
+    chip.classList.add('active');
+    tbody.querySelectorAll('tr.char-row, tr.detail-row').forEach(function(row) {
+      if (filter === 'all' || row.getAttribute('data-role') === filter) {
+        row.classList.remove('hidden');
+      } else {
+        row.classList.add('hidden');
+      }
+    });
+  });
+
+  // Default sort: status desc (fails first)
+  var statusHeader = table.querySelector('th[data-sort="status"]');
+  if (statusHeader) { statusHeader.click(); statusHeader.click(); }
+})();
+</script>
+</body>
+</html>

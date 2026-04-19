@@ -1,0 +1,74 @@
+wowaudit:
+  # The wowaudit API key alone identifies a team; the rest is for reference.
+  team_id: personality-hires
+  region: us
+  realm: zuljin
+  api_key_env: WOWAUDIT_API_KEY
+  # Override if the default host/path doesn't match the real API.
+  base_url: null
+
+blizzard:
+  region: us            # us | eu | kr | tw
+  locale: en_US
+  client_id_env: BLIZZARD_CLIENT_ID
+  client_secret_env: BLIZZARD_CLIENT_SECRET
+
+season:
+  name: "Midnight S1"
+  # Non-overlapping bands used only when an item's source label is empty
+  # (world quest/delve/vendor/catalyst). 263 is the Champion R6 max for
+  # Midnight S1 — ilvls in that range with empty labels are almost always
+  # Champion-track delve/vendor gear rather than Hero R1/R2.
+  ilvl_bands:
+    champion: [233, 263]
+    hero:     [264, 278]
+    myth:     [279, 289]
+
+  # Real minimum ilvl a current-season item needs to belong to each track.
+  # Used to reject stale source labels on old-expansion gear (e.g. a DF Mythic
+  # trinket at 263 still reports source "Mythic" — it's not current-season Myth).
+  track_floors:
+    champion: 233
+    hero:     246
+    myth:     272
+
+  # Ilvl ranges where two real tracks legitimately overlap. When an item has
+  # no source label from Blizzard and its ilvl falls in one of these ranges,
+  # our classification is an educated guess — the dashboard marks those items
+  # as ambiguous so you can eyeball them.
+  ambiguous_ranges:
+    - { ilvl: [246, 263], between: [champion, hero] }
+    - { ilvl: [272, 276], between: [hero, myth] }
+
+checks:
+  mythic_plus_weekly:
+    target: 8
+    warn_below: 8
+    fail_below: 4
+
+  enchants:
+    required_slots:
+      - head
+      - shoulders
+      - chest
+      - legs
+      - feet
+      - finger_1
+      - finger_2
+      - main_hand
+      - off_hand
+    warn_missing: 1
+    fail_missing: 2
+
+  sockets:
+    auto_socket_slots:
+      - neck
+      - finger_1
+      - finger_2
+    warn_missing: 1
+    fail_missing: 2
+
+reset:
+  # us | eu. Affects which day the raid week rolls over.
+  # us: Tuesday 15:00 UTC. eu: Wednesday 07:00 UTC.
+  region: us
