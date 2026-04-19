@@ -1,0 +1,17 @@
+Filename field:
+  .gitignore
+
+  Content:
+  __pycache__/
+  *.py[cod]
+  *.egg-info/
+  .venv/
+  venv/
+  .env
+  .DS_Store
+  dist/
+  build/
+
+  # Local-only dev output. The GitHub Action writes to docs/ for Pages.
+  snapshots/
+  fixtures/dump/
