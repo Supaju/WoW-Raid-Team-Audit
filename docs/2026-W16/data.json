@@ -2,7 +2,7 @@
   "week": "2026-W16",
   "week_label": "Raid Week 5 \u00b7 Apr 14\u201320",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-20T11:14:55.805710+00:00",
+  "generated_at": "2026-04-20T13:12:47.371689+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2625,7 +2625,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 277.1,
+        "item_level": 279.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2643,7 +2643,7 @@
             "slot": "neck",
             "item_id": 249337,
             "item_name": "Ribbon of Coiled Malice",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -2692,8 +2692,8 @@
             "slot": "feet",
             "item_id": 249373,
             "item_name": "Dream-Scorched Striders",
-            "item_level": 263,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2797,8 +2797,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 9,
+        "myth": 4,
+        "hero": 8,
         "champion": 1,
         "crafted": 2,
         "lower": 0
