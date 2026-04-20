@@ -2,7 +2,7 @@
   "week": "2026-W16",
   "week_label": "Raid Week 5 \u00b7 Apr 14\u201320",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-20T00:29:40.258947+00:00",
+  "generated_at": "2026-04-20T01:58:45.411002+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1122,10 +1122,10 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 249968,
-            "item_name": "Relentless Rider's Dreadthorns",
+            "item_id": 171663,
+            "item_name": "Pauldrons of Roaring Flame",
             "item_level": 276,
-            "track": "hero",
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -1185,8 +1185,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 151332,
-            "item_name": "Voidclaw Gauntlets",
+            "item_id": 249971,
+            "item_name": "Relentless Rider's Bonegrasps",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -1207,8 +1207,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 266,
             "track": "hero",
             "enchanted": true,
@@ -1220,10 +1220,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249805,
-            "item_name": "Undreamt God's Oozing Vestige",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249344,
+            "item_name": "Light Company Guidon",
+            "item_level": 263,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1247,11 +1247,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 193716,
-            "item_name": "Algeth'ar Hedgecleaver",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 251078,
+            "item_name": "Emberdawn Defender",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "tabard",
+            "item_id": 69210,
+            "item_name": "Renowned Guild Tabard",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           }
         ]
@@ -1274,19 +1283,33 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 1,
-        "hero": 12,
-        "champion": 0,
+        "myth": 2,
+        "hero": 10,
+        "champion": 1,
         "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
+        {
+          "slot": "shoulders",
+          "item_name": "Pauldrons of Roaring Flame",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        },
         {
           "slot": "chest",
           "item_name": "Relentless Rider's Cuirass",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
+        },
+        {
+          "slot": "trinket_1",
+          "item_name": "Light Company Guidon",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
         }
       ],
       "overall_status": "warn"
@@ -1968,7 +1991,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 269.7,
+        "item_level": 276.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1977,7 +2000,7 @@
             "slot": "head",
             "item_id": 250060,
             "item_name": "Voidbreaker's Veil",
-            "item_level": 263,
+            "item_level": 276,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -1986,7 +2009,7 @@
             "slot": "neck",
             "item_id": 265740,
             "item_name": "Amani Totemstring",
-            "item_level": 250,
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2017,7 +2040,7 @@
             "slot": "waist",
             "item_id": 249319,
             "item_name": "Endless March Waistwrap",
-            "item_level": 259,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2026,16 +2049,16 @@
             "slot": "legs",
             "item_id": 250059,
             "item_name": "Voidbreaker's Britches",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
             "slot": "feet",
             "item_id": 49805,
             "item_name": "Ice-Steeped Sandals",
-            "item_level": 266,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2075,7 +2098,7 @@
             "slot": "finger_2",
             "item_id": 49812,
             "item_name": "Purloined Wedding Ring",
-            "item_level": 266,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -2088,7 +2111,7 @@
             "slot": "trinket_1",
             "item_id": 250257,
             "item_name": "Eye of the Drowning Void",
-            "item_level": 263,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2106,7 +2129,7 @@
             "slot": "back",
             "item_id": 258575,
             "item_name": "Rigid Scale Greatcloak",
-            "item_level": 266,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2128,10 +2151,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "legs"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -2140,9 +2165,9 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 1,
+        "myth": 2,
         "hero": 8,
-        "champion": 4,
+        "champion": 3,
         "crafted": 2,
         "lower": 0
       },
@@ -2150,14 +2175,14 @@
         {
           "slot": "head",
           "item_name": "Voidbreaker's Veil",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
         },
         {
           "slot": "neck",
           "item_name": "Amani Totemstring",
-          "item_level": 250,
+          "item_level": 263,
           "classified_as": "champion",
           "could_also_be": "hero"
         },
