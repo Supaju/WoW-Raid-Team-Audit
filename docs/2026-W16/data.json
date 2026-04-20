@@ -2,7 +2,7 @@
   "week": "2026-W16",
   "week_label": "Raid Week 5 \u00b7 Apr 14\u201320",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-19T22:34:29.021969+00:00",
+  "generated_at": "2026-04-20T00:29:40.258947+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -655,7 +655,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 279.7,
+        "item_level": 278.9,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.4,
         "mythic_plus_highest": 14,
@@ -773,17 +773,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 264507,
+            "item_name": "Crucible of Erratic Energies",
+            "item_level": 263,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -837,12 +837,20 @@
       },
       "gear": {
         "myth": 4,
-        "hero": 9,
-        "champion": 0,
+        "hero": 8,
+        "champion": 1,
         "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "trinket_1",
+          "item_name": "Crucible of Erratic Energies",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
+        }
+      ],
       "overall_status": "warn"
     },
     {
@@ -2831,6 +2839,15 @@
             "sockets": []
           },
           {
+            "slot": "shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
             "slot": "chest",
             "item_id": 249991,
             "item_name": "Primal Sentry's Scaleplate",
@@ -2886,6 +2903,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 249622,
             "item_name": "Spiritseal Ring",
             "item_level": 263,
@@ -2898,33 +2928,20 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 263,
-            "track": null,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3004,14 +3021,14 @@
           "could_also_be": "hero"
         },
         {
-          "slot": "finger_1",
+          "slot": "finger_2",
           "item_name": "Spiritseal Ring",
           "item_level": 263,
           "classified_as": "champion",
           "could_also_be": "hero"
         },
         {
-          "slot": "trinket_2",
+          "slot": "trinket_1",
           "item_name": "Algeth'ar Puzzle Box",
           "item_level": 263,
           "classified_as": "champion",
@@ -4102,9 +4119,9 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 278.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.8,
+        "item_level": 278.7,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -4187,7 +4204,7 @@
             "slot": "wrist",
             "item_id": 263193,
             "item_name": "Trollhunter's Bands",
-            "item_level": 272,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -4196,7 +4213,7 @@
             "slot": "hands",
             "item_id": 249962,
             "item_name": "Luminant Verdict's Gauntlets",
-            "item_level": 272,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -4275,7 +4292,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -5136,7 +5153,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 278.9,
+        "item_level": 280.4,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 12,
@@ -5145,17 +5162,17 @@
             "slot": "head",
             "item_id": 250051,
             "item_name": "Blind Oath's Winged Crest",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
-            "item_level": 269,
-            "track": "hero",
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -5309,9 +5326,9 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 10,
+        "hero": 9,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [],
