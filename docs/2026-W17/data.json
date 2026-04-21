@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-21T20:42:00.266877+00:00",
+  "generated_at": "2026-04-21T22:36:09.786699+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2853,7 +2853,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 278.7,
+        "item_level": 279.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2902,8 +2902,8 @@
             "slot": "chest",
             "item_id": 250027,
             "item_name": "Trunk of the Luminous Bloom",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3037,8 +3037,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 10,
+        "myth": 4,
+        "hero": 9,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -3738,10 +3738,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
             "item_level": 276,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -3907,8 +3907,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 7,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -4755,7 +4755,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 279.5,
+        "item_level": 280.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4829,14 +4829,14 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251079,
-            "item_name": "Amberfrond Bracers",
-            "item_level": 266,
+            "item_id": 151321,
+            "item_name": "Darkfang Scale Wristguards",
+            "item_level": 279,
             "track": "hero",
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -4927,10 +4927,12 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 4,
+        "filled": 3,
         "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "wrist"
+        ],
+        "status": "warn"
       },
       "gear": {
         "myth": 2,
