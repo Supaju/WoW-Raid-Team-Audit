@@ -2,7 +2,7 @@
   "week": "2026-W16",
   "week_label": "Raid Week 5 \u00b7 Apr 14\u201320",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-20T22:36:24.614235+00:00",
+  "generated_at": "2026-04-21T01:54:13.902774+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 276.6,
+        "item_level": 277.4,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.4,
         "mythic_plus_highest": 14,
@@ -114,8 +114,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
             "item_level": 269,
             "track": "hero",
             "enchanted": true,
@@ -127,14 +127,14 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 269,
             "track": "hero",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -171,6 +171,15 @@
             "item_name": "Weight of Command",
             "item_level": 289,
             "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249275,
+            "item_name": "Bulwark of Noble Resolve",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -192,20 +201,23 @@
       },
       "enchants": {
         "enchanted": 7,
-        "required": 8,
+        "required": 9,
         "missing_slots": [
-          "main_hand"
+          "finger_2",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 2,
+        "total": 3,
+        "missing_slots": [
+          "finger_2"
         ],
         "status": "warn"
       },
-      "sockets": {
-        "filled": 3,
-        "total": 3,
-        "missing_slots": [],
-        "status": "pass"
-      },
       "gear": {
-        "myth": 5,
+        "myth": 6,
         "hero": 8,
         "champion": 1,
         "crafted": 1,
@@ -220,7 +232,7 @@
           "could_also_be": "hero"
         }
       ],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
