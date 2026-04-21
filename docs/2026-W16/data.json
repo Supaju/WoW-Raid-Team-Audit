@@ -2,7 +2,7 @@
   "week": "2026-W16",
   "week_label": "Raid Week 5 \u00b7 Apr 14\u201320",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-21T04:44:24.037541+00:00",
+  "generated_at": "2026-04-21T07:24:44.989879+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -527,7 +527,7 @@
             "item_name": "Abyssal Immolator's Ashwalkers",
             "item_level": 263,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -627,12 +627,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -656,7 +654,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2822,7 +2820,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 276.3,
+        "item_level": 277.1,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -2838,9 +2836,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 249626,
-            "item_name": "Nocturnal Thorncharm",
-            "item_level": 263,
+            "item_id": 266314,
+            "item_name": "Novice Combatant's Necklace",
+            "item_level": 266,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2878,10 +2876,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 244611,
-            "item_name": "World Tender's Barkclasp",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2896,11 +2894,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 244610,
-            "item_name": "World Tender's Rootslippers",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
+            "item_id": 249990,
+            "item_name": "Primal Sentry's Swiftsteps",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2936,10 +2934,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 249622,
-            "item_name": "Spiritseal Ring",
-            "item_level": 263,
-            "track": null,
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -2949,10 +2947,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 263,
-            "track": null,
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
+            "item_level": 269,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2976,10 +2974,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251095,
-            "item_name": "Hurricane's Heart",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244679,
+            "item_name": "Murder Row Fishhook",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 260423,
+            "item_name": "Arator's Swift Remembrance",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -3001,9 +3008,11 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -3013,19 +3022,12 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 6,
-        "champion": 4,
-        "crafted": 2,
+        "hero": 11,
+        "champion": 1,
+        "crafted": 1,
         "lower": 0
       },
       "ambiguous_items": [
-        {
-          "slot": "neck",
-          "item_name": "Nocturnal Thorncharm",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
         {
           "slot": "chest",
           "item_name": "Primal Sentry's Scaleplate",
@@ -3036,20 +3038,6 @@
         {
           "slot": "hands",
           "item_name": "Primal Sentry's Talonguards",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
-        {
-          "slot": "finger_2",
-          "item_name": "Spiritseal Ring",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
-        {
-          "slot": "trinket_1",
-          "item_name": "Algeth'ar Puzzle Box",
           "item_level": 263,
           "classified_as": "champion",
           "could_also_be": "hero"
@@ -4146,7 +4134,7 @@
             "item_id": 249961,
             "item_name": "Luminant Verdict's Unwavering Gaze",
             "item_level": 276,
-            "track": "hero",
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4326,8 +4314,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 2,
-        "hero": 10,
+        "myth": 3,
+        "hero": 9,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -5391,8 +5379,8 @@
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
             "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -5546,12 +5534,13 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
+          "shoulders",
           "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 3,
@@ -5560,8 +5549,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 2,
-        "hero": 10,
+        "myth": 3,
+        "hero": 9,
         "champion": 0,
         "crafted": 4,
         "lower": 0
@@ -5575,7 +5564,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -5790,7 +5779,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 276.6,
+        "item_level": 276.0,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 13,
@@ -5917,8 +5906,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5935,10 +5924,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258529,
+            "item_name": "Arcaneclaw Spear",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -5972,9 +5961,9 @@
       },
       "gear": {
         "myth": 2,
-        "hero": 10,
+        "hero": 11,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
