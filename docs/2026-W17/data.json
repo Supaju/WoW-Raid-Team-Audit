@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-22T19:03:07.938594+00:00",
+  "generated_at": "2026-04-22T20:44:58.568416+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -855,8 +855,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 279.5,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -1013,7 +1013,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2584,9 +2584,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 266314,
-            "item_name": "Novice Combatant's Necklace",
-            "item_level": 266,
+            "item_id": 249626,
+            "item_name": "Nocturnal Thorncharm",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2624,10 +2624,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 249371,
-            "item_name": "Scornbane Waistguard",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244611,
+            "item_name": "World Tender's Barkclasp",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -2642,11 +2642,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 249990,
-            "item_name": "Primal Sentry's Swiftsteps",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
+            "item_id": 244610,
+            "item_name": "World Tender's Rootslippers",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2669,6 +2669,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 249622,
             "item_name": "Spiritseal Ring",
             "item_level": 263,
@@ -2681,23 +2694,10 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 171646,
-            "item_name": "Matrix Restabilizer",
-            "item_level": 269,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2722,19 +2722,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 244679,
-            "item_name": "Murder Row Fishhook",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 260423,
-            "item_name": "Arator's Swift Remembrance",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 251095,
+            "item_name": "Hurricane's Heart",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2756,12 +2747,11 @@
       },
       "enchants": {
         "enchanted": 7,
-        "required": 9,
+        "required": 8,
         "missing_slots": [
-          "head",
-          "feet"
+          "head"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -2771,12 +2761,19 @@
       },
       "gear": {
         "myth": 4,
-        "hero": 9,
-        "champion": 2,
-        "crafted": 1,
+        "hero": 5,
+        "champion": 4,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
+        {
+          "slot": "neck",
+          "item_name": "Nocturnal Thorncharm",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
+        },
         {
           "slot": "chest",
           "item_name": "Primal Sentry's Scaleplate",
@@ -2792,8 +2789,15 @@
           "could_also_be": "hero"
         },
         {
-          "slot": "finger_1",
+          "slot": "finger_2",
           "item_name": "Spiritseal Ring",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
+        },
+        {
+          "slot": "trinket_1",
+          "item_name": "Algeth'ar Puzzle Box",
           "item_level": 263,
           "classified_as": "champion",
           "could_also_be": "hero"
@@ -3470,8 +3474,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3637,7 +3641,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -4085,8 +4089,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 275.9,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4248,7 +4252,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
