@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-22T09:13:15.559703+00:00",
+  "generated_at": "2026-04-22T10:59:18.689504+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4300,7 +4300,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 277.2,
+        "item_level": 279.5,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
@@ -4318,7 +4318,7 @@
             "slot": "neck",
             "item_id": 50228,
             "item_name": "Barbed Ymirheim Choker",
-            "item_level": 263,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -4347,10 +4347,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 263265,
-            "item_name": "Hara'ti Defender's Sash",
-            "item_level": 263,
-            "track": null,
+            "item_id": 239649,
+            "item_name": "Martyr's Waistwrap",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -4478,18 +4478,11 @@
       "gear": {
         "myth": 3,
         "hero": 8,
-        "champion": 2,
-        "crafted": 2,
+        "champion": 1,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [
-        {
-          "slot": "waist",
-          "item_name": "Hara'ti Defender's Sash",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
         {
           "slot": "trinket_2",
           "item_name": "Crucible of Erratic Energies",
