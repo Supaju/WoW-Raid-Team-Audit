@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-23T07:25:15.986102+00:00",
+  "generated_at": "2026-04-23T09:20:01.409902+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3476,8 +3476,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.1,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 13.1,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3643,9 +3643,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 9,
@@ -3667,7 +3667,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4311,8 +4311,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 279.5,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 14.5,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 14.3,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4469,7 +4469,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
