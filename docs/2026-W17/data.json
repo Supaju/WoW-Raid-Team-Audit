@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-24T20:38:33.759434+00:00",
+  "generated_at": "2026-04-24T22:33:49.118858+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 278.4,
+        "item_level": 278.1,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 14,
@@ -62,9 +62,9 @@
             "slot": "chest",
             "item_id": 249982,
             "item_name": "Embrace of the Primal Core",
-            "item_level": 276,
+            "item_level": 272,
             "track": "hero",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -191,12 +191,13 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 6,
         "required": 8,
         "missing_slots": [
+          "chest",
           "finger_1"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 2,
@@ -3476,8 +3477,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 14.4,
+        "mythic_plus_weekly": 17,
+        "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3643,7 +3644,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 17,
         "target": 8,
         "status": "pass"
       },
