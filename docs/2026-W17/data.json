@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-24T01:57:28.844399+00:00",
+  "generated_at": "2026-04-24T04:54:13.175337+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1718,9 +1718,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 278.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1890,7 +1890,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3177,8 +3177,8 @@
           },
           {
             "slot": "back",
-            "item_id": 258575,
-            "item_name": "Rigid Scale Greatcloak",
+            "item_id": 260312,
+            "item_name": "Defiant Defender's Drape",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
