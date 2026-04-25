@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-24T22:33:49.118858+00:00",
+  "generated_at": "2026-04-25T01:47:33.653072+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 278.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 14.0,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 14.2,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -186,9 +186,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 6,
@@ -448,8 +448,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 281.3,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -615,7 +615,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -660,9 +660,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 279.7,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 14.0,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 14.2,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -823,9 +823,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -847,7 +847,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1719,9 +1719,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 278.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -1891,7 +1891,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2816,9 +2816,9 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 279.2,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.5,
+        "item_level": 279.8,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.7,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2849,7 +2849,7 @@
             "item_name": "Seedpods of the Luminous Bloom",
             "item_level": 276,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2890,8 +2890,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 250026,
-            "item_name": "Rootslippers of the Luminous Bloom",
+            "item_id": 249382,
+            "item_name": "Canopy Walker's Footwraps",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2899,10 +2899,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 193714,
-            "item_name": "Frenzyroot Cuffs",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 244576,
+            "item_name": "Silvermoon Agent's Deflectors",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -2917,8 +2917,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
+            "item_id": 151308,
+            "item_name": "Eredath Seal of Nobility",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -2952,10 +2952,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
+            "item_id": 248583,
+            "item_name": "Drum of Renewed Bonds",
             "item_level": 276,
-            "track": "hero",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2980,18 +2980,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 7,
         "required": 8,
         "missing_slots": [
-          "shoulders",
           "feet"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -3001,15 +3000,22 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 11,
+        "hero": 10,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
           "item_name": "Choker of the Vanquished Lord",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        },
+        {
+          "slot": "trinket_2",
+          "item_name": "Drum of Renewed Bonds",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
@@ -3477,8 +3483,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 17,
-        "mythic_plus_avg_level": 14.8,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 14.9,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3496,8 +3502,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
+            "item_id": 50228,
+            "item_name": "Barbed Ymirheim Choker",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3536,8 +3542,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 250032,
-            "item_name": "Devouring Reaver's Pistons",
+            "item_id": 251087,
+            "item_name": "Legwraps of Lingering Legacies",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -3563,8 +3569,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 193721,
-            "item_name": "Ruby Contestant's Gloves",
+            "item_id": 250034,
+            "item_name": "Devouring Reaver's Essence Grips",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3585,8 +3591,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -3598,8 +3604,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3644,7 +3650,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
