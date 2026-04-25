@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-25T16:33:37.743349+00:00",
+  "generated_at": "2026-04-25T18:39:22.681368+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -447,7 +447,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 281.3,
+        "item_level": 281.7,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
@@ -518,9 +518,9 @@
             "slot": "feet",
             "item_id": 250044,
             "item_name": "Abyssal Immolator's Ashwalkers",
-            "item_level": 276,
+            "item_level": 282,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -620,12 +620,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
