@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-25T04:31:27.366604+00:00",
+  "generated_at": "2026-04-25T07:05:18.962025+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3031,7 +3031,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 280.2,
+        "item_level": 281.7,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 14,
@@ -3102,8 +3102,8 @@
             "slot": "legs",
             "item_id": 249969,
             "item_name": "Relentless Rider's Legguards",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3153,8 +3153,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -3186,8 +3186,8 @@
             "slot": "back",
             "item_id": 260312,
             "item_name": "Defiant Defender's Drape",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3229,8 +3229,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 9,
+        "myth": 6,
+        "hero": 7,
         "champion": 0,
         "crafted": 2,
         "lower": 0
