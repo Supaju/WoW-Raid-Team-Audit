@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-25T20:31:01.509311+00:00",
+  "generated_at": "2026-04-25T22:29:14.230353+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2569,7 +2569,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 277.8,
+        "item_level": 278.7,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2661,14 +2661,14 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249622,
-            "item_name": "Spiritseal Ring",
-            "item_level": 263,
-            "track": null,
-            "enchanted": true,
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -2738,23 +2738,26 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 6,
         "required": 8,
         "missing_slots": [
-          "head"
+          "head",
+          "finger_1"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 2,
+        "total": 3,
+        "missing_slots": [
+          "finger_1"
         ],
         "status": "warn"
       },
-      "sockets": {
-        "filled": 3,
-        "total": 3,
-        "missing_slots": [],
-        "status": "pass"
-      },
       "gear": {
         "myth": 4,
-        "hero": 6,
-        "champion": 3,
+        "hero": 7,
+        "champion": 2,
         "crafted": 2,
         "lower": 0
       },
@@ -2776,13 +2779,6 @@
         {
           "slot": "hands",
           "item_name": "Primal Sentry's Talonguards",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
-        {
-          "slot": "finger_1",
-          "item_name": "Spiritseal Ring",
           "item_level": 263,
           "classified_as": "champion",
           "could_also_be": "hero"
