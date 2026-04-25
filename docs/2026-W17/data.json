@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-25T01:47:33.653072+00:00",
+  "generated_at": "2026-04-25T04:31:27.366604+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3891,9 +3891,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 279.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -4063,7 +4063,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
