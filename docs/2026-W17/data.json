@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-26T02:00:11.586361+00:00",
+  "generated_at": "2026-04-26T05:16:30.093194+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -856,8 +856,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.4,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -1014,7 +1014,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3239,7 +3239,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 280.3,
+        "item_level": 280.5,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
@@ -3248,8 +3248,8 @@
             "slot": "head",
             "item_id": 249952,
             "item_name": "Night Ender's Tusks",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3442,8 +3442,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 10,
+        "myth": 5,
+        "hero": 9,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -3468,8 +3468,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 14.9,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3635,7 +3635,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
