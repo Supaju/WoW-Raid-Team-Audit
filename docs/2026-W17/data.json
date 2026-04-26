@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-26T14:38:15.834367+00:00",
+  "generated_at": "2026-04-26T16:34:42.604709+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2569,7 +2569,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 278.7,
+        "item_level": 277.8,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2580,14 +2580,14 @@
             "item_name": "Primal Sentry's Maw",
             "item_level": 285,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "neck",
-            "item_id": 266314,
-            "item_name": "Novice Combatant's Necklace",
-            "item_level": 276,
+            "item_id": 249626,
+            "item_name": "Nocturnal Thorncharm",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2603,6 +2603,15 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2661,21 +2670,21 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
             "item_level": 276,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -2687,19 +2696,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 263,
-            "track": null,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2738,36 +2747,31 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head",
-          "finger_1"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 2,
+        "filled": 3,
         "total": 3,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 4,
-        "hero": 7,
-        "champion": 2,
+        "hero": 6,
+        "champion": 3,
         "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Novice Combatant's Necklace",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
+          "item_name": "Nocturnal Thorncharm",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
         },
         {
           "slot": "chest",
@@ -2784,7 +2788,7 @@
           "could_also_be": "hero"
         },
         {
-          "slot": "trinket_2",
+          "slot": "trinket_1",
           "item_name": "Algeth'ar Puzzle Box",
           "item_level": 263,
           "classified_as": "champion",
@@ -3009,23 +3013,19 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 281.7,
+        "item_level": 277.4,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
-            "item_id": 249970,
-            "item_name": "Relentless Rider's Crown",
-            "item_level": 276,
+            "item_id": 239638,
+            "item_name": "Elegant Artisan's Fishing Hat",
+            "item_level": 212,
             "track": null,
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "enchanted": false,
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -3195,33 +3195,27 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "head"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
         "myth": 6,
-        "hero": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
-        "lower": 0
+        "lower": 1
       },
-      "ambiguous_items": [
-        {
-          "slot": "head",
-          "item_name": "Relentless Rider's Crown",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "warn"
     },
     {
