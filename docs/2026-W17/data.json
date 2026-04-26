@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-26T05:16:30.093194+00:00",
+  "generated_at": "2026-04-26T07:19:21.889935+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -657,7 +657,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 279.7,
+        "item_level": 278.9,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 15,
@@ -731,8 +731,8 @@
           },
           {
             "slot": "wrist",
-            "item_id": 250011,
-            "item_name": "Strikeguards of Ra-den's Chosen",
+            "item_id": 193714,
+            "item_name": "Frenzyroot Cuffs",
             "item_level": 266,
             "track": "hero",
             "enchanted": false,
@@ -749,10 +749,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 251115,
+            "item_name": "Bifurcation Band",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -775,8 +775,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
+            "item_id": 250227,
+            "item_name": "Kroluk's Warbanner",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -784,8 +784,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "item_id": 249806,
+            "item_name": "Radiant Plume",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -838,8 +838,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 9,
+        "myth": 3,
+        "hero": 10,
         "champion": 0,
         "crafted": 2,
         "lower": 0
