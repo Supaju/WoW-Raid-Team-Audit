@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-26T10:38:46.684218+00:00",
+  "generated_at": "2026-04-26T12:47:51.358457+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2801,7 +2801,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 279.8,
+        "item_level": 281.3,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 13.7,
         "mythic_plus_highest": 14,
@@ -2902,19 +2902,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 49812,
             "item_name": "Purloined Wedding Ring",
             "item_level": 276,
@@ -2927,9 +2914,22 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 251115,
+            "item_name": "Bifurcation Band",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
+            "item_id": 250223,
+            "item_name": "Soulcatcher's Charm",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2937,10 +2937,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
-            "item_level": 276,
-            "track": null,
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2955,10 +2955,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249302,
-            "item_name": "Inescapable Reach",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           }
@@ -2984,23 +2984,16 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 10,
+        "myth": 4,
+        "hero": 8,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
           "item_name": "Choker of the Vanquished Lord",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "trinket_2",
-          "item_name": "Drum of Renewed Bonds",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
