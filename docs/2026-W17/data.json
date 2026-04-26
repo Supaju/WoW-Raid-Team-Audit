@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-25T22:29:14.230353+00:00",
+  "generated_at": "2026-04-26T02:00:11.586361+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -448,8 +448,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 281.7,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 11.4,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -467,8 +467,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
+            "item_id": 50228,
+            "item_name": "Barbed Ymirheim Choker",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -615,7 +615,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -1518,7 +1518,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 280.4,
+        "item_level": 281.3,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
@@ -1594,7 +1594,7 @@
             "slot": "feet",
             "item_id": 249381,
             "item_name": "Greaves of the Unformed",
-            "item_level": 276,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
