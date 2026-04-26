@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-26T16:34:42.604709+00:00",
+  "generated_at": "2026-04-26T18:40:24.951750+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1289,7 +1289,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -1469,7 +1469,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2569,7 +2569,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 277.8,
+        "item_level": 278.8,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2585,9 +2585,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 249626,
-            "item_name": "Nocturnal Thorncharm",
-            "item_level": 263,
+            "item_id": 266314,
+            "item_name": "Novice Combatant's Necklace",
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2625,10 +2625,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 244611,
-            "item_name": "World Tender's Barkclasp",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2643,11 +2643,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 244610,
-            "item_name": "World Tender's Rootslippers",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
+            "item_id": 249990,
+            "item_name": "Primal Sentry's Swiftsteps",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2670,19 +2670,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 276,
@@ -2695,10 +2682,23 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 263,
+            "item_id": 171646,
+            "item_name": "Matrix Restabilizer",
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2723,11 +2723,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251095,
-            "item_name": "Hurricane's Heart",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244679,
+            "item_name": "Murder Row Fishhook",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2747,10 +2756,13 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "enchanted": 7,
+        "required": 9,
+        "missing_slots": [
+          "feet",
+          "off_hand"
+        ],
+        "status": "fail"
       },
       "sockets": {
         "filled": 3,
@@ -2760,18 +2772,18 @@
       },
       "gear": {
         "myth": 4,
-        "hero": 6,
-        "champion": 3,
-        "crafted": 2,
+        "hero": 10,
+        "champion": 1,
+        "crafted": 1,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Nocturnal Thorncharm",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
+          "item_name": "Novice Combatant's Necklace",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
         },
         {
           "slot": "chest",
@@ -2789,10 +2801,10 @@
         },
         {
           "slot": "trinket_1",
-          "item_name": "Algeth'ar Puzzle Box",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
+          "item_name": "Matrix Restabilizer",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
         }
       ],
       "overall_status": "fail"
@@ -3013,19 +3025,23 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 277.4,
+        "item_level": 281.7,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
-            "item_id": 239638,
-            "item_name": "Elegant Artisan's Fishing Hat",
-            "item_level": 212,
+            "item_id": 249970,
+            "item_name": "Relentless Rider's Crown",
+            "item_level": 276,
             "track": null,
-            "enchanted": false,
-            "sockets": []
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -3195,27 +3211,33 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
         "myth": 6,
-        "hero": 6,
+        "hero": 7,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 0
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "head",
+          "item_name": "Relentless Rider's Crown",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
       "overall_status": "warn"
     },
     {
@@ -3226,7 +3248,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 280.5,
+        "item_level": 280.7,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
@@ -3235,7 +3257,7 @@
             "slot": "head",
             "item_id": 249952,
             "item_name": "Night Ender's Tusks",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
