@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-27T17:15:30.419174+00:00",
+  "generated_at": "2026-04-27T19:06:54.827026+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2324,9 +2324,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 279.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2496,7 +2496,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -5260,9 +5260,9 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 278.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 11.8,
+        "item_level": 278.7,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -5309,7 +5309,7 @@
             "slot": "waist",
             "item_id": 249643,
             "item_name": "Osseoclad Waistbone",
-            "item_level": 269,
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -5387,8 +5387,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5405,10 +5405,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258529,
+            "item_name": "Arcaneclaw Spear",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -5424,7 +5424,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -5442,12 +5442,20 @@
       },
       "gear": {
         "myth": 4,
-        "hero": 8,
+        "hero": 9,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "waist",
+          "item_name": "Osseoclad Waistbone",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
       "overall_status": "warn"
     }
   ]
