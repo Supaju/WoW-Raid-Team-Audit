@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-26T22:30:28.400450+00:00",
+  "generated_at": "2026-04-27T02:03:24.441528+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -657,7 +657,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 278.9,
+        "item_level": 281.3,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 15,
@@ -706,7 +706,7 @@
             "slot": "waist",
             "item_id": 251082,
             "item_name": "Snapvine Cinch",
-            "item_level": 272,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -731,10 +731,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 193714,
-            "item_name": "Frenzyroot Cuffs",
-            "item_level": 266,
-            "track": "hero",
+            "item_id": 244576,
+            "item_name": "Silvermoon Agent's Deflectors",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -749,10 +749,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 151308,
+            "item_name": "Eredath Seal of Nobility",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -775,8 +775,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250227,
-            "item_name": "Kroluk's Warbanner",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -784,8 +784,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249806,
-            "item_name": "Radiant Plume",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -838,10 +838,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 10,
+        "myth": 4,
+        "hero": 8,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [],
@@ -1943,7 +1943,7 @@
         "class_name": "Monk",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 280.1,
+        "item_level": 280.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2094,7 +2094,7 @@
             "slot": "main_hand",
             "item_id": 249302,
             "item_name": "Inescapable Reach",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3227,8 +3227,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 19,
-        "mythic_plus_avg_level": 15.1,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 15.2,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3394,7 +3394,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -3428,7 +3428,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 281.5,
+        "item_level": 281.9,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 13,
@@ -3437,7 +3437,7 @@
             "slot": "head",
             "item_id": 249952,
             "item_name": "Night Ender's Tusks",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -4678,7 +4678,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 280.8,
+        "item_level": 281.3,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
@@ -4807,7 +4807,7 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4905,8 +4905,8 @@
           },
           {
             "slot": "shirt",
-            "item_id": 49567,
-            "item_name": "Gilnean Adventurer's Shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
             "item_level": 1,
             "track": null,
             "enchanted": false,
