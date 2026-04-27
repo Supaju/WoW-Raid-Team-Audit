@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-27T06:23:41.939801+00:00",
+  "generated_at": "2026-04-27T10:08:36.815844+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3195,7 +3195,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 24,
+        "mythic_plus_weekly": 23,
         "mythic_plus_avg_level": 15.2,
         "mythic_plus_highest": 18,
         "items": [
@@ -3362,7 +3362,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 24,
+        "count": 23,
         "target": 8,
         "status": "pass"
       },
@@ -4023,9 +4023,9 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 279.5,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 14.3,
+        "item_level": 281.3,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 14.4,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4063,8 +4063,8 @@
             "slot": "chest",
             "item_id": 250063,
             "item_name": "Voidbreaker's Robe",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4158,10 +4158,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 264507,
-            "item_name": "Crucible of Erratic Energies",
-            "item_level": 263,
-            "track": null,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -4186,9 +4186,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -4203,22 +4203,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
+        "myth": 4,
         "hero": 8,
-        "champion": 1,
+        "champion": 0,
         "crafted": 3,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "trinket_2",
-          "item_name": "Crucible of Erratic Energies",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        }
-      ],
-      "overall_status": "warn"
+      "ambiguous_items": [],
+      "overall_status": "pass"
     },
     {
       "character": {
