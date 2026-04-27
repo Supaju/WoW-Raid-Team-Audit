@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-27T20:54:23.884045+00:00",
+  "generated_at": "2026-04-27T22:42:36.577091+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2323,7 +2323,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 279.1,
+        "item_level": 279.9,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 12,
@@ -2339,9 +2339,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 249626,
-            "item_name": "Nocturnal Thorncharm",
-            "item_level": 263,
+            "item_id": 266314,
+            "item_name": "Novice Combatant's Necklace",
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2379,10 +2379,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 244611,
-            "item_name": "World Tender's Barkclasp",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2397,11 +2397,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 244610,
-            "item_name": "World Tender's Rootslippers",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
+            "item_id": 249990,
+            "item_name": "Primal Sentry's Swiftsteps",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2437,8 +2437,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -2450,9 +2450,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 263,
+            "item_id": 171646,
+            "item_name": "Matrix Restabilizer",
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2477,11 +2477,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251095,
-            "item_name": "Hurricane's Heart",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244679,
+            "item_name": "Murder Row Fishhook",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2501,10 +2510,13 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "enchanted": 7,
+        "required": 9,
+        "missing_slots": [
+          "feet",
+          "off_hand"
+        ],
+        "status": "fail"
       },
       "sockets": {
         "filled": 3,
@@ -2514,25 +2526,25 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 6,
-        "champion": 2,
-        "crafted": 2,
+        "hero": 10,
+        "champion": 0,
+        "crafted": 1,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Nocturnal Thorncharm",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
+          "item_name": "Novice Combatant's Necklace",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
         },
         {
           "slot": "trinket_1",
-          "item_name": "Algeth'ar Puzzle Box",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
+          "item_name": "Matrix Restabilizer",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
         }
       ],
       "overall_status": "fail"
@@ -5049,8 +5061,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 10.6,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -5211,7 +5223,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -5261,8 +5273,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 278.7,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 11.9,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -5424,7 +5436,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
