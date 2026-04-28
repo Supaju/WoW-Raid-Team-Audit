@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-28T21:01:24.913083+00:00",
+  "generated_at": "2026-04-28T22:48:52.227550+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 280.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -190,7 +190,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -440,9 +440,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 281.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -607,7 +607,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -650,9 +650,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 281.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -767,8 +767,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -813,7 +813,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -894,8 +894,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 249371,
-            "item_name": "Scornbane Waistguard",
+            "item_id": 249976,
+            "item_name": "Ceinture of the Primal Core",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
