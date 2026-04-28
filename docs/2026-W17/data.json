@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-27T22:42:36.577091+00:00",
+  "generated_at": "2026-04-28T02:09:47.251207+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,10 +13,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 278.1,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 13.6,
-        "mythic_plus_highest": 15,
+        "item_level": 280.4,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 13.9,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -62,19 +62,23 @@
             "slot": "chest",
             "item_id": 249982,
             "item_name": "Embrace of the Primal Core",
-            "item_level": 272,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 193722,
-            "item_name": "Azure Belt of Competition",
-            "item_level": 269,
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -89,7 +93,7 @@
             "slot": "feet",
             "item_id": 249320,
             "item_name": "Sabatons of Obscurement",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -129,7 +133,7 @@
             "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -186,7 +190,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -199,14 +203,14 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 7,
+        "myth": 6,
+        "hero": 6,
         "champion": 1,
         "crafted": 2,
         "lower": 0
@@ -655,9 +659,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 281.3,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 13.6,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 13.9,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -818,7 +822,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -2323,7 +2327,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 279.9,
+        "item_level": 280.5,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 12,
@@ -2397,10 +2401,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 249990,
-            "item_name": "Primal Sentry's Swiftsteps",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 193715,
+            "item_name": "Boots of Explosive Growth",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2424,8 +2428,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -2525,8 +2529,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 10,
+        "myth": 6,
+        "hero": 9,
         "champion": 0,
         "crafted": 1,
         "lower": 0
@@ -2979,8 +2983,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 280.7,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 12.6,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3164,7 +3168,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
