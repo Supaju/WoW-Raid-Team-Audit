@@ -2,7 +2,7 @@
   "week": "2026-W17",
   "week_label": "Raid Week 6 \u00b7 Apr 21\u201327",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-28T06:25:10.595616+00:00",
+  "generated_at": "2026-04-28T10:07:30.506810+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2133,7 +2133,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 279.3,
+        "item_level": 280.6,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 13,
@@ -2173,8 +2173,8 @@
             "slot": "chest",
             "item_id": 250045,
             "item_name": "Abyssal Immolator's Dreadrobe",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2189,8 +2189,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 249323,
-            "item_name": "Leggings of the Devouring Advance",
+            "item_id": 250041,
+            "item_name": "Abyssal Immolator's Pillars",
             "item_level": 282,
             "track": "myth",
             "enchanted": true,
@@ -2218,8 +2218,8 @@
             "slot": "hands",
             "item_id": 250043,
             "item_name": "Abyssal Immolator's Grasps",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2305,8 +2305,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 8,
+        "myth": 6,
+        "hero": 6,
         "champion": 1,
         "crafted": 2,
         "lower": 0
