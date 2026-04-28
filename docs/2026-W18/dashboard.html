@@ -1,0 +1,2411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Raid Readiness — Raid Week 7 · Apr 28–May 4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --bg: #15181d;
+    --panel: #1c2027;
+    --panel-alt: #232830;
+    --border: #2e343e;
+    --text: #e4e6eb;
+    --muted: #8a93a3;
+    --pass: #2f9e5a;
+    --pass-bg: #1d3a2a;
+    --warn: #c9a33a;
+    --warn-bg: #3b3218;
+    --fail: #d8524f;
+    --fail-bg: #3e1f1f;
+    --accent: #79a9ff;
+
+    /* Standard WoW class colors */
+    --cls-death-knight: #C41E3A;
+    --cls-demon-hunter: #A330C9;
+    --cls-druid:        #FF7C0A;
+    --cls-evoker:       #33937F;
+    --cls-hunter:       #AAD372;
+    --cls-mage:         #3FC7EB;
+    --cls-monk:         #00FF98;
+    --cls-paladin:      #F48CBA;
+    --cls-priest:       #FFFFFF;
+    --cls-rogue:        #FFF468;
+    --cls-shaman:       #0070DD;
+    --cls-warlock:      #8788EE;
+    --cls-warrior:      #C69B6D;
+    --cls-unknown:      #e4e6eb;
+  }
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap { max-width: 1300px; margin: 0 auto; padding: 24px; }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  .subtitle { color: var(--muted); font-size: 13px; }
+  .back-link { color: var(--accent); text-decoration: none; font-size: 13px; }
+  .back-link:hover { text-decoration: underline; }
+  .summary {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .pill {
+    padding: 4px 10px; border-radius: 999px; font-size: 12px;
+    border: 1px solid var(--border); background: var(--panel-alt);
+  }
+  .pill.pass { color: var(--pass); border-color: var(--pass); }
+  .pill.warn { color: var(--warn); border-color: var(--warn); }
+  .pill.fail { color: var(--fail); border-color: var(--fail); }
+  .pill.info { color: var(--accent); border-color: var(--accent); }
+  .detail-card.ambig h4 { color: var(--warn); }
+
+  .freshness {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    font-size: 12px;
+  }
+  .freshness.pass { border-color: var(--border); }
+  .freshness.warn { border-color: var(--warn); background: rgba(201, 163, 58, 0.08); }
+  .freshness.fail { border-color: var(--fail); background: rgba(216, 82, 79, 0.08); }
+  .freshness-label { color: var(--muted); font-weight: 600; margin-right: 4px; }
+  .freshness-item { display: inline-flex; align-items: center; gap: 4px; }
+  .freshness-item .k { color: var(--muted); }
+  .freshness-item.pass .v { color: var(--pass); }
+  .freshness-item.warn .v { color: var(--warn); }
+  .freshness-item.fail .v { color: var(--fail); font-weight: 600; }
+  .freshness-help {
+    color: var(--muted);
+    font-size: 11px;
+    margin-left: auto;
+  }
+
+  .role-filter {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .role-chip {
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    border: 1px solid var(--border);
+    background: var(--panel-alt);
+    color: var(--muted);
+    cursor: pointer;
+    user-select: none;
+  }
+  .role-chip:hover { color: var(--text); }
+  .role-chip.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(121, 169, 255, 0.08);
+  }
+
+  table {
+    width: 100%; border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 13px;
+  }
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  table#roster th:not(:first-child),
+  table#roster tbody tr.char-row td:not(:first-child) {
+    text-align: center;
+  }
+  th {
+    background: var(--panel-alt);
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  th .sort-arrow { opacity: 0.4; margin-left: 4px; }
+  th.sorted-asc .sort-arrow, th.sorted-desc .sort-arrow { opacity: 1; color: var(--accent); }
+  tr.char-row:hover { background: var(--panel-alt); }
+  tr.char-row.expandable { cursor: pointer; }
+  tr.char-row.hidden, tr.detail-row.hidden { display: none; }
+  td.num { font-variant-numeric: tabular-nums; }
+  td.status span {
+    display: inline-block;
+    min-width: 44px;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  td.status .pass { background: var(--pass-bg); color: var(--pass); }
+  td.status .warn { background: var(--warn-bg); color: var(--warn); }
+  td.status .fail { background: var(--fail-bg); color: var(--fail); }
+  td .cell-pass { color: var(--pass); }
+  td .cell-warn { color: var(--warn); }
+  td .cell-fail { color: var(--fail); }
+  tr.detail-row { display: none; background: var(--panel-alt); }
+  tr.detail-row.open { display: table-row; }
+  tr.detail-row.open.hidden { display: none; }
+  tr.detail-row td { padding: 14px 18px; }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+  }
+  .detail-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+  }
+  .detail-card h4 { margin: 0 0 6px 0; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; }
+  .detail-card ul { margin: 4px 0 0 0; padding-left: 18px; font-size: 12px; }
+  .detail-card ul li { margin-bottom: 2px; }
+  .item-hint { color: var(--muted); font-size: 11px; }
+  .toggle { color: var(--muted); font-size: 11px; margin-left: 6px; }
+  .char-name {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cls-unknown);
+  }
+  .char-name:hover { text-decoration: underline; }
+  .realm { color: var(--muted); font-size: 11px; margin-left: 6px; }
+  .class-hint { color: var(--muted); font-size: 11px; margin-left: 6px; }
+
+  /* Class color overrides */
+  .class-death-knight { color: var(--cls-death-knight); }
+  .class-demon-hunter { color: var(--cls-demon-hunter); }
+  .class-druid        { color: var(--cls-druid); }
+  .class-evoker       { color: var(--cls-evoker); }
+  .class-hunter       { color: var(--cls-hunter); }
+  .class-mage         { color: var(--cls-mage); }
+  .class-monk         { color: var(--cls-monk); }
+  .class-paladin      { color: var(--cls-paladin); }
+  .class-priest       { color: var(--cls-priest); }
+  .class-rogue        { color: var(--cls-rogue); }
+  .class-shaman       { color: var(--cls-shaman); }
+  .class-warlock      { color: var(--cls-warlock); }
+  .class-warrior      { color: var(--cls-warrior); }
+
+  footer {
+    margin-top: 20px;
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Raid Readiness — Raid Week 7 · Apr 28–May 4</h1>
+      <div class="subtitle">Midnight S1 · generated 2026-04-28 19:23 UTC</div>
+    </div>
+    <a class="back-link" href="../index.html">← All weeks</a>
+  </header>
+
+  <div class="summary">
+    <span class="pill">Total: 26</span>
+    <span class="pill pass">OK: 0</span>
+    <span class="pill warn">Warn: 0</span>
+    <span class="pill fail">Fail: 26</span>
+  </div>
+
+  <div class="freshness fail">
+    <span class="freshness-label">wowaudit sync:</span>
+    <span class="freshness-item fail" title="2026-04-27 06:14 UTC">
+      <span class="k">M+ runs:</span>
+      <span class="v">1d ago</span>
+    </span>
+    <span class="freshness-item pass" title="2026-04-28 18:05 UTC">
+      <span class="k">Gear & profile:</span>
+      <span class="v">1h ago</span>
+    </span>
+    <span class="freshness-help">Force a refresh on wowaudit's team page to get newer numbers.</span>
+  </div>
+
+  <div class="role-filter" id="role-filter">
+    <span class="role-chip active" data-filter="all">All</span>
+    <span class="role-chip" data-filter="tank">Tank</span>
+    <span class="role-chip" data-filter="healer">Healer</span>
+    <span class="role-chip" data-filter="dps">DPS</span>
+  </div>
+
+  <table id="roster">
+    <thead>
+      <tr>
+        <th data-sort="name">Character<span class="sort-arrow">▾</span></th>
+        <th data-sort="mplus" data-type="num">M+ Week<span class="sort-arrow">▾</span></th>
+        <th data-sort="avgkey" data-type="num">Avg Key<span class="sort-arrow">▾</span></th>
+        <th data-sort="ilvl" data-type="num">Ilvl<span class="sort-arrow">▾</span></th>
+        <th data-sort="myth" data-type="num">Myth<span class="sort-arrow">▾</span></th>
+        <th data-sort="hero" data-type="num">Hero<span class="sort-arrow">▾</span></th>
+        <th data-sort="champ" data-type="num">Champ<span class="sort-arrow">▾</span></th>
+        <th data-sort="crafted" data-type="num">Crafted<span class="sort-arrow">▾</span></th>
+        <th data-sort="enchants" data-type="num">Enchants<span class="sort-arrow">▾</span></th>
+        <th data-sort="sockets" data-type="num">Sockets<span class="sort-arrow">▾</span></th>
+        <th data-sort="status">Status<span class="sort-arrow">▾</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="char-row expandable"
+          data-target="row-1"
+          data-role="healer"
+          data-name="cottontail"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="280.6"
+          data-myth="7"
+          data-hero="5"
+          data-champ="1"
+          data-crafted="2"
+          data-enchants="8"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-shaman"
+             href="https://raider.io/characters/us/area-52/Cottontail"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Cottontail</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Shaman</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">280.6</td>
+        <td class="num">7</td>
+        <td class="num">5</td>
+        <td class="num">1</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-1" data-role="healer">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 7</div>
+              <div>Hero: 5</div>
+              <div>Champion: 1</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  trinket_1 (263) — counted champion, may be hero
+<div class="item-hint">Crucible of Erratic Energies</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-2"
+          data-role="dps"
+          data-name="dubjiki"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="279.7"
+          data-myth="6"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="9"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-demon-hunter"
+             href="https://raider.io/characters/us/area-52/Dubjiki"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Dubjiki</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Demon Hunter</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">279.7</td>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">9/9</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-2" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-3"
+          data-role="dps"
+          data-name="guanarsh"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.7"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warlock"
+             href="https://raider.io/characters/us/area-52/Guanarsh"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Guanarsh</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Warlock</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.7</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-3" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  chest (276) — counted hero, may be myth
+<div class="item-hint">Abyssal Immolator's Dreadrobe</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-4"
+          data-role="tank"
+          data-name="kungju"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.9"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-monk"
+             href="https://raider.io/characters/us/area-52/Kungju"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Kungju</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Monk</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.9</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-4" data-role="tank">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-5"
+          data-role="dps"
+          data-name="stormwill"
+          data-mplus="1"
+          data-avgkey="10.0"
+          data-ilvl="282.1"
+          data-myth="6"
+          data-hero="6"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-shaman"
+             href="https://raider.io/characters/us/area-52/Stormwill"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Stormwill</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Shaman</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">1/8</span>
+        </td>
+        <td class="num">
+            10.0<span class="item-hint"> · max 10</span>
+        </td>
+        <td class="num">282.1</td>
+        <td class="num">6</td>
+        <td class="num">6</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-5" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>1 of 8 runs</div>
+              <div class="item-hint">avg key +10.0 · highest +10</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 6</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (2)</h4>
+              <ul>
+                <li>
+                  head (276) — counted hero, may be myth
+<div class="item-hint">Locus of the Primal Core</div>                </li>
+                <li>
+                  shoulders (276) — counted hero, may be myth
+<div class="item-hint">Tempests of the Primal Core</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-6"
+          data-role="dps"
+          data-name="thorriam"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.0"
+          data-myth="6"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="2"
+          data-enchants="8"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-death-knight"
+             href="https://raider.io/characters/us/area-52/Thorriam"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Thorriam</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Death Knight</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.0</td>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-6" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (2)</h4>
+              <ul>
+                <li>
+                  shoulders (276) — counted hero, may be myth
+<div class="item-hint">Pauldrons of Roaring Flame</div>                </li>
+                <li>
+                  chest (276) — counted hero, may be myth
+<div class="item-hint">Relentless Rider's Cuirass</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-7"
+          data-role="dps"
+          data-name="tycheese"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="282.3"
+          data-myth="6"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="9"
+          data-sockets="6"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warrior"
+             href="https://raider.io/characters/us/area-52/Tycheese"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Tycheese</a>
+          <span class="realm">Area 52</span>
+<span class="class-hint">· Warrior</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">282.3</td>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">9/9</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">6/6</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-7" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                6 of 6 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  shoulders (276) — counted hero, may be myth
+<div class="item-hint">Night Ender's Pauldrons</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-8"
+          data-role="dps"
+          data-name="akiida"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.3"
+          data-myth="4"
+          data-hero="8"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-paladin"
+             href="https://raider.io/characters/us/dalaran/Akiida"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Akiida</a>
+          <span class="realm">Dalaran</span>
+<span class="class-hint">· Paladin</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.3</td>
+        <td class="num">4</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-8" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 4</div>
+              <div>Hero: 8</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-9"
+          data-role="dps"
+          data-name="heartbroken"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="276.3"
+          data-myth="2"
+          data-hero="8"
+          data-champ="3"
+          data-crafted="2"
+          data-enchants="7"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-mage"
+             href="https://raider.io/characters/us/illidan/Heartbroken"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Heartbroken</a>
+          <span class="realm">Illidan</span>
+<span class="class-hint">· Mage</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">276.3</td>
+        <td class="num">2</td>
+        <td class="num">8</td>
+        <td class="num">3</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-warn">7/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-9" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    legs
+                      <span class="item-hint">— Voidbreaker's Britches (289)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 2</div>
+              <div>Hero: 8</div>
+              <div>Champion: 3</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (5)</h4>
+              <ul>
+                <li>
+                  head (276) — counted hero, may be myth
+<div class="item-hint">Voidbreaker's Veil</div>                </li>
+                <li>
+                  neck (263) — counted champion, may be hero
+<div class="item-hint">Amani Totemstring</div>                </li>
+                <li>
+                  shoulders (276) — counted hero, may be myth
+<div class="item-hint">Voidbreaker's Leyline Nexi</div>                </li>
+                <li>
+                  finger_1 (263) — counted champion, may be hero
+<div class="item-hint">Bifurcation Band</div>                </li>
+                <li>
+                  trinket_2 (263) — counted champion, may be hero
+<div class="item-hint">Crucible of Erratic Energies</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-10"
+          data-role="dps"
+          data-name="kinbaku"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.3"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="7"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-monk"
+             href="https://raider.io/characters/us/illidan/Kinbaku"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Kinbaku</a>
+          <span class="realm">Illidan</span>
+<span class="class-hint">· Monk</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.3</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-warn">7/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-10" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    shoulders
+                      <span class="item-hint">— Aurastones of Ra-den's Chosen (276)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-11"
+          data-role="dps"
+          data-name="vernìchtung"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="280.6"
+          data-myth="6"
+          data-hero="6"
+          data-champ="1"
+          data-crafted="2"
+          data-enchants="8"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warlock"
+             href="https://raider.io/characters/us/malganis/Vern%C3%ACchtung"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Vernìchtung</a>
+          <span class="realm">Mal'Ganis</span>
+<span class="class-hint">· Warlock</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">280.6</td>
+        <td class="num">6</td>
+        <td class="num">6</td>
+        <td class="num">1</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-11" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 6</div>
+              <div>Champion: 1</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  trinket_2 (263) — counted champion, may be hero
+<div class="item-hint">Locus-Walker's Ribbon</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-12"
+          data-role="dps"
+          data-name="baranina"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="280.5"
+          data-myth="5"
+          data-hero="9"
+          data-champ="0"
+          data-crafted="2"
+          data-enchants="9"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-hunter"
+             href="https://raider.io/characters/us/malygos/Baranina"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Baranina</a>
+          <span class="realm">Malygos</span>
+<span class="class-hint">· Hunter</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">280.5</td>
+        <td class="num">5</td>
+        <td class="num">9</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">9/9</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-12" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 9</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (2)</h4>
+              <ul>
+                <li>
+                  neck (276) — counted hero, may be myth
+<div class="item-hint">Novice Combatant's Necklace</div>                </li>
+                <li>
+                  trinket_1 (276) — counted hero, may be myth
+<div class="item-hint">Matrix Restabilizer</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-13"
+          data-role="dps"
+          data-name="nanà"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.3"
+          data-myth="4"
+          data-hero="8"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-druid"
+             href="https://raider.io/characters/us/moon-guard/Nan%C3%A0"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Nanà</a>
+          <span class="realm">Moon Guard</span>
+<span class="class-hint">· Druid</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.3</td>
+        <td class="num">4</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-13" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 4</div>
+              <div>Hero: 8</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  trinket_1 (276) — counted hero, may be myth
+<div class="item-hint">Drum of Renewed Bonds</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-14"
+          data-role="dps"
+          data-name="offthatzoot"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.7"
+          data-myth="6"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="2"
+          data-enchants="8"
+          data-sockets="5"
+          data-status="fail">
+        <td>
+          <a class="char-name class-death-knight"
+             href="https://raider.io/characters/us/moon-guard/Offthatzoot"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Offthatzoot</a>
+          <span class="realm">Moon Guard</span>
+<span class="class-hint">· Death Knight</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.7</td>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">5/5</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-14" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                5 of 5 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  head (276) — counted hero, may be myth
+<div class="item-hint">Relentless Rider's Crown</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-15"
+          data-role="dps"
+          data-name="totalrecall"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.2"
+          data-myth="5"
+          data-hero="9"
+          data-champ="0"
+          data-crafted="2"
+          data-enchants="9"
+          data-sockets="5"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warrior"
+             href="https://raider.io/characters/us/moon-guard/Totalrecall"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Totalrecall</a>
+          <span class="realm">Moon Guard</span>
+<span class="class-hint">· Warrior</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.2</td>
+        <td class="num">5</td>
+        <td class="num">9</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">9/9</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">5/5</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-15" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                5 of 5 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 9</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  shoulders (276) — counted hero, may be myth
+<div class="item-hint">Night Ender's Pauldrons</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-16"
+          data-role="dps"
+          data-name="helledh"
+          data-mplus="2"
+          data-avgkey="12.0"
+          data-ilvl="280.7"
+          data-myth="3"
+          data-hero="9"
+          data-champ="0"
+          data-crafted="4"
+          data-enchants="9"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-demon-hunter"
+             href="https://raider.io/characters/us/proudmoore/Helledh"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Helledh</a>
+          <span class="realm">Proudmoore</span>
+<span class="class-hint">· Demon Hunter</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">2/8</span>
+        </td>
+        <td class="num">
+            12.0<span class="item-hint"> · max 12</span>
+        </td>
+        <td class="num">280.7</td>
+        <td class="num">3</td>
+        <td class="num">9</td>
+        <td class="num">0</td>
+        <td class="num">4</td>
+        <td class="num">
+          <span class="cell-pass">9/9</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-16" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>2 of 8 runs</div>
+              <div class="item-hint">avg key +12.0 · highest +12</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 3</div>
+              <div>Hero: 9</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 4</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-17"
+          data-role="dps"
+          data-name="nonayme"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.9"
+          data-myth="7"
+          data-hero="6"
+          data-champ="0"
+          data-crafted="2"
+          data-enchants="8"
+          data-sockets="5"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warrior"
+             href="https://raider.io/characters/us/sargeras/Nonayme"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Nonayme</a>
+          <span class="realm">Sargeras</span>
+<span class="class-hint">· Warrior</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.9</td>
+        <td class="num">7</td>
+        <td class="num">6</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">5/5</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-17" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                5 of 5 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 7</div>
+              <div>Hero: 6</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-18"
+          data-role="dps"
+          data-name="dwarfakechi"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="280.4"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-paladin"
+             href="https://raider.io/characters/us/stormrage/Dwarfakechi"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Dwarfakechi</a>
+          <span class="realm">Stormrage</span>
+<span class="class-hint">· Paladin</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">280.4</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-18" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-19"
+          data-role="healer"
+          data-name="kesivoker"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="278.9"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="5"
+          data-sockets="4"
+          data-status="fail">
+        <td>
+          <a class="char-name class-evoker"
+             href="https://raider.io/characters/us/stormrage/Kesivoker"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Kesivoker</a>
+          <span class="realm">Stormrage</span>
+<span class="class-hint">· Evoker</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">278.9</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-fail">5/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">4/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-19" data-role="healer">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    head
+                      <span class="item-hint">— Hornhelm of the Black Talon (276)</span>
+                  </li>
+                  <li>
+                    shoulders
+                      <span class="item-hint">— Beacons of the Black Talon (289)</span>
+                  </li>
+                  <li>
+                    legs
+                      <span class="item-hint">— Greaves of the Black Talon (266)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                4 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-20"
+          data-role="dps"
+          data-name="eidou"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.3"
+          data-myth="4"
+          data-hero="8"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="5"
+          data-status="fail">
+        <td>
+          <a class="char-name class-mage"
+             href="https://raider.io/characters/us/tichondrius/Eidou"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Eidou</a>
+          <span class="realm">Tichondrius</span>
+<span class="class-hint">· Mage</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.3</td>
+        <td class="num">4</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">5/5</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-20" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                5 of 5 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 4</div>
+              <div>Hero: 8</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-21"
+          data-role="dps"
+          data-name="kaardl"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="275.1"
+          data-myth="3"
+          data-hero="9"
+          data-champ="1"
+          data-crafted="2"
+          data-enchants="7"
+          data-sockets="5"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warlock"
+             href="https://raider.io/characters/us/zuljin/Kaardl"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Kaardl</a>
+          <span class="realm">Zul'jin</span>
+<span class="class-hint">· Warlock</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">275.1</td>
+        <td class="num">3</td>
+        <td class="num">9</td>
+        <td class="num">1</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-warn">7/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">5/5</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-21" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    chest
+                      <span class="item-hint">— Palebone Robes (276)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                5 of 5 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 3</div>
+              <div>Hero: 9</div>
+              <div>Champion: 1</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  trinket_1 (263) — counted champion, may be hero
+<div class="item-hint">Crucible of Erratic Energies</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-22"
+          data-role="dps"
+          data-name="llørd"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.2"
+          data-myth="3"
+          data-hero="8"
+          data-champ="0"
+          data-crafted="4"
+          data-enchants="7"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-hunter"
+             href="https://raider.io/characters/us/zuljin/Ll%C3%B8rd"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Llørd</a>
+          <span class="realm">Zul'jin</span>
+<span class="class-hint">· Hunter</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.2</td>
+        <td class="num">3</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">4</td>
+        <td class="num">
+          <span class="cell-warn">7/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-warn">3/4</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-22" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    shoulders
+                      <span class="item-hint">— Scaled Commencement Spaulders (276)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <ul>
+                  <li>
+                    wrist
+                      <span class="item-hint">— Darkfang Scale Wristguards (279)</span>
+                  </li>
+                </ul>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 4 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 3</div>
+              <div>Hero: 8</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 4</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  finger_2 (276) — counted hero, may be myth
+<div class="item-hint">Spiritseal Ring</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-23"
+          data-role="healer"
+          data-name="lunchìe"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.5"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="7"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-priest"
+             href="https://raider.io/characters/us/zuljin/Lunch%C3%ACe"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Lunchìe</a>
+          <span class="realm">Zul'jin</span>
+<span class="class-hint">· Priest</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.5</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-warn">7/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-23" data-role="healer">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    legs
+                      <span class="item-hint">— Blind Oath's Leggings (279)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-24"
+          data-role="tank"
+          data-name="puppygirlx"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="280.2"
+          data-myth="4"
+          data-hero="8"
+          data-champ="0"
+          data-crafted="4"
+          data-enchants="7"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-warrior"
+             href="https://raider.io/characters/us/zuljin/Puppygirlx"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Puppygirlx</a>
+          <span class="realm">Zul'jin</span>
+<span class="class-hint">· Warrior</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">280.2</td>
+        <td class="num">4</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">4</td>
+        <td class="num">
+          <span class="cell-fail">7/9</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-24" data-role="tank">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <ul>
+                  <li>
+                    shoulders
+                      <span class="item-hint">— Night Ender's Pauldrons (276)</span>
+                  </li>
+                  <li>
+                    off_hand
+                      <span class="item-hint">— Spellbreaker's Rebuke (285)</span>
+                  </li>
+                </ul>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 4</div>
+              <div>Hero: 8</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 4</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  trinket_2 (276) — counted hero, may be myth
+<div class="item-hint">Vessel of Acceleration</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-25"
+          data-role="dps"
+          data-name="trèvv"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="281.7"
+          data-myth="6"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="2"
+          data-enchants="8"
+          data-sockets="5"
+          data-status="fail">
+        <td>
+          <a class="char-name class-druid"
+             href="https://raider.io/characters/us/zuljin/Tr%C3%A8vv"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Trèvv</a>
+          <span class="realm">Zul'jin</span>
+<span class="class-hint">· Druid</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">281.7</td>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">5/5</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-25" data-role="dps">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                5 of 5 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 6</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 2</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (2)</h4>
+              <ul>
+                <li>
+                  shoulders (276) — counted hero, may be myth
+<div class="item-hint">Seedpods of the Luminous Bloom</div>                </li>
+                <li>
+                  finger_1 (276) — counted hero, may be myth
+<div class="item-hint">Vibrant Wilderloop</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="char-row expandable"
+          data-target="row-26"
+          data-role="healer"
+          data-name="udderlyhot"
+          data-mplus="0"
+          data-avgkey="0.0"
+          data-ilvl="280.5"
+          data-myth="5"
+          data-hero="7"
+          data-champ="0"
+          data-crafted="3"
+          data-enchants="8"
+          data-sockets="3"
+          data-status="fail">
+        <td>
+          <a class="char-name class-druid"
+             href="https://raider.io/characters/us/zuljin/Udderlyhot"
+             target="_blank" rel="noopener"
+             onclick="event.stopPropagation()">Udderlyhot</a>
+          <span class="realm">Zul'jin</span>
+<span class="class-hint">· Druid</span>          <span class="toggle">▸</span>
+        </td>
+        <td class="num">
+          <span class="cell-fail">0/8</span>
+        </td>
+        <td class="num">
+—        </td>
+        <td class="num">280.5</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">3</td>
+        <td class="num">
+          <span class="cell-pass">8/8</span>
+        </td>
+        <td class="num">
+          <span class="cell-pass">3/3</span>
+        </td>
+        <td class="status">
+          <span class="fail">FAIL</span>
+        </td>
+      </tr>
+      <tr class="detail-row" id="row-26" data-role="healer">
+        <td colspan="11">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <h4>Mythic+ this week</h4>
+              <div>0 of 8 runs</div>
+            </div>
+            <div class="detail-card">
+              <h4>Missing enchants</h4>
+                <div>None — all required slots enchanted.</div>
+            </div>
+            <div class="detail-card">
+              <h4>Unfilled sockets</h4>
+                <div>None — all sockets gemmed.</div>
+              <div class="item-hint" style="margin-top:4px;">
+                3 of 3 filled
+              </div>
+            </div>
+            <div class="detail-card">
+              <h4>Gear by tier</h4>
+              <div>Myth: 5</div>
+              <div>Hero: 7</div>
+              <div>Champion: 0</div>
+              <div>Crafted: 3</div>
+              <div>Lower: 0</div>
+            </div>
+            <div class="detail-card ambig">
+              <h4>Ambiguous tier (1)</h4>
+              <ul>
+                <li>
+                  waist (276) — counted hero, may be myth
+<div class="item-hint">Osseoclad Waistbone</div>                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>Raid Week 7 · Apr 28–May 4 · generated 2026-04-28 19:23 UTC</footer>
+</div>
+
+<script>
+(function() {
+  var statusRank = { pass: 0, warn: 1, fail: 2 };
+  var table = document.getElementById('roster');
+  var tbody = table.querySelector('tbody');
+
+  // Row expansion
+  tbody.addEventListener('click', function(e) {
+    var row = e.target.closest('tr.char-row');
+    if (!row) return;
+    var target = document.getElementById(row.getAttribute('data-target'));
+    if (target) target.classList.toggle('open');
+    var toggle = row.querySelector('.toggle');
+    if (toggle) toggle.textContent = target && target.classList.contains('open') ? '▾' : '▸';
+  });
+
+  // Column sorting
+  var headers = table.querySelectorAll('th[data-sort]');
+  headers.forEach(function(th) {
+    th.addEventListener('click', function() {
+      var key = th.getAttribute('data-sort');
+      var type = th.getAttribute('data-type') || 'str';
+      var asc = !th.classList.contains('sorted-asc');
+      headers.forEach(function(h) { h.classList.remove('sorted-asc', 'sorted-desc'); });
+      th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+
+      var pairs = [];
+      var charRows = tbody.querySelectorAll('tr.char-row');
+      charRows.forEach(function(cr) {
+        var detail = document.getElementById(cr.getAttribute('data-target'));
+        pairs.push({ row: cr, detail: detail });
+      });
+      pairs.sort(function(a, b) {
+        var av = a.row.getAttribute('data-' + key);
+        var bv = b.row.getAttribute('data-' + key);
+        if (type === 'num') {
+          av = parseFloat(av); bv = parseFloat(bv);
+        } else if (key === 'status') {
+          av = statusRank[av]; bv = statusRank[bv];
+        } else {
+          av = av || ''; bv = bv || '';
+        }
+        if (av < bv) return asc ? -1 : 1;
+        if (av > bv) return asc ? 1 : -1;
+        return 0;
+      });
+      pairs.forEach(function(p) {
+        tbody.appendChild(p.row);
+        if (p.detail) tbody.appendChild(p.detail);
+      });
+    });
+  });
+
+  // Role filter
+  var roleFilter = document.getElementById('role-filter');
+  roleFilter.addEventListener('click', function(e) {
+    var chip = e.target.closest('.role-chip');
+    if (!chip) return;
+    var filter = chip.getAttribute('data-filter');
+    roleFilter.querySelectorAll('.role-chip').forEach(function(c) { c.classList.remove('active'); });
+    chip.classList.add('active');
+    tbody.querySelectorAll('tr.char-row, tr.detail-row').forEach(function(row) {
+      if (filter === 'all' || row.getAttribute('data-role') === filter) {
+        row.classList.remove('hidden');
+      } else {
+        row.classList.add('hidden');
+      }
+    });
+  });
+
+  // Default sort: status desc (fails first)
+  var statusHeader = table.querySelector('th[data-sort="status"]');
+  if (statusHeader) { statusHeader.click(); statusHeader.click(); }
+})();
+</script>
+</body>
+</html>
