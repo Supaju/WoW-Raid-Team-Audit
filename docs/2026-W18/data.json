@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-29T20:55:40.550394+00:00",
+  "generated_at": "2026-04-29T22:51:10.410382+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -448,7 +448,7 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 282.5,
-        "mythic_plus_weekly": 4,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
         "items": [
@@ -615,7 +615,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
