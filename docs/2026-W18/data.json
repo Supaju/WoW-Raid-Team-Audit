@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-28T22:48:52.227550+00:00",
+  "generated_at": "2026-04-29T06:18:31.820480+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -231,8 +231,8 @@
         "realm": "Area 52",
         "class_name": "Demon Hunter",
         "role": "Ranged",
-        "rank": "Helper",
-        "item_level": 279.7,
+        "rank": "Main",
+        "item_level": 281.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -241,8 +241,8 @@
             "slot": "head",
             "item_id": 250033,
             "item_name": "Devouring Reaver's Intake",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -299,7 +299,7 @@
             "slot": "legs",
             "item_id": 250032,
             "item_name": "Devouring Reaver's Pistons",
-            "item_level": 269,
+            "item_level": 272,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -324,10 +324,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 251113,
-            "item_name": "Gloves of Viscous Goo",
-            "item_level": 269,
-            "track": "hero",
+            "item_id": 250034,
+            "item_name": "Devouring Reaver's Essence Grips",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -379,7 +379,7 @@
             "slot": "back",
             "item_id": 250028,
             "item_name": "Devouring Reaver's Drape",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -422,13 +422,21 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 7,
+        "myth": 8,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 0
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "legs",
+          "item_name": "Devouring Reaver's Pistons",
+          "item_level": 272,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
       "overall_status": "fail"
     },
     {
@@ -438,9 +446,9 @@
         "realm": "Area 52",
         "class_name": "Warlock",
         "role": "Ranged",
-        "rank": "Helper",
+        "rank": "Trial",
         "item_level": 281.7,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
         "items": [
@@ -607,7 +615,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -848,9 +856,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 282.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.3,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -1006,7 +1014,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1280,7 +1288,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.3,
+        "item_level": 282.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1358,8 +1366,8 @@
             "slot": "legs",
             "item_id": 249951,
             "item_name": "Night Ender's Chausses",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1429,7 +1437,7 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1490,8 +1498,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 7,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -1516,9 +1524,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 281.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1679,9 +1687,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1703,7 +1711,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2557,6 +2565,212 @@
     },
     {
       "character": {
+        "id": 5058304,
+        "name": "Darg\u00f6n",
+        "realm": "Moon Guard",
+        "class_name": "Evoker",
+        "role": "Heal",
+        "rank": "Helper",
+        "item_level": 275.7,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": [
+          {
+            "slot": "head",
+            "item_id": 249997,
+            "item_name": "Hornhelm of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "neck",
+            "item_id": 151309,
+            "item_name": "Necklace of the Twisting Void",
+            "item_level": 266,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "shoulders",
+            "item_id": 249995,
+            "item_name": "Beacons of the Black Talon",
+            "item_level": 263,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "chest",
+            "item_id": 250000,
+            "item_name": "Frenzyward of the Black Talon",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "waist",
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 266,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "legs",
+            "item_id": 249996,
+            "item_name": "Greaves of the Black Talon",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "feet",
+            "item_id": 151320,
+            "item_name": "Void-Coated Stompers",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "wrist",
+            "item_id": 151321,
+            "item_name": "Darkfang Scale Wristguards",
+            "item_level": 266,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "hands",
+            "item_id": 249998,
+            "item_name": "Enforcer's Grips of the Black Talon",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "finger_1",
+            "item_id": 151308,
+            "item_name": "Eredath Seal of Nobility",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
+            "item_id": 251115,
+            "item_name": "Bifurcation Band",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "trinket_2",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "back",
+            "item_id": 258575,
+            "item_name": "Rigid Scale Greatcloak",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "main_hand",
+            "item_id": 249670,
+            "item_name": "Elderoot Spire",
+            "item_level": 276,
+            "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "tabard",
+            "item_id": 69209,
+            "item_name": "Illustrious Guild Tabard",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          }
+        ]
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 8,
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
+      },
+      "sockets": {
+        "filled": 3,
+        "total": 3,
+        "missing_slots": [],
+        "status": "pass"
+      },
+      "gear": {
+        "myth": 3,
+        "hero": 12,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [
+        {
+          "slot": "main_hand",
+          "item_name": "Elderoot Spire",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
         "id": 5022967,
         "name": "Nan\u00e0",
         "realm": "Moon Guard",
@@ -3224,9 +3438,9 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 280.7,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 15.0,
+        "item_level": 281.8,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3244,8 +3458,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
+            "item_id": 50228,
+            "item_name": "Barbed Ymirheim Choker",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3284,10 +3498,10 @@
           },
           {
             "slot": "legs",
-            "item_id": 250032,
-            "item_name": "Devouring Reaver's Pistons",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 244574,
+            "item_name": "Silvermoon Agent's Leggings",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -3304,15 +3518,15 @@
             "slot": "wrist",
             "item_id": 250029,
             "item_name": "Devouring Reaver's Support Straps",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "hands",
-            "item_id": 193721,
-            "item_name": "Ruby Contestant's Gloves",
+            "item_id": 250034,
+            "item_name": "Devouring Reaver's Essence Grips",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3333,8 +3547,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -3346,8 +3560,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3392,7 +3606,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3409,10 +3623,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 9,
+        "myth": 4,
+        "hero": 7,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 5,
         "lower": 0
       },
       "ambiguous_items": [],
@@ -3633,9 +3847,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 280.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 14.5,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -3805,7 +4019,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4654,10 +4868,10 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 281.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 282.1,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -4694,8 +4908,8 @@
             "slot": "chest",
             "item_id": 250054,
             "item_name": "Blind Oath's Raiment",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4714,15 +4928,15 @@
             "item_name": "Blind Oath's Leggings",
             "item_level": 279,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "feet",
-            "item_id": 251167,
-            "item_name": "Nightprey Stalkers",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249305,
+            "item_name": "Slippers of the Midnight Flame",
+            "item_level": 279,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4809,17 +5023,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "legs"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -4828,8 +5040,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 7,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -5284,10 +5496,10 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 280.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 279.9,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -5411,8 +5623,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5429,10 +5641,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258529,
+            "item_name": "Arcaneclaw Spear",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -5448,7 +5660,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -5466,9 +5678,9 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 7,
+        "hero": 8,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
