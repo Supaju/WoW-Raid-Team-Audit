@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-30T19:08:55.002341+00:00",
+  "generated_at": "2026-04-30T20:52:53.204417+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -447,7 +447,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 282.5,
+        "item_level": 282.7,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
@@ -480,8 +480,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 251085,
-            "item_name": "Mantle of Dark Devotion",
+            "item_id": 251213,
+            "item_name": "Nysarra's Mantle",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -518,7 +518,7 @@
             "slot": "feet",
             "item_id": 250044,
             "item_name": "Abyssal Immolator's Ashwalkers",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
