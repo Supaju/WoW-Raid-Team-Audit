@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-30T02:11:05.272318+00:00",
+  "generated_at": "2026-04-30T06:23:12.999560+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 280.6,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
         "items": [
@@ -190,7 +190,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -657,8 +657,8 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 281.9,
-        "mythic_plus_weekly": 1,
+        "item_level": 282.1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
         "items": [
@@ -786,7 +786,7 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -821,7 +821,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2144,8 +2144,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2298,7 +2298,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3431,8 +3431,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 281.8,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 15.7,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3598,7 +3598,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -4252,9 +4252,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 281.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -4414,7 +4414,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4897,6 +4897,15 @@
             "sockets": []
           },
           {
+            "slot": "shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
             "slot": "chest",
             "item_id": 250054,
             "item_name": "Blind Oath's Raiment",
@@ -4965,8 +4974,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 151311,
+            "item_name": "Band of the Triumvirate",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -4978,8 +4987,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249808,
-            "item_name": "Litany of Lightblind Wrath",
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
