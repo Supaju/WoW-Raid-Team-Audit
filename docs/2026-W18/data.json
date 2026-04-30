@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-04-29T22:51:10.410382+00:00",
+  "generated_at": "2026-04-30T02:11:05.272318+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2777,10 +2777,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 281.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 279.8,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -2851,8 +2851,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 249382,
-            "item_name": "Canopy Walker's Footwraps",
+            "item_id": 249334,
+            "item_name": "Void-Claimed Shinkickers",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -2904,19 +2904,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
-            "track": null,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2931,17 +2931,17 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249302,
+            "item_name": "Inescapable Reach",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2958,21 +2958,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 8,
+        "myth": 3,
+        "hero": 10,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "trinket_1",
-          "item_name": "Drum of Renewed Bonds",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
