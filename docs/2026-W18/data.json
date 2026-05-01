@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-01T14:48:44.977870+00:00",
+  "generated_at": "2026-05-01T16:48:38.587982+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4869,9 +4869,9 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 282.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 14.0,
+        "item_level": 282.7,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.3,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4906,19 +4906,10 @@
             "sockets": []
           },
           {
-            "slot": "shirt",
-            "item_id": 268274,
-            "item_name": "Blinky's Collar",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
             "slot": "chest",
             "item_id": 250054,
             "item_name": "Blind Oath's Raiment",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4936,7 +4927,7 @@
             "slot": "legs",
             "item_id": 250050,
             "item_name": "Blind Oath's Leggings",
-            "item_level": 279,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4983,8 +4974,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151311,
-            "item_name": "Band of the Triumvirate",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -4996,8 +4987,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5033,7 +5024,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
