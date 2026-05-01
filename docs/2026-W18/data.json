@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-01T02:15:04.748535+00:00",
+  "generated_at": "2026-05-01T06:32:39.418555+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2571,10 +2571,10 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Helper",
-        "item_level": 275.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 277.9,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2589,7 +2589,7 @@
             "slot": "neck",
             "item_id": 151309,
             "item_name": "Necklace of the Twisting Void",
-            "item_level": 266,
+            "item_level": 272,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -2602,7 +2602,7 @@
             "slot": "shoulders",
             "item_id": 249995,
             "item_name": "Beacons of the Black Talon",
-            "item_level": 263,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2665,8 +2665,8 @@
             "slot": "finger_1",
             "item_id": 151308,
             "item_name": "Eredath Seal of Nobility",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2735,7 +2735,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2752,8 +2752,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 12,
+        "myth": 4,
+        "hero": 11,
         "champion": 0,
         "crafted": 0,
         "lower": 0
@@ -4655,7 +4655,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.2,
+        "item_level": 280.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4684,10 +4684,10 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 193704,
-            "item_name": "Scaled Commencement Spaulders",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249318,
+            "item_name": "Nullwalker's Dread Epaulettes",
+            "item_level": 279,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4797,17 +4797,26 @@
             "slot": "back",
             "item_id": 258575,
             "item_name": "Rigid Scale Greatcloak",
-            "item_level": 276,
+            "item_level": 272,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 251212,
+            "item_name": "Radiant Slicer",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           }
@@ -4819,8 +4828,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
-        "required": 8,
+        "enchanted": 8,
+        "required": 9,
         "missing_slots": [
           "shoulders"
         ],
@@ -4836,7 +4845,7 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 8,
+        "hero": 9,
         "champion": 0,
         "crafted": 4,
         "lower": 0
