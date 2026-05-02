@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-02T18:46:40.852467+00:00",
+  "generated_at": "2026-05-02T20:34:01.005503+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1498,7 +1498,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.1,
+        "item_level": 282.3,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
@@ -1614,7 +1614,7 @@
             "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
-            "item_level": 276,
+            "item_level": 279,
             "track": "hero",
             "enchanted": true,
             "sockets": [
