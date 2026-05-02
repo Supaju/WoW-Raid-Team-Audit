@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-02T06:01:55.106483+00:00",
+  "generated_at": "2026-05-02T08:58:54.744630+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -649,7 +649,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 282.1,
+        "item_level": 282.7,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 14.5,
         "mythic_plus_highest": 16,
@@ -696,10 +696,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 251082,
-            "item_name": "Snapvine Cinch",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249314,
+            "item_name": "Twisted Twilight Sash",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -767,8 +767,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -830,8 +830,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 7,
+        "myth": 6,
+        "hero": 6,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -847,7 +847,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.1,
+        "item_level": 282.7,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 11.8,
         "mythic_plus_highest": 15,
@@ -879,8 +879,8 @@
             "item_id": 249977,
             "item_name": "Tempests of the Primal Core",
             "item_level": 276,
-            "track": null,
-            "enchanted": true,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -936,8 +936,8 @@
             "slot": "hands",
             "item_id": 249980,
             "item_name": "Earthgrips of the Primal Core",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1011,10 +1011,12 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "shoulders"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -1023,8 +1025,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -1033,13 +1035,6 @@
         {
           "slot": "head",
           "item_name": "Locus of the Primal Core",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "shoulders",
-          "item_name": "Tempests of the Primal Core",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
@@ -4853,7 +4848,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 282.7,
+        "item_level": 283.2,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 15,
@@ -4893,7 +4888,7 @@
             "slot": "chest",
             "item_id": 250054,
             "item_name": "Blind Oath's Raiment",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4911,7 +4906,7 @@
             "slot": "legs",
             "item_id": 250050,
             "item_name": "Blind Oath's Leggings",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4958,8 +4953,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 151311,
+            "item_name": "Band of the Triumvirate",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -5481,7 +5476,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 279.9,
+        "item_level": 283.0,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 15,
@@ -5499,7 +5494,7 @@
             "slot": "neck",
             "item_id": 251096,
             "item_name": "Pendant of Aching Grief",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -5528,10 +5523,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 249643,
-            "item_name": "Osseoclad Waistbone",
-            "item_level": 276,
-            "track": null,
+            "item_id": 249314,
+            "item_name": "Twisted Twilight Sash",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -5539,7 +5534,7 @@
             "slot": "legs",
             "item_id": 250023,
             "item_name": "Phloemwraps of the Luminous Bloom",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -5573,14 +5568,17 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
-            "item_level": 266,
+            "item_id": 249920,
+            "item_name": "Eye of Midnight",
+            "item_level": 276,
             "track": "hero",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
+              },
+              {
+                "filled": false
               }
             ]
           },
@@ -5588,7 +5586,7 @@
             "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
-            "item_level": 272,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -5608,8 +5606,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5626,10 +5624,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 258529,
-            "item_name": "Arcaneclaw Spear",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -5650,33 +5648,29 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "finger_1"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
-        "missing_slots": [],
-        "status": "pass"
+        "filled": 2,
+        "total": 4,
+        "missing_slots": [
+          "finger_1"
+        ],
+        "status": "fail"
       },
       "gear": {
-        "myth": 5,
-        "hero": 8,
+        "myth": 6,
+        "hero": 6,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "waist",
-          "item_name": "Osseoclad Waistbone",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     }
   ]
