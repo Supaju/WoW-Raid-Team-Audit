@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-02T20:34:01.005503+00:00",
+  "generated_at": "2026-05-02T22:32:46.075327+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -767,8 +767,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2879,10 +2879,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250223,
-            "item_name": "Soulcatcher's Charm",
+            "item_id": 248583,
+            "item_name": "Drum of Renewed Bonds",
             "item_level": 276,
-            "track": "hero",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2939,7 +2939,15 @@
         "crafted": 3,
         "lower": 0
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "trinket_1",
+          "item_name": "Drum of Renewed Bonds",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
       "overall_status": "fail"
     },
     {
