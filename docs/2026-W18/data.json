@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-03T02:07:12.024540+00:00",
+  "generated_at": "2026-05-03T06:22:49.677465+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2315,7 +2315,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 279.5,
+        "item_level": 280.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2324,16 +2324,16 @@
             "slot": "head",
             "item_id": 249988,
             "item_name": "Primal Sentry's Maw",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "neck",
-            "item_id": 249626,
-            "item_name": "Nocturnal Thorncharm",
-            "item_level": 263,
+            "item_id": 266314,
+            "item_name": "Novice Combatant's Necklace",
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2349,15 +2349,6 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "shirt",
-            "item_id": 268274,
-            "item_name": "Blinky's Collar",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -2416,19 +2407,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 276,
@@ -2441,20 +2419,33 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 263,
-            "track": null,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2506,21 +2497,21 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 6,
-        "champion": 2,
+        "hero": 7,
+        "champion": 1,
         "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Nocturnal Thorncharm",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
+          "item_name": "Novice Combatant's Necklace",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
         },
         {
-          "slot": "trinket_1",
+          "slot": "trinket_2",
           "item_name": "Algeth'ar Puzzle Box",
           "item_level": 263,
           "classified_as": "champion",
@@ -4625,7 +4616,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 280.0,
+        "item_level": 282.2,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 11,
@@ -4656,7 +4647,7 @@
             "slot": "shoulders",
             "item_id": 249318,
             "item_name": "Nullwalker's Dread Epaulettes",
-            "item_level": 279,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4767,17 +4758,17 @@
             "slot": "back",
             "item_id": 258575,
             "item_name": "Rigid Scale Greatcloak",
-            "item_level": 272,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "main_hand",
-            "item_id": 251212,
-            "item_name": "Radiant Slicer",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4814,8 +4805,8 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 3,
-        "hero": 9,
+        "myth": 5,
+        "hero": 7,
         "champion": 0,
         "crafted": 4,
         "lower": 0
@@ -5467,7 +5458,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 283.0,
+        "item_level": 282.4,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 15,
@@ -5559,17 +5550,14 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249920,
-            "item_name": "Eye of Midnight",
+            "item_id": 251115,
+            "item_name": "Bifurcation Band",
             "item_level": 276,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
-              },
-              {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -5597,8 +5585,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5615,10 +5603,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258529,
+            "item_name": "Arcaneclaw Spear",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -5639,26 +5627,22 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 2,
-        "total": 4,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "fail"
+        "filled": 3,
+        "total": 3,
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 6,
-        "hero": 6,
+        "hero": 7,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [],
