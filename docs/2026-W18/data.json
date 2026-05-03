@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-02T22:32:46.075327+00:00",
+  "generated_at": "2026-05-03T02:07:12.024540+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2315,7 +2315,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 280.9,
+        "item_level": 279.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2331,9 +2331,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 266314,
-            "item_name": "Novice Combatant's Necklace",
-            "item_level": 276,
+            "item_id": 249626,
+            "item_name": "Nocturnal Thorncharm",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2416,6 +2416,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 276,
@@ -2428,23 +2441,10 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 171646,
-            "item_name": "Matrix Restabilizer",
-            "item_level": 276,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2469,19 +2469,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
+            "item_id": 251095,
+            "item_name": "Hurricane's Heart",
             "item_level": 289,
             "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
-            "item_level": 276,
-            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2502,8 +2493,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -2515,25 +2506,25 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 9,
-        "champion": 0,
+        "hero": 6,
+        "champion": 2,
         "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Novice Combatant's Necklace",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
+          "item_name": "Nocturnal Thorncharm",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
         },
         {
           "slot": "trinket_1",
-          "item_name": "Matrix Restabilizer",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
+          "item_name": "Algeth'ar Puzzle Box",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
         }
       ],
       "overall_status": "fail"
@@ -2752,7 +2743,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 282.1,
+        "item_level": 280.7,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 14,
@@ -2879,19 +2870,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
-            "track": null,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2906,10 +2897,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249302,
+            "item_name": "Inescapable Reach",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           }
@@ -2933,21 +2924,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 7,
+        "myth": 4,
+        "hero": 9,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "trinket_1",
-          "item_name": "Drum of Renewed Bonds",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
