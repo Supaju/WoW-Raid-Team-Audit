@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-04T21:00:46.078520+00:00",
+  "generated_at": "2026-05-04T22:50:27.117189+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -484,7 +484,7 @@
             "item_id": 250045,
             "item_name": "Abyssal Immolator's Dreadrobe",
             "item_level": 276,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -624,21 +624,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "chest",
-          "item_name": "Abyssal Immolator's Dreadrobe",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "warn"
     },
     {
@@ -767,8 +759,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2124,8 +2116,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.6,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 13.4,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 13.5,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2278,7 +2270,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -5241,7 +5233,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.3,
+        "item_level": 283.3,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -5250,7 +5242,7 @@
             "slot": "head",
             "item_id": 249306,
             "item_name": "Devouring Night's Visage",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -5259,7 +5251,7 @@
             "slot": "neck",
             "item_id": 50228,
             "item_name": "Barbed Ymirheim Choker",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -5321,7 +5313,7 @@
             "slot": "wrist",
             "item_id": 249327,
             "item_name": "Void-Skinned Bracers",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -5354,8 +5346,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 251115,
+            "item_name": "Bifurcation Band",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
