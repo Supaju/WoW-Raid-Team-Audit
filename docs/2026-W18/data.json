@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-04T17:25:13.958155+00:00",
+  "generated_at": "2026-05-04T19:17:43.298101+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2946,7 +2946,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.1,
+        "item_level": 282.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3026,7 +3026,7 @@
             "slot": "feet",
             "item_id": 251107,
             "item_name": "Oathsworn Stompers",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3072,7 +3072,7 @@
             "item_name": "Occlusion of Void",
             "item_level": 282,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -3101,7 +3101,7 @@
             "slot": "back",
             "item_id": 260312,
             "item_name": "Defiant Defender's Drape",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3132,12 +3132,10 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "finger_2"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 5,
@@ -5243,7 +5241,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.7,
+        "item_level": 282.3,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -5252,8 +5250,8 @@
             "slot": "head",
             "item_id": 249306,
             "item_name": "Devouring Night's Visage",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -5356,8 +5354,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -5423,8 +5421,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 7,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 0
