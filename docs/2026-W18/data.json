@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-04T06:34:10.896595+00:00",
+  "generated_at": "2026-05-04T10:07:15.819948+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 282.6,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 15.0,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 15.3,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -190,7 +190,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -650,9 +650,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 282.7,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 14.6,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 14.9,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -813,9 +813,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -837,7 +837,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -848,8 +848,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 282.7,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 11.8,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -1006,7 +1006,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -4845,8 +4845,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 283.2,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 13.2,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4999,7 +4999,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -5465,7 +5465,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 282.4,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 15,
         "items": [
@@ -5511,12 +5511,16 @@
           },
           {
             "slot": "waist",
-            "item_id": 249314,
-            "item_name": "Twisted Twilight Sash",
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -5556,12 +5560,15 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
+            "item_id": 249920,
+            "item_name": "Eye of Midnight",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -5628,7 +5635,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -5639,8 +5646,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
