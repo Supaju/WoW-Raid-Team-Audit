@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-04T13:26:37.751865+00:00",
+  "generated_at": "2026-05-04T15:55:45.810431+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2320,7 +2320,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.2,
+        "item_level": 279.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2336,9 +2336,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 266314,
-            "item_name": "Novice Combatant's Necklace",
-            "item_level": 276,
+            "item_id": 249626,
+            "item_name": "Nocturnal Thorncharm",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2421,6 +2421,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 276,
@@ -2433,23 +2446,10 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 171646,
-            "item_name": "Matrix Restabilizer",
-            "item_level": 276,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2474,19 +2474,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
+            "item_id": 251095,
+            "item_name": "Hurricane's Heart",
             "item_level": 289,
             "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
-            "item_level": 276,
-            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2507,8 +2498,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -2520,25 +2511,25 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 9,
-        "champion": 0,
+        "hero": 6,
+        "champion": 2,
         "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Novice Combatant's Necklace",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
+          "item_name": "Nocturnal Thorncharm",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
         },
         {
           "slot": "trinket_1",
-          "item_name": "Matrix Restabilizer",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
+          "item_name": "Algeth'ar Puzzle Box",
+          "item_level": 263,
+          "classified_as": "champion",
+          "could_also_be": "hero"
         }
       ],
       "overall_status": "fail"
