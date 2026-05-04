@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-03T22:33:21.700377+00:00",
+  "generated_at": "2026-05-04T02:06:57.239612+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 281.5,
-        "mythic_plus_weekly": 5,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 16,
         "items": [
@@ -144,8 +144,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -190,7 +190,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -767,8 +767,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2734,7 +2734,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 280.7,
+        "item_level": 281.5,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 14,
@@ -2888,10 +2888,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249302,
-            "item_name": "Inescapable Reach",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249278,
+            "item_name": "Alnscorned Spire",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -2915,8 +2915,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 9,
+        "myth": 5,
+        "hero": 8,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -3390,8 +3390,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 281.8,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 16.4,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 16.5,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3557,7 +3557,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
