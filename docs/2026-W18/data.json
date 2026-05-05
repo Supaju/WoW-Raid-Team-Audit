@@ -2,7 +2,7 @@
   "week": "2026-W18",
   "week_label": "Raid Week 7 \u00b7 Apr 28\u2013May 4",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-05T06:11:12.043012+00:00",
+  "generated_at": "2026-05-05T09:55:53.470094+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5005,9 +5005,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 282.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -5186,7 +5186,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
