@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-05T19:08:21.530197+00:00",
+  "generated_at": "2026-05-05T20:56:11.011434+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1271,7 +1271,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 283.3,
+        "item_level": 283.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1306,8 +1306,8 @@
             "slot": "shoulders",
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
-            "item_level": 276,
-            "track": null,
+            "item_level": 285,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1469,21 +1469,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 6,
+        "myth": 8,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "shoulders",
-          "item_name": "Night Ender's Pauldrons",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
@@ -3153,7 +3145,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 281.9,
+        "item_level": 282.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3165,7 +3157,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -3202,8 +3198,8 @@
             "slot": "chest",
             "item_id": 249955,
             "item_name": "Night Ender's Breastplate",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3354,14 +3350,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 8,
+        "myth": 7,
+        "hero": 7,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -3386,9 +3382,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 281.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 17.5,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -3553,7 +3549,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
