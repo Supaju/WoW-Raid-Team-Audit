@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-05T22:50:01.473958+00:00",
+  "generated_at": "2026-05-06T02:05:58.949121+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -225,9 +225,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 281.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -397,7 +397,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1486,7 +1486,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.3,
+        "item_level": 282.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1615,7 +1615,7 @@
             "slot": "trinket_1",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 276,
+            "item_level": 279,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2107,9 +2107,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2261,7 +2261,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2724,9 +2724,9 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 282.1,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 14.0,
+        "item_level": 282.4,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2825,8 +2825,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -2851,8 +2851,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250223,
-            "item_name": "Soulcatcher's Charm",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2860,8 +2860,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2878,17 +2878,17 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249278,
+            "item_name": "Alnscorned Spire",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2905,10 +2905,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
+        "myth": 6,
         "hero": 7,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [],
@@ -3381,7 +3381,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.8,
+        "item_level": 282.9,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 16.5,
         "mythic_plus_highest": 18,
@@ -3461,7 +3461,7 @@
             "slot": "wrist",
             "item_id": 250029,
             "item_name": "Devouring Reaver's Support Straps",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3470,8 +3470,8 @@
             "slot": "hands",
             "item_id": 250034,
             "item_name": "Devouring Reaver's Essence Grips",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3521,8 +3521,8 @@
           },
           {
             "slot": "back",
-            "item_id": 250028,
-            "item_name": "Devouring Reaver's Drape",
+            "item_id": 249370,
+            "item_name": "Draconic Nullcape",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -3566,8 +3566,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 7,
+        "myth": 5,
+        "hero": 6,
         "champion": 0,
         "crafted": 5,
         "lower": 0
@@ -4609,9 +4609,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 282.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -4767,7 +4767,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -5005,9 +5005,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 282.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -5105,12 +5105,15 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 249920,
+            "item_name": "Eye of Midnight",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -5186,7 +5189,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -5200,8 +5203,8 @@
         "status": "fail"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
