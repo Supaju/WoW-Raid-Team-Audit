@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-06T02:05:58.949121+00:00",
+  "generated_at": "2026-05-06T06:25:25.845388+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -224,7 +224,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.6,
+        "item_level": 281.9,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
@@ -371,8 +371,8 @@
             "slot": "back",
             "item_id": 250028,
             "item_name": "Devouring Reaver's Drape",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -414,8 +414,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 5,
+        "myth": 9,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -1487,9 +1487,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 282.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -1650,7 +1650,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1674,233 +1674,6 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
-    },
-    {
-      "character": {
-        "id": 4870793,
-        "name": "Heartbroken",
-        "realm": "Illidan",
-        "class_name": "Mage",
-        "role": "Ranged",
-        "rank": "Main",
-        "item_level": 276.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
-        "items": [
-          {
-            "slot": "head",
-            "item_id": 250060,
-            "item_name": "Voidbreaker's Veil",
-            "item_level": 276,
-            "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "neck",
-            "item_id": 265740,
-            "item_name": "Amani Totemstring",
-            "item_level": 263,
-            "track": null,
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "shoulders",
-            "item_id": 250058,
-            "item_name": "Voidbreaker's Leyline Nexi",
-            "item_level": 276,
-            "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "chest",
-            "item_id": 193720,
-            "item_name": "Bronze Challenger's Robe",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "waist",
-            "item_id": 249319,
-            "item_name": "Endless March Waistwrap",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "legs",
-            "item_id": 250059,
-            "item_name": "Voidbreaker's Britches",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "feet",
-            "item_id": 49805,
-            "item_name": "Ice-Steeped Sandals",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "wrist",
-            "item_id": 239648,
-            "item_name": "Martyr's Bindings",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "hands",
-            "item_id": 250061,
-            "item_name": "Voidbreaker's Gloves",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "finger_1",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
-            "item_level": 263,
-            "track": null,
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "trinket_1",
-            "item_id": 250257,
-            "item_name": "Eye of the Drowning Void",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "trinket_2",
-            "item_id": 264507,
-            "item_name": "Crucible of Erratic Energies",
-            "item_level": 263,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "back",
-            "item_id": 258575,
-            "item_name": "Rigid Scale Greatcloak",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": []
-          }
-        ]
-      },
-      "mythic_plus": {
-        "count": 0,
-        "target": 8,
-        "status": "fail"
-      },
-      "enchants": {
-        "enchanted": 7,
-        "required": 8,
-        "missing_slots": [
-          "legs"
-        ],
-        "status": "warn"
-      },
-      "sockets": {
-        "filled": 3,
-        "total": 3,
-        "missing_slots": [],
-        "status": "pass"
-      },
-      "gear": {
-        "myth": 2,
-        "hero": 8,
-        "champion": 3,
-        "crafted": 2,
-        "lower": 0
-      },
-      "ambiguous_items": [
-        {
-          "slot": "head",
-          "item_name": "Voidbreaker's Veil",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "neck",
-          "item_name": "Amani Totemstring",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
-        {
-          "slot": "shoulders",
-          "item_name": "Voidbreaker's Leyline Nexi",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "finger_1",
-          "item_name": "Bifurcation Band",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        },
-        {
-          "slot": "trinket_2",
-          "item_name": "Crucible of Erratic Energies",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        }
-      ],
       "overall_status": "fail"
     },
     {
@@ -2107,9 +1880,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 280.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 13.5,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -2261,7 +2034,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2518,7 +2291,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Helper",
-        "item_level": 279.8,
+        "item_level": 280.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2536,7 +2309,7 @@
             "slot": "neck",
             "item_id": 151309,
             "item_name": "Necklace of the Twisting Void",
-            "item_level": 272,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -2567,7 +2340,7 @@
             "slot": "waist",
             "item_id": 249371,
             "item_name": "Scornbane Waistguard",
-            "item_level": 266,
+            "item_level": 276,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2725,8 +2498,8 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 282.4,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2888,9 +2661,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2912,7 +2685,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4608,7 +4381,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.7,
+        "item_level": 282.4,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -4666,8 +4439,8 @@
             "slot": "legs",
             "item_id": 249987,
             "item_name": "Primal Sentry's Legguards",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 279,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4757,10 +4530,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
             "item_level": 289,
             "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           }
@@ -4772,8 +4554,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
-        "required": 8,
+        "enchanted": 8,
+        "required": 9,
         "missing_slots": [
           "shoulders"
         ],
@@ -4788,7 +4570,7 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 5,
+        "myth": 6,
         "hero": 6,
         "champion": 0,
         "crafted": 4,
