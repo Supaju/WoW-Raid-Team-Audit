@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-06T19:26:13.697637+00:00",
+  "generated_at": "2026-05-06T21:04:23.201815+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2092,9 +2092,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 249626,
-            "item_name": "Nocturnal Thorncharm",
-            "item_level": 263,
+            "item_id": 266314,
+            "item_name": "Novice Combatant's Necklace",
+            "item_level": 276,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2110,15 +2110,6 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "shirt",
-            "item_id": 268274,
-            "item_name": "Blinky's Collar",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -2177,19 +2168,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 276,
@@ -2202,9 +2180,22 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2212,10 +2203,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 263,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2275,7 +2266,14 @@
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Nocturnal Thorncharm",
+          "item_name": "Novice Combatant's Necklace",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        },
+        {
+          "slot": "trinket_2",
+          "item_name": "Algeth'ar Puzzle Box",
           "item_level": 263,
           "classified_as": "champion",
           "could_also_be": "hero"
