@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-06T21:04:23.201815+00:00",
+  "generated_at": "2026-05-06T22:42:09.045679+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -535,8 +535,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -641,7 +641,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 283.0,
+        "item_level": 283.4,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
@@ -699,8 +699,8 @@
             "slot": "legs",
             "item_id": 250014,
             "item_name": "Swiftsweepers of Ra-den's Chosen",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -759,8 +759,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -822,8 +822,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -2694,9 +2694,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 282.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2874,7 +2874,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -4380,7 +4380,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 282.4,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4547,7 +4547,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
