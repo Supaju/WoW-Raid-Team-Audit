@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-07T16:01:49.052039+00:00",
+  "generated_at": "2026-05-07T19:28:44.858634+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2285,9 +2285,9 @@
         "role": "Heal",
         "rank": "Helper",
         "item_level": 280.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -2448,7 +2448,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
