@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-08T20:51:16.815337+00:00",
+  "generated_at": "2026-05-08T22:48:51.325543+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2691,9 +2691,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 282.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -2871,7 +2871,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3351,7 +3351,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 281.9,
+        "item_level": 282.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3373,7 +3373,7 @@
             "slot": "neck",
             "item_id": 249337,
             "item_name": "Ribbon of Coiled Malice",
-            "item_level": 276,
+            "item_level": 282,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3435,7 +3435,7 @@
             "slot": "feet",
             "item_id": 249954,
             "item_name": "Night Ender's Greatboots",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
