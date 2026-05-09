@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-09T06:10:23.856777+00:00",
+  "generated_at": "2026-05-09T09:11:10.052256+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4398,7 +4398,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 283.2,
-        "mythic_plus_weekly": 3,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4565,9 +4565,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -4601,7 +4601,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
