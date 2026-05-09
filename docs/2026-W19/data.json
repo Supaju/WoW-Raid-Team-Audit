@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-09T09:11:10.052256+00:00",
+  "generated_at": "2026-05-09T10:50:54.669347+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3991,19 +3991,23 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.0,
-        "mythic_plus_weekly": 2,
+        "item_level": 283.9,
+        "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
-            "item_id": 151337,
-            "item_name": "Shadow-Weaver's Crown",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 250060,
+            "item_name": "Voidbreaker's Veil",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -4154,7 +4158,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4167,14 +4171,14 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 0
