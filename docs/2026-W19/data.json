@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-08T22:48:51.325543+00:00",
+  "generated_at": "2026-05-09T02:09:04.768204+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2076,7 +2076,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.9,
+        "item_level": 281.4,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2105,10 +2105,19 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 193704,
-            "item_name": "Scaled Commencement Spaulders",
+            "item_id": 151323,
+            "item_name": "Pauldrons of the Void Hunter",
             "item_level": 289,
             "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
+            "item_level": 1,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2194,17 +2203,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 279,
-            "track": "hero",
+            "item_id": 171646,
+            "item_name": "Matrix Restabilizer",
+            "item_level": 276,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -2221,10 +2230,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251095,
-            "item_name": "Hurricane's Heart",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
             "item_level": 289,
             "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2245,12 +2263,10 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
-        "required": 8,
-        "missing_slots": [
-          "shoulders"
-        ],
-        "status": "warn"
+        "enchanted": 9,
+        "required": 9,
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -2260,7 +2276,7 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 8,
+        "hero": 9,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -2269,6 +2285,13 @@
         {
           "slot": "neck",
           "item_name": "Novice Combatant's Necklace",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        },
+        {
+          "slot": "trinket_1",
+          "item_name": "Matrix Restabilizer",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
@@ -2490,7 +2513,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 283.3,
+        "item_level": 283.9,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.1,
         "mythic_plus_highest": 14,
@@ -2546,8 +2569,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 249374,
-            "item_name": "Scorn-Scarred Shul'ka's Belt",
+            "item_id": 250021,
+            "item_name": "Barksash of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2564,11 +2587,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 251210,
-            "item_name": "Eclipse Espadrilles",
+            "item_id": 250026,
+            "item_name": "Rootslippers of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2617,17 +2640,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2644,10 +2667,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249278,
-            "item_name": "Alnscorned Spire",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           }
@@ -2659,12 +2682,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -2674,9 +2695,9 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 6,
+        "hero": 5,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [],
