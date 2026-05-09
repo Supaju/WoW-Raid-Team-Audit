@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-09T14:43:23.260049+00:00",
+  "generated_at": "2026-05-09T16:43:26.605080+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4401,8 +4401,8 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.2,
-        "mythic_plus_weekly": 5,
+        "item_level": 284.2,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4441,8 +4441,8 @@
             "slot": "chest",
             "item_id": 249991,
             "item_name": "Primal Sentry's Scaleplate",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4459,7 +4459,7 @@
             "slot": "legs",
             "item_id": 249987,
             "item_name": "Primal Sentry's Legguards",
-            "item_level": 279,
+            "item_level": 282,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4482,7 +4482,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -4569,7 +4569,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -4582,16 +4582,14 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 4,
         "total": 4,
-        "missing_slots": [
-          "wrist"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 4,
         "lower": 0
@@ -4615,10 +4613,10 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 283.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 283.8,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -4682,7 +4680,7 @@
             "slot": "feet",
             "item_id": 250053,
             "item_name": "Blind Oath's Slippers",
-            "item_level": 279,
+            "item_level": 285,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4770,7 +4768,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
