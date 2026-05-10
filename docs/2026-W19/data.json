@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-10T14:44:24.260358+00:00",
+  "generated_at": "2026-05-10T16:43:44.992776+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 282.6,
+        "item_level": 264.1,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
@@ -162,10 +162,10 @@
           },
           {
             "slot": "back",
-            "item_id": 249335,
-            "item_name": "Imperator's Banner",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 63352,
+            "item_name": "Shroud of Cooperation",
+            "item_level": 12,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -207,11 +207,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2076,7 +2076,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.4,
+        "item_level": 281.9,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2177,6 +2177,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 279,
@@ -2189,32 +2202,19 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "slot": "trinket_1",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
             "item_level": 276,
             "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "trinket_1",
-            "item_id": 171646,
-            "item_name": "Matrix Restabilizer",
-            "item_level": 276,
-            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 279,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2230,19 +2230,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
+            "item_id": 251095,
+            "item_name": "Hurricane's Heart",
             "item_level": 289,
             "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
-            "item_level": 276,
-            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2263,8 +2254,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -2276,7 +2267,7 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 9,
+        "hero": 8,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -2285,13 +2276,6 @@
         {
           "slot": "neck",
           "item_name": "Novice Combatant's Necklace",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "trinket_1",
-          "item_name": "Matrix Restabilizer",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
