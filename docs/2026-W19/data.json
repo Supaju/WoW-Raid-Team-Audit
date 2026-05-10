@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-09T22:35:20.912851+00:00",
+  "generated_at": "2026-05-10T02:10:12.426960+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -440,8 +440,8 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 282.7,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 13.9,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -607,7 +607,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -642,8 +642,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 283.4,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 15.5,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -805,9 +805,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -829,7 +829,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1050,9 +1050,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 284.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1229,9 +1229,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1261,7 +1261,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1487,8 +1487,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 282.9,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -1650,7 +1650,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2514,7 +2514,7 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 283.9,
-        "mythic_plus_weekly": 7,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 12.1,
         "mythic_plus_highest": 14,
         "items": [
@@ -2677,9 +2677,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -2701,7 +2701,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2711,7 +2711,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.8,
+        "item_level": 283.3,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 14,
@@ -2835,7 +2835,7 @@
             "slot": "finger_2",
             "item_id": 251217,
             "item_name": "Occlusion of Void",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3373,9 +3373,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 282.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3544,9 +3544,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3568,7 +3568,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4402,7 +4402,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 284.2,
-        "mythic_plus_weekly": 6,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4569,9 +4569,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -4614,8 +4614,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 283.8,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 12.8,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -4768,9 +4768,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
@@ -4794,7 +4794,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -5027,9 +5027,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 283.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -5161,10 +5161,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
+            "item_id": 250223,
+            "item_name": "Soulcatcher's Charm",
             "item_level": 276,
-            "track": null,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -5189,7 +5189,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -5216,13 +5216,6 @@
         {
           "slot": "shoulders",
           "item_name": "Seedpods of the Luminous Bloom",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "trinket_2",
-          "item_name": "Drum of Renewed Bonds",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
