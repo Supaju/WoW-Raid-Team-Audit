@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-10T02:10:12.426960+00:00",
+  "generated_at": "2026-05-10T06:29:02.859937+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 282.6,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
         "items": [
@@ -190,9 +190,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -214,7 +214,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -641,9 +641,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 283.4,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 13.8,
+        "item_level": 283.6,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 14.3,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -699,7 +699,7 @@
             "slot": "legs",
             "item_id": 250014,
             "item_name": "Swiftsweepers of Ra-den's Chosen",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -759,8 +759,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -805,7 +805,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -840,8 +840,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 283.6,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 14.3,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -998,7 +998,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2712,8 +2712,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 283.3,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2892,7 +2892,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2934,7 +2934,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 283.2,
+        "item_level": 283.4,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 11,
@@ -2987,7 +2987,7 @@
             "slot": "chest",
             "item_id": 249955,
             "item_name": "Night Ender's Breastplate",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4804,7 +4804,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 282.2,
+        "item_level": 281.5,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 13,
@@ -4961,20 +4961,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 237839,
-            "item_name": "Spellbreaker's Blade",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 237831,
-            "item_name": "Spellbreaker's Rebuke",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -4995,12 +4986,11 @@
       },
       "enchants": {
         "enchanted": 7,
-        "required": 9,
+        "required": 8,
         "missing_slots": [
-          "shoulders",
-          "off_hand"
+          "shoulders"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -5010,9 +5000,9 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 6,
+        "hero": 7,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [],
