@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-10T18:50:27.980571+00:00",
+  "generated_at": "2026-05-10T20:40:06.584856+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1486,7 +1486,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.9,
+        "item_level": 283.2,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
@@ -1615,7 +1615,7 @@
             "slot": "trinket_1",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
