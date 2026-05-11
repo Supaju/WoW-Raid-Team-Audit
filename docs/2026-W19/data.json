@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-11T06:59:33.414120+00:00",
+  "generated_at": "2026-05-11T10:54:52.562730+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3982,10 +3982,10 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.9,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 16.0,
-        "mythic_plus_highest": 16,
+        "item_level": 284.1,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 16.2,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -4057,9 +4057,9 @@
             "slot": "feet",
             "item_id": 249373,
             "item_name": "Dream-Scorched Striders",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
+            "item_level": 279,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -4149,17 +4149,18 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 6,
         "required": 8,
         "missing_slots": [
-          "head"
+          "head",
+          "feet"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 6,
@@ -4168,8 +4169,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -4393,8 +4394,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 283.9,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4551,7 +4552,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
