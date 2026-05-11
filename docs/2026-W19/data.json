@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-10T20:40:06.584856+00:00",
+  "generated_at": "2026-05-11T02:28:32.668381+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1486,10 +1486,10 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 283.2,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 12,
+        "item_level": 283.4,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1589,7 +1589,7 @@
             "slot": "finger_1",
             "item_id": 251217,
             "item_name": "Occlusion of Void",
-            "item_level": 276,
+            "item_level": 279,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -1650,9 +1650,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1674,7 +1674,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4388,7 +4388,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 284.2,
-        "mythic_plus_weekly": 8,
+        "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4555,7 +4555,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -5207,7 +5207,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 283.0,
+        "item_level": 283.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5223,10 +5223,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -5396,9 +5396,9 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 6,
+        "hero": 5,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 4,
         "lower": 0
       },
       "ambiguous_items": [],
