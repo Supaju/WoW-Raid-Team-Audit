@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-11T02:28:32.668381+00:00",
+  "generated_at": "2026-05-11T06:59:33.414120+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,9 +13,9 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 264.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 15.5,
+        "item_level": 283.8,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -69,16 +69,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 249371,
-            "item_name": "Scornbane Waistguard",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 244581,
+            "item_name": "Farstrider's Trophy Belt",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -162,20 +158,29 @@
           },
           {
             "slot": "back",
-            "item_id": 63352,
-            "item_name": "Shroud of Cooperation",
-            "item_level": 12,
-            "track": null,
+            "item_id": 249335,
+            "item_name": "Imperator's Banner",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249293,
+            "item_name": "Weight of Command",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249275,
+            "item_name": "Bulwark of Noble Resolve",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -190,28 +195,30 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 10,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -439,7 +446,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 282.7,
+        "item_level": 283.9,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 14,
@@ -483,7 +490,7 @@
             "slot": "chest",
             "item_id": 250045,
             "item_name": "Abyssal Immolator's Dreadrobe",
-            "item_level": 276,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -510,7 +517,7 @@
             "slot": "feet",
             "item_id": 250044,
             "item_name": "Abyssal Immolator's Ashwalkers",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -641,9 +648,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 283.6,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 14.3,
+        "item_level": 283.9,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -699,7 +706,7 @@
             "slot": "legs",
             "item_id": 250014,
             "item_name": "Swiftsweepers of Ra-den's Chosen",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -805,9 +812,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -829,7 +836,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -1050,8 +1057,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 284.5,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 12.1,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -1229,9 +1236,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -1261,7 +1268,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -1271,7 +1278,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 283.9,
+        "item_level": 284.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1306,7 +1313,7 @@
             "slot": "shoulders",
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2105,8 +2112,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 151323,
-            "item_name": "Pauldrons of the Void Hunter",
+            "item_id": 193704,
+            "item_name": "Scaled Commencement Spaulders",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2341,7 +2348,7 @@
             "item_id": 249371,
             "item_name": "Scornbane Waistguard",
             "item_level": 276,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2472,8 +2479,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 9,
+        "myth": 7,
+        "hero": 8,
         "champion": 0,
         "crafted": 0,
         "lower": 0
@@ -2497,7 +2504,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 283.3,
+        "item_level": 283.9,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 12.1,
         "mythic_plus_highest": 14,
@@ -2553,8 +2560,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 249374,
-            "item_name": "Scorn-Scarred Shul'ka's Belt",
+            "item_id": 250021,
+            "item_name": "Barksash of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2571,11 +2578,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 251210,
-            "item_name": "Eclipse Espadrilles",
+            "item_id": 250026,
+            "item_name": "Rootslippers of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2624,17 +2631,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2651,10 +2658,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249278,
-            "item_name": "Alnscorned Spire",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           }
@@ -2666,12 +2673,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -2681,13 +2686,13 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 6,
+        "hero": 5,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3564,7 +3569,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.1,
+        "item_level": 283.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3702,8 +3707,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3754,8 +3759,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -4387,7 +4392,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 284.2,
+        "item_level": 283.9,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -4536,17 +4541,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 258436,
-            "item_name": "Edge of the Burning Sun",
+            "item_id": 249279,
+            "item_name": "Sunstrike Rifle",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -4560,8 +4556,8 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 9,
+        "enchanted": 7,
+        "required": 8,
         "missing_slots": [
           "shoulders"
         ],
@@ -4574,7 +4570,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 4,
         "champion": 0,
         "crafted": 4,
@@ -4599,7 +4595,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 283.8,
+        "item_level": 284.5,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 12.8,
         "mythic_plus_highest": 14,
@@ -4636,6 +4632,15 @@
             "sockets": []
           },
           {
+            "slot": "shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
             "slot": "chest",
             "item_id": 250054,
             "item_name": "Blind Oath's Raiment",
@@ -4666,7 +4671,7 @@
             "slot": "feet",
             "item_id": 250053,
             "item_name": "Blind Oath's Slippers",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4691,8 +4696,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 151311,
+            "item_name": "Band of the Triumvirate",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -4706,7 +4711,7 @@
             "slot": "finger_2",
             "item_id": 249336,
             "item_name": "Signet of the Starved Beast",
-            "item_level": 279,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -4790,9 +4795,9 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 281.5,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 12.7,
+        "item_level": 282.5,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4821,7 +4826,7 @@
             "slot": "shoulders",
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4839,8 +4844,8 @@
             "slot": "chest",
             "item_id": 249955,
             "item_name": "Night Ender's Breastplate",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4966,9 +4971,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
@@ -4985,14 +4990,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 7,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -5137,8 +5142,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250223,
-            "item_name": "Soulcatcher's Charm",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
