@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-11T19:29:28.655752+00:00",
+  "generated_at": "2026-05-11T21:11:50.835529+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -846,9 +846,9 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.6,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 14.3,
+        "item_level": 283.9,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 14.6,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -908,7 +908,7 @@
             "slot": "legs",
             "item_id": 251170,
             "item_name": "Wickedweave Trousers",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1005,9 +1005,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
@@ -1046,7 +1046,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3365,7 +3365,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.8,
+        "item_level": 283.0,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
@@ -3387,7 +3387,7 @@
             "slot": "neck",
             "item_id": 249337,
             "item_name": "Ribbon of Coiled Malice",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": false,
             "sockets": [
