@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-11T14:32:39.566982+00:00",
+  "generated_at": "2026-05-11T17:50:09.431257+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2083,7 +2083,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.9,
+        "item_level": 282.2,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2139,10 +2139,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 244611,
-            "item_name": "World Tender's Barkclasp",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2157,11 +2157,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 244610,
-            "item_name": "World Tender's Rootslippers",
+            "item_id": 249990,
+            "item_name": "Primal Sentry's Swiftsteps",
             "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2261,10 +2261,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -2273,10 +2275,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
+        "myth": 7,
         "hero": 8,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 0,
         "lower": 0
       },
       "ambiguous_items": [
@@ -2926,9 +2928,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 283.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3119,7 +3121,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
