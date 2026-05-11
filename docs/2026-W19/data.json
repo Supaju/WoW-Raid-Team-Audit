@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-11T10:54:52.562730+00:00",
+  "generated_at": "2026-05-11T14:32:39.566982+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2925,7 +2925,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 283.4,
+        "item_level": 283.6,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 11,
@@ -2978,7 +2978,7 @@
             "slot": "chest",
             "item_id": 249955,
             "item_name": "Night Ender's Breastplate",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
