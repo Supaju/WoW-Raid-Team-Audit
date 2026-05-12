@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-12T06:32:21.366370+00:00",
+  "generated_at": "2026-05-12T10:25:54.238844+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3586,9 +3586,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 283.0,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3758,7 +3758,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4812,9 +4812,9 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 282.5,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.5,
+        "item_level": 283.2,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4969,11 +4969,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 237839,
+            "item_name": "Spellbreaker's Blade",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 237831,
+            "item_name": "Spellbreaker's Rebuke",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -4988,17 +4997,18 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
-        "required": 8,
+        "required": 9,
         "missing_slots": [
-          "shoulders"
+          "shoulders",
+          "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 4,
@@ -5008,13 +5018,13 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 6,
+        "hero": 5,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 4,
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -5236,7 +5246,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 283.6,
+        "item_level": 283.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5370,8 +5380,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -5388,10 +5398,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258529,
+            "item_name": "Arcaneclaw Spear",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -5425,9 +5435,9 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 5,
+        "hero": 6,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 3,
         "lower": 0
       },
       "ambiguous_items": [],
