@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-12T19:30:08.619644+00:00",
+  "generated_at": "2026-05-12T21:11:36.263587+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1272,10 +1272,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.7,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "item_level": 284.9,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1372,9 +1372,9 @@
           },
           {
             "slot": "hands",
-            "item_id": 249953,
-            "item_name": "Night Ender's Fists",
-            "item_level": 276,
+            "item_id": 151332,
+            "item_name": "Voidclaw Gauntlets",
+            "item_level": 279,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -1453,7 +1453,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2920,9 +2920,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 283.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3113,7 +3113,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3155,7 +3155,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.9,
+        "item_level": 282.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3175,8 +3175,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 249368,
-            "item_name": "Eternal Voidsong Chain",
+            "item_id": 251096,
+            "item_name": "Pendant of Aching Grief",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3215,10 +3215,10 @@
           },
           {
             "slot": "legs",
-            "item_id": 244574,
-            "item_name": "Silvermoon Agent's Leggings",
+            "item_id": 250032,
+            "item_name": "Devouring Reaver's Pistons",
             "item_level": 285,
-            "track": "crafted",
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3242,10 +3242,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 250034,
-            "item_name": "Devouring Reaver's Essence Grips",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 193721,
+            "item_name": "Ruby Contestant's Gloves",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3264,8 +3264,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 151308,
+            "item_name": "Eredath Seal of Nobility",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -3277,8 +3277,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -3295,8 +3295,8 @@
           },
           {
             "slot": "back",
-            "item_id": 249370,
-            "item_name": "Draconic Nullcape",
+            "item_id": 250028,
+            "item_name": "Devouring Reaver's Drape",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -3341,9 +3341,9 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 6,
+        "hero": 7,
         "champion": 0,
-        "crafted": 5,
+        "crafted": 4,
         "lower": 0
       },
       "ambiguous_items": [],
