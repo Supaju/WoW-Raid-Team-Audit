@@ -2,7 +2,7 @@
   "week": "2026-W19",
   "week_label": "Raid Week 8 \u00b7 May 5\u201311",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-11T22:46:44.784143+00:00",
+  "generated_at": "2026-05-12T02:14:02.558469+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1278,7 +1278,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.1,
+        "item_level": 284.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1360,8 +1360,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 251107,
-            "item_name": "Oathsworn Stompers",
+            "item_id": 249954,
+            "item_name": "Night Ender's Greatboots",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -1387,8 +1387,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -1400,10 +1400,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1476,8 +1476,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 5,
+        "myth": 9,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -3163,172 +3163,11 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.9,
+        "item_level": 0.0,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 16.5,
         "mythic_plus_highest": 18,
-        "items": [
-          {
-            "slot": "head",
-            "item_id": 250033,
-            "item_name": "Devouring Reaver's Intake",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "neck",
-            "item_id": 249368,
-            "item_name": "Eternal Voidsong Chain",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "shoulders",
-            "item_id": 250031,
-            "item_name": "Devouring Reaver's Exhaustplates",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "chest",
-            "item_id": 250036,
-            "item_name": "Devouring Reaver's Engine",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "waist",
-            "item_id": 244573,
-            "item_name": "Silvermoon Agent's Utility Belt",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "legs",
-            "item_id": 244574,
-            "item_name": "Silvermoon Agent's Leggings",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "feet",
-            "item_id": 250035,
-            "item_name": "Devouring Reaver's Soul Flatteners",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "wrist",
-            "item_id": 250029,
-            "item_name": "Devouring Reaver's Support Straps",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "hands",
-            "item_id": 250034,
-            "item_name": "Devouring Reaver's Essence Grips",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "finger_1",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "back",
-            "item_id": 249370,
-            "item_name": "Draconic Nullcape",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "main_hand",
-            "item_id": 237840,
-            "item_name": "Spellbreaker's Warglaive",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 237840,
-            "item_name": "Spellbreaker's Warglaive",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": []
-          }
-        ]
+        "items": []
       },
       "mythic_plus": {
         "count": 4,
@@ -3336,26 +3175,40 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 0,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "neck",
+          "finger_2",
+          "finger_1"
+        ],
+        "status": "fail"
       },
       "gear": {
-        "myth": 5,
-        "hero": 6,
+        "myth": 0,
+        "hero": 0,
         "champion": 0,
-        "crafted": 5,
+        "crafted": 0,
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
