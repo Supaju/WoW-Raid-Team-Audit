@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-12T21:11:36.263587+00:00",
+  "generated_at": "2026-05-12T22:53:24.012670+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 284.0,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -232,9 +232,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 281.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -404,7 +404,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -649,8 +649,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 283.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -812,7 +812,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2292,7 +2292,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Helper",
-        "item_level": 280.7,
+        "item_level": 281.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2332,8 +2332,8 @@
             "slot": "chest",
             "item_id": 250000,
             "item_name": "Frenzyward of the Black Talon",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2473,8 +2473,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 8,
+        "myth": 8,
+        "hero": 7,
         "champion": 0,
         "crafted": 0,
         "lower": 0
@@ -2498,7 +2498,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 283.9,
+        "item_level": 283.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2554,8 +2554,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 250021,
-            "item_name": "Barksash of the Luminous Bloom",
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2572,11 +2572,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 250026,
-            "item_name": "Rootslippers of the Luminous Bloom",
+            "item_id": 251210,
+            "item_name": "Eclipse Espadrilles",
             "item_level": 289,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2625,17 +2625,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2652,10 +2652,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249278,
+            "item_name": "Alnscorned Spire",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -2667,10 +2667,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -2680,9 +2682,9 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 5,
+        "hero": 6,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 0
       },
       "ambiguous_items": [],
@@ -2919,9 +2921,9 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 283.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 14.0,
+        "item_level": 284.4,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 13.5,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3025,8 +3027,8 @@
             "slot": "hands",
             "item_id": 151332,
             "item_name": "Voidclaw Gauntlets",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3113,7 +3115,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3130,8 +3132,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 6,
+        "myth": 9,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 0
