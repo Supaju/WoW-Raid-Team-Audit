@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-12T22:53:24.012670+00:00",
+  "generated_at": "2026-05-13T02:28:57.221479+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 284.0,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 15.7,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -180,7 +180,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -195,17 +195,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -221,7 +219,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -231,9 +229,9 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 281.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 16.0,
+        "item_level": 282.8,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -369,8 +367,8 @@
             "slot": "trinket_2",
             "item_id": 250256,
             "item_name": "Heart of Wind",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -404,7 +402,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -421,8 +419,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -649,8 +647,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 283.9,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 15.7,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -812,9 +810,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -836,7 +834,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1488,9 +1486,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 283.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -1651,7 +1649,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2699,9 +2697,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 283.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2879,7 +2877,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2921,7 +2919,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.4,
+        "item_level": 284.6,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 13.5,
         "mythic_plus_highest": 14,
@@ -2956,9 +2954,9 @@
             "slot": "shoulders",
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
-            "item_level": 276,
-            "track": null,
-            "enchanted": true,
+            "item_level": 279,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3120,10 +3118,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "shoulders"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 6,
@@ -3138,15 +3138,7 @@
         "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "shoulders",
-          "item_name": "Night Ender's Pauldrons",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
@@ -4389,10 +4381,10 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 284.2,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -4538,8 +4530,17 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -4548,13 +4549,13 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
-        "required": 8,
+        "enchanted": 8,
+        "required": 9,
         "missing_slots": [
           "shoulders"
         ],
@@ -4567,7 +4568,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 4,
         "champion": 0,
         "crafted": 4,
