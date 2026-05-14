@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-13T22:59:21.138870+00:00",
+  "generated_at": "2026-05-14T02:30:28.435828+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1272,9 +1272,9 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.9,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.0,
+        "item_level": 286.5,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -1374,8 +1374,8 @@
             "slot": "hands",
             "item_id": 151332,
             "item_name": "Voidclaw Gauntlets",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1396,7 +1396,7 @@
             "slot": "finger_2",
             "item_id": 49812,
             "item_name": "Purloined Wedding Ring",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -1436,7 +1436,7 @@
             "slot": "main_hand",
             "item_id": 49802,
             "item_name": "Garfrost's Two-Ton Hammer",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1453,7 +1453,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1470,8 +1470,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -2077,7 +2077,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.3,
+        "item_level": 283.8,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
@@ -2111,15 +2111,6 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "shirt",
-            "item_id": 268274,
-            "item_name": "Blinky's Collar",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -2162,8 +2153,8 @@
             "slot": "wrist",
             "item_id": 251079,
             "item_name": "Amberfrond Bracers",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2178,19 +2169,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 279,
@@ -2203,20 +2181,33 @@
             ]
           },
           {
-            "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
-            "track": "myth",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2233,7 +2224,7 @@
             "slot": "main_hand",
             "item_id": 251095,
             "item_name": "Hurricane's Heart",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2267,8 +2258,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 7,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -2498,10 +2489,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 283.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 285.1,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2627,8 +2618,8 @@
             "slot": "trinket_1",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2654,7 +2645,7 @@
             "slot": "main_hand",
             "item_id": 245770,
             "item_name": "Aln'hara Cane",
-            "item_level": 285,
+            "item_level": 295,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
@@ -2662,7 +2653,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2679,11 +2670,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 6,
         "hero": 5,
         "champion": 0,
         "crafted": 3,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2696,7 +2687,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.7,
+        "item_level": 286.0,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2731,7 +2722,7 @@
             "slot": "shoulders",
             "item_id": 251164,
             "item_name": "Amalgamation's Harness",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2798,8 +2789,8 @@
             "slot": "hands",
             "item_id": 249971,
             "item_name": "Relentless Rider's Bonegrasps",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2842,8 +2833,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2897,10 +2888,10 @@
       },
       "gear": {
         "myth": 9,
-        "hero": 5,
+        "hero": 4,
         "champion": 0,
         "crafted": 1,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [
         {
@@ -3152,9 +3143,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 282.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3319,7 +3310,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -4386,8 +4377,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 284.2,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4553,7 +4544,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4724,8 +4715,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249808,
-            "item_name": "Litany of Lightblind Wrath",
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
