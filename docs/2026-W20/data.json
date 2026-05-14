@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-14T13:51:27.177690+00:00",
+  "generated_at": "2026-05-14T16:07:08.398595+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3965,7 +3965,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 285.1,
+        "item_level": 285.4,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 17,
@@ -4040,7 +4040,7 @@
             "slot": "feet",
             "item_id": 249373,
             "item_name": "Dream-Scorched Striders",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
