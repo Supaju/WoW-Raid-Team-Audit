@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-14T10:08:13.923255+00:00",
+  "generated_at": "2026-05-14T13:51:27.177690+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4788,7 +4788,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 283.8,
+        "item_level": 285.2,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.7,
         "mythic_plus_highest": 12,
@@ -4945,10 +4945,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 237839,
-            "item_name": "Spellbreaker's Blade",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249281,
+            "item_name": "Blade of the Final Twilight",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -4956,7 +4956,7 @@
             "slot": "off_hand",
             "item_id": 237831,
             "item_name": "Spellbreaker's Rebuke",
-            "item_level": 285,
+            "item_level": 295,
             "track": "crafted",
             "enchanted": false,
             "sockets": []
@@ -4996,8 +4996,8 @@
         "myth": 6,
         "hero": 5,
         "champion": 0,
-        "crafted": 4,
-        "lower": 1
+        "crafted": 3,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
