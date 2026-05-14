@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-14T21:03:53.154986+00:00",
+  "generated_at": "2026-05-14T22:50:41.943145+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1487,10 +1487,10 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 285.5,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "item_level": 286.3,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1581,8 +1581,8 @@
             "slot": "hands",
             "item_id": 151332,
             "item_name": "Voidclaw Gauntlets",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1651,7 +1651,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1668,8 +1668,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 1
