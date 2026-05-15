@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-15T02:29:17.410413+00:00",
+  "generated_at": "2026-05-15T06:51:12.113002+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -231,7 +231,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 282.8,
+        "item_level": 283.4,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 16,
@@ -292,7 +292,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -385,19 +389,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 237840,
-            "item_name": "Spellbreaker's Warglaive",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258050,
+            "item_name": "Arcanic of the High Sage",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "off_hand",
-            "item_id": 258050,
-            "item_name": "Arcanic of the High Sage",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 237840,
+            "item_name": "Spellbreaker's Warglaive",
+            "item_level": 295,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           }
@@ -415,8 +419,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
@@ -446,7 +450,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 284.5,
+        "item_level": 285.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -570,8 +574,8 @@
             "slot": "trinket_1",
             "item_id": 250144,
             "item_name": "Emberwing Feather",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -631,8 +635,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -648,7 +652,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 285.3,
+        "item_level": 286.1,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 17,
@@ -766,10 +770,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -829,8 +833,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 5,
+        "myth": 6,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 2
@@ -846,7 +850,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.4,
+        "item_level": 287.0,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
@@ -979,8 +983,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1025,8 +1029,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 3,
+        "myth": 10,
+        "hero": 2,
         "champion": 0,
         "crafted": 3,
         "lower": 0
@@ -2069,7 +2073,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.8,
+        "item_level": 283.6,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
@@ -2098,8 +2102,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 193704,
-            "item_name": "Scaled Commencement Spaulders",
+            "item_id": 151323,
+            "item_name": "Pauldrons of the Void Hunter",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2125,10 +2129,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 244611,
-            "item_name": "World Tender's Barkclasp",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249371,
+            "item_name": "Scornbane Waistguard",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2143,11 +2147,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 244610,
-            "item_name": "World Tender's Rootslippers",
+            "item_id": 249990,
+            "item_name": "Primal Sentry's Swiftsteps",
             "item_level": 285,
-            "track": "crafted",
-            "enchanted": true,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2223,10 +2227,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251095,
-            "item_name": "Hurricane's Heart",
-            "item_level": 298,
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
+            "item_level": 289,
             "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 244679,
+            "item_name": "Murder Row Fishhook",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2248,9 +2261,11 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -2259,10 +2274,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 9,
         "hero": 6,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 1,
         "lower": 0
       },
       "ambiguous_items": [
@@ -3143,7 +3158,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 284.3,
+        "item_level": 284.9,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -3276,8 +3291,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3328,8 +3343,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 6,
+        "myth": 6,
+        "hero": 5,
         "champion": 0,
         "crafted": 4,
         "lower": 1
@@ -4789,7 +4804,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 285.2,
+        "item_level": 285.8,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 14,
@@ -4921,8 +4936,8 @@
             "slot": "trinket_1",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4994,8 +5009,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 5,
+        "myth": 7,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 2
@@ -5058,8 +5073,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 249374,
-            "item_name": "Scorn-Scarred Shul'ka's Belt",
+            "item_id": 250021,
+            "item_name": "Barksash of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -5111,10 +5126,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249620,
-            "item_name": "Vibrant Wilderloop",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 276,
-            "track": null,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -5201,13 +5216,6 @@
         {
           "slot": "shoulders",
           "item_name": "Seedpods of the Luminous Bloom",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        },
-        {
-          "slot": "finger_1",
-          "item_name": "Vibrant Wilderloop",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
