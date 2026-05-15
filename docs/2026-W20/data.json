@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-15T13:47:37.460510+00:00",
+  "generated_at": "2026-05-15T15:58:44.739073+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2561,8 +2561,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 250021,
-            "item_name": "Barksash of the Luminous Bloom",
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2632,8 +2632,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
