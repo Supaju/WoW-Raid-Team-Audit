@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-14T22:50:41.943145+00:00",
+  "generated_at": "2026-05-15T02:29:17.410413+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1880,7 +1880,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 280.6,
+        "item_level": 282.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2000,17 +2000,17 @@
             "slot": "trinket_1",
             "item_id": 250144,
             "item_name": "Emberwing Feather",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
-            "item_level": 263,
-            "track": null,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2052,21 +2052,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 6,
-        "champion": 1,
+        "champion": 0,
         "crafted": 2,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "trinket_2",
-          "item_name": "Locus-Walker's Ribbon",
-          "item_level": 263,
-          "classified_as": "champion",
-          "could_also_be": "hero"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
@@ -2111,6 +2103,15 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "shirt",
+            "item_id": 268274,
+            "item_name": "Blinky's Collar",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -4789,9 +4790,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 285.2,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 11.7,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -4973,9 +4974,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
