@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-15T20:53:36.634010+00:00",
+  "generated_at": "2026-05-15T22:47:23.203324+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 285.9,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 15.4,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -451,9 +451,9 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 285.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -618,9 +618,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -642,7 +642,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -652,9 +652,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 286.1,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 15.4,
+        "item_level": 286.7,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -717,8 +717,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 249382,
-            "item_name": "Canopy Walker's Footwraps",
+            "item_id": 258577,
+            "item_name": "Boots of Burning Focus",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -772,7 +772,7 @@
             "slot": "trinket_1",
             "item_id": 252420,
             "item_name": "Solarflare Prism",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -816,7 +816,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
