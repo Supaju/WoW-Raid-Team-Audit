@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-16T16:50:05.459641+00:00",
+  "generated_at": "2026-05-16T18:53:46.618693+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2693,8 +2693,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.6,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 11.3,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -2873,9 +2873,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 7,
@@ -4389,10 +4389,10 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 285.9,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 11.5,
-        "mythic_plus_highest": 12,
+        "item_level": 286.4,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -4513,8 +4513,8 @@
             "slot": "trinket_1",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4557,7 +4557,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -4574,8 +4574,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 2,
+        "myth": 11,
+        "hero": 1,
         "champion": 0,
         "crafted": 4,
         "lower": 0
@@ -4600,8 +4600,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 286.6,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 14.6,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4772,7 +4772,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
