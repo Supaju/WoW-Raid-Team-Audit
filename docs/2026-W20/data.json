@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-16T18:53:46.618693+00:00",
+  "generated_at": "2026-05-16T20:39:26.751582+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2693,9 +2693,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.6,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 12.2,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -2873,7 +2873,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -4390,9 +4390,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 286.4,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -4557,7 +4557,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -4599,10 +4599,10 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 286.6,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 14.8,
-        "mythic_plus_highest": 16,
+        "item_level": 286.9,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -4700,9 +4700,9 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 279,
+            "item_id": 151311,
+            "item_name": "Band of the Triumvirate",
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -4764,15 +4764,15 @@
             "slot": "off_hand",
             "item_id": 249276,
             "item_name": "Grimoire of the Eternal Light",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -4792,11 +4792,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
