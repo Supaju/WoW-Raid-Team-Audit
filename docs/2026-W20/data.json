@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-16T02:11:32.225704+00:00",
+  "generated_at": "2026-05-16T06:16:38.058682+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -231,7 +231,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 283.4,
+        "item_level": 283.9,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 16,
@@ -391,7 +391,7 @@
             "slot": "main_hand",
             "item_id": 258050,
             "item_name": "Arcanic of the High Sage",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -451,9 +451,9 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 285.7,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 14.0,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 14.4,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -618,7 +618,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -850,10 +850,10 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.0,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 15.0,
-        "mythic_plus_highest": 15,
+        "item_level": 287.2,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 15.3,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -881,7 +881,7 @@
             "slot": "shoulders",
             "item_id": 249977,
             "item_name": "Tempests of the Primal Core",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -928,8 +928,8 @@
           },
           {
             "slot": "wrist",
-            "item_id": 249304,
-            "item_name": "Fallen King's Cuffs",
+            "item_id": 251079,
+            "item_name": "Amberfrond Bracers",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -1009,7 +1009,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4381,7 +4381,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 285.3,
+        "item_level": 285.9,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 12,
@@ -4414,7 +4414,7 @@
             "item_name": "Nullwalker's Dread Epaulettes",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4514,8 +4514,8 @@
             "slot": "trinket_2",
             "item_id": 249806,
             "item_name": "Radiant Plume",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4554,12 +4554,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "shoulders"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -4568,8 +4566,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 3,
+        "myth": 10,
+        "hero": 2,
         "champion": 0,
         "crafted": 4,
         "lower": 0
@@ -4593,7 +4591,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 286.0,
+        "item_level": 286.6,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 14.6,
         "mythic_plus_highest": 15,
@@ -4731,8 +4729,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4786,11 +4784,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4803,7 +4801,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 283.7,
+        "item_level": 285.8,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 14,
@@ -4960,11 +4958,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249281,
+            "item_name": "Blade of the Final Twilight",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 237831,
+            "item_name": "Spellbreaker's Rebuke",
+            "item_level": 295,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -4985,11 +4992,12 @@
       },
       "enchants": {
         "enchanted": 7,
-        "required": 8,
+        "required": 9,
         "missing_slots": [
-          "shoulders"
+          "shoulders",
+          "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 4,
@@ -4999,13 +5007,13 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 5,
+        "hero": 4,
         "champion": 0,
-        "crafted": 2,
-        "lower": 1
+        "crafted": 3,
+        "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -5015,7 +5023,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 284.5,
+        "item_level": 285.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5031,10 +5039,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 50228,
-            "item_name": "Barbed Ymirheim Choker",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -5196,9 +5204,9 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 6,
+        "hero": 5,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 1
       },
       "ambiguous_items": [
