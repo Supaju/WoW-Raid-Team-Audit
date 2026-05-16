@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-16T09:23:38.746905+00:00",
+  "generated_at": "2026-05-16T10:56:38.499344+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3970,7 +3970,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 285.4,
+        "item_level": 286.0,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 17,
@@ -4111,8 +4111,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4157,11 +4157,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 4,
         "champion": 0,
         "crafted": 3,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
