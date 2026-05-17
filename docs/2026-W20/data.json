@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T20:40:29.932803+00:00",
+  "generated_at": "2026-05-17T22:44:57.050386+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1055,9 +1055,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -1234,7 +1234,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3960,8 +3960,8 @@
         "class_name": "Monk",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 275.5,
-        "mythic_plus_weekly": 4,
+        "item_level": 277.3,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4027,7 +4027,7 @@
             "slot": "feet",
             "item_id": 250017,
             "item_name": "Storm Crashers of Ra-den's Chosen",
-            "item_level": 269,
+            "item_level": 276,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -4084,8 +4084,8 @@
             "slot": "trinket_1",
             "item_id": 250256,
             "item_name": "Heart of Wind",
-            "item_level": 272,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4111,7 +4111,7 @@
             "slot": "main_hand",
             "item_id": 245770,
             "item_name": "Aln'hara Cane",
-            "item_level": 285,
+            "item_level": 295,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
@@ -4128,7 +4128,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -4149,8 +4149,8 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 2,
-        "hero": 10,
+        "myth": 3,
+        "hero": 9,
         "champion": 1,
         "crafted": 2,
         "lower": 0
@@ -4371,6 +4371,206 @@
           "could_also_be": "hero"
         }
       ],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5087952,
+        "name": "Kaardv",
+        "realm": "Zul'jin",
+        "class_name": "Evoker",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 285.3,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
+        "items": [
+          {
+            "slot": "head",
+            "item_id": 49824,
+            "item_name": "Horns of the Spurned Val'kyr",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "neck",
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "shoulders",
+            "item_id": 249995,
+            "item_name": "Beacons of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "chest",
+            "item_id": 250000,
+            "item_name": "Frenzyward of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "waist",
+            "item_id": 251110,
+            "item_name": "Sunlash's Sunsash",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "legs",
+            "item_id": 249996,
+            "item_name": "Greaves of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "feet",
+            "item_id": 244577,
+            "item_name": "Farstrider's Razor Talons",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "wrist",
+            "item_id": 244584,
+            "item_name": "Farstrider's Plated Bracers",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "hands",
+            "item_id": 249998,
+            "item_name": "Enforcer's Grips of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "finger_1",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "trinket_2",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "back",
+            "item_id": 49823,
+            "item_name": "Cloak of the Fallen Cardinal",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "main_hand",
+            "item_id": 251178,
+            "item_name": "Ceremonial Hexblade",
+            "item_level": 298,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249922,
+            "item_name": "Tome of Alnscorned Regret",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          }
+        ]
+      },
+      "mythic_plus": {
+        "count": 2,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 8,
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
+      },
+      "sockets": {
+        "filled": 3,
+        "total": 3,
+        "missing_slots": [],
+        "status": "pass"
+      },
+      "gear": {
+        "myth": 7,
+        "hero": 5,
+        "champion": 0,
+        "crafted": 3,
+        "lower": 1
+      },
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
