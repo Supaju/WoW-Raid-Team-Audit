@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T16:49:10.236165+00:00",
+  "generated_at": "2026-05-17T18:57:12.986928+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1054,7 +1054,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 285.3,
+        "item_level": 286.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1128,8 +1128,8 @@
             "slot": "legs",
             "item_id": 249969,
             "item_name": "Relentless Rider's Legguards",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1251,8 +1251,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 9,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -2288,7 +2288,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 281.9,
+        "item_level": 283.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2433,10 +2433,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249670,
-            "item_name": "Elderoot Spire",
-            "item_level": 276,
-            "track": null,
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 295,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2470,20 +2470,12 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 7,
+        "hero": 6,
         "champion": 0,
-        "crafted": 0,
+        "crafted": 1,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "main_hand",
-          "item_name": "Elderoot Spire",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
