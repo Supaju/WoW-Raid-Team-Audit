@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T10:59:19.498339+00:00",
+  "generated_at": "2026-05-17T13:02:18.073275+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3764,9 +3764,9 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 14.2,
+        "item_level": 287.2,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3914,8 +3914,8 @@
             "slot": "back",
             "item_id": 258575,
             "item_name": "Rigid Scale Greatcloak",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3931,7 +3931,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -3951,8 +3951,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
         "crafted": 3,
         "lower": 1
@@ -4390,7 +4390,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 287.0,
-        "mythic_plus_weekly": 10,
+        "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 17,
         "items": [
@@ -4557,7 +4557,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
