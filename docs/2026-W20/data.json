@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T14:50:22.088131+00:00",
+  "generated_at": "2026-05-17T16:49:10.236165+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2287,7 +2287,7 @@
         "realm": "Moon Guard",
         "class_name": "Evoker",
         "role": "Heal",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 281.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
@@ -2494,7 +2494,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 285.7,
+        "item_level": 283.9,
         "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
@@ -2550,8 +2550,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 250021,
-            "item_name": "Barksash of the Luminous Bloom",
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2621,19 +2621,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2648,10 +2648,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 295,
-            "track": "crafted",
+            "item_id": 249278,
+            "item_name": "Alnscorned Spire",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -2676,9 +2676,9 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 5,
+        "hero": 6,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 1
       },
       "ambiguous_items": [],
@@ -3967,7 +3967,7 @@
         "realm": "Zul'jin",
         "class_name": "Monk",
         "role": "Heal",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 275.5,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.0,
