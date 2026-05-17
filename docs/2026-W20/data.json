@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T02:26:28.518663+00:00",
+  "generated_at": "2026-05-17T06:40:19.968842+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 286.5,
+        "item_level": 287.1,
         "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 17,
@@ -178,9 +178,9 @@
             "slot": "off_hand",
             "item_id": 249275,
             "item_name": "Bulwark of Noble Resolve",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -200,10 +200,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -212,14 +214,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -650,7 +652,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 286.7,
+        "item_level": 285.3,
         "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 17,
@@ -768,10 +770,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -831,8 +833,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 4,
+        "myth": 5,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
         "lower": 2
@@ -2071,7 +2073,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 284.4,
+        "item_level": 284.7,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
@@ -2156,7 +2158,7 @@
             "slot": "wrist",
             "item_id": 251079,
             "item_name": "Amberfrond Bracers",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2172,6 +2174,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 279,
@@ -2184,20 +2199,16 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "slot": "trinket_1",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
             "item_level": 276,
             "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "enchanted": false,
+            "sockets": []
           },
           {
-            "slot": "trinket_1",
+            "slot": "trinket_2",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
             "item_level": 298,
@@ -2206,18 +2217,9 @@
             "sockets": []
           },
           {
-            "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
             "slot": "back",
-            "item_id": 249335,
-            "item_name": "Imperator's Banner",
+            "item_id": 258575,
+            "item_name": "Rigid Scale Greatcloak",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2286,7 +2288,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Helper",
-        "item_level": 281.3,
+        "item_level": 281.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2406,7 +2408,7 @@
             "slot": "trinket_1",
             "item_id": 250256,
             "item_name": "Heart of Wind",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2492,7 +2494,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 283.9,
+        "item_level": 285.7,
         "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
@@ -2548,8 +2550,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 249374,
-            "item_name": "Scorn-Scarred Shul'ka's Belt",
+            "item_id": 250021,
+            "item_name": "Barksash of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2619,19 +2621,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2646,10 +2648,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249278,
-            "item_name": "Alnscorned Spire",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 295,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           }
@@ -2674,9 +2676,9 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 6,
+        "hero": 5,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 1
       },
       "ambiguous_items": [],
@@ -3762,7 +3764,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.0,
+        "item_level": 286.8,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 17,
@@ -3894,8 +3896,8 @@
             "slot": "trinket_1",
             "item_id": 249346,
             "item_name": "Vaelgor's Final Stare",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3912,7 +3914,7 @@
             "slot": "back",
             "item_id": 258575,
             "item_name": "Rigid Scale Greatcloak",
-            "item_level": 276,
+            "item_level": 279,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3949,8 +3951,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 4,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 3,
         "lower": 1
@@ -4597,7 +4599,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 286.9,
+        "item_level": 287.5,
         "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 17,
@@ -4724,10 +4726,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4790,8 +4792,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 4,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 3
@@ -5241,9 +5243,9 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 286.1,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 14.2,
+        "item_level": 286.7,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 13.5,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -5270,8 +5272,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 250022,
-            "item_name": "Seedpods of the Luminous Bloom",
+            "item_id": 251171,
+            "item_name": "Enthralled Bonespines",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -5377,7 +5379,7 @@
             "slot": "trinket_2",
             "item_id": 250256,
             "item_name": "Heart of Wind",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -5412,7 +5414,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
