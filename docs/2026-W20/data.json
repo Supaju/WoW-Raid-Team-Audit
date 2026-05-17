@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T18:57:12.986928+00:00",
+  "generated_at": "2026-05-17T20:40:29.932803+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1054,10 +1054,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 286.0,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 286.8,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1164,7 +1164,7 @@
             "slot": "finger_1",
             "item_id": 251217,
             "item_name": "Occlusion of Void",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -1190,8 +1190,8 @@
             "slot": "trinket_1",
             "item_id": 249344,
             "item_name": "Light Company Guidon",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1234,7 +1234,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1251,11 +1251,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [
         {
@@ -2174,19 +2174,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 279,
@@ -2199,20 +2186,33 @@
             ]
           },
           {
-            "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -4381,7 +4381,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.0,
+        "item_level": 287.6,
         "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 17,
@@ -4541,7 +4541,7 @@
             "slot": "off_hand",
             "item_id": 258436,
             "item_name": "Edge of the Burning Sun",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": true,
             "sockets": []
