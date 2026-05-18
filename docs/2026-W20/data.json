@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-18T21:04:26.429450+00:00",
+  "generated_at": "2026-05-18T22:52:25.126907+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 287.2,
-        "mythic_plus_weekly": 19,
-        "mythic_plus_avg_level": 14.9,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -651,8 +651,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 285.9,
-        "mythic_plus_weekly": 19,
-        "mythic_plus_avg_level": 14.9,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -814,7 +814,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
