@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-17T22:44:57.050386+00:00",
+  "generated_at": "2026-05-18T02:37:02.321374+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -652,9 +652,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 285.3,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 15.4,
+        "item_level": 286.7,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -717,8 +717,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 249382,
-            "item_name": "Canopy Walker's Footwraps",
+            "item_id": 258577,
+            "item_name": "Boots of Burning Focus",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -770,10 +770,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -816,7 +816,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -833,8 +833,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 5,
+        "myth": 6,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 2
@@ -1055,8 +1055,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.8,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.8,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -1215,8 +1215,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251078,
-            "item_name": "Emberdawn Defender",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -1234,9 +1234,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1266,7 +1266,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2289,9 +2289,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 283.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2452,7 +2452,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3547,7 +3547,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 285.1,
+        "item_level": 286.6,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 15,
@@ -3556,7 +3556,7 @@
             "slot": "head",
             "item_id": 249961,
             "item_name": "Luminant Verdict's Unwavering Gaze",
-            "item_level": 276,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3612,8 +3612,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 249311,
-            "item_name": "Lightblood Greaves",
+            "item_id": 249960,
+            "item_name": "Luminant Verdict's Greaves",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -3665,7 +3665,7 @@
             "item_name": "Signet of the Starved Beast",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -3703,7 +3703,7 @@
             "slot": "main_hand",
             "item_id": 237846,
             "item_name": "Blood Knight's Warblade",
-            "item_level": 285,
+            "item_level": 295,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
@@ -3725,12 +3725,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "finger_2"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -3961,7 +3959,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 277.3,
-        "mythic_plus_weekly": 6,
+        "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4128,7 +4126,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -4499,8 +4497,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
             "item_level": 276,
             "track": "hero",
             "enchanted": false,
@@ -4508,10 +4506,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
+            "item_id": 251792,
+            "item_name": "Glorious Crusader's Keepsake",
             "item_level": 276,
-            "track": "hero",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4570,7 +4568,15 @@
         "crafted": 3,
         "lower": 1
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "trinket_2",
+          "item_name": "Glorious Crusader's Keepsake",
+          "item_level": 276,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
       "overall_status": "fail"
     },
     {
@@ -5224,8 +5230,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 285.1,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 12.4,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -5386,7 +5392,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
