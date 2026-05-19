@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-19T17:59:09.271787+00:00",
+  "generated_at": "2026-05-19T19:55:20.192973+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,10 +13,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 287.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 289.4,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -29,10 +29,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 50228,
-            "item_name": "Barbed Ymirheim Choker",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -116,7 +116,7 @@
             "slot": "finger_1",
             "item_id": 249336,
             "item_name": "Signet of the Starved Beast",
-            "item_level": 276,
+            "item_level": 285,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -149,9 +149,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249811,
-            "item_name": "Light of the Cosmic Crescendo",
-            "item_level": 285,
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -213,10 +213,10 @@
       },
       "gear": {
         "myth": 9,
-        "hero": 2,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -449,9 +449,9 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 285.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -616,7 +616,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -650,10 +650,10 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 285.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 288.7,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -681,8 +681,8 @@
             "slot": "shoulders",
             "item_id": 250013,
             "item_name": "Aurastones of Ra-den's Chosen",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -690,8 +690,8 @@
             "slot": "chest",
             "item_id": 250018,
             "item_name": "Battle Garb of Ra-den's Chosen",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -735,8 +735,8 @@
             "slot": "hands",
             "item_id": 250016,
             "item_name": "Thunderfists of Ra-den's Chosen",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -768,10 +768,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 285,
-            "track": null,
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -814,7 +814,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -831,8 +831,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 4,
+        "myth": 9,
+        "hero": 1,
         "champion": 0,
         "crafted": 3,
         "lower": 2
@@ -1884,7 +1884,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 285.9,
+        "item_level": 287.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1915,8 +1915,8 @@
             "slot": "shoulders",
             "item_id": 250040,
             "item_name": "Abyssal Immolator's Fury",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1946,7 +1946,7 @@
             "slot": "legs",
             "item_id": 250041,
             "item_name": "Abyssal Immolator's Pillars",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1973,7 +1973,7 @@
             "slot": "hands",
             "item_id": 250043,
             "item_name": "Abyssal Immolator's Grasps",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2060,8 +2060,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 9,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -2077,7 +2077,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.1,
+        "item_level": 286.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2106,8 +2106,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 193704,
-            "item_name": "Scaled Commencement Spaulders",
+            "item_id": 151323,
+            "item_name": "Pauldrons of the Void Hunter",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2193,12 +2193,12 @@
             "slot": "finger_2",
             "item_id": 249369,
             "item_name": "Bond of Light",
-            "item_level": 279,
+            "item_level": 285,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -2255,20 +2255,16 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "finger_2"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 2,
+        "filled": 3,
         "total": 3,
-        "missing_slots": [
-          "finger_2"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 10,
@@ -3147,7 +3143,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.2,
+        "item_level": 286.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3271,8 +3267,8 @@
             "slot": "trinket_1",
             "item_id": 249346,
             "item_name": "Vaelgor's Final Stare",
-            "item_level": 285,
-            "track": null,
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -5220,7 +5216,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.6,
+        "item_level": 288.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5364,20 +5360,29 @@
           },
           {
             "slot": "back",
-            "item_id": 258575,
-            "item_name": "Rigid Scale Greatcloak",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 295,
-            "track": "crafted",
+            "item_id": 251083,
+            "item_name": "Excavating Cudgel",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249922,
+            "item_name": "Tome of Alnscorned Regret",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           }
         ]
@@ -5389,9 +5394,11 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 5,
@@ -5400,11 +5407,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 4,
+        "myth": 7,
+        "hero": 3,
         "champion": 0,
         "crafted": 3,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [
         {
