@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-19T21:12:51.338157+00:00",
+  "generated_at": "2026-05-19T22:58:14.163306+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 16.0,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 16.5,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -448,7 +448,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 285.7,
+        "item_level": 287.5,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 14,
@@ -537,8 +537,8 @@
             "slot": "hands",
             "item_id": 250043,
             "item_name": "Abyssal Immolator's Grasps",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -572,17 +572,17 @@
             "slot": "trinket_1",
             "item_id": 250144,
             "item_name": "Emberwing Feather",
-            "item_level": 285,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250223,
-            "item_name": "Soulcatcher's Charm",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -634,10 +634,10 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 4,
+        "hero": 3,
         "champion": 0,
         "crafted": 3,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -650,10 +650,10 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 288.7,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 16.0,
-        "mythic_plus_highest": 16,
+        "item_level": 288.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 16.5,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -735,7 +735,7 @@
             "slot": "hands",
             "item_id": 250016,
             "item_name": "Thunderfists of Ra-den's Chosen",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -768,10 +768,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -814,7 +814,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1151,7 +1151,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -1248,9 +1252,11 @@
       },
       "sockets": {
         "filled": 5,
-        "total": 5,
-        "missing_slots": [],
-        "status": "pass"
+        "total": 6,
+        "missing_slots": [
+          "wrist"
+        ],
+        "status": "warn"
       },
       "gear": {
         "myth": 8,
@@ -2292,7 +2298,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 285.3,
+        "item_level": 286.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2350,7 +2356,7 @@
             "slot": "legs",
             "item_id": 249996,
             "item_name": "Greaves of the Black Talon",
-            "item_level": 282,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2428,10 +2434,10 @@
           },
           {
             "slot": "back",
-            "item_id": 258575,
-            "item_name": "Rigid Scale Greatcloak",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249370,
+            "item_name": "Draconic Nullcape",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2473,8 +2479,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 1
@@ -2914,9 +2920,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3107,7 +3113,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3758,7 +3764,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.5,
+        "item_level": 288.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3890,8 +3896,8 @@
             "slot": "trinket_1",
             "item_id": 249346,
             "item_name": "Vaelgor's Final Stare",
-            "item_level": 285,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3942,11 +3948,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 2,
         "champion": 0,
         "crafted": 3,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4990,10 +4996,10 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 286.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 287.7,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -5021,9 +5027,9 @@
             "slot": "shoulders",
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -5126,7 +5132,7 @@
             "slot": "trinket_1",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -5179,18 +5185,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "shoulders",
           "off_hand"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 5,
