@@ -2,7 +2,7 @@
   "week": "2026-W20",
   "week_label": "Raid Week 9 \u00b7 May 12\u201318",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-19T02:35:12.072609+00:00",
+  "generated_at": "2026-05-19T07:39:01.967759+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 287.2,
-        "mythic_plus_weekly": 20,
+        "mythic_plus_weekly": 21,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 17,
         "items": [
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -230,8 +230,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 285.1,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 12.3,
+        "mythic_plus_weekly": 22,
+        "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -406,7 +406,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -651,7 +651,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 285.9,
-        "mythic_plus_weekly": 20,
+        "mythic_plus_weekly": 21,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 17,
         "items": [
@@ -715,8 +715,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 249382,
-            "item_name": "Canopy Walker's Footwraps",
+            "item_id": 258577,
+            "item_name": "Boots of Burning Focus",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -814,7 +814,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -849,8 +849,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 287.2,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 15.3,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -1007,9 +1007,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 6,
@@ -1489,7 +1489,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 286.3,
+        "item_level": 286.5,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 12,
@@ -1498,7 +1498,7 @@
             "slot": "head",
             "item_id": 249961,
             "item_name": "Luminant Verdict's Unwavering Gaze",
-            "item_level": 276,
+            "item_level": 279,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2486,7 +2486,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 285.9,
+        "item_level": 286.6,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 9.3,
         "mythic_plus_highest": 12,
@@ -2553,7 +2553,7 @@
             "slot": "legs",
             "item_id": 250023,
             "item_name": "Phloemwraps of the Luminous Bloom",
-            "item_level": 279,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2685,8 +2685,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.8,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -2865,7 +2865,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -3548,9 +3548,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 286.6,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 13.4,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -3720,9 +3720,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3744,7 +3744,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3765,7 +3765,7 @@
             "item_name": "Voidbreaker's Veil",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -3831,7 +3831,7 @@
             "item_name": "Dream-Scorched Striders",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3926,13 +3926,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head",
-          "feet"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 6,
@@ -3948,7 +3945,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4379,7 +4376,7 @@
         "class_name": "Evoker",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 285.3,
+        "item_level": 285.9,
         "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 11.9,
         "mythic_plus_highest": 12,
@@ -4499,17 +4496,17 @@
             "slot": "trinket_1",
             "item_id": 250256,
             "item_name": "Heart of Wind",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 251792,
-            "item_name": "Glorious Crusader's Keepsake",
+            "item_id": 250223,
+            "item_name": "Soulcatcher's Charm",
             "item_level": 276,
-            "track": null,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -4562,21 +4559,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 1
       },
-      "ambiguous_items": [
-        {
-          "slot": "trinket_2",
-          "item_name": "Glorious Crusader's Keepsake",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "warn"
     },
     {
@@ -4866,7 +4855,7 @@
             "item_name": "Blind Oath's Slippers",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4915,8 +4904,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
             "item_level": 285,
             "track": null,
             "enchanted": false,
@@ -4966,13 +4955,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "feet",
           "off_hand"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -4988,7 +4976,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
