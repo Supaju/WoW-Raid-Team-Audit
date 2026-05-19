@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-19T19:55:20.192973+00:00",
+  "generated_at": "2026-05-19T21:12:51.338157+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3345,7 +3345,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.7,
+        "item_level": 285.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3482,8 +3482,8 @@
             "slot": "trinket_1",
             "item_id": 249342,
             "item_name": "Heart of Ancient Hunger",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3534,8 +3534,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 5,
+        "myth": 9,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
         "lower": 0
