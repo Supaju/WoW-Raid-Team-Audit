@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-20T10:43:40.391639+00:00",
+  "generated_at": "2026-05-20T14:42:33.216651+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1276,7 +1276,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 287.7,
+        "item_level": 288.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1336,16 +1336,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 251086,
-            "item_name": "Riphook Defender",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249331,
+            "item_name": "Ezzorak's Gloombind",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -1468,14 +1464,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
         "lower": 2
