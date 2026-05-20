@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-19T22:58:14.163306+00:00",
+  "generated_at": "2026-05-20T02:35:39.003163+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -230,9 +230,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 285.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -406,7 +406,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2298,7 +2298,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 286.7,
+        "item_level": 286.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2374,7 +2374,7 @@
             "slot": "wrist",
             "item_id": 251079,
             "item_name": "Amberfrond Bracers",
-            "item_level": 282,
+            "item_level": 285,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2694,7 +2694,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 286.8,
+        "item_level": 285.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2856,10 +2856,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 258046,
-            "item_name": "Chakram-Breaker Greatsword",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 237846,
+            "item_name": "Blood Knight's Warblade",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2894,10 +2894,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 4,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 2
       },
       "ambiguous_items": [
@@ -2919,9 +2919,9 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 286.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
+        "item_level": 287.9,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2954,8 +2954,8 @@
             "slot": "shoulders",
             "item_id": 249950,
             "item_name": "Night Ender's Pauldrons",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3078,8 +3078,8 @@
             "slot": "back",
             "item_id": 258575,
             "item_name": "Rigid Scale Greatcloak",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 282,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3113,7 +3113,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3132,8 +3132,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 11,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -4586,7 +4586,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.9,
+        "item_level": 287.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4735,10 +4735,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
             "item_level": 298,
             "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4750,8 +4759,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
+        "enchanted": 9,
+        "required": 9,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4762,7 +4771,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 1,
         "champion": 0,
         "crafted": 4,
@@ -4787,7 +4796,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 288.1,
+        "item_level": 287.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4916,8 +4925,8 @@
             "slot": "trinket_1",
             "item_id": 249808,
             "item_name": "Litany of Lightblind Wrath",
-            "item_level": 285,
-            "track": null,
+            "item_level": 279,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -5222,9 +5231,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 288.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -5393,7 +5402,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
