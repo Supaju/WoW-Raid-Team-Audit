@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-21T14:47:11.272739+00:00",
+  "generated_at": "2026-05-21T17:52:13.842766+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4375,10 +4375,10 @@
         "class_name": "Evoker",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 286.9,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 15.0,
-        "mythic_plus_highest": 15,
+        "item_level": 287.5,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 15.2,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -4495,7 +4495,7 @@
             "slot": "trinket_1",
             "item_id": 250256,
             "item_name": "Heart of Wind",
-            "item_level": 289,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4539,9 +4539,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -4573,7 +4573,7 @@
           "could_also_be": "myth"
         }
       ],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
