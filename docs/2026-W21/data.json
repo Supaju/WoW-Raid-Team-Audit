@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-21T17:52:13.842766+00:00",
+  "generated_at": "2026-05-21T19:45:10.489002+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4376,8 +4376,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 287.5,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 15.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4539,7 +4539,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
