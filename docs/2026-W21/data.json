@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-22T19:25:33.486118+00:00",
+  "generated_at": "2026-05-22T21:03:39.330992+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.9,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 16.8,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 16.9,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -836,8 +836,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 16.8,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 16.9,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -999,7 +999,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -2876,7 +2876,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 11,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 17.1,
         "mythic_plus_highest": 18,
         "items": [
@@ -3052,7 +3052,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -3721,8 +3721,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 288.7,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 17.5,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3893,7 +3893,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4749,7 +4749,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.8,
+        "item_level": 289.4,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 17.3,
         "mythic_plus_highest": 18,
@@ -4858,10 +4858,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 249622,
-            "item_name": "Spiritseal Ring",
-            "item_level": 276,
-            "track": null,
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -4873,7 +4873,7 @@
             "slot": "trinket_1",
             "item_id": 193701,
             "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4934,21 +4934,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 1,
+        "myth": 11,
+        "hero": 0,
         "champion": 0,
         "crafted": 4,
         "lower": 1
       },
-      "ambiguous_items": [
-        {
-          "slot": "finger_2",
-          "item_name": "Spiritseal Ring",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
