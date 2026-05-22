@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-22T21:03:39.330992+00:00",
+  "generated_at": "2026-05-22T22:51:28.204600+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.9,
-        "mythic_plus_weekly": 14,
+        "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 16.9,
         "mythic_plus_highest": 18,
         "items": [
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
@@ -836,7 +836,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 14,
+        "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 16.9,
         "mythic_plus_highest": 18,
         "items": [
@@ -999,7 +999,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
@@ -1469,10 +1469,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 288.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 289.4,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1491,8 +1491,8 @@
             "slot": "neck",
             "item_id": 50228,
             "item_name": "Barbed Ymirheim Choker",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -1646,7 +1646,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1663,8 +1663,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 10,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -4750,8 +4750,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 17.3,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -4917,9 +4917,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -4941,7 +4941,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4952,8 +4952,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.1,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 16.6,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 16.3,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -5128,7 +5128,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
