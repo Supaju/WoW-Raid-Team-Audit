@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-22T17:45:49.829643+00:00",
+  "generated_at": "2026-05-22T19:25:33.486118+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2876,7 +2876,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 10,
+        "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 17.1,
         "mythic_plus_highest": 18,
         "items": [
@@ -3052,7 +3052,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -3316,23 +3316,19 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 287.9,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
             "item_id": 250033,
             "item_name": "Devouring Reaver's Intake",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -3484,7 +3480,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3495,14 +3491,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 3,
+        "myth": 8,
+        "hero": 2,
         "champion": 0,
         "crafted": 4,
         "lower": 2
@@ -3725,9 +3721,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 288.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -3897,7 +3893,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -4553,10 +4549,10 @@
         "class_name": "Evoker",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.5,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 15.5,
-        "mythic_plus_highest": 16,
+        "item_level": 288.1,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 15.9,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -4682,7 +4678,7 @@
             "slot": "trinket_2",
             "item_id": 251792,
             "item_name": "Glorious Crusader's Keepsake",
-            "item_level": 276,
+            "item_level": 285,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4717,7 +4713,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -4736,21 +4732,13 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 3,
+        "myth": 10,
+        "hero": 2,
         "champion": 0,
         "crafted": 3,
         "lower": 1
       },
-      "ambiguous_items": [
-        {
-          "slot": "trinket_2",
-          "item_name": "Glorious Crusader's Keepsake",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "warn"
     },
     {
@@ -4762,9 +4750,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 287.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 17.0,
-        "mythic_plus_highest": 17,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 17.3,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -4929,7 +4917,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4972,9 +4960,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.1,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 16.0,
-        "mythic_plus_highest": 17,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 16.6,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -5148,9 +5136,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -5174,7 +5162,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
