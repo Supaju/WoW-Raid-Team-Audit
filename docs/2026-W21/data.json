@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-21T22:58:34.774016+00:00",
+  "generated_at": "2026-05-22T02:38:45.309649+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2682,9 +2682,9 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 287.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 17.0,
+        "item_level": 287.9,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 16.8,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -2844,10 +2844,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 237846,
-            "item_name": "Blood Knight's Warblade",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 258046,
+            "item_name": "Chakram-Breaker Greatsword",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2863,7 +2863,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -2883,10 +2883,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 3,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 1,
         "lower": 2
       },
       "ambiguous_items": [
@@ -4376,8 +4376,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 287.5,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 15.4,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4539,7 +4539,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
