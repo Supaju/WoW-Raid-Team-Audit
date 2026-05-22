@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-22T10:43:35.224518+00:00",
+  "generated_at": "2026-05-22T17:45:49.829643+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -223,13 +223,206 @@
     },
     {
       "character": {
+        "id": 5095669,
+        "name": "Drakastrasz",
+        "realm": "Area 52",
+        "class_name": "Evoker",
+        "role": "Ranged",
+        "rank": "Alt",
+        "item_level": 286.2,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_highest": 18,
+        "items": [
+          {
+            "slot": "head",
+            "item_id": 49824,
+            "item_name": "Horns of the Spurned Val'kyr",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "neck",
+            "item_id": 50228,
+            "item_name": "Barbed Ymirheim Choker",
+            "item_level": 279,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "shoulders",
+            "item_id": 249995,
+            "item_name": "Beacons of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "chest",
+            "item_id": 250000,
+            "item_name": "Frenzyward of the Black Talon",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "waist",
+            "item_id": 49810,
+            "item_name": "Scabrous Zombie Belt",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "legs",
+            "item_id": 249996,
+            "item_name": "Greaves of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "feet",
+            "item_id": 249999,
+            "item_name": "Spelltreads of the Black Talon",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "wrist",
+            "item_id": 251079,
+            "item_name": "Amberfrond Bracers",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "hands",
+            "item_id": 249998,
+            "item_name": "Enforcer's Grips of the Black Talon",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "finger_1",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
+            "item_level": 285,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "trinket_2",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 298,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "back",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "main_hand",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 295,
+            "track": "crafted",
+            "enchanted": true,
+            "sockets": []
+          }
+        ]
+      },
+      "mythic_plus": {
+        "count": 10,
+        "target": 8,
+        "status": "pass"
+      },
+      "enchants": {
+        "enchanted": 8,
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
+      },
+      "sockets": {
+        "filled": 4,
+        "total": 4,
+        "missing_slots": [],
+        "status": "pass"
+      },
+      "gear": {
+        "myth": 9,
+        "hero": 4,
+        "champion": 0,
+        "crafted": 2,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "pass"
+    },
+    {
+      "character": {
         "id": 5037627,
         "name": "Dubjiki",
         "realm": "Area 52",
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 289.8,
+        "item_level": 290.3,
         "mythic_plus_weekly": 15,
         "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 18,
@@ -347,10 +540,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 240949,
+            "item_name": "Masterwork Sin'dorei Band",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": [
               {
@@ -424,9 +617,9 @@
       },
       "gear": {
         "myth": 11,
-        "hero": 1,
+        "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 4,
         "lower": 1
       },
       "ambiguous_items": [],
@@ -2683,7 +2876,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 11,
+        "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 17.1,
         "mythic_plus_highest": 18,
         "items": [
@@ -2859,7 +3052,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -3531,7 +3724,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 286.6,
+        "item_level": 288.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3598,8 +3791,8 @@
             "slot": "legs",
             "item_id": 249960,
             "item_name": "Luminant Verdict's Greaves",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3616,8 +3809,8 @@
             "slot": "wrist",
             "item_id": 263193,
             "item_name": "Trollhunter's Bands",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3625,7 +3818,7 @@
             "slot": "hands",
             "item_id": 249962,
             "item_name": "Luminant Verdict's Gauntlets",
-            "item_level": 276,
+            "item_level": 279,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3685,10 +3878,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 237846,
-            "item_name": "Blood Knight's Warblade",
-            "item_level": 295,
-            "track": "crafted",
+            "item_id": 249277,
+            "item_name": "Bellamy's Final Judgement",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3721,11 +3914,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 4,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 2,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4465,8 +4658,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 276,
             "track": "hero",
             "enchanted": true,
@@ -4778,7 +4971,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 288.6,
+        "item_level": 289.1,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 17,
@@ -4807,10 +5000,10 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 250049,
-            "item_name": "Blind Oath's Seraphguards",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 239650,
+            "item_name": "Martyr's Mantle",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -4839,7 +5032,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -4870,8 +5067,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 151300,
-            "item_name": "Handwraps of the Ascended",
+            "item_id": 250052,
+            "item_name": "Blind Oath's Touch",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -4923,8 +5120,8 @@
           },
           {
             "slot": "back",
-            "item_id": 249370,
-            "item_name": "Draconic Nullcape",
+            "item_id": 250046,
+            "item_name": "Blind Oath's Shroud",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -4964,16 +5161,16 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
         "myth": 8,
-        "hero": 3,
+        "hero": 2,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 4
       },
       "ambiguous_items": [],
