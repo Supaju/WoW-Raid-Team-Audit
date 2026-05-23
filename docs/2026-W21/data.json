@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-23T16:52:56.255416+00:00",
+  "generated_at": "2026-05-23T18:58:49.130978+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1880,7 +1880,7 @@
         "class_name": "Monk",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 282.1,
+        "item_level": 284.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1911,8 +1911,8 @@
             "slot": "shoulders",
             "item_id": 250013,
             "item_name": "Aurastones of Ra-den's Chosen",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1969,8 +1969,8 @@
             "slot": "hands",
             "item_id": 251113,
             "item_name": "Gloves of Viscous Goo",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2031,8 +2031,8 @@
             "slot": "main_hand",
             "item_id": 249302,
             "item_name": "Inescapable Reach",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           }
@@ -2056,11 +2056,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
