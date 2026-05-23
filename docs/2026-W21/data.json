@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-23T13:06:57.157657+00:00",
+  "generated_at": "2026-05-23T14:54:55.787576+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2679,7 +2679,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 286.6,
+        "item_level": 287.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2780,8 +2780,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2793,10 +2793,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2860,8 +2860,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 4,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 3,
         "lower": 1
