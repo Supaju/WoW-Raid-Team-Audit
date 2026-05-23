@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-22T22:51:28.204600+00:00",
+  "generated_at": "2026-05-23T02:15:05.075941+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -835,7 +835,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 289.4,
+        "item_level": 290.3,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 16.9,
         "mythic_plus_highest": 18,
@@ -953,10 +953,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 285,
-            "track": null,
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4750,8 +4750,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 16.6,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -4917,7 +4917,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
