@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-23T02:15:05.075941+00:00",
+  "generated_at": "2026-05-23T06:29:17.210226+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 289.9,
+        "item_level": 289.1,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 16.9,
         "mythic_plus_highest": 18,
@@ -149,9 +149,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249808,
-            "item_name": "Litany of Lightblind Wrath",
-            "item_level": 298,
+            "item_id": 249811,
+            "item_name": "Light of the Cosmic Crescendo",
+            "item_level": 285,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -180,7 +180,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -200,10 +200,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -212,14 +214,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
