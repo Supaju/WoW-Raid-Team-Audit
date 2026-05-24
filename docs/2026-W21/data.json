@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-24T06:54:55.857030+00:00",
+  "generated_at": "2026-05-24T09:49:18.423273+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 16,
-        "mythic_plus_avg_level": 16.9,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 17.1,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 16,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -425,8 +425,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 15.4,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 15.9,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -601,7 +601,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -838,8 +838,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 16.9,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1001,7 +1001,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -2878,8 +2878,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 17.3,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 17.4,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3054,7 +3054,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
