@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-24T13:05:46.451082+00:00",
+  "generated_at": "2026-05-24T14:56:33.053225+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5166,7 +5166,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 287.7,
+        "item_level": 290.0,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 12,
@@ -5184,8 +5184,8 @@
             "slot": "neck",
             "item_id": 50228,
             "item_name": "Barbed Ymirheim Choker",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -5224,7 +5224,7 @@
             "slot": "waist",
             "item_id": 249331,
             "item_name": "Ezzorak's Gloombind",
-            "item_level": 279,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -5287,10 +5287,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249369,
+            "item_name": "Bond of Light",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -5318,10 +5318,10 @@
           },
           {
             "slot": "back",
-            "item_id": 239656,
-            "item_name": "Adherent's Silken Shroud",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 260312,
+            "item_name": "Defiant Defender's Drape",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -5374,10 +5374,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 11,
+        "hero": 1,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 2
       },
       "ambiguous_items": [],
