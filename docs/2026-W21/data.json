@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-24T16:54:14.316511+00:00",
+  "generated_at": "2026-05-24T19:05:37.476707+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1035,7 +1035,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 288.3,
+        "item_level": 288.9,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
@@ -1055,10 +1055,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 266314,
-            "item_name": "Novice Combatant's Necklace",
-            "item_level": 276,
-            "track": null,
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -1219,20 +1219,12 @@
       },
       "gear": {
         "myth": 11,
-        "hero": 1,
+        "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 4,
         "lower": 0
       },
-      "ambiguous_items": [
-        {
-          "slot": "neck",
-          "item_name": "Novice Combatant's Necklace",
-          "item_level": 276,
-          "classified_as": "hero",
-          "could_also_be": "myth"
-        }
-      ],
+      "ambiguous_items": [],
       "overall_status": "fail"
     },
     {
