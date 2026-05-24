@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-24T20:44:21.720601+00:00",
+  "generated_at": "2026-05-24T22:50:32.855955+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1872,7 +1872,7 @@
         "class_name": "Monk",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 284.5,
+        "item_level": 286.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1934,8 +1934,8 @@
             "slot": "legs",
             "item_id": 250014,
             "item_name": "Swiftsweepers of Ra-den's Chosen",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1943,7 +1943,7 @@
             "slot": "feet",
             "item_id": 250017,
             "item_name": "Storm Crashers of Ra-den's Chosen",
-            "item_level": 276,
+            "item_level": 279,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2005,8 +2005,8 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2049,10 +2049,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 4,
+        "hero": 3,
         "champion": 0,
         "crafted": 3,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4744,8 +4744,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 15.8,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -4911,7 +4911,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
