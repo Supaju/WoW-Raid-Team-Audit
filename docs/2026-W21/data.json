@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-24T22:50:32.855955+00:00",
+  "generated_at": "2026-05-25T02:42:19.889590+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 19,
+        "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 17.1,
         "mythic_plus_highest": 18,
         "items": [
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -838,8 +838,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 24,
+        "mythic_plus_avg_level": 17.1,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1001,7 +1001,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 24,
         "target": 8,
         "status": "pass"
       },
@@ -1235,10 +1235,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 287.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 288.5,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1332,7 +1332,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -1362,8 +1362,8 @@
             "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1419,7 +1419,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1430,16 +1430,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
+        "filled": 6,
         "total": 6,
-        "missing_slots": [
-          "wrist"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -1674,7 +1672,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 286.5,
+        "item_level": 288.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1683,7 +1681,7 @@
             "slot": "head",
             "item_id": 249961,
             "item_name": "Luminant Verdict's Unwavering Gaze",
-            "item_level": 279,
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1777,8 +1775,8 @@
             "slot": "finger_1",
             "item_id": 251217,
             "item_name": "Occlusion of Void",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1790,8 +1788,8 @@
             "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
-            "item_level": 279,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1855,8 +1853,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 10,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -1884,7 +1882,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -2042,8 +2044,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
@@ -3715,8 +3717,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 288.7,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.2,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3887,9 +3889,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3911,7 +3913,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4744,8 +4746,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_weekly": 17,
+        "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -4911,7 +4913,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 17,
         "target": 8,
         "status": "pass"
       },
