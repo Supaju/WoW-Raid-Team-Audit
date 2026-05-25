@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-25T19:18:03.934780+00:00",
+  "generated_at": "2026-05-25T20:57:54.539622+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -633,10 +633,10 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 286.6,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 12.3,
-        "mythic_plus_highest": 14,
+        "item_level": 287.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 13.4,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -755,10 +755,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 285,
-            "track": null,
+            "item_id": 250144,
+            "item_name": "Emberwing Feather",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -801,9 +801,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -825,7 +825,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1671,9 +1671,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 288.5,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1834,7 +1834,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2870,8 +2870,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 22,
-        "mythic_plus_avg_level": 17.5,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 17.4,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3046,7 +3046,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
