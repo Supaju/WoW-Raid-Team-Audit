@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-26T02:31:53.666296+00:00",
+  "generated_at": "2026-05-26T07:38:33.253249+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,8 +13,8 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 289.9,
-        "mythic_plus_weekly": 28,
+        "item_level": 290.8,
+        "mythic_plus_weekly": 29,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 18,
         "items": [
@@ -127,10 +127,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 28,
+        "count": 29,
         "target": 8,
         "status": "pass"
       },
@@ -212,8 +212,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 1,
+        "myth": 10,
+        "hero": 0,
         "champion": 0,
         "crafted": 2,
         "lower": 4
@@ -229,9 +229,9 @@
         "class_name": "Evoker",
         "role": "Ranged",
         "rank": "Alt",
-        "item_level": 286.6,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 17.1,
+        "item_level": 286.9,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 17.2,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -247,7 +247,7 @@
             "slot": "neck",
             "item_id": 50228,
             "item_name": "Barbed Ymirheim Choker",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -388,7 +388,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -836,7 +836,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 30,
+        "mythic_plus_weekly": 31,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 18,
         "items": [
@@ -999,7 +999,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 30,
+        "count": 31,
         "target": 8,
         "status": "pass"
       },
@@ -1233,7 +1233,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 287.9,
+        "item_level": 288.5,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 12,
@@ -1398,9 +1398,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251078,
-            "item_name": "Emberdawn Defender",
-            "item_level": 289,
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
+            "item_level": 298,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2473,7 +2473,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 287.1,
+        "item_level": 287.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2522,7 +2522,7 @@
             "slot": "waist",
             "item_id": 249371,
             "item_name": "Scornbane Waistguard",
-            "item_level": 276,
+            "item_level": 279,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2671,7 +2671,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 284.5,
+        "item_level": 285.9,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
@@ -2727,8 +2727,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 250021,
-            "item_name": "Barksash of the Luminous Bloom",
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -2787,8 +2787,8 @@
             "slot": "finger_2",
             "item_id": 251217,
             "item_name": "Occlusion of Void",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2798,10 +2798,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2852,8 +2852,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 6,
+        "myth": 7,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -2870,7 +2870,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 19,
+        "mythic_plus_weekly": 20,
         "mythic_plus_avg_level": 17.4,
         "mythic_plus_highest": 18,
         "items": [
@@ -3046,7 +3046,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -3715,8 +3715,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 16.2,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3887,7 +3887,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -4743,7 +4743,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 289.4,
+        "item_level": 288.9,
         "mythic_plus_weekly": 17,
         "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 18,
@@ -4892,19 +4892,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
+            "item_id": 249279,
+            "item_name": "Sunstrike Rifle",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 258436,
-            "item_name": "Edge of the Burning Sun",
-            "item_level": 298,
-            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4916,8 +4907,8 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4928,7 +4919,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 4,
