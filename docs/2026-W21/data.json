@@ -2,7 +2,7 @@
   "week": "2026-W21",
   "week_label": "Raid Week 10 \u00b7 May 19\u201325",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-25T22:53:21.379322+00:00",
+  "generated_at": "2026-05-26T02:31:53.666296+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.9,
-        "mythic_plus_weekly": 27,
+        "mythic_plus_weekly": 28,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 18,
         "items": [
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 27,
+        "count": 28,
         "target": 8,
         "status": "pass"
       },
@@ -634,8 +634,8 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 287.5,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 13.4,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 13.7,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -801,7 +801,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -836,7 +836,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 29,
+        "mythic_plus_weekly": 30,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 18,
         "items": [
@@ -999,7 +999,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 29,
+        "count": 30,
         "target": 8,
         "status": "pass"
       },
@@ -1233,7 +1233,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 288.5,
+        "item_level": 287.9,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 12,
@@ -1398,9 +1398,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
-            "item_level": 298,
+            "item_id": 251078,
+            "item_name": "Emberdawn Defender",
+            "item_level": 289,
             "track": "myth",
             "enchanted": true,
             "sockets": []
