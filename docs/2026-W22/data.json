@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-26T23:03:00.032866+00:00",
+  "generated_at": "2026-05-27T02:41:40.783219+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -634,7 +634,7 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 288.3,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 14.5,
         "mythic_plus_highest": 15,
         "items": [
@@ -801,9 +801,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -825,7 +825,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -836,9 +836,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -1003,7 +1003,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2286,8 +2286,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 249626,
-            "item_name": "Nocturnal Thorncharm",
+            "item_id": 266314,
+            "item_name": "Novice Combatant's Necklace",
             "item_level": 276,
             "track": null,
             "enchanted": false,
@@ -2299,8 +2299,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 193704,
-            "item_name": "Scaled Commencement Spaulders",
+            "item_id": 151323,
+            "item_name": "Pauldrons of the Void Hunter",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2371,19 +2371,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249369,
-            "item_name": "Bond of Light",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 193708,
             "item_name": "Platinum Star Band",
             "item_level": 289,
@@ -2396,20 +2383,33 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 249369,
+            "item_name": "Bond of Light",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 285,
-            "track": null,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2469,7 +2469,7 @@
       "ambiguous_items": [
         {
           "slot": "neck",
-          "item_name": "Nocturnal Thorncharm",
+          "item_name": "Novice Combatant's Necklace",
           "item_level": 276,
           "classified_as": "hero",
           "could_also_be": "myth"
@@ -2497,7 +2497,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -2660,8 +2664,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4767,7 +4771,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -4807,7 +4815,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -4926,9 +4938,12 @@
       },
       "sockets": {
         "filled": 4,
-        "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "total": 6,
+        "missing_slots": [
+          "head",
+          "waist"
+        ],
+        "status": "fail"
       },
       "gear": {
         "myth": 10,
