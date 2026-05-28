@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-28T18:30:56.065968+00:00",
+  "generated_at": "2026-05-28T21:51:17.273499+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 18.0,
-        "mythic_plus_highest": 18,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 18.2,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -180,7 +180,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -195,15 +195,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -219,7 +221,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -836,9 +838,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 18.0,
-        "mythic_plus_highest": 18,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 18.2,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -1003,9 +1005,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1027,7 +1029,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
