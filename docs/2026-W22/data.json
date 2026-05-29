@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-29T02:33:05.044225+00:00",
+  "generated_at": "2026-05-29T07:48:19.404652+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 18.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 17.8,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -180,7 +180,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -195,17 +195,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -838,8 +836,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 18.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 17.8,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1005,7 +1003,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -1463,10 +1461,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 289.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 289.6,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1570,7 +1568,7 @@
             "slot": "finger_1",
             "item_id": 251217,
             "item_name": "Occlusion of Void",
-            "item_level": 276,
+            "item_level": 279,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -1640,7 +1638,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
