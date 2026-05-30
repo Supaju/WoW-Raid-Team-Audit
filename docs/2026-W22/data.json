@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-30T16:53:33.685212+00:00",
+  "generated_at": "2026-05-30T19:02:26.294360+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2685,7 +2685,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 286.6,
+        "item_level": 284.5,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
@@ -2752,8 +2752,8 @@
             "slot": "legs",
             "item_id": 250023,
             "item_name": "Phloemwraps of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2786,19 +2786,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
             "item_level": 289,
@@ -2811,19 +2798,32 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 285,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2839,10 +2839,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 295,
-            "track": "crafted",
+            "item_id": 249278,
+            "item_name": "Alnscorned Spire",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           }
@@ -2866,11 +2866,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 5,
+        "hero": 6,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 2,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
