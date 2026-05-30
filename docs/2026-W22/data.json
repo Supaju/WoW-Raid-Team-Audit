@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-29T23:06:15.149197+00:00",
+  "generated_at": "2026-05-30T02:27:04.833060+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -230,8 +230,8 @@
         "role": "Ranged",
         "rank": "Alt",
         "item_level": 286.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 17.5,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -388,7 +388,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
