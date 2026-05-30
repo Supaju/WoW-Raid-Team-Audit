@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-30T19:02:26.294360+00:00",
+  "generated_at": "2026-05-30T20:47:13.147521+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -423,7 +423,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 18.0,
         "mythic_plus_highest": 18,
         "items": [
@@ -603,9 +603,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -627,7 +627,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2685,7 +2685,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 284.5,
+        "item_level": 287.4,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
@@ -2701,10 +2701,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 50228,
-            "item_name": "Barbed Ymirheim Choker",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -2752,8 +2752,8 @@
             "slot": "legs",
             "item_id": 250023,
             "item_name": "Phloemwraps of the Luminous Bloom",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2786,6 +2786,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
             "item_level": 289,
@@ -2798,32 +2811,19 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 276,
-            "track": "hero",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
+            "item_level": 285,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2839,10 +2839,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249278,
-            "item_name": "Alnscorned Spire",
+            "item_id": 251201,
+            "item_name": "Corespark Multitool",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -2866,11 +2866,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 6,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
-        "crafted": 2,
-        "lower": 2
+        "crafted": 3,
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4759,7 +4759,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 288.9,
+        "item_level": 289.4,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4916,10 +4916,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
             "item_level": 298,
             "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4931,8 +4940,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
+        "enchanted": 9,
+        "required": 9,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4946,7 +4955,7 @@
         "status": "fail"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 0,
         "champion": 0,
         "crafted": 4,
