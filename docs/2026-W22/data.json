@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-31T20:51:45.812574+00:00",
+  "generated_at": "2026-05-31T22:52:49.789608+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1466,7 +1466,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -1642,7 +1642,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -5064,7 +5064,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -5162,8 +5166,8 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
