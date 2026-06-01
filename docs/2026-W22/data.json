@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-05-31T22:52:49.789608+00:00",
+  "generated_at": "2026-06-01T02:52:21.319521+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,9 +13,9 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 290.8,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 17.9,
+        "item_level": 289.1,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 18.0,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -127,10 +127,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -149,9 +149,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249808,
-            "item_name": "Litany of Lightblind Wrath",
-            "item_level": 298,
+            "item_id": 249811,
+            "item_name": "Light of the Cosmic Crescendo",
+            "item_level": 285,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -180,7 +180,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -195,15 +195,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -213,13 +215,13 @@
       },
       "gear": {
         "myth": 10,
-        "hero": 0,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1299,7 +1301,7 @@
             "item_name": "Relentless Rider's Cuirass",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1434,12 +1436,10 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "chest"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 6,
@@ -1676,7 +1676,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 289.7,
+        "item_level": 290.0,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
@@ -1734,7 +1734,7 @@
             "slot": "waist",
             "item_id": 249958,
             "item_name": "Luminant Verdict's Undaunted Emblem",
-            "item_level": 285,
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4972,7 +4972,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 289.9,
+        "item_level": 290.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4981,10 +4981,14 @@
             "slot": "head",
             "item_id": 250051,
             "item_name": "Blind Oath's Winged Crest",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -5125,10 +5129,10 @@
           },
           {
             "slot": "back",
-            "item_id": 250046,
-            "item_name": "Blind Oath's Shroud",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -5166,16 +5170,16 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
         "myth": 9,
-        "hero": 1,
+        "hero": 0,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 4
       },
       "ambiguous_items": [],
