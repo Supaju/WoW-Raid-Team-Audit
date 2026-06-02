@@ -2,7 +2,7 @@
   "week": "2026-W22",
   "week_label": "Raid Week 11 \u00b7 May 26\u2013Jun 1",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-02T08:21:58.845218+00:00",
+  "generated_at": "2026-06-02T13:54:16.356861+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5189,8 +5189,8 @@
         "items": [
           {
             "slot": "head",
-            "item_id": 251098,
-            "item_name": "Fletcher's Faded Faceplate",
+            "item_id": 249952,
+            "item_name": "Night Ender's Tusks",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -5202,8 +5202,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 50228,
-            "item_name": "Barbed Ymirheim Choker",
+            "item_id": 249368,
+            "item_name": "Eternal Voidsong Chain",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -5282,8 +5282,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 249953,
-            "item_name": "Night Ender's Fists",
+            "item_id": 151332,
+            "item_name": "Voidclaw Gauntlets",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
