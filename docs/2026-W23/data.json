@@ -1,0 +1,1549 @@
+{
+  "week": "2026-W23",
+  "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
+  "season_start": "2026-03-17",
+  "generated_at": "2026-06-02T18:01:20.198923+00:00",
+  "season": "Midnight S1",
+  "characters": [
+    {
+      "character": {
+        "id": 4870871,
+        "name": "Cottontail",
+        "realm": "Area 52",
+        "class_name": "Shaman",
+        "role": "Heal",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5095669,
+        "name": "Drakastrasz",
+        "realm": "Area 52",
+        "class_name": "Evoker",
+        "role": "Ranged",
+        "rank": "Alt",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5037627,
+        "name": "Dubjiki",
+        "realm": "Area 52",
+        "class_name": "Demon Hunter",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5037664,
+        "name": "Guanarsh",
+        "realm": "Area 52",
+        "class_name": "Warlock",
+        "role": "Ranged",
+        "rank": "Trial",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4904348,
+        "name": "Kungju",
+        "realm": "Area 52",
+        "class_name": "Monk",
+        "role": "Tank",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870814,
+        "name": "Stormwill",
+        "realm": "Area 52",
+        "class_name": "Shaman",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870990,
+        "name": "Thorriam",
+        "realm": "Area 52",
+        "class_name": "Death Knight",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870802,
+        "name": "Tycheese",
+        "realm": "Area 52",
+        "class_name": "Warrior",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870783,
+        "name": "Akiida",
+        "realm": "Dalaran",
+        "class_name": "Paladin",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870835,
+        "name": "Kinbaku",
+        "realm": "Illidan",
+        "class_name": "Monk",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4871091,
+        "name": "Vern\u00ecchtung",
+        "realm": "Mal'Ganis",
+        "class_name": "Warlock",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4871618,
+        "name": "Baranina",
+        "realm": "Malygos",
+        "class_name": "Hunter",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5058304,
+        "name": "Darg\u00f6n",
+        "realm": "Moon Guard",
+        "class_name": "Evoker",
+        "role": "Heal",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5022967,
+        "name": "Nan\u00e0",
+        "realm": "Moon Guard",
+        "class_name": "Druid",
+        "role": "Ranged",
+        "rank": "Trial",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870790,
+        "name": "Offthatzoot",
+        "realm": "Moon Guard",
+        "class_name": "Death Knight",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870789,
+        "name": "Totalrecall",
+        "realm": "Moon Guard",
+        "class_name": "Warrior",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870794,
+        "name": "Helledh",
+        "realm": "Proudmoore",
+        "class_name": "Demon Hunter",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 1,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870839,
+        "name": "Nonayme",
+        "realm": "Sargeras",
+        "class_name": "Warrior",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4871016,
+        "name": "Dwarfakechi",
+        "realm": "Stormrage",
+        "class_name": "Paladin",
+        "role": "Melee",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4871095,
+        "name": "Eidou",
+        "realm": "Tichondrius",
+        "class_name": "Mage",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5086217,
+        "name": "Dilfweaver",
+        "realm": "Zul'jin",
+        "class_name": "Monk",
+        "role": "Heal",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4954814,
+        "name": "Kaardl",
+        "realm": "Zul'jin",
+        "class_name": "Warlock",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 5087952,
+        "name": "Kaardv",
+        "realm": "Zul'jin",
+        "class_name": "Evoker",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870803,
+        "name": "Ll\u00f8rd",
+        "realm": "Zul'jin",
+        "class_name": "Hunter",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870829,
+        "name": "Lunch\u00ece",
+        "realm": "Zul'jin",
+        "class_name": "Priest",
+        "role": "Heal",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870811,
+        "name": "Puppygirlx",
+        "realm": "Zul'jin",
+        "class_name": "Warrior",
+        "role": "Tank",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870785,
+        "name": "Tr\u00e8vv",
+        "realm": "Zul'jin",
+        "class_name": "Druid",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 4870816,
+        "name": "Udderlyhot",
+        "realm": "Zul'jin",
+        "class_name": "Druid",
+        "role": "Heal",
+        "rank": "Main",
+        "item_level": 0.0,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
+        "items": []
+      },
+      "mythic_plus": {
+        "count": 0,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "finger_1",
+          "finger_2",
+          "neck"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 0,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 0
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
+    }
+  ]
+}
