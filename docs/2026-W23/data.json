@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-03T02:58:20.825017+00:00",
+  "generated_at": "2026-06-03T08:48:34.814634+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -642,9 +642,9 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 288.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -683,8 +683,8 @@
           },
           {
             "slot": "chest",
-            "item_id": 250045,
-            "item_name": "Abyssal Immolator's Dreadrobe",
+            "item_id": 151303,
+            "item_name": "Voidbender Robe",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -809,7 +809,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
