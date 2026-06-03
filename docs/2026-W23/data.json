@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-03T19:42:44.129614+00:00",
+  "generated_at": "2026-06-03T22:24:19.400413+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 19.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 18.7,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -642,7 +642,7 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 288.3,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 16,
         "items": [
@@ -809,7 +809,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -843,9 +843,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 289.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 19.0,
+        "item_level": 288.9,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 18.7,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -894,10 +894,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 249314,
-            "item_name": "Twisted Twilight Sash",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244573,
+            "item_name": "Silvermoon Agent's Utility Belt",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -1015,7 +1015,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1032,10 +1032,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 4,
         "lower": 2
       },
       "ambiguous_items": [],
