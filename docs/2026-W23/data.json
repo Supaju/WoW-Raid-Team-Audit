@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-04T02:53:46.178080+00:00",
+  "generated_at": "2026-06-04T08:13:20.356051+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -101,7 +101,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -207,9 +211,11 @@
       },
       "sockets": {
         "filled": 3,
-        "total": 3,
-        "missing_slots": [],
-        "status": "pass"
+        "total": 4,
+        "missing_slots": [
+          "wrist"
+        ],
+        "status": "warn"
       },
       "gear": {
         "myth": 10,
@@ -230,9 +236,9 @@
         "role": "Ranged",
         "rank": "Alt",
         "item_level": 286.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -388,7 +394,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -642,9 +648,9 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 288.3,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 16.0,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 16.2,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -809,9 +815,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -833,7 +839,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
