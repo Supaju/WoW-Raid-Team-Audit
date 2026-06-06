@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-06T20:56:08.441083+00:00",
+  "generated_at": "2026-06-06T22:56:56.241242+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -674,8 +674,8 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 288.3,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 15.9,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -841,9 +841,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -865,7 +865,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
