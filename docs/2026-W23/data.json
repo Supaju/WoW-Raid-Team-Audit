@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-07T21:02:37.866724+00:00",
+  "generated_at": "2026-06-07T22:56:56.906906+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4582,7 +4582,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 289.7,
+        "item_level": 290.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4602,10 +4602,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -4695,8 +4695,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -4721,9 +4721,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 285,
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4789,8 +4789,8 @@
         "myth": 10,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
-        "lower": 3
+        "crafted": 2,
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
