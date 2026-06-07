@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-07T02:47:08.624606+00:00",
+  "generated_at": "2026-06-07T07:48:58.143204+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,8 +232,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 17.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -417,7 +417,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -455,7 +455,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 10,
+        "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 18.9,
         "mythic_plus_highest": 19,
         "items": [
@@ -639,7 +639,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -876,8 +876,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 288.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 17.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1047,7 +1047,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -2511,10 +2511,10 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 289.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 290.6,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2600,8 +2600,8 @@
             "slot": "hands",
             "item_id": 249998,
             "item_name": "Enforcer's Grips of the Black Talon",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2679,7 +2679,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2696,8 +2696,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
-        "hero": 1,
+        "myth": 12,
+        "hero": 0,
         "champion": 0,
         "crafted": 1,
         "lower": 2
@@ -4190,8 +4190,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 286.3,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 15.3,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4344,9 +4344,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 7,
         "target": 8,
-        "status": "pass"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 6,
