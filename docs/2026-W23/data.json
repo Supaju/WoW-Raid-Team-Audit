@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-06T22:56:56.241242+00:00",
+  "generated_at": "2026-06-07T02:47:08.624606+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 289.8,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 14.0,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -195,9 +195,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -221,7 +221,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -232,8 +232,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 289.9,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 17.7,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 17.9,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -417,7 +417,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -455,7 +455,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 9,
+        "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 18.9,
         "mythic_plus_highest": 19,
         "items": [
@@ -639,7 +639,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -876,8 +876,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 288.9,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 17.7,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 17.9,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1047,7 +1047,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -2118,7 +2118,7 @@
         "role": "Melee",
         "rank": "Helper",
         "item_level": 290.0,
-        "mythic_plus_weekly": 11,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 19.9,
         "mythic_plus_highest": 21,
         "items": [
@@ -2284,7 +2284,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -4190,8 +4190,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 286.3,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 15.4,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 15.3,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4344,9 +4344,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 6,
@@ -5043,12 +5043,16 @@
         "items": [
           {
             "slot": "head",
-            "item_id": 250024,
-            "item_name": "Branches of the Luminous Bloom",
+            "item_id": 249306,
+            "item_name": "Devouring Night's Visage",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -5074,8 +5078,8 @@
           },
           {
             "slot": "chest",
-            "item_id": 251216,
-            "item_name": "Maledict Vest",
+            "item_id": 250027,
+            "item_name": "Trunk of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -5221,8 +5225,8 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
