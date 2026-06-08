@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-08T14:00:44.572398+00:00",
+  "generated_at": "2026-06-08T18:20:21.838555+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2949,7 +2949,7 @@
             "item_name": "Amalgamation's Harness",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3098,12 +3098,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "shoulders"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
