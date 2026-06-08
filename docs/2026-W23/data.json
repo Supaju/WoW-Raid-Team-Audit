@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-08T18:20:21.838555+00:00",
+  "generated_at": "2026-06-08T21:45:37.016907+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3074,8 +3074,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
+            "item_id": 258046,
+            "item_name": "Chakram-Breaker Greatsword",
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
