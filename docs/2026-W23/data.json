@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-08T21:45:37.016907+00:00",
+  "generated_at": "2026-06-08T23:08:37.850563+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,8 +232,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 17.7,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 17.9,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -417,7 +417,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -452,7 +452,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 12,
+        "mythic_plus_weekly": 13,
         "mythic_plus_avg_level": 18.9,
         "mythic_plus_highest": 19,
         "items": [
@@ -636,7 +636,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -873,8 +873,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 288.9,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 17.7,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 17.9,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1044,7 +1044,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -2115,8 +2115,8 @@
         "role": "Melee",
         "rank": "Helper",
         "item_level": 290.0,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 19.9,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 19.3,
         "mythic_plus_highest": 21,
         "items": [
           {
@@ -2281,7 +2281,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -2316,7 +2316,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -2474,9 +2474,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2498,7 +2498,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4185,7 +4185,7 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 287.2,
-        "mythic_plus_weekly": 8,
+        "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 16,
         "items": [
@@ -4339,7 +4339,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
