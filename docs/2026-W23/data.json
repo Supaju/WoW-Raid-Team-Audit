@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-07T22:56:56.906906+00:00",
+  "generated_at": "2026-06-08T02:50:28.010709+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -455,7 +455,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 9,
+        "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 18.9,
         "mythic_plus_highest": 19,
         "items": [
@@ -639,7 +639,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -674,8 +674,8 @@
         "role": "Ranged",
         "rank": "Trial",
         "item_level": 288.3,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 15.6,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -841,7 +841,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -1286,9 +1286,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -1469,7 +1469,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2319,9 +2319,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2477,7 +2477,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4190,8 +4190,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 286.3,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 15.4,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4344,9 +4344,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 6,
@@ -4582,7 +4582,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 290.8,
+        "item_level": 289.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4708,10 +4708,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -4786,8 +4786,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 0,
+        "myth": 9,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
         "lower": 4
@@ -5037,9 +5037,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -5212,7 +5212,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
