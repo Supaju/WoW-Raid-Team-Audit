@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-09T19:58:31.531326+00:00",
+  "generated_at": "2026-06-09T21:47:53.377914+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,9 +232,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -417,7 +417,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -875,9 +875,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 288.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -1042,7 +1042,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -5037,8 +5037,8 @@
         "items": [
           {
             "slot": "head",
-            "item_id": 249306,
-            "item_name": "Devouring Night's Visage",
+            "item_id": 250024,
+            "item_name": "Branches of the Luminous Bloom",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -5125,8 +5125,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 250025,
-            "item_name": "Arbortenders of the Luminous Bloom",
+            "item_id": 251113,
+            "item_name": "Gloves of Viscous Goo",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
