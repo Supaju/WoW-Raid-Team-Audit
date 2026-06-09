@@ -2,7 +2,7 @@
   "week": "2026-W23",
   "week_label": "Raid Week 12 \u00b7 Jun 2\u20138",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-08T23:08:37.850563+00:00",
+  "generated_at": "2026-06-09T02:27:58.923608+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,8 +232,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 17.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -417,7 +417,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -452,7 +452,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 13,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 18.9,
         "mythic_plus_highest": 19,
         "items": [
@@ -636,7 +636,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -873,8 +873,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 288.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 17.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1044,7 +1044,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -4185,7 +4185,7 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 287.2,
-        "mythic_plus_weekly": 10,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 16,
         "items": [
@@ -4195,7 +4195,7 @@
             "item_name": "Voidbreaker's Veil",
             "item_level": 276,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4217,7 +4217,7 @@
             "item_name": "Mantle of Dark Devotion",
             "item_level": 276,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4339,18 +4339,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 8,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head",
-          "shoulders"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -4366,7 +4363,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
