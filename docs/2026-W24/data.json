@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-09T21:47:53.377914+00:00",
+  "generated_at": "2026-06-09T23:13:41.169011+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,9 +232,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 15.0,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -371,8 +371,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -380,8 +380,8 @@
           },
           {
             "slot": "back",
-            "item_id": 249335,
-            "item_name": "Imperator's Banner",
+            "item_id": 193712,
+            "item_name": "Potion-Stained Cloak",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -402,7 +402,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -417,17 +417,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -874,10 +872,10 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 288.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 15.0,
-        "mythic_plus_highest": 15,
+        "item_level": 290.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -939,10 +937,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 244569,
-            "item_name": "Silvermoon Agent's Sneakers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 260372,
+            "item_name": "Nullstrider's Boots",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -996,10 +994,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 285,
-            "track": null,
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1042,7 +1040,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1059,10 +1057,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 3,
         "lower": 2
       },
       "ambiguous_items": [],
@@ -2566,7 +2564,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -2689,8 +2691,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
@@ -3360,9 +3362,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 288.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -3527,7 +3529,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
