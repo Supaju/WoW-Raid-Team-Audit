@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-10T08:01:26.195919+00:00",
+  "generated_at": "2026-06-10T12:49:49.688623+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4192,17 +4192,17 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 288.1,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 14.0,
+        "item_level": 288.9,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.5,
         "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
             "item_id": 250060,
             "item_name": "Voidbreaker's Veil",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4328,8 +4328,8 @@
           },
           {
             "slot": "back",
-            "item_id": 193712,
-            "item_name": "Potion-Stained Cloak",
+            "item_id": 250055,
+            "item_name": "Voidbreaker's Encryption",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -4347,9 +4347,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -4364,14 +4364,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 2,
+        "myth": 8,
+        "hero": 1,
         "champion": 0,
         "crafted": 4,
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
