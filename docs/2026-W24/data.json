@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-12T02:47:33.794108+00:00",
+  "generated_at": "2026-06-12T08:17:34.871273+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -380,8 +380,8 @@
           },
           {
             "slot": "back",
-            "item_id": 249335,
-            "item_name": "Imperator's Banner",
+            "item_id": 193712,
+            "item_name": "Potion-Stained Cloak",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -452,8 +452,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 19.3,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 19.5,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -636,9 +636,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -660,7 +660,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
