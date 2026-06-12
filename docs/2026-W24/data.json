@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-12T16:39:41.604517+00:00",
+  "generated_at": "2026-06-12T19:57:12.643586+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1079,9 +1079,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 289.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1245,7 +1245,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
