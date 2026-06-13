@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-13T07:40:49.821779+00:00",
+  "generated_at": "2026-06-13T10:22:41.759267+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -595,10 +595,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250256,
-            "item_name": "Heart of Wind",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -649,11 +649,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 4,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -4184,8 +4184,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 288.9,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 13.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 13.6,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -4338,7 +4338,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
