@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-13T02:39:42.380469+00:00",
+  "generated_at": "2026-06-13T07:40:49.821779+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,8 +232,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 17.2,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -319,11 +319,7 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "hands",
@@ -417,7 +413,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -428,8 +424,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
@@ -452,8 +448,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 19.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 19.4,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -636,7 +632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -670,7 +666,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Trial",
-        "item_level": 288.3,
+        "item_level": 289.2,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 17,
@@ -705,8 +701,8 @@
             "slot": "shoulders",
             "item_id": 250040,
             "item_name": "Abyssal Immolator's Fury",
-            "item_level": 276,
-            "track": "hero",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -855,8 +851,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 10,
+        "hero": 1,
         "champion": 0,
         "crafted": 3,
         "lower": 1
@@ -873,8 +869,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 17.2,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -1044,7 +1040,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -1492,8 +1488,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.3,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1676,7 +1672,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -2920,7 +2916,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 19.0,
         "mythic_plus_highest": 20,
         "items": [
@@ -3077,8 +3073,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 258046,
-            "item_name": "Chakram-Breaker Greatsword",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
@@ -3096,7 +3092,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4234,8 +4230,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 239664,
-            "item_name": "Arcanoweave Cord",
+            "item_id": 239649,
+            "item_name": "Martyr's Waistwrap",
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
@@ -4376,7 +4372,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 289.7,
+        "item_level": 290.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4533,10 +4529,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
             "item_level": 298,
             "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4548,8 +4553,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
+        "enchanted": 9,
+        "required": 9,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4560,7 +4565,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 4,
@@ -4716,8 +4721,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249808,
-            "item_name": "Litany of Lightblind Wrath",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -4725,8 +4730,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 298,
             "track": null,
             "enchanted": false,
