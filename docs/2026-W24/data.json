@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-14T23:00:44.634247+00:00",
+  "generated_at": "2026-06-15T02:55:59.920318+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,8 +232,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 17.6,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -413,7 +413,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -448,7 +448,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 8,
+        "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 19.2,
         "mythic_plus_highest": 20,
         "items": [
@@ -632,7 +632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -869,8 +869,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 17.6,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -1040,7 +1040,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -1488,8 +1488,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 17.9,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 18.0,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -1672,7 +1672,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -2916,8 +2916,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 17.6,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.8,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -3092,7 +3092,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3776,7 +3776,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -3825,7 +3829,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -3852,7 +3860,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -3948,8 +3960,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4721,8 +4733,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -4730,8 +4742,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
             "track": null,
             "enchanted": false,
