@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-15T02:55:59.920318+00:00",
+  "generated_at": "2026-06-15T09:53:23.152089+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1448,6 +1448,15 @@
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "tabard",
+            "item_id": 69210,
+            "item_name": "Renowned Guild Tabard",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           }
         ]
