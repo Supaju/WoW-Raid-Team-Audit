@@ -2,7 +2,7 @@
   "week": "2026-W24",
   "week_label": "Raid Week 13 \u00b7 Jun 9\u201315",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-15T15:38:06.777680+00:00",
+  "generated_at": "2026-06-15T19:38:23.046323+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -398,7 +398,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -418,10 +418,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -437,7 +439,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
