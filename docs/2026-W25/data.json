@@ -2,7 +2,7 @@
   "week": "2026-W25",
   "week_label": "Raid Week 14 \u00b7 Jun 16\u201322",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-17T02:54:09.346290+00:00",
+  "generated_at": "2026-06-17T08:54:37.909124+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -232,9 +232,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 14.0,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -367,10 +367,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 252411,
+            "item_name": "Radiant Sunstone",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -413,9 +413,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -430,14 +430,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -448,9 +448,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 19.5,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -632,7 +632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -878,10 +878,10 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 290.0,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 14.0,
-        "mythic_plus_highest": 14,
+        "item_level": 289.1,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -1008,10 +1008,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1054,9 +1054,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1078,7 +1078,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1511,9 +1511,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 19.3,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -1695,7 +1695,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2939,9 +2939,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 19.3,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -3012,8 +3012,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 251107,
-            "item_name": "Oathsworn Stompers",
+            "item_id": 249381,
+            "item_name": "Greaves of the Unformed",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -3115,7 +3115,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4406,9 +4406,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 19.0,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -4581,7 +4581,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
