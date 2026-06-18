@@ -2,7 +2,7 @@
   "week": "2026-W25",
   "week_label": "Raid Week 14 \u00b7 Jun 16\u201322",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-18T02:49:21.556821+00:00",
+  "generated_at": "2026-06-18T08:38:32.934826+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -349,7 +349,7 @@
             "item_name": "Band of the Triumvirate",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -418,12 +418,10 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "finger_2"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -880,7 +878,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 289.1,
+        "item_level": 289.4,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 18.4,
         "mythic_plus_highest": 20,
@@ -1010,10 +1008,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
-            "item_level": 285,
-            "track": null,
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1037,10 +1035,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249302,
-            "item_name": "Inescapable Reach",
-            "item_level": 298,
-            "track": null,
+            "item_id": 193723,
+            "item_name": "Obsidian Goaltending Spire",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1073,11 +1071,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -4018,9 +4016,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 288.9,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -4029,7 +4027,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -4172,7 +4174,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4183,8 +4185,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
