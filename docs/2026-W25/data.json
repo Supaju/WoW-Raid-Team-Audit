@@ -2,7 +2,7 @@
   "week": "2026-W25",
   "week_label": "Raid Week 14 \u00b7 Jun 16\u201322",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-19T21:03:08.065805+00:00",
+  "generated_at": "2026-06-19T22:46:03.458756+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -448,8 +448,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 19.3,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 19.2,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -632,9 +632,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 9,
@@ -656,7 +656,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2738,7 +2738,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 5,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 19.2,
         "mythic_plus_highest": 20,
         "items": [
@@ -2914,7 +2914,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -4015,7 +4015,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 288.9,
+        "item_level": 288.7,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 15,
@@ -4093,10 +4093,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 249315,
-            "item_name": "Voracious Wristwraps",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 239648,
+            "item_name": "Martyr's Bindings",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -4191,10 +4191,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 1,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 5,
         "lower": 2
       },
       "ambiguous_items": [],
@@ -4209,7 +4209,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.0,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 19.0,
         "mythic_plus_highest": 19,
         "items": [
@@ -4375,7 +4375,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
