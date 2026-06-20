@@ -2,7 +2,7 @@
   "week": "2026-W25",
   "week_label": "Raid Week 14 \u00b7 Jun 16\u201322",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-20T02:38:47.302541+00:00",
+  "generated_at": "2026-06-20T07:43:57.526778+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 289.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 20.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 19.0,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -195,7 +195,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -319,7 +319,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -345,8 +349,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151311,
-            "item_name": "Band of the Triumvirate",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -367,10 +371,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 252411,
-            "item_name": "Radiant Sunstone",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -424,17 +428,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -448,8 +452,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 290.3,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 19.3,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 19.5,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -632,7 +636,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -878,7 +882,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 289.4,
+        "item_level": 290.0,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 18.8,
         "mythic_plus_highest": 20,
@@ -1035,10 +1039,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 193723,
-            "item_name": "Obsidian Goaltending Spire",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 249302,
+            "item_name": "Inescapable Reach",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -1071,11 +1075,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -3074,8 +3078,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 251115,
+            "item_name": "Bifurcation Band",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -4208,7 +4212,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 290.2,
+        "item_level": 290.0,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 19.0,
         "mythic_plus_highest": 19,
@@ -4312,10 +4316,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249919,
+            "item_name": "Sin'dorei Band of Hope",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -4365,19 +4369,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
+            "item_id": 249279,
+            "item_name": "Sunstrike Rifle",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 258436,
-            "item_name": "Edge of the Burning Sun",
-            "item_level": 298,
-            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4389,8 +4384,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4404,7 +4399,7 @@
         "myth": 10,
         "hero": 0,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 3,
         "lower": 2
       },
       "ambiguous_items": [],
@@ -4557,8 +4552,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -4659,8 +4654,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 249368,
-            "item_name": "Eternal Voidsong Chain",
+            "item_id": 50228,
+            "item_name": "Barbed Ymirheim Choker",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -4781,10 +4776,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249342,
-            "item_name": "Heart of Ancient Hunger",
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4855,11 +4850,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -5084,7 +5079,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 288.1,
+        "item_level": 287.4,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5222,10 +5217,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
-            "item_level": 298,
-            "track": null,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -5240,10 +5235,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 295,
-            "track": "crafted",
+            "item_id": 251162,
+            "item_name": "Traitor's Talon",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -5278,11 +5273,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 7,
+        "myth": 9,
         "hero": 2,
         "champion": 0,
-        "crafted": 4,
-        "lower": 2
+        "crafted": 3,
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
