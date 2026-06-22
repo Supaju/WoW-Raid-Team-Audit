@@ -2,7 +2,7 @@
   "week": "2026-W25",
   "week_label": "Raid Week 14 \u00b7 Jun 16\u201322",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-22T02:57:40.254736+00:00",
+  "generated_at": "2026-06-22T09:40:17.835997+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -728,7 +728,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -857,12 +857,10 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
+        "filled": 6,
         "total": 6,
-        "missing_slots": [
-          "waist"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 10,
@@ -872,7 +870,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -882,7 +880,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 290.0,
+        "item_level": 288.9,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 18.8,
         "mythic_plus_highest": 20,
@@ -986,10 +984,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 240949,
+            "item_name": "Masterwork Sin'dorei Band",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": [
               {
@@ -1012,10 +1010,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1075,10 +1073,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 4,
         "lower": 2
       },
       "ambiguous_items": [],
@@ -2429,8 +2427,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249919,
-            "item_name": "Sin'dorei Band of Hope",
+            "item_id": 151308,
+            "item_name": "Eredath Seal of Nobility",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -4212,7 +4210,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 290.2,
+        "item_level": 290.0,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 19.0,
         "mythic_plus_highest": 19,
@@ -4316,10 +4314,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249919,
+            "item_name": "Sin'dorei Band of Hope",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -4351,8 +4349,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249806,
-            "item_name": "Radiant Plume",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -4369,19 +4367,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249925,
-            "item_name": "Hungering Victory",
+            "item_id": 249279,
+            "item_name": "Sunstrike Rifle",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 258436,
-            "item_name": "Edge of the Burning Sun",
-            "item_level": 298,
-            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4393,8 +4382,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4408,7 +4397,7 @@
         "myth": 10,
         "hero": 0,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 3,
         "lower": 2
       },
       "ambiguous_items": [],
@@ -4785,10 +4774,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
+            "item_id": 249342,
+            "item_name": "Heart of Ancient Hunger",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4859,11 +4848,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -5088,7 +5077,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 287.4,
+        "item_level": 288.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5226,10 +5215,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
-            "track": "myth",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -5244,10 +5233,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251162,
-            "item_name": "Traitor's Talon",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 295,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -5282,11 +5271,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 9,
+        "myth": 7,
         "hero": 2,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 4,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
