@@ -2,7 +2,7 @@
   "week": "2026-W26",
   "week_label": "Raid Week 15 \u00b7 Jun 23\u201329",
   "season_start": "2026-03-17",
-  "generated_at": "2026-06-23T17:46:04.642931+00:00",
+  "generated_at": "2026-06-23T19:51:46.692519+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -231,7 +231,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 291.3,
+        "item_level": 289.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -243,7 +243,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -358,10 +362,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -424,17 +428,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
         "myth": 10,
-        "hero": 0,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
