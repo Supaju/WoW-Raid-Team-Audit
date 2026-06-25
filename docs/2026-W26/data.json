@@ -2,7 +2,7 @@
   "week": "2026-W26",
   "week_label": "Raid Week 46 \u00b7 Jun 23\u201329",
   "season_start": "2025-08-12",
-  "generated_at": "2026-06-25T02:35:01.099688+00:00",
+  "generated_at": "2026-06-25T07:36:08.058253+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2881,8 +2881,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
+            "item_id": 151311,
+            "item_name": "Band of the Triumvirate",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -3830,23 +3830,19 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 289.4,
+        "item_level": 289.7,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
-            "item_id": 251177,
-            "item_name": "Fetid Vilecrown",
+            "item_id": 250015,
+            "item_name": "Fearsome Visage of Ra-den's Chosen",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -3894,8 +3890,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 250014,
-            "item_name": "Swiftsweepers of Ra-den's Chosen",
+            "item_id": 260373,
+            "item_name": "Power Stance Breeches",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -3934,10 +3930,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 240949,
+            "item_name": "Masterwork Sin'dorei Band",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": [
               {
@@ -3960,10 +3956,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 268292,
-            "item_name": "Sporelord's Mycelial Insignia",
+            "item_id": 252420,
+            "item_name": "Solarflare Prism",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3987,10 +3983,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 193723,
-            "item_name": "Obsidian Goaltending Spire",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 249302,
+            "item_name": "Inescapable Reach",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -4017,16 +4013,16 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 4,
         "lower": 2
       },
       "ambiguous_items": [],
