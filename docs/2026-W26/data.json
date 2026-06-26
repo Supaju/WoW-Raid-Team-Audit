@@ -2,7 +2,7 @@
   "week": "2026-W26",
   "week_label": "Raid Week 46 \u00b7 Jun 23\u201329",
   "season_start": "2025-08-12",
-  "generated_at": "2026-06-26T17:41:28.523943+00:00",
+  "generated_at": "2026-06-26T19:29:26.488176+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3839,7 +3839,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 289.7,
+        "item_level": 288.9,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
@@ -3965,10 +3965,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 252420,
-            "item_name": "Solarflare Prism",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
