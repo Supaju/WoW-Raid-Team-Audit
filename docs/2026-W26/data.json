@@ -2,7 +2,7 @@
   "week": "2026-W26",
   "week_label": "Raid Week 46 \u00b7 Jun 23\u201329",
   "season_start": "2025-08-12",
-  "generated_at": "2026-06-26T22:59:45.245053+00:00",
+  "generated_at": "2026-06-27T02:30:31.714549+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -660,7 +660,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 288.9,
+        "item_level": 290.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -818,19 +818,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 193711,
-            "item_name": "Spellbane Cutlass",
-            "item_level": 285,
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
+            "item_level": 298,
             "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 249295,
-            "item_name": "Turalyon's False Echo",
-            "item_level": 285,
-            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -851,8 +842,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
-        "required": 9,
+        "enchanted": 8,
+        "required": 8,
         "missing_slots": [],
         "status": "pass"
       },
@@ -863,7 +854,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
