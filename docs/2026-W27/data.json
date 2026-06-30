@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-06-30T17:47:29.461393+00:00",
+  "generated_at": "2026-06-30T19:44:30.769705+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -220,9 +220,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 291.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -395,7 +395,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -431,7 +431,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 289.8,
+        "item_level": 291.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -451,10 +451,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 249368,
-            "item_name": "Eternal Voidsong Chain",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -557,8 +557,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251115,
-            "item_name": "Bifurcation Band",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -643,10 +643,10 @@
       },
       "gear": {
         "myth": 11,
-        "hero": 1,
+        "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -660,9 +660,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.6,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 16,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -836,9 +836,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 0,
         "target": 8,
-        "status": "warn"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -860,7 +860,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -1292,9 +1292,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 291.1,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -1467,7 +1467,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -2148,9 +2148,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 291.3,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -2332,7 +2332,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -2772,9 +2772,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 291.3,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 18.2,
-        "mythic_plus_highest": 20,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -2957,9 +2957,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 0,
         "target": 8,
-        "status": "warn"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -2983,7 +2983,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -3841,9 +3841,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 291.2,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 20.0,
-        "mythic_plus_highest": 20,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4016,7 +4016,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -4257,9 +4257,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 291.7,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 16.5,
-        "mythic_plus_highest": 21,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4441,7 +4441,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -4476,9 +4476,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 291.9,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 17.5,
-        "mythic_plus_highest": 18,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4651,9 +4651,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 0,
         "target": 8,
-        "status": "warn"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -4675,7 +4675,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -4772,7 +4772,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -4868,8 +4872,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4892,9 +4896,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 290.4,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 12.5,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -5050,9 +5054,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -5074,7 +5078,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
