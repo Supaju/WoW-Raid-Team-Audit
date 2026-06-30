@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-06-30T19:44:30.769705+00:00",
+  "generated_at": "2026-06-30T21:22:56.645338+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4475,7 +4475,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 291.9,
+        "item_level": 292.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4550,8 +4550,8 @@
             "slot": "feet",
             "item_id": 250044,
             "item_name": "Abyssal Immolator's Ashwalkers",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -4668,11 +4668,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -5088,7 +5088,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 290.3,
+        "item_level": 291.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5137,19 +5137,23 @@
             "slot": "chest",
             "item_id": 250054,
             "item_name": "Blind Oath's Raiment",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 239664,
-            "item_name": "Arcanoweave Cord",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251102,
+            "item_name": "Clasp of Compliance",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -5162,8 +5166,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 268282,
-            "item_name": "Luxurious Loamstriders",
+            "item_id": 250053,
+            "item_name": "Blind Oath's Slippers",
             "item_level": 298,
             "track": null,
             "enchanted": true,
@@ -5202,10 +5206,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 251513,
+            "item_name": "Loa Worshiper's Band",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": [
               {
@@ -5226,7 +5230,7 @@
             "slot": "trinket_2",
             "item_id": 249343,
             "item_name": "Gaze of the Alnseer",
-            "item_level": 285,
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -5283,17 +5287,17 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 3
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
