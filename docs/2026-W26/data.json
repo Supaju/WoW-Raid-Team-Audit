@@ -2,7 +2,7 @@
   "week": "2026-W26",
   "week_label": "Raid Week 46 \u00b7 Jun 23\u201329",
   "season_start": "2025-08-12",
-  "generated_at": "2026-06-30T02:38:14.059110+00:00",
+  "generated_at": "2026-06-30T07:43:13.870639+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -660,9 +660,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.6,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 5.3,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -836,9 +836,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -860,7 +860,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1291,7 +1291,7 @@
         "class_name": "Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 290.6,
+        "item_level": 291.1,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -1430,8 +1430,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -1448,10 +1448,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249279,
-            "item_name": "Sunstrike Rifle",
+            "item_id": 249925,
+            "item_name": "Hungering Victory",
             "item_level": 298,
             "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 258436,
+            "item_name": "Edge of the Burning Sun",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -1463,8 +1472,8 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
+        "enchanted": 9,
+        "required": 9,
         "missing_slots": [],
         "status": "pass"
       },
@@ -1475,7 +1484,7 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
@@ -2139,9 +2148,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 291.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2323,7 +2332,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2763,8 +2772,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 291.3,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 20.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 18.2,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -2782,10 +2791,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -2840,11 +2849,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 249320,
-            "item_name": "Sabatons of Obscurement",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 268287,
+            "item_name": "Grudgefiend Stompers",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2880,8 +2889,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
+            "item_id": 151311,
+            "item_name": "Band of the Triumvirate",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2948,15 +2957,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -2972,7 +2983,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3829,7 +3840,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 290.6,
+        "item_level": 291.2,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
@@ -3955,9 +3966,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 260235,
-            "item_name": "Umbral Plume",
-            "item_level": 285,
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -3973,10 +3984,10 @@
           },
           {
             "slot": "back",
-            "item_id": 249335,
-            "item_name": "Imperator's Banner",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -4018,11 +4029,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 4
+        "crafted": 3,
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
