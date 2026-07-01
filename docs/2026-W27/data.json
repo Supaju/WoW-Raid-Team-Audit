@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-01T02:44:20.604750+00:00",
+  "generated_at": "2026-07-01T08:04:58.935462+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3988,10 +3988,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249302,
-            "item_name": "Inescapable Reach",
+            "item_id": 193723,
+            "item_name": "Obsidian Goaltending Spire",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4024,11 +4024,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
