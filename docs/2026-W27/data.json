@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-01T23:04:57.885606+00:00",
+  "generated_at": "2026-07-02T02:33:55.397519+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1929,7 +1929,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 288.9,
+        "item_level": 289.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1949,10 +1949,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -2124,8 +2124,8 @@
         "myth": 8,
         "hero": 1,
         "champion": 0,
-        "crafted": 4,
-        "lower": 2
+        "crafted": 3,
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
