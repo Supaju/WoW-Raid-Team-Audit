@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-05T20:49:35.969015+00:00",
+  "generated_at": "2026-07-05T22:54:43.357449+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4259,8 +4259,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.5,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 14.9,
         "mythic_plus_highest": 21,
         "items": [
           {
@@ -4443,9 +4443,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 9,
@@ -4467,7 +4467,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
