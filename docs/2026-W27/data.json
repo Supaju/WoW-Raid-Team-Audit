@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-06T21:22:25.171736+00:00",
+  "generated_at": "2026-07-06T22:59:26.982474+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2768,7 +2768,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 291.9,
+        "item_level": 290.8,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
@@ -2788,10 +2788,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -2846,10 +2846,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 268287,
-            "item_name": "Grudgefiend Stompers",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249320,
+            "item_name": "Sabatons of Obscurement",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2890,8 +2890,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2943,7 +2943,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2963,10 +2963,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 5,
@@ -2975,11 +2977,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
