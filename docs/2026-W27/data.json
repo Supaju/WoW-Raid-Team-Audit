@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-06T02:27:28.057476+00:00",
+  "generated_at": "2026-07-06T08:13:03.041678+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 290.0,
+        "item_level": 290.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -33,10 +33,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -205,8 +205,8 @@
         "myth": 11,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 2,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -239,10 +239,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
             "item_level": 285,
-            "track": "crafted",
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -414,10 +414,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 5
       },
       "ambiguous_items": [],
@@ -660,9 +660,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 290.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -688,8 +688,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 251164,
-            "item_name": "Amalgamation's Harness",
+            "item_id": 50234,
+            "item_name": "Shoulderplates of Frozen Blood",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -836,7 +836,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1938,7 +1938,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 288.3,
+        "item_level": 292.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1947,8 +1947,8 @@
             "slot": "head",
             "item_id": 250024,
             "item_name": "Branches of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -1958,10 +1958,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -2011,10 +2011,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 244569,
-            "item_name": "Silvermoon Agent's Sneakers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 250026,
+            "item_name": "Rootslippers of the Luminous Bloom",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2038,15 +2038,12 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249920,
-            "item_name": "Eye of Midnight",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
-              {
-                "filled": true
-              },
               {
                 "filled": true
               }
@@ -2076,10 +2073,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
-            "track": "myth",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2094,10 +2091,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251162,
-            "item_name": "Traitor's Talon",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 295,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2124,17 +2121,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 1,
+        "myth": 8,
+        "hero": 0,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 2,
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2771,7 +2768,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 290.8,
+        "item_level": 291.9,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
@@ -2791,10 +2788,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 249337,
-            "item_name": "Ribbon of Coiled Malice",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -2849,10 +2846,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 249320,
-            "item_name": "Sabatons of Obscurement",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268287,
+            "item_name": "Grudgefiend Stompers",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -2893,8 +2890,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151311,
-            "item_name": "Band of the Triumvirate",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -2915,10 +2912,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 252411,
-            "item_name": "Radiant Sunstone",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2978,11 +2975,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3842,7 +3839,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 291.2,
+        "item_level": 291.5,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
@@ -3915,10 +3912,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 244569,
-            "item_name": "Silvermoon Agent's Sneakers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 260372,
+            "item_name": "Nullstrider's Boots",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3946,21 +3943,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
+            "item_id": 251513,
+            "item_name": "Loa Worshiper's Band",
             "item_level": 285,
             "track": "crafted",
             "enchanted": true,
@@ -3971,9 +3955,22 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
+            "item_id": 249345,
+            "item_name": "Ranger-Captain's Iridescent Insignia",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -4035,10 +4032,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 5
       },
       "ambiguous_items": [],
@@ -4898,8 +4895,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.0,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 13.2,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 12.8,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -5056,9 +5053,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -5080,7 +5077,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
