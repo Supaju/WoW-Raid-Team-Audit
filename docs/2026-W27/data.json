@@ -2,7 +2,7 @@
   "week": "2026-W27",
   "week_label": "Raid Week 47 \u00b7 Jun 30\u2013Jul 6",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-07T10:48:16.557165+00:00",
+  "generated_at": "2026-07-07T14:11:06.540625+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3629,7 +3629,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 292.5,
+        "item_level": 293.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3673,8 +3673,8 @@
             "slot": "chest",
             "item_id": 250063,
             "item_name": "Voidbreaker's Robe",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3824,11 +3824,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
