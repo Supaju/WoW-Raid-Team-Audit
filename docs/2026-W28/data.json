@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-08T20:58:31.484819+00:00",
+  "generated_at": "2026-07-08T22:57:02.438003+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -671,7 +671,11 @@
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -715,12 +719,16 @@
           },
           {
             "slot": "waist",
-            "item_id": 49808,
-            "item_name": "Bent Gold Belt",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 237830,
+            "item_name": "Spellbreaker's Girdle",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -777,10 +785,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251513,
-            "item_name": "Loa Worshiper's Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -848,9 +856,12 @@
       },
       "sockets": {
         "filled": 4,
-        "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "total": 6,
+        "missing_slots": [
+          "head",
+          "waist"
+        ],
+        "status": "fail"
       },
       "gear": {
         "myth": 9,
