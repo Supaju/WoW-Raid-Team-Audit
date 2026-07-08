@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-08T05:17:22.150964+00:00",
+  "generated_at": "2026-07-08T08:11:44.211579+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2769,9 +2769,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 290.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 19.0,
-        "mythic_plus_highest": 19,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 19.5,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -2958,7 +2958,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3840,9 +3840,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 291.7,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 19.0,
-        "mythic_plus_highest": 19,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 19.5,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -4011,7 +4011,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
