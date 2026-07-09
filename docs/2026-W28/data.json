@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-08T22:57:02.438003+00:00",
+  "generated_at": "2026-07-09T02:09:25.688113+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2036,7 +2036,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -2132,8 +2136,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4902,9 +4906,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -5060,7 +5064,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
