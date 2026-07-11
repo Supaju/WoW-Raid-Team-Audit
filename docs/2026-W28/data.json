@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-11T20:39:41.649212+00:00",
+  "generated_at": "2026-07-11T22:39:12.966002+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5099,7 +5099,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 291.7,
+        "item_level": 259.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -5115,8 +5115,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 249337,
-            "item_name": "Ribbon of Coiled Malice",
+            "item_id": 251096,
+            "item_name": "Pendant of Aching Grief",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -5177,37 +5177,37 @@
           },
           {
             "slot": "feet",
-            "item_id": 250053,
-            "item_name": "Blind Oath's Slippers",
-            "item_level": 298,
+            "item_id": 239684,
+            "item_name": "Thalassian Competitor's Cloth Treads",
+            "item_level": 242,
             "track": null,
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "wrist",
-            "item_id": 251108,
-            "item_name": "Wraps of Watchful Wrath",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 255322,
+            "item_name": "Galactic Aspirant's Silk Bindings",
+            "item_level": 217,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "hands",
-            "item_id": 251172,
-            "item_name": "Vilehex Bonds",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
+            "item_id": 255273,
+            "item_name": "Galactic Aspirant's Silk Gloves",
+            "item_level": 217,
+            "track": null,
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 240951,
+            "item_name": "Thalassian Competitor's Signet",
+            "item_level": 246,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -5217,10 +5217,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251513,
-            "item_name": "Loa Worshiper's Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 255331,
+            "item_name": "Galactic Aspirant's Ring",
+            "item_level": 217,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -5230,28 +5230,28 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 298,
+            "item_id": 255614,
+            "item_name": "Galactic Gladiator's Insignia of Alacrity",
+            "item_level": 246,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
+            "item_id": 255327,
+            "item_name": "Galactic Aspirant's Medallion",
+            "item_level": 217,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "back",
-            "item_id": 249370,
-            "item_name": "Draconic Nullcape",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 255338,
+            "item_name": "Galactic Aspirant's Cloak",
+            "item_level": 217,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -5304,13 +5304,28 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 5,
         "hero": 0,
-        "champion": 0,
-        "crafted": 3,
-        "lower": 5
+        "champion": 3,
+        "crafted": 1,
+        "lower": 7
       },
-      "ambiguous_items": [],
+      "ambiguous_items": [
+        {
+          "slot": "finger_1",
+          "item_name": "Thalassian Competitor's Signet",
+          "item_level": 246,
+          "classified_as": "champion",
+          "could_also_be": "hero"
+        },
+        {
+          "slot": "trinket_1",
+          "item_name": "Galactic Gladiator's Insignia of Alacrity",
+          "item_level": 246,
+          "classified_as": "champion",
+          "could_also_be": "hero"
+        }
+      ],
       "overall_status": "fail"
     }
   ]
