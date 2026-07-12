@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-12T20:36:30.057906+00:00",
+  "generated_at": "2026-07-12T22:39:14.272091+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2955,7 +2955,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2975,10 +2975,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 5,
@@ -2994,7 +2996,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3166,8 +3168,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
+            "item_id": 49802,
+            "item_name": "Garfrost's Two-Ton Hammer",
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
