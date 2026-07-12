@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-12T13:02:23.973510+00:00",
+  "generated_at": "2026-07-12T14:47:53.922937+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5096,9 +5096,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -5268,7 +5268,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
