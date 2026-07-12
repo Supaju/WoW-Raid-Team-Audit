@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-12T01:58:06.733078+00:00",
+  "generated_at": "2026-07-12T05:28:21.106234+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2157,9 +2157,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 292.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 16.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -2341,7 +2341,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3858,16 +3858,12 @@
         "items": [
           {
             "slot": "head",
-            "item_id": 251177,
-            "item_name": "Fetid Vilecrown",
+            "item_id": 250015,
+            "item_name": "Fearsome Visage of Ra-den's Chosen",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -3915,8 +3911,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 250014,
-            "item_name": "Swiftsweepers of Ra-den's Chosen",
+            "item_id": 260373,
+            "item_name": "Power Stance Breeches",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -3924,10 +3920,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 260372,
-            "item_name": "Nullstrider's Boots",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244569,
+            "item_name": "Silvermoon Agent's Sneakers",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -3955,6 +3951,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 151308,
+            "item_name": "Eredath Seal of Nobility",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 251513,
             "item_name": "Loa Worshiper's Band",
             "item_level": 285,
@@ -3967,22 +3976,9 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 249336,
-            "item_name": "Signet of the Starved Beast",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 249345,
-            "item_name": "Ranger-Captain's Iridescent Insignia",
+            "item_id": 268292,
+            "item_name": "Sporelord's Mycelial Insignia",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -3999,10 +3995,10 @@
           },
           {
             "slot": "back",
-            "item_id": 239656,
-            "item_name": "Adherent's Silken Shroud",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249335,
+            "item_name": "Imperator's Banner",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4038,8 +4034,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
