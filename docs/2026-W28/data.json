@@ -2,7 +2,7 @@
   "week": "2026-W28",
   "week_label": "Raid Week 48 \u00b7 Jul 7\u201313",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-13T02:00:05.482227+00:00",
+  "generated_at": "2026-07-13T05:42:42.700530+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2780,7 +2780,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 290.8,
+        "item_level": 291.9,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 18.8,
         "mythic_plus_highest": 20,
@@ -2851,8 +2851,8 @@
             "slot": "legs",
             "item_id": 249978,
             "item_name": "Leggings of the Primal Core",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -2902,10 +2902,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151311,
-            "item_name": "Band of the Triumvirate",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2924,10 +2924,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 252411,
-            "item_name": "Radiant Sunstone",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2955,7 +2955,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2975,12 +2975,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 5,
@@ -2989,14 +2987,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3168,8 +3166,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 49802,
-            "item_name": "Garfrost's Two-Ton Hammer",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
@@ -5097,7 +5095,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 291.5,
+        "item_level": 291.9,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -5113,8 +5111,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 251096,
-            "item_name": "Pendant of Aching Grief",
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
@@ -5153,12 +5151,16 @@
           },
           {
             "slot": "waist",
-            "item_id": 239664,
-            "item_name": "Arcanoweave Cord",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251102,
+            "item_name": "Clasp of Compliance",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -5251,11 +5253,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251201,
-            "item_name": "Corespark Multitool",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 237838,
+            "item_name": "Magister's Ritual Knife",
+            "item_level": 295,
+            "track": "crafted",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249922,
+            "item_name": "Tome of Alnscorned Regret",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -5276,13 +5287,15 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
@@ -5291,7 +5304,7 @@
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
