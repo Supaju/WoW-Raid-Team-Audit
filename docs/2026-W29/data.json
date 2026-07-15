@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-15T04:43:42.827378+00:00",
+  "generated_at": "2026-07-15T07:53:16.407593+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1934,61 +1934,6 @@
         "champion": 0,
         "crafted": 2,
         "lower": 5
-      },
-      "ambiguous_items": [],
-      "overall_status": "fail"
-    },
-    {
-      "character": {
-        "id": 4870816,
-        "name": "Udderlyhot",
-        "realm": "Zul'jin",
-        "class_name": "Druid",
-        "role": "Heal",
-        "rank": "Main",
-        "item_level": 0.0,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
-        "items": []
-      },
-      "mythic_plus": {
-        "count": 0,
-        "target": 8,
-        "status": "fail"
-      },
-      "enchants": {
-        "enchanted": 0,
-        "required": 9,
-        "missing_slots": [
-          "head",
-          "shoulders",
-          "chest",
-          "legs",
-          "feet",
-          "finger_1",
-          "finger_2",
-          "main_hand",
-          "off_hand"
-        ],
-        "status": "fail"
-      },
-      "sockets": {
-        "filled": 0,
-        "total": 3,
-        "missing_slots": [
-          "neck",
-          "finger_1",
-          "finger_2"
-        ],
-        "status": "fail"
-      },
-      "gear": {
-        "myth": 0,
-        "hero": 0,
-        "champion": 0,
-        "crafted": 0,
-        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4332,9 +4277,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -4507,7 +4452,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
