@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-15T18:58:24.922014+00:00",
+  "generated_at": "2026-07-15T20:51:23.546968+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4696,7 +4696,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 291.6,
+        "item_level": 291.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4752,7 +4752,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -4792,10 +4796,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 193708,
+            "item_name": "Platinum Star Band",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -4866,16 +4870,16 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
-        "crafted": 4,
+        "crafted": 3,
         "lower": 5
       },
       "ambiguous_items": [],
