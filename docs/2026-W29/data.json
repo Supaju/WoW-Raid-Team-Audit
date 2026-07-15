@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-15T01:43:04.520093+00:00",
+  "generated_at": "2026-07-15T04:43:42.827378+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1946,180 +1946,11 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 292.1,
+        "item_level": 0.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
-        "items": [
-          {
-            "slot": "head",
-            "item_id": 250024,
-            "item_name": "Branches of the Luminous Bloom",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
-            "track": null,
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "shoulders",
-            "item_id": 251171,
-            "item_name": "Enthralled Bonespines",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "chest",
-            "item_id": 250027,
-            "item_name": "Trunk of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "waist",
-            "item_id": 249374,
-            "item_name": "Scorn-Scarred Shul'ka's Belt",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "legs",
-            "item_id": 250023,
-            "item_name": "Phloemwraps of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "feet",
-            "item_id": 250026,
-            "item_name": "Rootslippers of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "wrist",
-            "item_id": 244576,
-            "item_name": "Silvermoon Agent's Deflectors",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "hands",
-            "item_id": 250025,
-            "item_name": "Arbortenders of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "finger_1",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
-            "item_level": 298,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "back",
-            "item_id": 249370,
-            "item_name": "Draconic Nullcape",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
-            "item_level": 295,
-            "track": "crafted",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "tabard",
-            "item_id": 157757,
-            "item_name": "Highmountain Tabard",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          }
-        ]
+        "items": []
       },
       "mythic_plus": {
         "count": 0,
@@ -2127,23 +1958,37 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "enchanted": 0,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2",
+          "main_hand",
+          "off_hand"
+        ],
+        "status": "fail"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
-        "missing_slots": [],
-        "status": "pass"
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "neck",
+          "finger_1",
+          "finger_2"
+        ],
+        "status": "fail"
       },
       "gear": {
-        "myth": 8,
+        "myth": 0,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 5
+        "crafted": 0,
+        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "fail"
