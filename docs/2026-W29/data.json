@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-15T20:51:23.546968+00:00",
+  "generated_at": "2026-07-15T22:51:37.113057+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -157,8 +157,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
             "item_level": 298,
             "track": null,
             "enchanted": false,
