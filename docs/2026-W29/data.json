@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-15T22:51:37.113057+00:00",
+  "generated_at": "2026-07-16T01:52:51.116900+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4277,8 +4277,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.5,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 13.9,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -4452,9 +4452,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 10,
         "target": 8,
-        "status": "fail"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -4476,7 +4476,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4697,9 +4697,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -4859,7 +4859,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4894,9 +4894,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -5066,7 +5066,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
