@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-16T18:58:48.499759+00:00",
+  "generated_at": "2026-07-16T20:48:11.366806+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -659,7 +659,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 292.3,
+        "item_level": 292.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -816,10 +816,10 @@
           },
           {
             "slot": "back",
-            "item_id": 260312,
-            "item_name": "Defiant Defender's Drape",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -863,10 +863,10 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 5
       },
       "ambiguous_items": [],
