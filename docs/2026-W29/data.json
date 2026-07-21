@@ -2,7 +2,7 @@
   "week": "2026-W29",
   "week_label": "Raid Week 49 \u00b7 Jul 14\u201320",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-21T01:55:04.555219+00:00",
+  "generated_at": "2026-07-21T05:14:31.325476+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2167,7 +2167,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 291.9,
+        "item_level": 292.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2280,10 +2280,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249336,
+            "item_name": "Signet of the Starved Beast",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2315,19 +2315,19 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "back",
-            "item_id": 239656,
-            "item_name": "Adherent's Silken Shroud",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 250046,
+            "item_name": "Blind Oath's Shroud",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2371,10 +2371,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 1,
+        "myth": 9,
+        "hero": 0,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 0,
         "lower": 7
       },
       "ambiguous_items": [],
@@ -4275,9 +4275,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -4459,7 +4459,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
