@@ -2,7 +2,7 @@
   "week": "2026-W30",
   "week_label": "Raid Week 50 \u00b7 Jul 21\u201327",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-22T08:11:38.898321+00:00",
+  "generated_at": "2026-07-22T11:42:43.531376+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -660,9 +660,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 8.0,
-        "mythic_plus_highest": 8,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -844,7 +844,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -1947,9 +1947,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 292.4,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -2131,7 +2131,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -4279,9 +4279,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.5,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 15.0,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4463,7 +4463,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
@@ -4498,9 +4498,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.7,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 16.2,
-        "mythic_plus_highest": 19,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4673,9 +4673,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -4697,7 +4697,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -4918,9 +4918,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.9,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 13.5,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -5080,9 +5080,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 0,
         "target": 8,
-        "status": "warn"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -5104,7 +5104,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -5115,9 +5115,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 291.7,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 17.0,
-        "mythic_plus_highest": 17,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -5300,7 +5300,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
