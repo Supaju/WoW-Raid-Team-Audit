@@ -2,7 +2,7 @@
   "week": "2026-W30",
   "week_label": "Raid Week 50 \u00b7 Jul 21\u201327",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-22T01:53:56.318255+00:00",
+  "generated_at": "2026-07-22T05:12:58.129572+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2791,7 +2791,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 290.8,
+        "item_level": 291.9,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
@@ -2866,8 +2866,8 @@
             "slot": "legs",
             "item_id": 249978,
             "item_name": "Leggings of the Primal Core",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -2917,10 +2917,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151311,
-            "item_name": "Band of the Triumvirate",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2939,10 +2939,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 252411,
-            "item_name": "Radiant Sunstone",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3002,11 +3002,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3019,7 +3019,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 291.5,
+        "item_level": 292.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3075,16 +3075,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 249967,
-            "item_name": "Relentless Rider's Chain",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268289,
+            "item_name": "Girdle of Devouring Rot",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -3181,8 +3177,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 49802,
-            "item_name": "Garfrost's Two-Ton Hammer",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
@@ -3211,17 +3207,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3453,7 +3449,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 290.9,
+        "item_level": 291.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3497,8 +3493,8 @@
             "slot": "chest",
             "item_id": 250045,
             "item_name": "Abyssal Immolator's Dreadrobe",
-            "item_level": 289,
-            "track": "myth",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3637,11 +3633,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4711,7 +4707,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 290.8,
+        "item_level": 292.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4731,10 +4727,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 249337,
-            "item_name": "Ribbon of Coiled Malice",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -4784,10 +4780,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 151320,
-            "item_name": "Void-Coated Stompers",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268287,
+            "item_name": "Grudgefiend Stompers",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -4815,10 +4811,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 151308,
-            "item_name": "Eredath Seal of Nobility",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -4904,11 +4900,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 13,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 2
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -5118,7 +5114,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 291.9,
+        "item_level": 291.7,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 17,
@@ -5205,17 +5201,17 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251108,
-            "item_name": "Wraps of Watchful Wrath",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 239648,
+            "item_name": "Martyr's Bindings",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "hands",
-            "item_id": 251172,
-            "item_name": "Vilehex Bonds",
+            "item_id": 151300,
+            "item_name": "Handwraps of the Ascended",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -5223,8 +5219,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251513,
-            "item_name": "Loa Worshiper's Band",
+            "item_id": 240949,
+            "item_name": "Masterwork Sin'dorei Band",
             "item_level": 285,
             "track": "crafted",
             "enchanted": true,
@@ -5323,10 +5319,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 5
       },
       "ambiguous_items": [],
