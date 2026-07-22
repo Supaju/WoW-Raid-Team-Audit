@@ -2,7 +2,7 @@
   "week": "2026-W30",
   "week_label": "Raid Week 50 \u00b7 Jul 21\u201327",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-21T22:46:53.334906+00:00",
+  "generated_at": "2026-07-22T01:53:56.318255+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3181,8 +3181,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
+            "item_id": 49802,
+            "item_name": "Garfrost's Two-Ton Hammer",
             "item_level": 298,
             "track": "myth",
             "enchanted": true,
