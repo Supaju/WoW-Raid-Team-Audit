@@ -2,7 +2,7 @@
   "week": "2026-W30",
   "week_label": "Raid Week 50 \u00b7 Jul 21\u201327",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-26T06:29:58.714843+00:00",
+  "generated_at": "2026-07-26T09:51:51.040999+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5117,8 +5117,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 292.1,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 17.3,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 17.5,
         "mythic_plus_highest": 19,
         "items": [
           {
@@ -5208,8 +5208,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 251172,
-            "item_name": "Vilehex Bonds",
+            "item_id": 151300,
+            "item_name": "Handwraps of the Ascended",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -5289,9 +5289,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -5313,7 +5313,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     }
   ]
 }
