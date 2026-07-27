@@ -2,7 +2,7 @@
   "week": "2026-W30",
   "week_label": "Raid Week 50 \u00b7 Jul 21\u201327",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-26T22:52:50.175658+00:00",
+  "generated_at": "2026-07-27T02:08:30.268046+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -5119,7 +5119,7 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 292.1,
-        "mythic_plus_weekly": 11,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 17.8,
         "mythic_plus_highest": 19,
         "items": [
@@ -5291,7 +5291,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
