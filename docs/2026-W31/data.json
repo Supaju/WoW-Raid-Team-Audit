@@ -2,7 +2,7 @@
   "week": "2026-W31",
   "week_label": "Raid Week 51 \u00b7 Jul 28\u2013Aug 3",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-28T17:37:55.521967+00:00",
+  "generated_at": "2026-07-28T19:11:07.585072+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4925,7 +4925,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 291.9,
+        "item_level": 292.2,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 14,
@@ -5012,7 +5012,11 @@
             "item_level": 285,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -5078,11 +5082,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 245770,
-            "item_name": "Aln'hara Cane",
+            "item_id": 258218,
+            "item_name": "Skybreaker's Blade",
+            "item_level": 298,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 245769,
+            "item_name": "Aln'hara Lantern",
             "item_level": 295,
             "track": "crafted",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           }
         ]
@@ -5094,18 +5107,20 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
