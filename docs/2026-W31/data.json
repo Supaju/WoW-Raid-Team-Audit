@@ -2,7 +2,7 @@
   "week": "2026-W31",
   "week_label": "Raid Week 51 \u00b7 Jul 28\u2013Aug 3",
   "season_start": "2025-08-12",
-  "generated_at": "2026-07-29T13:50:18.267284+00:00",
+  "generated_at": "2026-07-29T15:45:18.551483+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -666,9 +666,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 20.0,
+        "mythic_plus_highest": 20,
         "items": [
           {
             "slot": "head",
@@ -850,7 +850,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2972,7 +2972,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2992,10 +2992,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 6,
