@@ -2,7 +2,7 @@
   "week": "2026-W32",
   "week_label": "Raid Week 23 \u00b7 Aug 4\u201310",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-06T14:05:39.633403+00:00",
+  "generated_at": "2026-08-06T23:51:37.496753+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2792,8 +2792,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 291.3,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 20.5,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 20.2,
         "mythic_plus_highest": 21,
         "items": [
           {
@@ -2985,9 +2985,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -3009,7 +3009,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4487,9 +4487,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -4662,7 +4662,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
