@@ -2,7 +2,7 @@
   "week": "2026-W32",
   "week_label": "Raid Week 23 \u00b7 Aug 4\u201310",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-06T01:50:17.087646+00:00",
+  "generated_at": "2026-08-06T04:58:56.254558+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1515,7 +1515,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 293.1,
+        "item_level": 291.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1684,20 +1684,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249281,
-            "item_name": "Blade of the Final Twilight",
-            "item_level": 298,
-            "track": null,
+            "item_id": 49802,
+            "item_name": "Garfrost's Two-Ton Hammer",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "off_hand",
-            "item_id": 237831,
-            "item_name": "Spellbreaker's Rebuke",
-            "item_level": 295,
-            "track": "crafted",
-            "enchanted": false,
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
+            "item_level": 285,
+            "track": "myth",
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1717,12 +1717,10 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 7,
@@ -1731,11 +1729,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 7
+        "crafted": 1,
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
