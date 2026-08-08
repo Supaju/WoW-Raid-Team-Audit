@@ -2,7 +2,7 @@
   "week": "2026-W32",
   "week_label": "Raid Week 23 \u00b7 Aug 4\u201310",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-08T14:23:57.853240+00:00",
+  "generated_at": "2026-08-08T16:22:44.500748+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -296,25 +296,21 @@
           },
           {
             "slot": "feet",
-            "item_id": 244569,
-            "item_name": "Silvermoon Agent's Sneakers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 249334,
+            "item_name": "Void-Claimed Shinkickers",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "wrist",
-            "item_id": 249327,
-            "item_name": "Void-Skinned Bracers",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244576,
+            "item_name": "Silvermoon Agent's Deflectors",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "hands",
@@ -412,8 +408,8 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
