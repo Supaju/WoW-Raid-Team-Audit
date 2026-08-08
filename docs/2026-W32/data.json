@@ -2,7 +2,7 @@
   "week": "2026-W32",
   "week_label": "Raid Week 23 \u00b7 Aug 4\u201310",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-08T20:19:10.220410+00:00",
+  "generated_at": "2026-08-08T22:19:33.757287+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3848,7 +3848,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 20.0,
         "mythic_plus_highest": 20,
         "items": [
@@ -4023,7 +4023,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4057,7 +4057,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 287.4,
+        "item_level": 286.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4073,10 +4073,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 50228,
+            "item_name": "Barbed Ymirheim Choker",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": false,
             "sockets": [
               {
@@ -4113,16 +4113,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 250021,
-            "item_name": "Barksash of the Luminous Bloom",
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
             "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -4166,19 +4162,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 251093,
             "item_name": "Omission of Light",
             "item_level": 289,
@@ -4191,19 +4174,32 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 250256,
+            "item_name": "Heart of Wind",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 285,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4219,10 +4215,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251201,
-            "item_name": "Corespark Multitool",
+            "item_id": 249278,
+            "item_name": "Alnscorned Spire",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": []
           }
@@ -4240,17 +4236,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 2,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
