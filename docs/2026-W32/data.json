@@ -2,7 +2,7 @@
   "week": "2026-W32",
   "week_label": "Raid Week 23 \u00b7 Aug 4\u201310",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-10T11:00:02.205874+00:00",
+  "generated_at": "2026-08-10T12:50:18.332065+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4483,8 +4483,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.7,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 11.1,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 20,
         "items": [
           {
@@ -4658,7 +4658,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
