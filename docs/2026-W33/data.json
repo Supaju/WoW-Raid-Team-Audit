@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 24 \u00b7 Aug 11\u201317",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-12T16:49:04.295420+00:00",
+  "generated_at": "2026-08-12T18:51:29.505971+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1737,7 +1737,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 292.7,
+        "item_level": 292.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1885,10 +1885,10 @@
           },
           {
             "slot": "back",
-            "item_id": 249974,
-            "item_name": "Guardian of the Primal Core",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 279222,
+            "item_name": "Venom-Cursed Eagle's Mantle",
+            "item_level": 292,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1924,11 +1924,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
