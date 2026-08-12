@@ -1,8 +1,8 @@
 {
   "week": "2026-W33",
-  "week_label": "Raid Week 24 \u00b7 Aug 11\u201317",
-  "season_start": "2026-03-02",
-  "generated_at": "2026-08-12T20:34:35.777902+00:00",
+  "week_label": "Raid Week 1 \u00b7 Aug 11\u201317",
+  "season_start": "2026-08-11",
+  "generated_at": "2026-08-12T22:31:51.748009+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2778,23 +2778,19 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 291.7,
+        "item_level": 292.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
-            "item_id": 249317,
-            "item_name": "Frenzy's Rebuke",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "item_id": 277776,
+            "item_name": "Venom-Cursed Eagle's Guise",
+            "item_level": 285,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -2838,16 +2834,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 244581,
-            "item_name": "Farstrider's Trophy Belt",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 277773,
+            "item_name": "Venom-Cursed Eagle's Waistguard",
+            "item_level": 292,
+            "track": null,
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -2882,9 +2874,9 @@
           },
           {
             "slot": "hands",
-            "item_id": 251165,
-            "item_name": "Pulverizing Pads",
-            "item_level": 292,
+            "item_id": 249980,
+            "item_name": "Earthgrips of the Primal Core",
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2904,14 +2896,14 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 151311,
-            "item_name": "Band of the Triumvirate",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 272147,
+            "item_name": "Colubrine Band",
+            "item_level": 305,
+            "track": null,
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -2957,7 +2949,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2977,28 +2969,30 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 6,
         "required": 9,
         "missing_slots": [
+          "head",
           "finger_1",
-          "off_hand"
+          "finger_2"
         ],
         "status": "fail"
       },
       "sockets": {
-        "filled": 5,
-        "total": 6,
+        "filled": 2,
+        "total": 4,
         "missing_slots": [
-          "finger_1"
+          "finger_1",
+          "finger_2"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 4
+        "crafted": 1,
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
