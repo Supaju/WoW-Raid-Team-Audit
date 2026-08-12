@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 24 \u00b7 Aug 11\u201317",
   "season_start": "2026-03-02",
-  "generated_at": "2026-08-12T09:03:48.811921+00:00",
+  "generated_at": "2026-08-12T10:53:53.612653+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3635,7 +3635,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 293.1,
+        "item_level": 293.4,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3668,8 +3668,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 258578,
-            "item_name": "Lightbinder Shoulderguards",
+            "item_id": 250058,
+            "item_name": "Voidbreaker's Leyline Nexi",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -3792,20 +3792,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 258218,
-            "item_name": "Skybreaker's Blade",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 272273,
+            "item_name": "Enshrined Ceremonial Scepter",
+            "item_level": 305,
+            "track": null,
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 245769,
-            "item_name": "Aln'hara Lantern",
-            "item_level": 295,
-            "track": "crafted",
-            "enchanted": false,
             "sockets": []
           }
         ]
@@ -3817,11 +3808,9 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 6,
@@ -3830,11 +3819,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 6
+        "crafted": 1,
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "fail"
