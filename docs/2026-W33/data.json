@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 1 \u00b7 Aug 11\u201317",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-13T04:02:29.550823+00:00",
+  "generated_at": "2026-08-13T07:14:51.315070+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1500,7 +1500,7 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 293.2,
+        "item_level": 292.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1669,20 +1669,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249281,
-            "item_name": "Blade of the Final Twilight",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 237831,
-            "item_name": "Spellbreaker's Rebuke",
-            "item_level": 295,
-            "track": "crafted",
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -1703,11 +1694,9 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 7,
@@ -1716,11 +1705,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 7
+        "crafted": 1,
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
