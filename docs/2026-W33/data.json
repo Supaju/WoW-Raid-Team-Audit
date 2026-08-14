@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 1 \u00b7 Aug 11\u201317",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-14T14:44:36.097014+00:00",
+  "generated_at": "2026-08-14T16:41:58.208653+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1870,10 +1870,10 @@
           },
           {
             "slot": "back",
-            "item_id": 279222,
-            "item_name": "Venom-Cursed Eagle's Mantle",
+            "item_id": 193763,
+            "item_name": "Fireproof Drape",
             "item_level": 292,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1909,11 +1909,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
