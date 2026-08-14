@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 1 \u00b7 Aug 11\u201317",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-13T22:32:52.846175+00:00",
+  "generated_at": "2026-08-14T01:14:40.390465+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3614,7 +3614,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 293.4,
+        "item_level": 294.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3731,14 +3731,14 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
+            "item_level": 305,
             "track": "myth",
             "enchanted": true,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -3792,10 +3792,12 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
+        "filled": 5,
         "total": 6,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "finger_2"
+        ],
+        "status": "warn"
       },
       "gear": {
         "myth": 7,
@@ -4025,7 +4027,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 289.0,
+        "item_level": 287.4,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4081,16 +4083,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 251189,
-            "item_name": "Rootwalker Harness",
-            "item_level": 292,
+            "item_id": 249374,
+            "item_name": "Scorn-Scarred Shul'ka's Belt",
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": false
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -4112,23 +4110,23 @@
           },
           {
             "slot": "wrist",
-            "item_id": 159300,
-            "item_name": "Kula's Butchering Wristwraps",
-            "item_level": 292,
-            "track": "myth",
+            "item_id": 244576,
+            "item_name": "Silvermoon Agent's Deflectors",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
           {
             "slot": "hands",
-            "item_id": 251124,
-            "item_name": "Gauntlets of Fevered Defense",
-            "item_level": 292,
-            "track": "myth",
+            "item_id": 244575,
+            "item_name": "Silvermoon Agent's Handwraps",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -4169,10 +4167,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 292,
-            "track": "myth",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4208,19 +4206,16 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 5,
-        "missing_slots": [
-          "waist",
-          "wrist"
-        ],
-        "status": "fail"
+        "filled": 4,
+        "total": 4,
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 9,
         "hero": 2,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 3,
         "lower": 1
       },
       "ambiguous_items": [],
