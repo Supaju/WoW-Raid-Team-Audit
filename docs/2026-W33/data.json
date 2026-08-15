@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 1 \u00b7 Aug 11\u201317",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-14T22:14:04.144906+00:00",
+  "generated_at": "2026-08-15T00:46:26.900373+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1438,8 +1438,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249806,
-            "item_name": "Radiant Plume",
+            "item_id": 260235,
+            "item_name": "Umbral Plume",
             "item_level": 298,
             "track": null,
             "enchanted": false,
