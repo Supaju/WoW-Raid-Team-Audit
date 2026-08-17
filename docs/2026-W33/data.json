@@ -2,7 +2,7 @@
   "week": "2026-W33",
   "week_label": "Raid Week 1 \u00b7 Aug 11\u201317",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-17T02:52:56.705666+00:00",
+  "generated_at": "2026-08-17T04:32:53.910651+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3001,7 +3001,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 291.5,
+        "item_level": 292.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3017,10 +3017,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 249368,
-            "item_name": "Eternal Voidsong Chain",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -3030,8 +3030,8 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 249968,
-            "item_name": "Relentless Rider's Dreadthorns",
+            "item_id": 249313,
+            "item_name": "Light-Judged Spaulders",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -3159,10 +3159,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249296,
-            "item_name": "Alah'endal, the Dawnsong",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
