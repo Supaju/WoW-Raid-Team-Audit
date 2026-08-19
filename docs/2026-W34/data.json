@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-19T00:45:23.279499+00:00",
+  "generated_at": "2026-08-19T02:50:32.306388+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -224,9 +224,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 296.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -395,7 +395,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -434,9 +434,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 294.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -627,7 +627,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1085,9 +1085,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 294.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -1269,9 +1269,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1293,7 +1293,7 @@
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1504,10 +1504,10 @@
         "class_name": "Warrior",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 293.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 294.1,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -1646,10 +1646,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249342,
-            "item_name": "Heart of Ancient Hunger",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273795,
+            "item_name": "Coiled Fangstone",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1701,7 +1701,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1720,11 +1720,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1738,9 +1738,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 4.0,
+        "mythic_plus_highest": 4,
         "items": [
           {
             "slot": "head",
@@ -1904,7 +1904,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2787,9 +2787,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 294.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 6.7,
+        "mythic_plus_highest": 9,
         "items": [
           {
             "slot": "head",
@@ -2972,9 +2972,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 6,
@@ -4057,10 +4057,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 292.0,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 292.6,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -4199,7 +4199,7 @@
             "slot": "trinket_2",
             "item_id": 273796,
             "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4217,7 +4217,7 @@
             "slot": "main_hand",
             "item_id": 272266,
             "item_name": "Forgotten Eidolon's Dagger",
-            "item_level": 305,
+            "item_level": 311,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -4234,7 +4234,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4492,10 +4492,10 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 292.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 294.1,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -4543,16 +4543,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 249319,
-            "item_name": "Endless March Waistwrap",
-            "item_level": 289,
+            "item_id": 193691,
+            "item_name": "Sky Saddle Cord",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -4668,7 +4664,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4679,8 +4675,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4913,9 +4909,9 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 292.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 4.0,
+        "mythic_plus_highest": 4,
         "items": [
           {
             "slot": "head",
@@ -5088,7 +5084,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
