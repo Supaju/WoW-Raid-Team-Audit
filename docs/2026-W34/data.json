@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-19T02:50:32.306388+00:00",
+  "generated_at": "2026-08-19T04:28:58.225484+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 292.7,
+        "item_level": 293.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -117,10 +117,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 151332,
-            "item_name": "Voidclaw Gauntlets",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271466,
+            "item_name": "Gauntlets of the Consecrated Flame",
+            "item_level": 302,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -206,11 +206,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -663,23 +663,19 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 292.1,
+        "item_level": 297.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
-            "item_id": 249970,
-            "item_name": "Relentless Rider's Crown",
-            "item_level": 289,
+            "item_id": 271474,
+            "item_name": "Baleful Grave-Knight's Casque",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "enchanted": false,
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -767,36 +763,36 @@
           },
           {
             "slot": "hands",
-            "item_id": 249971,
-            "item_name": "Relentless Rider's Bonegrasps",
-            "item_level": 289,
+            "item_id": 271475,
+            "item_name": "Baleful Grave-Knight's Deathgrips",
+            "item_level": 305,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 272147,
+            "item_name": "Colubrine Band",
+            "item_level": 305,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
+            "item_id": 251194,
+            "item_name": "Lightwarden's Bind",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -829,10 +825,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
+            "item_id": 249295,
+            "item_name": "Turalyon's False Echo",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249281,
+            "item_name": "Blade of the Final Twilight",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -853,23 +858,29 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "enchanted": 7,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "finger_2"
+        ],
+        "status": "fail"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
-        "missing_slots": [],
-        "status": "pass"
+        "filled": 3,
+        "total": 5,
+        "missing_slots": [
+          "finger_1",
+          "finger_2"
+        ],
+        "status": "fail"
       },
       "gear": {
-        "myth": 8,
+        "myth": 6,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 8
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1084,7 +1095,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 294.9,
+        "item_level": 296.4,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
@@ -1250,9 +1261,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 49802,
-            "item_name": "Garfrost's Two-Ton Hammer",
-            "item_level": 298,
+            "item_id": 251230,
+            "item_name": "Charonic Crescent",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1941,7 +1952,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 292.4,
+        "item_level": 288.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1961,10 +1972,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
-            "track": null,
+            "item_id": 240950,
+            "item_name": "Masterwork Sin'dorei Amulet",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -1983,10 +1994,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 244570,
-            "item_name": "Silvermoon Agent's Coat",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 250027,
+            "item_name": "Trunk of the Luminous Bloom",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2014,10 +2025,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 250026,
-            "item_name": "Rootslippers of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244569,
+            "item_name": "Silvermoon Agent's Sneakers",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2045,12 +2056,15 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249920,
+            "item_name": "Eye of Midnight",
+            "item_level": 276,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -2080,10 +2094,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
-            "item_level": 298,
-            "track": null,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 285,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2098,20 +2112,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249283,
-            "item_name": "Belo'melorn, the Shattered Talon",
+            "item_id": 251162,
+            "item_name": "Traitor's Talon",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 249922,
-            "item_name": "Tome of Alnscorned Regret",
-            "item_level": 298,
-            "track": null,
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -2132,24 +2137,22 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 7,
+        "total": 7,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 0,
+        "myth": 9,
+        "hero": 1,
         "champion": 0,
-        "crafted": 2,
-        "lower": 7
+        "crafted": 3,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2162,7 +2165,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 294.5,
+        "item_level": 295.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2337,10 +2340,10 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 249276,
-            "item_name": "Grimoire of the Eternal Light",
-            "item_level": 298,
-            "track": null,
+            "item_id": 159667,
+            "item_name": "Vessel of Last Rites",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           }
@@ -2366,11 +2369,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 9
+        "lower": 8
       },
       "ambiguous_items": [],
       "overall_status": "fail"
