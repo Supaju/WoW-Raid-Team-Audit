@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-19T14:24:21.018689+00:00",
+  "generated_at": "2026-08-19T16:21:14.955323+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2149,7 +2149,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 295.3,
+        "item_level": 296.7,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
@@ -2222,9 +2222,9 @@
           },
           {
             "slot": "legs",
-            "item_id": 250050,
-            "item_name": "Blind Oath's Leggings",
-            "item_level": 289,
+            "item_id": 193750,
+            "item_name": "Wind Soarer's Breeches",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
