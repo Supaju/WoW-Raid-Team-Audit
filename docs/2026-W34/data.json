@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-19T04:28:58.225484+00:00",
+  "generated_at": "2026-08-19T06:29:28.370913+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -223,7 +223,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 296.2,
+        "item_level": 298.6,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 11,
@@ -274,16 +274,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 268286,
-            "item_name": "Sash of the Putrid Giant",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251235,
+            "item_name": "Gravitic Girdle",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -305,18 +301,18 @@
           },
           {
             "slot": "wrist",
-            "item_id": 244576,
-            "item_name": "Silvermoon Agent's Deflectors",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251135,
+            "item_name": "Fury-fletched Armlets",
+            "item_level": 292,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "hands",
-            "item_id": 250025,
-            "item_name": "Arbortenders of the Luminous Bloom",
-            "item_level": 289,
+            "item_id": 159312,
+            "item_name": "Desiccator's Blessed Gloves",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -358,8 +354,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -410,17 +406,17 @@
         "status": "fail"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 9
+        "crafted": 1,
+        "lower": 8
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -433,7 +429,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 294.1,
+        "item_level": 296.1,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 11,
@@ -493,16 +489,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 268289,
-            "item_name": "Girdle of Devouring Rot",
-            "item_level": 298,
+            "item_id": 277765,
+            "item_name": "Venom-Cursed Bear's Warbelt",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -515,9 +507,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 275490,
-            "item_name": "Preyhunter's Polished Greatboots",
-            "item_level": 292,
+            "item_id": 272256,
+            "item_name": "Pledgebearer's Sabatons",
+            "item_level": 295,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -574,7 +566,7 @@
             "slot": "trinket_1",
             "item_id": 248583,
             "item_name": "Drum of Renewed Bonds",
-            "item_level": 305,
+            "item_level": 321,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -592,7 +584,7 @@
             "slot": "back",
             "item_id": 193763,
             "item_name": "Fireproof Drape",
-            "item_level": 305,
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -640,8 +632,8 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
@@ -1096,7 +1088,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 296.4,
-        "mythic_plus_weekly": 4,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
@@ -1280,9 +1272,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -1304,7 +1296,7 @@
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -1315,9 +1307,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -1481,7 +1473,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1748,7 +1740,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 292.9,
+        "item_level": 297.2,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 4.0,
         "mythic_plus_highest": 4,
@@ -1799,16 +1791,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 249976,
-            "item_name": "Ceinture of the Primal Core",
-            "item_level": 289,
+            "item_id": 159369,
+            "item_name": "Belt of the Consecrated Tomb",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -1830,16 +1818,12 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251079,
-            "item_name": "Amberfrond Bracers",
-            "item_level": 289,
+            "item_id": 159380,
+            "item_name": "Arc-Glass Bindings",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "hands",
@@ -1887,18 +1871,18 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 250214,
+            "item_name": "Lightspire Core",
+            "item_level": 302,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "back",
-            "item_id": 193763,
-            "item_name": "Fireproof Drape",
-            "item_level": 292,
+            "item_id": 251190,
+            "item_name": "Bloodthorn Burnous",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1929,17 +1913,17 @@
         "status": "fail"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2789,15 +2773,15 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 294.5,
+        "item_level": 296.7,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 6.7,
         "mythic_plus_highest": 9,
         "items": [
           {
             "slot": "head",
-            "item_id": 277776,
-            "item_name": "Venom-Cursed Eagle's Guise",
+            "item_id": 271483,
+            "item_name": "Serpent Crown of the Ophidian Oracle",
             "item_level": 285,
             "track": null,
             "enchanted": false,
@@ -2818,11 +2802,11 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 249977,
-            "item_name": "Tempests of the Primal Core",
-            "item_level": 289,
+            "item_id": 271481,
+            "item_name": "Hissing Mantle of the Ophidian Oracle",
+            "item_level": 302,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2863,11 +2847,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 249320,
-            "item_name": "Sabatons of Obscurement",
-            "item_level": 289,
+            "item_id": 159371,
+            "item_name": "Boots of the Headlong Conqueror",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2980,10 +2964,12 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 4,
         "required": 9,
         "missing_slots": [
           "head",
+          "shoulders",
+          "feet",
           "finger_1",
           "finger_2"
         ],
@@ -3227,7 +3213,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 290.6,
+        "item_level": 291.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3278,11 +3264,11 @@
           },
           {
             "slot": "chest",
-            "item_id": 268285,
-            "item_name": "Putrid Tender's Battleplate",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
+            "item_id": 193753,
+            "item_name": "Breastplate of Soaring Terror",
+            "item_level": 311,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3417,10 +3403,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "chest"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 6,
@@ -3429,11 +3417,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3648,9 +3636,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 294.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 10.8,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -3814,9 +3802,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3840,7 +3828,7 @@
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
