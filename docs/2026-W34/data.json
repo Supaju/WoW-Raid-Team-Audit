@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-18T22:13:54.471128+00:00",
+  "generated_at": "2026-08-19T00:45:23.279499+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -223,7 +223,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 294.0,
+        "item_level": 296.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -265,11 +265,11 @@
           },
           {
             "slot": "chest",
-            "item_id": 251216,
-            "item_name": "Maledict Vest",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 271531,
+            "item_name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "item_level": 302,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -287,11 +287,11 @@
           },
           {
             "slot": "legs",
-            "item_id": 250023,
-            "item_name": "Phloemwraps of the Luminous Bloom",
-            "item_level": 289,
+            "item_id": 271527,
+            "item_name": "Enigmatic Dreamwatcher's Leggings",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -400,12 +400,14 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 6,
         "required": 9,
         "missing_slots": [
+          "chest",
+          "legs",
           "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 5,
@@ -414,11 +416,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 5,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 8
+        "lower": 9
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -431,7 +433,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 293.9,
+        "item_level": 294.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -513,11 +515,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 249954,
-            "item_name": "Night Ender's Greatboots",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 275490,
+            "item_name": "Preyhunter's Polished Greatboots",
+            "item_level": 292,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -630,10 +632,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 6,
@@ -642,11 +646,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1080,7 +1084,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 291.5,
+        "item_level": 294.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1100,10 +1104,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 50228,
-            "item_name": "Barbed Ymirheim Choker",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 272229,
+            "item_name": "Serpentine Talisman",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -1184,19 +1188,19 @@
           },
           {
             "slot": "hands",
-            "item_id": 151332,
-            "item_name": "Voidclaw Gauntlets",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271457,
+            "item_name": "Jeweled Gauntlets of the Jade Warlord",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 272149,
+            "item_name": "Hex Loop",
+            "item_level": 305,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -1206,8 +1210,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
+            "item_id": 49812,
+            "item_name": "Purloined Wedding Ring",
             "item_level": 289,
             "track": "myth",
             "enchanted": true,
@@ -1228,9 +1232,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
+            "item_id": 264507,
+            "item_name": "Crucible of Erratic Energies",
+            "item_level": 295,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -1282,11 +1286,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 6,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2782,7 +2786,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 292.9,
+        "item_level": 294.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2933,17 +2937,17 @@
             "slot": "back",
             "item_id": 193763,
             "item_name": "Fireproof Drape",
-            "item_level": 292,
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "main_hand",
-            "item_id": 249293,
-            "item_name": "Weight of Command",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273778,
+            "item_name": "Polished Lightwood Channeler",
+            "item_level": 308,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2992,11 +2996,11 @@
         "status": "fail"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 6
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3220,11 +3224,24 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 290.7,
+        "item_level": 290.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
         "items": [
+          {
+            "slot": "head",
+            "item_id": 249961,
+            "item_name": "Luminant Verdict's Unwavering Gaze",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
           {
             "slot": "neck",
             "item_id": 249337,
@@ -3397,21 +3414,19 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
@@ -4042,7 +4057,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 289.6,
+        "item_level": 292.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4100,7 +4115,7 @@
             "slot": "waist",
             "item_id": 159317,
             "item_name": "Whirling Dervish Sash",
-            "item_level": 292,
+            "item_level": 295,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4118,7 +4133,7 @@
             "slot": "feet",
             "item_id": 256975,
             "item_name": "Verdant Tracker's Anklets",
-            "item_level": 292,
+            "item_level": 295,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4182,9 +4197,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250224,
-            "item_name": "Mindpiercer's Sigil",
-            "item_level": 298,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4200,11 +4215,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251201,
-            "item_name": "Corespark Multitool",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 272266,
+            "item_name": "Forgotten Eidolon's Dagger",
+            "item_level": 305,
+            "track": null,
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 245769,
+            "item_name": "Aln'hara Lantern",
+            "item_level": 305,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           }
         ]
@@ -4216,11 +4240,12 @@
       },
       "enchants": {
         "enchanted": 7,
-        "required": 8,
+        "required": 9,
         "missing_slots": [
-          "feet"
+          "feet",
+          "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 3,
@@ -4231,11 +4256,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 2,
         "champion": 0,
-        "crafted": 1,
-        "lower": 2
+        "crafted": 2,
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
