@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-20T20:19:18.739507+00:00",
+  "generated_at": "2026-08-20T22:18:01.291715+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -220,7 +220,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 304.6,
-        "mythic_plus_weekly": 10,
+        "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 9.8,
         "mythic_plus_highest": 11,
         "items": [
@@ -387,7 +387,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -2755,8 +2755,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 297.5,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 9.0,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 9.2,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2925,7 +2925,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2940,20 +2940,19 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 3,
+        "enchanted": 4,
         "required": 9,
         "missing_slots": [
           "head",
           "shoulders",
           "feet",
           "finger_1",
-          "finger_2",
-          "off_hand"
+          "finger_2"
         ],
         "status": "fail"
       },
