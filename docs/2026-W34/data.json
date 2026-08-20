@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-20T00:45:03.200932+00:00",
+  "generated_at": "2026-08-20T02:50:04.293391+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,8 +13,8 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 293.5,
-        "mythic_plus_weekly": 6,
+        "item_level": 295.3,
+        "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 8.3,
         "mythic_plus_highest": 10,
         "items": [
@@ -104,16 +104,12 @@
           },
           {
             "slot": "wrist",
-            "item_id": 237834,
-            "item_name": "Spellbreaker's Bracers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251133,
+            "item_name": "Overseer's Vambraces",
+            "item_level": 305,
+            "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "hands",
@@ -161,10 +157,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 305,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -189,9 +185,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 10,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -200,20 +196,20 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
-        "lower": 6
+        "crafted": 1,
+        "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -223,7 +219,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 297.8,
+        "item_level": 302.3,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 9.7,
         "mythic_plus_highest": 11,
@@ -298,7 +294,7 @@
             "slot": "feet",
             "item_id": 244569,
             "item_name": "Silvermoon Agent's Sneakers",
-            "item_level": 285,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
@@ -376,19 +372,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251083,
-            "item_name": "Excavating Cudgel",
-            "item_level": 298,
+            "item_id": 273778,
+            "item_name": "Polished Lightwood Channeler",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "off_hand",
-            "item_id": 249922,
-            "item_name": "Tome of Alnscorned Regret",
-            "item_level": 298,
-            "track": null,
+            "item_id": 193766,
+            "item_name": "Kokia's Burnout Rod",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           }
@@ -416,11 +412,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 9
+        "lower": 8
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1311,8 +1307,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -1477,7 +1473,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1940,9 +1936,9 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 288.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 10.4,
+        "item_level": 292.4,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -1960,10 +1956,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -1982,10 +1978,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 250027,
-            "item_name": "Trunk of the Luminous Bloom",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 244570,
+            "item_name": "Silvermoon Agent's Coat",
+            "item_level": 285,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2013,10 +2009,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 244569,
-            "item_name": "Silvermoon Agent's Sneakers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 250026,
+            "item_name": "Rootslippers of the Luminous Bloom",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2044,15 +2040,12 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 249920,
-            "item_name": "Eye of Midnight",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
-              {
-                "filled": true
-              },
               {
                 "filled": true
               }
@@ -2082,10 +2075,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 285,
-            "track": "myth",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2100,11 +2093,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251162,
-            "item_name": "Traitor's Talon",
+            "item_id": 249283,
+            "item_name": "Belo'melorn, the Shattered Talon",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 249922,
+            "item_name": "Tome of Alnscorned Regret",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2119,28 +2121,30 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 7,
-        "total": 7,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 1,
+        "myth": 7,
+        "hero": 0,
         "champion": 0,
-        "crafted": 3,
-        "lower": 2
+        "crafted": 2,
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -4484,8 +4488,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 295.0,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 10.2,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -4655,7 +4659,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -4900,8 +4904,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 292.2,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 7.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 7.6,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -5075,7 +5079,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
