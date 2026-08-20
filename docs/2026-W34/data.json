@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-20T12:30:37.363455+00:00",
+  "generated_at": "2026-08-20T14:27:16.642630+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2142,23 +2142,19 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 300.1,
+        "item_level": 301.9,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
-            "item_id": 250051,
-            "item_name": "Blind Oath's Winged Crest",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 272234,
+            "item_name": "Pyrewalker's Miter",
+            "item_level": 305,
+            "track": null,
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -2229,14 +2225,14 @@
           },
           {
             "slot": "wrist",
-            "item_id": 250047,
-            "item_name": "Blind Oath's Wraps",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 277788,
+            "item_name": "Venom-Cursed Dragonhawk's Wristbands",
+            "item_level": 292,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -2286,9 +2282,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
+            "item_id": 274493,
+            "item_name": "Effigy of Ula'tek's Faithful",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2336,17 +2332,19 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
-        "missing_slots": [],
-        "status": "pass"
+        "filled": 3,
+        "total": 4,
+        "missing_slots": [
+          "wrist"
+        ],
+        "status": "warn"
       },
       "gear": {
-        "myth": 9,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 7
+        "lower": 9
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3413,6 +3411,209 @@
       },
       "ambiguous_items": [],
       "overall_status": "pass"
+    },
+    {
+      "character": {
+        "id": 4871091,
+        "name": "Vern\u00ecchtung",
+        "realm": "Mal'Ganis",
+        "class_name": "Warlock",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 293.4,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.3,
+        "mythic_plus_highest": 11,
+        "items": [
+          {
+            "slot": "head",
+            "item_id": 250042,
+            "item_name": "Abyssal Immolator's Smoldering Flames",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "neck",
+            "item_id": 249337,
+            "item_name": "Ribbon of Coiled Malice",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "shoulders",
+            "item_id": 251227,
+            "item_name": "Poisoner's Pauldrons",
+            "item_level": 311,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "chest",
+            "item_id": 250045,
+            "item_name": "Abyssal Immolator's Dreadrobe",
+            "item_level": 298,
+            "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "waist",
+            "item_id": 249319,
+            "item_name": "Endless March Waistwrap",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "legs",
+            "item_id": 250041,
+            "item_name": "Abyssal Immolator's Pillars",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "feet",
+            "item_id": 268282,
+            "item_name": "Luxurious Loamstriders",
+            "item_level": 298,
+            "track": null,
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "wrist",
+            "item_id": 239648,
+            "item_name": "Martyr's Bindings",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "hands",
+            "item_id": 250043,
+            "item_name": "Abyssal Immolator's Grasps",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "finger_1",
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
+            "item_id": 251093,
+            "item_name": "Omission of Light",
+            "item_level": 289,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "trinket_2",
+            "item_id": 251792,
+            "item_name": "Glorious Crusader's Keepsake",
+            "item_level": 305,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "back",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 285,
+            "track": "crafted",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "main_hand",
+            "item_id": 258514,
+            "item_name": "Umbral Spire of Zuraal",
+            "item_level": 298,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          }
+        ]
+      },
+      "mythic_plus": {
+        "count": 3,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 7,
+        "required": 8,
+        "missing_slots": [
+          "shoulders"
+        ],
+        "status": "warn"
+      },
+      "sockets": {
+        "filled": 6,
+        "total": 6,
+        "missing_slots": [],
+        "status": "pass"
+      },
+      "gear": {
+        "myth": 9,
+        "hero": 0,
+        "champion": 0,
+        "crafted": 2,
+        "lower": 4
+      },
+      "ambiguous_items": [],
+      "overall_status": "fail"
     },
     {
       "character": {
