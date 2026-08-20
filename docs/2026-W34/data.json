@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-19T22:15:55.811607+00:00",
+  "generated_at": "2026-08-20T00:45:03.200932+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -224,8 +224,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 297.8,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 9.6,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 9.7,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -395,7 +395,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -434,8 +434,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 296.1,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -623,7 +623,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -660,8 +660,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 297.2,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 8.5,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 8.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -849,7 +849,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -1311,8 +1311,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -1477,7 +1477,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2153,8 +2153,8 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 296.7,
-        "mythic_plus_weekly": 14,
+        "item_level": 300.1,
+        "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
         "items": [
@@ -2213,16 +2213,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 151302,
-            "item_name": "Cord of Unraveling Reality",
-            "item_level": 289,
+            "item_id": 251185,
+            "item_name": "Lightblossom Cinch",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -2266,9 +2262,9 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2279,10 +2275,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251136,
+            "item_name": "Signet of Snarling Servitude",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2338,7 +2334,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
@@ -2351,17 +2347,17 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 8
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -4487,7 +4483,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 294.1,
+        "item_level": 295.0,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 11,
@@ -4529,10 +4525,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 250045,
-            "item_name": "Abyssal Immolator's Dreadrobe",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273785,
+            "item_name": "Primordial Robe of Rites",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4676,11 +4672,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
