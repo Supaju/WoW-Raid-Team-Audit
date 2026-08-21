@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-21T02:55:32.785256+00:00",
+  "generated_at": "2026-08-21T04:30:03.068474+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 295.3,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 8.3,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 8.9,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -185,7 +185,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -646,8 +646,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 300.8,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 8.5,
+        "mythic_plus_weekly": 17,
+        "mythic_plus_avg_level": 8.8,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -822,7 +822,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 17,
         "target": 8,
         "status": "pass"
       },
@@ -2137,8 +2137,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.6,
-        "mythic_plus_weekly": 20,
-        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2313,7 +2313,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -3197,8 +3197,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 291.5,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 10.4,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3381,7 +3381,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
