@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-21T00:50:33.392548+00:00",
+  "generated_at": "2026-08-21T02:55:32.785256+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -220,8 +220,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 304.6,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 9.8,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -387,7 +387,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -1286,9 +1286,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 292.1,
-        "mythic_plus_weekly": 3,
+        "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 10.7,
-        "mythic_plus_highest": 11,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1452,9 +1452,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 9,
         "target": 8,
-        "status": "fail"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -1476,7 +1476,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2136,10 +2136,10 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 303.5,
-        "mythic_plus_weekly": 16,
-        "mythic_plus_avg_level": 10.4,
-        "mythic_plus_highest": 11,
+        "item_level": 305.6,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2267,10 +2267,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249808,
-            "item_name": "Litany of Lightblind Wrath",
-            "item_level": 298,
-            "track": null,
+            "item_id": 250259,
+            "item_name": "Sapling of the Dawnroot",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2303,17 +2303,17 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 159667,
-            "item_name": "Vessel of Last Rites",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 245769,
+            "item_name": "Aln'hara Lantern",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 16,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -2337,8 +2337,8 @@
         "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 0,
-        "lower": 7
+        "crafted": 1,
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2920,7 +2920,7 @@
             "item_name": "Polished Lightwood Channeler",
             "item_level": 308,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2929,7 +2929,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2949,14 +2949,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 4,
+        "enchanted": 6,
         "required": 9,
         "missing_slots": [
           "shoulders",
           "finger_1",
-          "finger_2",
-          "main_hand",
-          "off_hand"
+          "finger_2"
         ],
         "status": "fail"
       },
@@ -3418,7 +3416,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 294.9,
-        "mythic_plus_weekly": 6,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -3584,9 +3582,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3608,7 +3606,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4030,9 +4028,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 293.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 10.3,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -4206,9 +4204,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 12,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 7,
@@ -4463,9 +4461,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 295.0,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -4634,7 +4632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
