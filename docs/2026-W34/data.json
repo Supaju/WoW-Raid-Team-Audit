@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-20T22:18:01.291715+00:00",
+  "generated_at": "2026-08-21T00:50:33.392548+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -341,8 +341,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 268292,
-            "item_name": "Sporelord's Mycelial Insignia",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -350,10 +350,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 273794,
+            "item_name": "Knot of Writhing Serpents",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -406,11 +406,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2136,7 +2136,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 301.9,
+        "item_level": 303.5,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
@@ -2183,10 +2183,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 250054,
-            "item_name": "Blind Oath's Raiment",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251139,
+            "item_name": "Summoner's Searing Shirt",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2267,8 +2267,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 249808,
+            "item_name": "Litany of Lightblind Wrath",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -2294,10 +2294,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249293,
-            "item_name": "Weight of Command",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251225,
+            "item_name": "Fang of Contagion",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2334,11 +2334,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 7,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 9
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2754,19 +2754,23 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 297.5,
+        "item_level": 296.1,
         "mythic_plus_weekly": 20,
         "mythic_plus_avg_level": 9.2,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
-            "item_id": 271483,
-            "item_name": "Serpent Crown of the Ophidian Oracle",
+            "item_id": 249317,
+            "item_name": "Frenzy's Rebuke",
             "item_level": 289,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -2828,11 +2832,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 159371,
-            "item_name": "Boots of the Headlong Conqueror",
-            "item_level": 311,
+            "item_id": 249320,
+            "item_name": "Sabatons of Obscurement",
+            "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2859,10 +2863,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 273792,
-            "item_name": "Band of the Amani Warlord",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 272147,
+            "item_name": "Colubrine Band",
+            "item_level": 305,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -2872,10 +2876,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
-            "item_level": 305,
-            "track": null,
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -2894,10 +2898,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 252411,
-            "item_name": "Radiant Sunstone",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2916,7 +2920,7 @@
             "item_name": "Polished Lightwood Channeler",
             "item_level": 308,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2925,7 +2929,7 @@
             "item_name": "Bulwark of Noble Resolve",
             "item_level": 298,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2948,17 +2952,17 @@
         "enchanted": 4,
         "required": 9,
         "missing_slots": [
-          "head",
           "shoulders",
-          "feet",
           "finger_1",
-          "finger_2"
+          "finger_2",
+          "main_hand",
+          "off_hand"
         ],
         "status": "fail"
       },
       "sockets": {
-        "filled": 2,
-        "total": 4,
+        "filled": 3,
+        "total": 5,
         "missing_slots": [
           "finger_1",
           "finger_2"
@@ -2966,11 +2970,11 @@
         "status": "fail"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3413,10 +3417,10 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 293.4,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 11,
+        "item_level": 294.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3433,9 +3437,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 249337,
-            "item_name": "Ribbon of Coiled Malice",
-            "item_level": 289,
+            "item_id": 251234,
+            "item_name": "Graft of the Domanaar",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3450,7 +3454,7 @@
             "item_name": "Poisoner's Pauldrons",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3580,17 +3584,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "shoulders"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 6,
@@ -3606,7 +3608,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3616,7 +3618,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 297.9,
+        "item_level": 297.7,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
@@ -3740,7 +3742,7 @@
             "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -3755,9 +3757,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
+            "item_id": 264507,
+            "item_name": "Crucible of Erratic Energies",
+            "item_level": 295,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -3794,12 +3796,10 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
+        "filled": 6,
         "total": 6,
-        "missing_slots": [
-          "finger_2"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 9,
@@ -3809,7 +3809,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4029,7 +4029,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 292.4,
+        "item_level": 293.2,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 11,
@@ -4087,7 +4087,7 @@
             "slot": "waist",
             "item_id": 159317,
             "item_name": "Whirling Dervish Sash",
-            "item_level": 295,
+            "item_level": 305,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4119,7 +4119,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -4171,7 +4171,7 @@
             "slot": "trinket_2",
             "item_id": 273796,
             "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4220,12 +4220,10 @@
         "status": "fail"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 4,
         "total": 4,
-        "missing_slots": [
-          "wrist"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 9,
