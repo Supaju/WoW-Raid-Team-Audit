@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-22T20:13:17.836662+00:00",
+  "generated_at": "2026-08-22T22:13:09.388703+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2126,7 +2126,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 294.6,
+        "item_level": 295.1,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2155,11 +2155,11 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 249313,
-            "item_name": "Light-Judged Spaulders",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 268226,
+            "item_name": "Swelling Sea Spaulders",
+            "item_level": 295,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2184,7 +2184,7 @@
             "slot": "waist",
             "item_id": 159418,
             "item_name": "Girdle of Pestilent Purification",
-            "item_level": 305,
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2233,7 +2233,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2244,10 +2244,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251217,
+            "item_name": "Occlusion of Void",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2308,10 +2308,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "shoulders"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -2327,7 +2329,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3392,9 +3394,9 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Helper",
-        "item_level": 290.3,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.5,
+        "item_level": 293.3,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3412,10 +3414,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 240950,
-            "item_name": "Masterwork Sin'dorei Amulet",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -3545,9 +3547,9 @@
           },
           {
             "slot": "back",
-            "item_id": 249992,
-            "item_name": "Shroud of the Black Talon",
-            "item_level": 289,
+            "item_id": 159288,
+            "item_name": "Cloak of the Restless Tribes",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3564,9 +3566,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3581,14 +3583,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4433,7 +4435,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Helper",
-        "item_level": 308.7,
+        "item_level": 310.1,
         "mythic_plus_weekly": 21,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
@@ -4578,11 +4580,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251156,
-            "item_name": "Fallen Speaker's Staff",
+            "item_id": 273778,
+            "item_name": "Polished Lightwood Channeler",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 245769,
+            "item_name": "Aln'hara Lantern",
+            "item_level": 331,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -4603,9 +4614,11 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -4617,11 +4630,11 @@
         "myth": 12,
         "hero": 0,
         "champion": 0,
-        "crafted": 0,
+        "crafted": 1,
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
