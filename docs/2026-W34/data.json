@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-22T08:18:50.155486+00:00",
+  "generated_at": "2026-08-22T10:14:35.568361+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1062,7 +1062,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 300.1,
+        "item_level": 303.0,
         "mythic_plus_weekly": 33,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
@@ -1144,9 +1144,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 249954,
-            "item_name": "Night Ender's Greatboots",
-            "item_level": 289,
+            "item_id": 273777,
+            "item_name": "Poison-Proof Stompers",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1188,9 +1188,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 49812,
-            "item_name": "Purloined Wedding Ring",
-            "item_level": 289,
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2744,8 +2744,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 301.2,
-        "mythic_plus_weekly": 31,
-        "mythic_plus_avg_level": 9.9,
+        "mythic_plus_weekly": 32,
+        "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2920,7 +2920,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 31,
+        "count": 32,
         "target": 8,
         "status": "pass"
       },
@@ -4440,7 +4440,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 297.1,
-        "mythic_plus_weekly": 22,
+        "mythic_plus_weekly": 21,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
         "items": [
@@ -4611,7 +4611,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
