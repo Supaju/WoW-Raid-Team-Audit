@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-22T04:23:59.694341+00:00",
+  "generated_at": "2026-08-22T06:24:51.103661+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1711,8 +1711,8 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 297.2,
-        "mythic_plus_weekly": 8,
+        "item_level": 301.5,
+        "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 9.9,
         "mythic_plus_highest": 11,
         "items": [
@@ -1722,7 +1722,7 @@
             "item_name": "Locus of the Primal Core",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -1731,9 +1731,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
+            "item_id": 272228,
+            "item_name": "Whispering Periapt",
+            "item_level": 305,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -1748,14 +1748,14 @@
             "item_name": "Tempests of the Primal Core",
             "item_level": 289,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "chest",
-            "item_id": 249982,
-            "item_name": "Embrace of the Primal Core",
-            "item_level": 289,
+            "item_id": 239034,
+            "item_name": "Corrupted Hexxer's Vestments",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1771,8 +1771,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 268288,
-            "item_name": "Fungarian Folly Faulds",
+            "item_id": 249978,
+            "item_name": "Leggings of the Primal Core",
             "item_level": 298,
             "track": null,
             "enchanted": true,
@@ -1862,7 +1862,7 @@
             "slot": "main_hand",
             "item_id": 237849,
             "item_name": "Magister's Valediction",
-            "item_level": 295,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
@@ -1870,18 +1870,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head",
-          "shoulders"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -1897,7 +1894,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2965,8 +2962,8 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 292.7,
-        "mythic_plus_weekly": 6,
+        "item_level": 294.6,
+        "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -3021,10 +3018,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 268289,
-            "item_name": "Girdle of Devouring Rot",
-            "item_level": 298,
-            "track": null,
+            "item_id": 159418,
+            "item_name": "Girdle of Pestilent Purification",
+            "item_level": 305,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3070,9 +3067,9 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3142,7 +3139,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -3159,11 +3156,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3596,23 +3593,19 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 297.7,
+        "item_level": 301.9,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
-            "item_id": 250060,
-            "item_name": "Voidbreaker's Veil",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "item_id": 268242,
+            "item_name": "Errant Scrollsage's Hood",
+            "item_level": 295,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -3629,19 +3622,19 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 250058,
-            "item_name": "Voidbreaker's Leyline Nexi",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 271562,
+            "item_name": "Primal Leywarden's Manaflux",
+            "item_level": 308,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           },
           {
             "slot": "chest",
-            "item_id": 250063,
-            "item_name": "Voidbreaker's Robe",
-            "item_level": 298,
-            "track": null,
+            "item_id": 271567,
+            "item_name": "Crest of the Primal Leywarden",
+            "item_level": 305,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -3660,20 +3653,20 @@
           },
           {
             "slot": "legs",
-            "item_id": 250059,
-            "item_name": "Voidbreaker's Britches",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271563,
+            "item_name": "Primal Leywarden's Tailored Legwraps",
+            "item_level": 305,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "feet",
-            "item_id": 268282,
-            "item_name": "Luxurious Loamstriders",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
+            "item_id": 268218,
+            "item_name": "Nek'zali's Spiritwalkers",
+            "item_level": 305,
+            "track": "hero",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3691,10 +3684,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 250061,
-            "item_name": "Voidbreaker's Gloves",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271565,
+            "item_name": "Primal Leywarden's Manashapers",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3768,26 +3761,30 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 5,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "feet"
+        ],
+        "status": "fail"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 0,
+        "myth": 5,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -4441,8 +4438,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 297.1,
-        "mythic_plus_weekly": 17,
-        "mythic_plus_avg_level": 10.4,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4612,7 +4609,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
