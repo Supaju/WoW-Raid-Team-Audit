@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-22T16:13:55.199724+00:00",
+  "generated_at": "2026-08-22T18:17:03.251687+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -424,7 +424,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 306.9,
-        "mythic_plus_weekly": 26,
+        "mythic_plus_weekly": 27,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -609,7 +609,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 26,
+        "count": 27,
         "target": 8,
         "status": "pass"
       },
@@ -861,7 +861,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 303.0,
-        "mythic_plus_weekly": 33,
+        "mythic_plus_weekly": 35,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
         "items": [
@@ -1045,7 +1045,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 33,
+        "count": 35,
         "target": 8,
         "status": "pass"
       },
@@ -2758,8 +2758,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 302.0,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 23,
+        "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2934,7 +2934,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 23,
         "target": 8,
         "status": "pass"
       },
@@ -2975,7 +2975,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 297.1,
-        "mythic_plus_weekly": 21,
+        "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
         "items": [
@@ -3146,7 +3146,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -3599,8 +3599,8 @@
         "role": "Tank",
         "rank": "Helper",
         "item_level": 301.4,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 16,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3775,7 +3775,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
@@ -3812,16 +3812,16 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Helper",
-        "item_level": 304.2,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 10.0,
+        "item_level": 305.2,
+        "mythic_plus_weekly": 23,
+        "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
             "item_id": 251229,
             "item_name": "Visor of the Predator",
-            "item_level": 305,
+            "item_level": 308,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3868,10 +3868,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 268289,
-            "item_name": "Girdle of Devouring Rot",
-            "item_level": 298,
-            "track": null,
+            "item_id": 159442,
+            "item_name": "Sand-Scoured Greatbelt",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3985,7 +3985,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 23,
         "target": 8,
         "status": "pass"
       },
@@ -4006,11 +4006,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -4223,8 +4223,8 @@
         "role": "Heal",
         "rank": "Helper",
         "item_level": 287.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 6.5,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 5.6,
         "mythic_plus_highest": 10,
         "items": [
           {
@@ -4386,9 +4386,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 0,
@@ -4434,8 +4434,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 308.7,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4597,7 +4597,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -4632,8 +4632,8 @@
         "role": "Ranged",
         "rank": "Helper",
         "item_level": 302.3,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 10.1,
+        "mythic_plus_weekly": 16,
+        "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4799,7 +4799,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
