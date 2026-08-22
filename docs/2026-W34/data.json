@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-22T06:24:51.103661+00:00",
+  "generated_at": "2026-08-22T08:18:50.155486+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 297.5,
-        "mythic_plus_weekly": 17,
-        "mythic_plus_avg_level": 9.2,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 9.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -185,7 +185,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
@@ -423,9 +423,9 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 303.2,
-        "mythic_plus_weekly": 17,
-        "mythic_plus_avg_level": 10.6,
+        "item_level": 306.9,
+        "mythic_plus_weekly": 26,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -456,9 +456,9 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 249950,
-            "item_name": "Night Ender's Pauldrons",
-            "item_level": 289,
+            "item_id": 271454,
+            "item_name": "Raging Pauldrons of the Jade Warlord",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -474,9 +474,9 @@
           },
           {
             "slot": "chest",
-            "item_id": 249955,
-            "item_name": "Night Ender's Breastplate",
-            "item_level": 289,
+            "item_id": 271459,
+            "item_name": "Cuirass of the Jade Warlord",
+            "item_level": 302,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -519,8 +519,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 251221,
-            "item_name": "Despondent's Gauntlets",
+            "item_id": 271457,
+            "item_name": "Jeweled Gauntlets of the Jade Warlord",
             "item_level": 315,
             "track": "myth",
             "enchanted": false,
@@ -590,9 +590,9 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 251117,
-            "item_name": "Whirling Voidcleaver",
-            "item_level": 298,
+            "item_id": 251181,
+            "item_name": "Pruning Lance",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -609,7 +609,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 26,
         "target": 8,
         "status": "pass"
       },
@@ -645,10 +645,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 302.1,
-        "mythic_plus_weekly": 20,
-        "mythic_plus_avg_level": 8.8,
-        "mythic_plus_highest": 12,
+        "item_level": 302.3,
+        "mythic_plus_weekly": 28,
+        "mythic_plus_avg_level": 9.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -805,7 +805,7 @@
             "slot": "main_hand",
             "item_id": 251134,
             "item_name": "Xathuux's Cleave",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -822,7 +822,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 28,
         "target": 8,
         "status": "pass"
       },
@@ -1063,9 +1063,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 300.1,
-        "mythic_plus_weekly": 22,
-        "mythic_plus_avg_level": 10.5,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 33,
+        "mythic_plus_avg_level": 10.8,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1247,7 +1247,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 33,
         "target": 8,
         "status": "pass"
       },
@@ -1905,8 +1905,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 292.4,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -2089,7 +2089,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -2126,8 +2126,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.6,
-        "mythic_plus_weekly": 26,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 30,
+        "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2302,7 +2302,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 26,
+        "count": 30,
         "target": 8,
         "status": "pass"
       },
@@ -2743,10 +2743,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 297.0,
-        "mythic_plus_weekly": 25,
-        "mythic_plus_avg_level": 9.5,
-        "mythic_plus_highest": 12,
+        "item_level": 301.2,
+        "mythic_plus_weekly": 31,
+        "mythic_plus_avg_level": 9.9,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2790,19 +2790,19 @@
           },
           {
             "slot": "chest",
-            "item_id": 249982,
-            "item_name": "Embrace of the Primal Core",
-            "item_level": 289,
+            "item_id": 273789,
+            "item_name": "Chestguard of Corroded Scales",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 277773,
-            "item_name": "Venom-Cursed Eagle's Waistguard",
-            "item_level": 292,
-            "track": null,
+            "item_id": 251228,
+            "item_name": "Behemoth Waistband",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2817,11 +2817,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 249320,
-            "item_name": "Sabatons of Obscurement",
-            "item_level": 289,
+            "item_id": 159371,
+            "item_name": "Boots of the Headlong Conqueror",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -2920,16 +2920,18 @@
         ]
       },
       "mythic_plus": {
-        "count": 25,
+        "count": 31,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 4,
+        "enchanted": 2,
         "required": 8,
         "missing_slots": [
           "head",
           "shoulders",
+          "chest",
+          "feet",
           "finger_1",
           "finger_2"
         ],
@@ -2945,11 +2947,11 @@
         "status": "fail"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 6
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2963,7 +2965,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 294.6,
-        "mythic_plus_weekly": 7,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -3139,9 +3141,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3163,7 +3165,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3174,8 +3176,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 291.5,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 10.4,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3358,7 +3360,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -4005,7 +4007,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 295.8,
-        "mythic_plus_weekly": 19,
+        "mythic_plus_weekly": 21,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -4181,7 +4183,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -4438,8 +4440,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 297.1,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 10.3,
+        "mythic_plus_weekly": 22,
+        "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4609,7 +4611,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
