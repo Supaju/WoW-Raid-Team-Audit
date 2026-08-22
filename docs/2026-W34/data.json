@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-21T22:14:57.988737+00:00",
+  "generated_at": "2026-08-22T00:45:21.768354+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 295.3,
+        "item_level": 297.5,
         "mythic_plus_weekly": 14,
         "mythic_plus_avg_level": 8.9,
         "mythic_plus_highest": 12,
@@ -33,10 +33,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
+            "item_level": 308,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -95,9 +95,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 249381,
-            "item_name": "Greaves of the Unformed",
-            "item_level": 289,
+            "item_id": 193728,
+            "item_name": "Scaleguard's Stalwart Greatboots",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -148,18 +148,18 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193701,
-            "item_name": "Algeth'ar Puzzle Box",
-            "item_level": 298,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 305,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 305,
+            "item_id": 193701,
+            "item_name": "Algeth'ar Puzzle Box",
+            "item_level": 298,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -202,11 +202,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -645,9 +645,9 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 301.5,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 8.7,
+        "item_level": 302.1,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 8.8,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -721,7 +721,7 @@
             "slot": "feet",
             "item_id": 193728,
             "item_name": "Scaleguard's Stalwart Greatboots",
-            "item_level": 305,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -805,7 +805,7 @@
             "slot": "main_hand",
             "item_id": 251134,
             "item_name": "Xathuux's Cleave",
-            "item_level": 305,
+            "item_level": 308,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -822,7 +822,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -2129,7 +2129,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.6,
-        "mythic_plus_weekly": 25,
+        "mythic_plus_weekly": 26,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -2305,7 +2305,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 25,
+        "count": 26,
         "target": 8,
         "status": "pass"
       },
@@ -2747,8 +2747,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 297.0,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 9.2,
+        "mythic_plus_weekly": 25,
+        "mythic_plus_avg_level": 9.5,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2923,7 +2923,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 25,
         "target": 8,
         "status": "pass"
       },
