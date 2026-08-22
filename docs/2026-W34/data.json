@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-22T02:47:12.869347+00:00",
+  "generated_at": "2026-08-22T04:23:59.694341+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 297.5,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 8.9,
+        "mythic_plus_weekly": 17,
+        "mythic_plus_avg_level": 9.2,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -185,7 +185,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 17,
         "target": 8,
         "status": "pass"
       },
@@ -1908,7 +1908,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 292.4,
-        "mythic_plus_weekly": 11,
+        "mythic_plus_weekly": 13,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
@@ -2092,7 +2092,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -4467,7 +4467,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -4544,10 +4544,10 @@
             "item_name": "Sickening Signet of Atroxus",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -4617,21 +4617,16 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 5,
         "total": 5,
-        "missing_slots": [
-          "neck",
-          "finger_1"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 10,
@@ -4641,7 +4636,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
