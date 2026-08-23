@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-23T16:15:26.620091+00:00",
+  "generated_at": "2026-08-23T18:17:11.173606+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -416,7 +416,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 307.1,
-        "mythic_plus_weekly": 28,
+        "mythic_plus_weekly": 29,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -601,7 +601,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 28,
+        "count": 29,
         "target": 8,
         "status": "pass"
       },
@@ -2757,8 +2757,8 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 298.5,
-        "mythic_plus_weekly": 26,
+        "item_level": 300.7,
+        "mythic_plus_weekly": 27,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
@@ -2910,10 +2910,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 258514,
-            "item_name": "Umbral Spire of Zuraal",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 245770,
+            "item_name": "Aln'hara Cane",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2929,7 +2929,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 26,
+        "count": 27,
         "target": 8,
         "status": "pass"
       },
@@ -2946,10 +2946,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 3,
         "lower": 3
       },
       "ambiguous_items": [],
@@ -3177,8 +3177,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 294.2,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3344,9 +3344,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3368,7 +3368,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3593,9 +3593,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.2,
-        "mythic_plus_weekly": 26,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 30,
+        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3700,7 +3700,7 @@
             "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -3765,7 +3765,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 26,
+        "count": 30,
         "target": 8,
         "status": "pass"
       },
@@ -3778,12 +3778,10 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 2,
+        "filled": 3,
         "total": 3,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 8,
