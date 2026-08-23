@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-23T02:55:22.392595+00:00",
+  "generated_at": "2026-08-23T04:28:24.791913+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -219,7 +219,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 307.4,
+        "item_level": 307.8,
         "mythic_plus_weekly": 14,
         "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 11,
@@ -315,14 +315,14 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 275526,
+            "item_name": "Preyhunter's Band",
+            "item_level": 295,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -400,17 +400,19 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 4,
+        "filled": 3,
         "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "finger_1"
+        ],
+        "status": "warn"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -1276,23 +1278,19 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 301.5,
+        "item_level": 302.1,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 9.9,
         "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
-            "item_id": 249979,
-            "item_name": "Locus of the Primal Core",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "item_id": 271483,
+            "item_name": "Serpent Crown of the Ophidian Oracle",
+            "item_level": 298,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -1318,8 +1316,8 @@
           },
           {
             "slot": "chest",
-            "item_id": 239034,
-            "item_name": "Corrupted Hexxer's Vestments",
+            "item_id": 271486,
+            "item_name": "Fanged Raiment of the Ophidian Oracle",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -1440,26 +1438,28 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "head"
+        ],
+        "status": "warn"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2124,7 +2124,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 294.6,
+        "item_level": 296.5,
         "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
@@ -2140,10 +2140,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 249368,
-            "item_name": "Eternal Voidsong Chain",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268291,
+            "item_name": "Rotmire's Sporeheart",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -2180,9 +2180,9 @@
           },
           {
             "slot": "waist",
-            "item_id": 268289,
-            "item_name": "Girdle of Devouring Rot",
-            "item_level": 298,
+            "item_id": 268259,
+            "item_name": "Girdle of Toxic Regret",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2242,14 +2242,14 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
+            "item_id": 272149,
+            "item_name": "Hex Loop",
+            "item_level": 308,
             "track": null,
-            "enchanted": true,
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -2282,10 +2282,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 249296,
-            "item_name": "Alah'endal, the Dawnsong",
+            "item_id": 251168,
+            "item_name": "Liferipper's Cutlass",
             "item_level": 298,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2306,18 +2306,21 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 6,
         "required": 8,
         "missing_slots": [
-          "shoulders"
+          "shoulders",
+          "finger_2"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
-        "filled": 4,
+        "filled": 3,
         "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "finger_2"
+        ],
+        "status": "warn"
       },
       "gear": {
         "myth": 6,
@@ -2327,7 +2330,7 @@
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2975,7 +2978,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 295.4,
+        "item_level": 296.1,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 7.9,
         "mythic_plus_highest": 11,
@@ -3132,10 +3135,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 258218,
-            "item_name": "Skybreaker's Blade",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3171,11 +3174,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4653,7 +4656,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 290.3,
+        "item_level": 291.3,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 11,
@@ -4700,10 +4703,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 249319,
-            "item_name": "Endless March Waistwrap",
-            "item_level": 276,
-            "track": "hero",
+            "item_id": 268232,
+            "item_name": "Cincture of the Abyssal Grotto",
+            "item_level": 292,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4838,10 +4841,10 @@
       },
       "gear": {
         "myth": 9,
-        "hero": 2,
+        "hero": 1,
         "champion": 0,
         "crafted": 0,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [
         {
