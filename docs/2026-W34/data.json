@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-23T00:51:06.357040+00:00",
+  "generated_at": "2026-08-23T02:55:22.392595+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,8 +14,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 297.5,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 9.3,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 9.4,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -185,7 +185,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -220,7 +220,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 307.4,
-        "mythic_plus_weekly": 12,
+        "mythic_plus_weekly": 14,
         "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 11,
         "items": [
@@ -387,7 +387,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -646,8 +646,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 302.5,
-        "mythic_plus_weekly": 28,
-        "mythic_plus_avg_level": 9.5,
+        "mythic_plus_weekly": 31,
+        "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -822,7 +822,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 28,
+        "count": 31,
         "target": 8,
         "status": "pass"
       },
@@ -861,7 +861,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 303.0,
-        "mythic_plus_weekly": 35,
+        "mythic_plus_weekly": 37,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
         "items": [
@@ -1045,7 +1045,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 35,
+        "count": 37,
         "target": 8,
         "status": "pass"
       },
@@ -1691,8 +1691,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.0,
-        "mythic_plus_weekly": 30,
-        "mythic_plus_avg_level": 10.4,
+        "mythic_plus_weekly": 33,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -1867,7 +1867,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 30,
+        "count": 33,
         "target": 8,
         "status": "pass"
       },
@@ -1904,8 +1904,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 301.2,
-        "mythic_plus_weekly": 32,
-        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_weekly": 38,
+        "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2080,7 +2080,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 32,
+        "count": 38,
         "target": 8,
         "status": "pass"
       },
@@ -2124,8 +2124,8 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 295.1,
-        "mythic_plus_weekly": 8,
+        "item_level": 294.6,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -2140,10 +2140,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
-            "track": null,
+            "item_id": 249368,
+            "item_name": "Eternal Voidsong Chain",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -2180,10 +2180,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 159418,
-            "item_name": "Girdle of Pestilent Purification",
-            "item_level": 308,
-            "track": "myth",
+            "item_id": 268289,
+            "item_name": "Girdle of Devouring Rot",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2231,7 +2231,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2242,10 +2242,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2282,10 +2282,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251168,
-            "item_name": "Liferipper's Cutlass",
+            "item_id": 249296,
+            "item_name": "Alah'endal, the Dawnsong",
             "item_level": 298,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -2301,7 +2301,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -2320,11 +2320,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 6,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2550,207 +2550,6 @@
     },
     {
       "character": {
-        "id": 4871091,
-        "name": "Vern\u00ecchtung",
-        "realm": "Mal'Ganis",
-        "class_name": "Warlock",
-        "role": "Ranged",
-        "rank": "Main",
-        "item_level": 294.9,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 12,
-        "items": [
-          {
-            "slot": "head",
-            "item_id": 250042,
-            "item_name": "Abyssal Immolator's Smoldering Flames",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "neck",
-            "item_id": 251234,
-            "item_name": "Graft of the Domanaar",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "shoulders",
-            "item_id": 251227,
-            "item_name": "Poisoner's Pauldrons",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "chest",
-            "item_id": 250045,
-            "item_name": "Abyssal Immolator's Dreadrobe",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "waist",
-            "item_id": 249319,
-            "item_name": "Endless March Waistwrap",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "legs",
-            "item_id": 250041,
-            "item_name": "Abyssal Immolator's Pillars",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "feet",
-            "item_id": 268282,
-            "item_name": "Luxurious Loamstriders",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "wrist",
-            "item_id": 239648,
-            "item_name": "Martyr's Bindings",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "hands",
-            "item_id": 250043,
-            "item_name": "Abyssal Immolator's Grasps",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 289,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "trinket_2",
-            "item_id": 251792,
-            "item_name": "Glorious Crusader's Keepsake",
-            "item_level": 305,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "back",
-            "item_id": 239656,
-            "item_name": "Adherent's Silken Shroud",
-            "item_level": 285,
-            "track": "crafted",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "main_hand",
-            "item_id": 258514,
-            "item_name": "Umbral Spire of Zuraal",
-            "item_level": 298,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          }
-        ]
-      },
-      "mythic_plus": {
-        "count": 8,
-        "target": 8,
-        "status": "pass"
-      },
-      "enchants": {
-        "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
-      },
-      "sockets": {
-        "filled": 6,
-        "total": 6,
-        "missing_slots": [],
-        "status": "pass"
-      },
-      "gear": {
-        "myth": 9,
-        "hero": 0,
-        "champion": 0,
-        "crafted": 2,
-        "lower": 4
-      },
-      "ambiguous_items": [],
-      "overall_status": "pass"
-    },
-    {
-      "character": {
         "id": 5022967,
         "name": "Nan\u00e0",
         "realm": "Moon Guard",
@@ -2758,9 +2557,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 299.1,
-        "mythic_plus_weekly": 23,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 28,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2934,7 +2733,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 28,
         "target": 8,
         "status": "pass"
       },
@@ -2971,8 +2770,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 298.5,
-        "mythic_plus_weekly": 22,
-        "mythic_plus_avg_level": 10.2,
+        "mythic_plus_weekly": 25,
+        "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3142,7 +2941,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 25,
         "target": 8,
         "status": "pass"
       },
@@ -3175,10 +2974,10 @@
         "realm": "Wyrmrest Accord",
         "class_name": "Mage",
         "role": "Ranged",
-        "rank": "Helper",
-        "item_level": 294.2,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 7.7,
+        "rank": "Main",
+        "item_level": 295.4,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 7.9,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3253,7 +3052,7 @@
             "item_name": "Sandswept Sandals",
             "item_level": 308,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3293,9 +3092,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
+            "item_id": 158366,
+            "item_name": "Charged Sandstone Band",
+            "item_level": 308,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3352,16 +3151,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
           "shoulders",
-          "feet",
           "off_hand"
         ],
         "status": "fail"
@@ -3389,10 +3187,10 @@
         "realm": "Area 52",
         "class_name": "Evoker",
         "role": "Heal",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 293.3,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 10.8,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3562,7 +3360,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3595,9 +3393,9 @@
         "realm": "Area 52",
         "class_name": "Death Knight",
         "role": "Tank",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 301.2,
-        "mythic_plus_weekly": 16,
+        "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -3773,7 +3571,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 16,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -3809,7 +3607,7 @@
         "realm": "Bleeding Hollow",
         "class_name": "Paladin",
         "role": "Heal",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 305.2,
         "mythic_plus_weekly": 23,
         "mythic_plus_avg_level": 10.1,
@@ -4020,7 +3818,7 @@
         "realm": "Tichondrius",
         "class_name": "Monk",
         "role": "Tank",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 300.2,
         "mythic_plus_weekly": 35,
         "mythic_plus_avg_level": 9.2,
@@ -4219,7 +4017,7 @@
         "realm": "Moon Guard",
         "class_name": "Priest",
         "role": "Heal",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 287.2,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 5.6,
@@ -4430,10 +4228,10 @@
         "realm": "Area 52",
         "class_name": "Mage",
         "role": "Ranged",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 310.1,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_weekly": 28,
+        "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4604,7 +4402,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 28,
         "target": 8,
         "status": "pass"
       },
@@ -4639,7 +4437,7 @@
         "realm": "Zul'jin",
         "class_name": "Demon Hunter",
         "role": "Ranged",
-        "rank": "Helper",
+        "rank": "Main",
         "item_level": 302.3,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.0,
@@ -4845,6 +4643,215 @@
         "lower": 5
       },
       "ambiguous_items": [],
+      "overall_status": "fail"
+    },
+    {
+      "character": {
+        "id": 7417840,
+        "name": "Vern\u00efchtung",
+        "realm": "Zul'jin",
+        "class_name": "Warlock",
+        "role": "Ranged",
+        "rank": "Main",
+        "item_level": 290.3,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.3,
+        "mythic_plus_highest": 11,
+        "items": [
+          {
+            "slot": "head",
+            "item_id": 277792,
+            "item_name": "Venom-Cursed Dragonhawk's Plumage",
+            "item_level": 292,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "neck",
+            "item_id": 272228,
+            "item_name": "Whispering Periapt",
+            "item_level": 302,
+            "track": null,
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
+          },
+          {
+            "slot": "shoulders",
+            "item_id": 272236,
+            "item_name": "Pyrewalker's Mantlet",
+            "item_level": 272,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "chest",
+            "item_id": 251139,
+            "item_name": "Summoner's Searing Shirt",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "waist",
+            "item_id": 249319,
+            "item_name": "Endless March Waistwrap",
+            "item_level": 276,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "legs",
+            "item_id": 193750,
+            "item_name": "Wind Soarer's Breeches",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "feet",
+            "item_id": 251219,
+            "item_name": "Riftworn Stompers",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "wrist",
+            "item_id": 276644,
+            "item_name": "Corroded Cursebreaker's Cuffs",
+            "item_level": 279,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "hands",
+            "item_id": 275500,
+            "item_name": "Preyhunter's Refined Gloves",
+            "item_level": 292,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "finger_1",
+            "item_id": 251194,
+            "item_name": "Lightwarden's Bind",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
+            "item_id": 251136,
+            "item_name": "Signet of Snarling Servitude",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": false
+              }
+            ]
+          },
+          {
+            "slot": "trinket_1",
+            "item_id": 273649,
+            "item_name": "Stormbound Emblem of Dazar",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "trinket_2",
+            "item_id": 251785,
+            "item_name": "Void-Reaper's Libram",
+            "item_level": 305,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "back",
+            "item_id": 251190,
+            "item_name": "Bloodthorn Burnous",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "main_hand",
+            "item_id": 251156,
+            "item_name": "Fallen Speaker's Staff",
+            "item_level": 292,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          }
+        ]
+      },
+      "mythic_plus": {
+        "count": 3,
+        "target": 8,
+        "status": "fail"
+      },
+      "enchants": {
+        "enchanted": 1,
+        "required": 8,
+        "missing_slots": [
+          "head",
+          "shoulders",
+          "chest",
+          "legs",
+          "feet",
+          "finger_1",
+          "finger_2"
+        ],
+        "status": "fail"
+      },
+      "sockets": {
+        "filled": 0,
+        "total": 3,
+        "missing_slots": [
+          "neck",
+          "finger_1",
+          "finger_2"
+        ],
+        "status": "fail"
+      },
+      "gear": {
+        "myth": 9,
+        "hero": 2,
+        "champion": 0,
+        "crafted": 0,
+        "lower": 4
+      },
+      "ambiguous_items": [
+        {
+          "slot": "shoulders",
+          "item_name": "Pyrewalker's Mantlet",
+          "item_level": 272,
+          "classified_as": "hero",
+          "could_also_be": "myth"
+        }
+      ],
       "overall_status": "fail"
     }
   ]
