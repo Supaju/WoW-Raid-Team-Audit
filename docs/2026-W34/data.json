@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-23T20:12:48.623473+00:00",
+  "generated_at": "2026-08-23T22:13:13.376912+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -223,9 +223,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 306.9,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 9.5,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 17,
+        "mythic_plus_avg_level": 9.7,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -353,8 +353,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -381,7 +381,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 17,
         "target": 8,
         "status": "pass"
       },
@@ -638,7 +638,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 302.9,
-        "mythic_plus_weekly": 34,
+        "mythic_plus_weekly": 35,
         "mythic_plus_avg_level": 9.9,
         "mythic_plus_highest": 13,
         "items": [
@@ -814,7 +814,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 34,
+        "count": 35,
         "target": 8,
         "status": "pass"
       },
@@ -4212,8 +4212,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 312.4,
-        "mythic_plus_weekly": 31,
-        "mythic_plus_avg_level": 11.3,
+        "mythic_plus_weekly": 34,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4384,7 +4384,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 31,
+        "count": 34,
         "target": 8,
         "status": "pass"
       },
