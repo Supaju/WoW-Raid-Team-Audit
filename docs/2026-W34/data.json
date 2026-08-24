@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-23T22:13:13.376912+00:00",
+  "generated_at": "2026-08-24T00:48:16.211989+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 306.7,
-        "mythic_plus_weekly": 23,
+        "mythic_plus_weekly": 24,
         "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 12,
         "items": [
@@ -188,7 +188,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 24,
         "target": 8,
         "status": "pass"
       },
@@ -852,7 +852,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 309.1,
-        "mythic_plus_weekly": 40,
+        "mythic_plus_weekly": 41,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
         "items": [
@@ -1035,7 +1035,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 40,
+        "count": 41,
         "target": 8,
         "status": "pass"
       },
@@ -1670,8 +1670,8 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 308.6,
-        "mythic_plus_weekly": 33,
+        "item_level": 309.1,
+        "mythic_plus_weekly": 34,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -1741,7 +1741,7 @@
             "slot": "legs",
             "item_id": 193750,
             "item_name": "Wind Soarer's Breeches",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1814,10 +1814,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250255,
-            "item_name": "Unstable Felheart Crystal",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 274493,
+            "item_name": "Effigy of Ula'tek's Faithful",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1851,7 +1851,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 33,
+        "count": 34,
         "target": 8,
         "status": "pass"
       },
@@ -1871,11 +1871,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1889,7 +1889,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 302.3,
-        "mythic_plus_weekly": 41,
+        "mythic_plus_weekly": 42,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -2065,7 +2065,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 41,
+        "count": 42,
         "target": 8,
         "status": "pass"
       },
@@ -3801,7 +3801,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 300.2,
+        "item_level": 305.9,
         "mythic_plus_weekly": 35,
         "mythic_plus_avg_level": 9.2,
         "mythic_plus_highest": 12,
@@ -3834,19 +3834,19 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 250013,
-            "item_name": "Aurastones of Ra-den's Chosen",
-            "item_level": 289,
+            "item_id": 271517,
+            "item_name": "Tassels of the Monkey King",
+            "item_level": 308,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "chest",
-            "item_id": 250018,
-            "item_name": "Battle Garb of Ra-den's Chosen",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271522,
+            "item_name": "Battle Gi of the Monkey King",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3865,10 +3865,10 @@
           },
           {
             "slot": "legs",
-            "item_id": 260373,
-            "item_name": "Power Stance Breeches",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271518,
+            "item_name": "Pantaloons of the Monkey King",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3878,7 +3878,7 @@
             "item_name": "Venom-Cursed Lynx's Paws",
             "item_level": 292,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3892,9 +3892,9 @@
           },
           {
             "slot": "hands",
-            "item_id": 250016,
-            "item_name": "Thunderfists of Ra-den's Chosen",
-            "item_level": 289,
+            "item_id": 271520,
+            "item_name": "Monkey King's Fighting Fists",
+            "item_level": 292,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3936,10 +3936,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 285,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3969,12 +3969,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 5,
@@ -3983,14 +3981,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 9,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 4
+        "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4211,10 +4209,10 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 312.4,
-        "mythic_plus_weekly": 34,
+        "item_level": 313.6,
+        "mythic_plus_weekly": 36,
         "mythic_plus_avg_level": 11.4,
-        "mythic_plus_highest": 13,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -4258,10 +4256,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 275496,
-            "item_name": "Preyhunter's Refined Cord",
-            "item_level": 295,
-            "track": null,
+            "item_id": 159255,
+            "item_name": "Ouroborial Sash",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4296,8 +4294,8 @@
             "slot": "hands",
             "item_id": 271565,
             "item_name": "Primal Leywarden's Manashapers",
-            "item_level": 308,
-            "track": null,
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4384,7 +4382,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 34,
+        "count": 36,
         "target": 8,
         "status": "pass"
       },
@@ -4403,11 +4401,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 13,
         "hero": 0,
         "champion": 0,
         "crafted": 1,
-        "lower": 4
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "warn"
