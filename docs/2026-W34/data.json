@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T10:29:32.079089+00:00",
+  "generated_at": "2026-08-24T12:31:24.085260+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3986,7 +3986,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 294.7,
-        "mythic_plus_weekly": 13,
+        "mythic_plus_weekly": 14,
         "mythic_plus_avg_level": 6.6,
         "mythic_plus_highest": 10,
         "items": [
@@ -4149,7 +4149,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
