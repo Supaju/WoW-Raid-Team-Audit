@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T14:33:26.474230+00:00",
+  "generated_at": "2026-08-24T16:26:09.812786+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1886,7 +1886,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 302.5,
+        "item_level": 302.9,
         "mythic_plus_weekly": 45,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 13,
@@ -1944,7 +1944,7 @@
             "slot": "waist",
             "item_id": 268216,
             "item_name": "Cursed Reliquary Cincture",
-            "item_level": 305,
+            "item_level": 311,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2026,8 +2026,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
             "track": null,
             "enchanted": false,
