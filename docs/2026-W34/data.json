@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T00:48:16.211989+00:00",
+  "generated_at": "2026-08-24T02:56:12.375967+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 306.7,
-        "mythic_plus_weekly": 24,
+        "mythic_plus_weekly": 25,
         "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 12,
         "items": [
@@ -188,7 +188,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 24,
+        "count": 25,
         "target": 8,
         "status": "pass"
       },
@@ -1671,7 +1671,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 309.1,
-        "mythic_plus_weekly": 34,
+        "mythic_plus_weekly": 35,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -1851,7 +1851,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 34,
+        "count": 35,
         "target": 8,
         "status": "pass"
       },
@@ -1889,7 +1889,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 302.3,
-        "mythic_plus_weekly": 42,
+        "mythic_plus_weekly": 43,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -2065,7 +2065,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 42,
+        "count": 43,
         "target": 8,
         "status": "pass"
       },
@@ -2110,7 +2110,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 296.5,
-        "mythic_plus_weekly": 12,
+        "mythic_plus_weekly": 13,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -2286,7 +2286,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -3379,8 +3379,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 301.6,
-        "mythic_plus_weekly": 25,
-        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_weekly": 26,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3555,7 +3555,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 25,
+        "count": 26,
         "target": 8,
         "status": "pass"
       },
@@ -4418,7 +4418,7 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 302.3,
+        "item_level": 307.2,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 12,
@@ -4427,9 +4427,9 @@
             "slot": "head",
             "item_id": 273791,
             "item_name": "Spare Speaker's Hood",
-            "item_level": 292,
+            "item_level": 308,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4451,14 +4451,14 @@
             "item_name": "Abyssal Doomhound's Jaws",
             "item_level": 308,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "chest",
             "item_id": 272239,
             "item_name": "Miststalker's Brigandine",
-            "item_level": 295,
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4507,7 +4507,7 @@
             "slot": "hands",
             "item_id": 271538,
             "item_name": "Abyssal Doomhound's Studded Gauntlets",
-            "item_level": 295,
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4551,7 +4551,7 @@
             "slot": "trinket_2",
             "item_id": 251792,
             "item_name": "Glorious Crusader's Keepsake",
-            "item_level": 311,
+            "item_level": 318,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4576,10 +4576,10 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 258962,
-            "item_name": "Tarnished Dawnlit Warglaive",
-            "item_level": 282,
-            "track": null,
+            "item_id": 273780,
+            "item_name": "Venom-Etched Crescent",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           }
@@ -4591,11 +4591,9 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 2,
+        "enchanted": 4,
         "required": 9,
         "missing_slots": [
-          "head",
-          "shoulders",
           "chest",
           "legs",
           "feet",
