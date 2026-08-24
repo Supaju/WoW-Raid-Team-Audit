@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T20:20:20.702813+00:00",
+  "generated_at": "2026-08-24T22:17:05.445571+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1887,7 +1887,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 302.9,
-        "mythic_plus_weekly": 45,
+        "mythic_plus_weekly": 47,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -2072,7 +2072,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 45,
+        "count": 47,
         "target": 8,
         "status": "pass"
       },
@@ -2743,7 +2743,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 306.7,
+        "item_level": 308.1,
         "mythic_plus_weekly": 30,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
@@ -2754,10 +2754,10 @@
             "item_name": "Skull of the Damned Necrolyte",
             "item_level": 295,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -2803,9 +2803,9 @@
           },
           {
             "slot": "legs",
-            "item_id": 250041,
-            "item_name": "Abyssal Immolator's Pillars",
-            "item_level": 289,
+            "item_id": 193750,
+            "item_name": "Wind Soarer's Breeches",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2920,20 +2920,16 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 4,
+        "filled": 5,
         "total": 5,
-        "missing_slots": [
-          "head"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 8,
@@ -2943,7 +2939,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2954,8 +2950,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 296.1,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 8.1,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 7.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3129,7 +3125,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -3368,9 +3364,9 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 302.9,
-        "mythic_plus_weekly": 28,
-        "mythic_plus_avg_level": 11.5,
+        "item_level": 304.2,
+        "mythic_plus_weekly": 30,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3384,9 +3380,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
-            "item_level": 292,
+            "item_id": 273781,
+            "item_name": "Strand of Warding Fangs",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3397,11 +3393,11 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 251138,
-            "item_name": "Cinderfury Shoulderguards",
+            "item_id": 239037,
+            "item_name": "C'thraxxi Binders Pauldrons",
             "item_level": 308,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3545,15 +3541,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 28,
+        "count": 30,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "shoulders"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -3569,7 +3567,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3986,8 +3984,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 296.5,
-        "mythic_plus_weekly": 17,
-        "mythic_plus_avg_level": 6.5,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 6.7,
         "mythic_plus_highest": 10,
         "items": [
           {
@@ -4149,7 +4147,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
