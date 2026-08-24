@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T06:39:27.003101+00:00",
+  "generated_at": "2026-08-24T08:37:53.037580+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1887,7 +1887,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 302.5,
-        "mythic_plus_weekly": 44,
+        "mythic_plus_weekly": 45,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -2072,7 +2072,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 44,
+        "count": 45,
         "target": 8,
         "status": "pass"
       },
@@ -3369,7 +3369,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 302.9,
-        "mythic_plus_weekly": 27,
+        "mythic_plus_weekly": 28,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
         "items": [
@@ -3545,7 +3545,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 27,
+        "count": 28,
         "target": 8,
         "status": "pass"
       },
@@ -3580,7 +3580,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.2,
-        "mythic_plus_weekly": 30,
+        "mythic_plus_weekly": 31,
         "mythic_plus_avg_level": 10.6,
         "mythic_plus_highest": 13,
         "items": [
@@ -3752,7 +3752,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 30,
+        "count": 31,
         "target": 8,
         "status": "pass"
       },
@@ -3788,9 +3788,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 305.9,
-        "mythic_plus_weekly": 37,
-        "mythic_plus_avg_level": 9.2,
+        "item_level": 305.5,
+        "mythic_plus_weekly": 38,
+        "mythic_plus_avg_level": 9.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3833,7 +3833,7 @@
             "item_id": 271522,
             "item_name": "Battle Gi of the Monkey King",
             "item_level": 308,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3861,10 +3861,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 277786,
-            "item_name": "Venom-Cursed Lynx's Paws",
-            "item_level": 292,
-            "track": null,
+            "item_id": 159327,
+            "item_name": "Sand-Shined Snakeskin Sandals",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3923,10 +3923,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 249339,
+            "item_name": "Gloom-Spattered Dreadscale",
+            "item_level": 285,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3951,7 +3951,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 37,
+        "count": 38,
         "target": 8,
         "status": "pass"
       },
@@ -3968,11 +3968,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 11,
         "hero": 0,
         "champion": 0,
         "crafted": 0,
-        "lower": 6
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -3986,8 +3986,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 291.0,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 6.5,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 6.7,
         "mythic_plus_highest": 10,
         "items": [
           {
@@ -4149,7 +4149,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
