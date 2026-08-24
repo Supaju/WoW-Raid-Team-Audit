@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T16:26:09.812786+00:00",
+  "generated_at": "2026-08-24T18:27:54.592922+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -427,7 +427,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 307.1,
-        "mythic_plus_weekly": 30,
+        "mythic_plus_weekly": 31,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
@@ -612,7 +612,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 30,
+        "count": 31,
         "target": 8,
         "status": "pass"
       },
@@ -2744,7 +2744,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 306.7,
-        "mythic_plus_weekly": 29,
+        "mythic_plus_weekly": 30,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
@@ -2915,7 +2915,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 29,
+        "count": 30,
         "target": 8,
         "status": "pass"
       },
@@ -3986,8 +3986,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 294.7,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 6.5,
+        "mythic_plus_weekly": 16,
+        "mythic_plus_avg_level": 6.6,
         "mythic_plus_highest": 10,
         "items": [
           {
@@ -4149,7 +4149,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
