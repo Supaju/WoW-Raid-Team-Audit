@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-24T22:17:05.445571+00:00",
+  "generated_at": "2026-08-25T00:47:34.756147+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -222,7 +222,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 308.4,
+        "item_level": 308.8,
         "mythic_plus_weekly": 17,
         "mythic_plus_avg_level": 9.7,
         "mythic_plus_highest": 12,
@@ -318,10 +318,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 275526,
+            "item_name": "Preyhunter's Band",
+            "item_level": 295,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -409,11 +409,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -1886,8 +1886,8 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 302.9,
-        "mythic_plus_weekly": 47,
+        "item_level": 304.4,
+        "mythic_plus_weekly": 50,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -2017,18 +2017,18 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 264507,
-            "item_name": "Crucible of Erratic Energies",
-            "item_level": 295,
+            "item_id": 270169,
+            "item_name": "Hex Lord's Dooming Idol",
+            "item_level": 302,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
-            "item_level": 298,
+            "item_id": 264507,
+            "item_name": "Crucible of Erratic Energies",
+            "item_level": 295,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -2053,10 +2053,10 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 251196,
-            "item_name": "Teldrassil's Sacrifice",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 237831,
+            "item_name": "Spellbreaker's Rebuke",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -2072,7 +2072,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 47,
+        "count": 50,
         "target": 8,
         "status": "pass"
       },
@@ -2089,10 +2089,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 1,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 5
       },
       "ambiguous_items": [],
@@ -2107,9 +2107,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 301.7,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 15,
+        "mythic_plus_avg_level": 10.1,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -2279,7 +2279,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 15,
         "target": 8,
         "status": "pass"
       },
@@ -2744,7 +2744,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.1,
-        "mythic_plus_weekly": 30,
+        "mythic_plus_weekly": 32,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
@@ -2915,7 +2915,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 30,
+        "count": 32,
         "target": 8,
         "status": "pass"
       },
@@ -2950,8 +2950,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 296.1,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 7.5,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 7.3,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3125,7 +3125,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -3365,7 +3365,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 304.2,
-        "mythic_plus_weekly": 30,
+        "mythic_plus_weekly": 32,
         "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
@@ -3541,7 +3541,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 30,
+        "count": 32,
         "target": 8,
         "status": "pass"
       },
@@ -4400,8 +4400,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 305.8,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 9.9,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4563,7 +4563,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
