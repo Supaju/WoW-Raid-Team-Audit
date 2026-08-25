@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-25T20:19:06.521960+00:00",
+  "generated_at": "2026-08-25T22:17:43.700098+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 309.1,
-        "mythic_plus_weekly": 26,
-        "mythic_plus_avg_level": 9.6,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -188,9 +188,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 26,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -212,7 +212,7 @@
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -223,9 +223,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.8,
-        "mythic_plus_weekly": 18,
-        "mythic_plus_avg_level": 9.7,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -390,9 +390,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -416,7 +416,7 @@
         "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -427,9 +427,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 311.4,
-        "mythic_plus_weekly": 34,
-        "mythic_plus_avg_level": 10.5,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -608,9 +608,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 34,
+        "count": 1,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 9,
@@ -632,7 +632,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -643,9 +643,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 302.9,
-        "mythic_plus_weekly": 35,
-        "mythic_plus_avg_level": 9.9,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -819,9 +819,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 35,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 6,
@@ -856,10 +856,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 310.5,
-        "mythic_plus_weekly": 47,
-        "mythic_plus_avg_level": 11.2,
-        "mythic_plus_highest": 15,
+        "item_level": 313.5,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -908,17 +908,17 @@
             "slot": "chest",
             "item_id": 271459,
             "item_name": "Cuirass of the Jade Warlord",
-            "item_level": 308,
-            "track": null,
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 249949,
-            "item_name": "Night Ender's Girdle",
-            "item_level": 298,
-            "track": null,
+            "item_id": 251144,
+            "item_name": "Autumn's Boon Belt",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -939,7 +939,7 @@
             "slot": "feet",
             "item_id": 237828,
             "item_name": "Spellbreaker's March",
-            "item_level": 305,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
@@ -957,8 +957,8 @@
             "slot": "hands",
             "item_id": 271457,
             "item_name": "Jeweled Gauntlets of the Jade Warlord",
-            "item_level": 308,
-            "track": null,
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -977,8 +977,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -990,19 +990,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249342,
-            "item_name": "Heart of Ancient Hunger",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250229,
-            "item_name": "Idol of the War Loa",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 249342,
+            "item_name": "Heart of Ancient Hunger",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1036,9 +1036,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 47,
+        "count": 1,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -1053,14 +1053,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 1,
+        "myth": 8,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -1071,9 +1071,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 302.4,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 10.7,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -1225,9 +1225,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -1249,7 +1249,7 @@
         "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -1259,10 +1259,10 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 306.5,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 10.1,
-        "mythic_plus_highest": 12,
+        "item_level": 306.9,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -1275,10 +1275,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 272228,
-            "item_name": "Whispering Periapt",
-            "item_level": 305,
-            "track": null,
+            "item_id": 251142,
+            "item_name": "Pendant of Malefic Fury",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -1414,9 +1414,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 1,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -1431,14 +1431,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 2,
         "champion": 0,
         "crafted": 1,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -1449,9 +1449,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 300.4,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 10.5,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -1629,9 +1629,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -1655,7 +1655,7 @@
         "lower": 8
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -1666,9 +1666,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 311.4,
-        "mythic_plus_weekly": 36,
-        "mythic_plus_avg_level": 10.4,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -1842,9 +1842,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 36,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 7,
@@ -1880,9 +1880,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 304.9,
-        "mythic_plus_weekly": 53,
-        "mythic_plus_avg_level": 10.6,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2050,7 +2050,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2065,17 +2065,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 53,
+        "count": 2,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -2091,7 +2089,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2102,9 +2100,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 304.3,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 10.1,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -2274,9 +2272,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -2298,7 +2296,7 @@
         "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2309,9 +2307,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 291.5,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2493,9 +2491,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 2,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -2517,7 +2515,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2528,9 +2526,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 299.9,
-        "mythic_plus_weekly": 28,
-        "mythic_plus_avg_level": 10.5,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -2700,9 +2698,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 28,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -2726,7 +2724,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2737,9 +2735,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.5,
-        "mythic_plus_weekly": 34,
-        "mythic_plus_avg_level": 10.1,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -2908,9 +2906,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 34,
+        "count": 3,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -2932,7 +2930,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2942,9 +2940,9 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 308.0,
-        "mythic_plus_weekly": 23,
-        "mythic_plus_avg_level": 8.3,
+        "item_level": 308.6,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -2958,9 +2956,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3002,7 +3000,7 @@
             "item_name": "Primal Leywarden's Tailored Legwraps",
             "item_level": 315,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3110,16 +3108,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 4,
         "target": 8,
-        "status": "pass"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
           "head",
-          "legs",
           "off_hand"
         ],
         "status": "fail"
@@ -3149,9 +3146,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 297.7,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 10.2,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -3316,9 +3313,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -3340,7 +3337,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -3350,10 +3347,10 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 303.3,
-        "mythic_plus_weekly": 35,
-        "mythic_plus_avg_level": 11.6,
-        "mythic_plus_highest": 15,
+        "item_level": 303.5,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3381,7 +3378,7 @@
             "slot": "shoulders",
             "item_id": 239037,
             "item_name": "C'thraxxi Binders Pauldrons",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3527,9 +3524,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 35,
+        "count": 2,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 7,
@@ -3553,7 +3550,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -3564,9 +3561,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 307.5,
-        "mythic_plus_weekly": 32,
-        "mythic_plus_avg_level": 10.6,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3736,9 +3733,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 32,
+        "count": 3,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -3762,7 +3759,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -3773,9 +3770,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 305.5,
-        "mythic_plus_weekly": 40,
-        "mythic_plus_avg_level": 9.3,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -3935,9 +3932,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 40,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -3959,7 +3956,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -3969,17 +3966,17 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 300.5,
-        "mythic_plus_weekly": 23,
-        "mythic_plus_avg_level": 7.2,
+        "item_level": 301.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 8.5,
         "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
-            "item_id": 277792,
-            "item_name": "Venom-Cursed Dragonhawk's Plumage",
-            "item_level": 308,
-            "track": null,
+            "item_id": 251199,
+            "item_name": "Worldroot Canopy",
+            "item_level": 305,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4096,9 +4093,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 295,
+            "item_id": 250259,
+            "item_name": "Sapling of the Dawnroot",
+            "item_level": 305,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4133,9 +4130,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 2,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 4,
@@ -4157,11 +4154,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 12,
+        "myth": 13,
         "hero": 1,
         "champion": 0,
         "crafted": 0,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4175,9 +4172,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 313.6,
-        "mythic_plus_weekly": 40,
-        "mythic_plus_avg_level": 11.6,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4347,9 +4344,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 40,
+        "count": 0,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 8,
@@ -4373,7 +4370,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -4384,9 +4381,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 310.4,
-        "mythic_plus_weekly": 22,
-        "mythic_plus_avg_level": 9.9,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -4547,9 +4544,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 1,
         "target": 8,
-        "status": "pass"
+        "status": "fail"
       },
       "enchants": {
         "enchanted": 5,
@@ -4587,9 +4584,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 295.6,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 0,
+        "mythic_plus_avg_level": 0.0,
+        "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
@@ -4750,7 +4747,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 0,
         "target": 8,
         "status": "fail"
       },
