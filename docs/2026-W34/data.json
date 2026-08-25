@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-25T04:30:56.471489+00:00",
+  "generated_at": "2026-08-25T06:31:50.774466+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -856,10 +856,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 310.1,
-        "mythic_plus_weekly": 44,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 13,
+        "item_level": 310.5,
+        "mythic_plus_weekly": 47,
+        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -966,7 +966,7 @@
             "slot": "finger_1",
             "item_id": 272149,
             "item_name": "Hex Loop",
-            "item_level": 305,
+            "item_level": 311,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -1036,7 +1036,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 44,
+        "count": 47,
         "target": 8,
         "status": "pass"
       },
@@ -1259,7 +1259,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 304.7,
+        "item_level": 305.2,
         "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
@@ -1270,7 +1270,7 @@
             "item_name": "Serpent Crown of the Ophidian Oracle",
             "item_level": 308,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1306,10 +1306,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 159369,
-            "item_name": "Belt of the Consecrated Tomb",
+            "item_id": 268254,
+            "item_name": "Serpentine Mixing Belt",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1328,7 +1328,7 @@
             "item_name": "Boots of the Reckless Wayfarer",
             "item_level": 308,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1364,10 +1364,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251513,
-            "item_name": "Loa Worshiper's Band",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 279010,
+            "item_name": "Ula'tek's Bind",
+            "item_level": 292,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -1419,13 +1419,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "head",
-          "feet"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -1434,14 +1431,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 1,
+        "myth": 7,
+        "hero": 2,
         "champion": 0,
-        "crafted": 2,
-        "lower": 4
+        "crafted": 1,
+        "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -1882,10 +1879,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 304.4,
-        "mythic_plus_weekly": 50,
-        "mythic_plus_avg_level": 10.4,
-        "mythic_plus_highest": 13,
+        "item_level": 304.9,
+        "mythic_plus_weekly": 53,
+        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -2013,19 +2010,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270169,
-            "item_name": "Hex Lord's Dooming Idol",
-            "item_level": 302,
+            "item_id": 264507,
+            "item_name": "Crucible of Erratic Energies",
+            "item_level": 295,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 264507,
-            "item_name": "Crucible of Erratic Energies",
-            "item_level": 295,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2068,7 +2065,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 50,
+        "count": 53,
         "target": 8,
         "status": "pass"
       },
@@ -2085,11 +2082,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -2737,8 +2734,8 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 308.3,
-        "mythic_plus_weekly": 32,
+        "item_level": 308.5,
+        "mythic_plus_weekly": 34,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
@@ -2759,7 +2756,7 @@
             "slot": "neck",
             "item_id": 273781,
             "item_name": "Strand of Warding Fangs",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -2909,7 +2906,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 32,
+        "count": 34,
         "target": 8,
         "status": "pass"
       },
@@ -2943,7 +2940,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 296.1,
+        "item_level": 306.4,
         "mythic_plus_weekly": 18,
         "mythic_plus_avg_level": 7.8,
         "mythic_plus_highest": 11,
@@ -2976,19 +2973,19 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 239031,
-            "item_name": "Brood Cleanser's Amice",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": false,
+            "item_id": 271562,
+            "item_name": "Primal Leywarden's Manaflux",
+            "item_level": 308,
+            "track": "hero",
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "chest",
-            "item_id": 250063,
-            "item_name": "Voidbreaker's Robe",
-            "item_level": 298,
-            "track": null,
+            "item_id": 271567,
+            "item_name": "Crest of the Primal Leywarden",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2996,22 +2993,18 @@
             "slot": "waist",
             "item_id": 239649,
             "item_name": "Martyr's Waistwrap",
-            "item_level": 285,
+            "item_level": 318,
             "track": "crafted",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
-            "item_id": 250059,
-            "item_name": "Voidbreaker's Britches",
-            "item_level": 289,
+            "item_id": 271563,
+            "item_name": "Primal Leywarden's Tailored Legwraps",
+            "item_level": 315,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3025,10 +3018,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 239648,
-            "item_name": "Martyr's Bindings",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 268228,
+            "item_name": "Venom-Singed Cuffs",
+            "item_level": 308,
+            "track": "hero",
             "enchanted": false,
             "sockets": [
               {
@@ -3038,18 +3031,18 @@
           },
           {
             "slot": "hands",
-            "item_id": 250061,
-            "item_name": "Voidbreaker's Gloves",
-            "item_level": 289,
+            "item_id": 271565,
+            "item_name": "Primal Leywarden's Manashapers",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
-            "item_level": 289,
+            "item_id": 162544,
+            "item_name": "Jade Ophidian Band",
+            "item_level": 308,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3111,7 +3104,7 @@
             "slot": "off_hand",
             "item_id": 245769,
             "item_name": "Aln'hara Lantern",
-            "item_level": 295,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": false,
             "sockets": []
@@ -3127,23 +3120,23 @@
         "enchanted": 7,
         "required": 9,
         "missing_slots": [
-          "shoulders",
+          "legs",
           "off_hand"
         ],
         "status": "fail"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 0,
+        "myth": 7,
+        "hero": 3,
         "champion": 0,
-        "crafted": 3,
-        "lower": 5
+        "crafted": 2,
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3358,10 +3351,10 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 304.2,
-        "mythic_plus_weekly": 32,
-        "mythic_plus_avg_level": 11.4,
-        "mythic_plus_highest": 13,
+        "item_level": 303.3,
+        "mythic_plus_weekly": 35,
+        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -3498,10 +3491,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 158367,
-            "item_name": "Merektha's Fang",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3535,7 +3528,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 32,
+        "count": 35,
         "target": 8,
         "status": "pass"
       },
@@ -3554,11 +3547,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3977,16 +3970,16 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 296.5,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 6.9,
+        "item_level": 299.3,
+        "mythic_plus_weekly": 23,
+        "mythic_plus_avg_level": 7.2,
         "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
             "item_id": 277792,
             "item_name": "Venom-Cursed Dragonhawk's Plumage",
-            "item_level": 292,
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -4017,16 +4010,16 @@
             "slot": "chest",
             "item_id": 271558,
             "item_name": "Cosmic Penitent's Eclipsing Robes",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 193691,
-            "item_name": "Sky Saddle Cord",
-            "item_level": 292,
+            "item_id": 251222,
+            "item_name": "Ethereal Netherwrap",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4126,7 +4119,7 @@
             "item_name": "Nibbles' Training Rod",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4141,20 +4134,18 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 23,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 2,
+        "enchanted": 4,
         "required": 8,
         "missing_slots": [
           "head",
-          "chest",
           "legs",
           "finger_1",
-          "finger_2",
-          "main_hand"
+          "finger_2"
         ],
         "status": "fail"
       },
@@ -4185,9 +4176,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 313.6,
-        "mythic_plus_weekly": 37,
-        "mythic_plus_avg_level": 11.4,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 40,
+        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -4357,7 +4348,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 37,
+        "count": 40,
         "target": 8,
         "status": "pass"
       },
@@ -4393,15 +4384,15 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 305.8,
-        "mythic_plus_weekly": 20,
+        "item_level": 310.4,
+        "mythic_plus_weekly": 21,
         "mythic_plus_avg_level": 9.9,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
-            "item_id": 273791,
-            "item_name": "Spare Speaker's Hood",
+            "item_id": 271537,
+            "item_name": "Abyssal Doomhound's Relentless Stare",
             "item_level": 308,
             "track": "myth",
             "enchanted": true,
@@ -4449,19 +4440,19 @@
           },
           {
             "slot": "legs",
-            "item_id": 159329,
-            "item_name": "Leggings of the Galeforce Viper",
-            "item_level": 292,
-            "track": "myth",
-            "enchanted": false,
+            "item_id": 271536,
+            "item_name": "Abyssal Doomhound's Legwraps",
+            "item_level": 311,
+            "track": "hero",
+            "enchanted": true,
             "sockets": []
           },
           {
             "slot": "feet",
-            "item_id": 251153,
-            "item_name": "Arctic Explorer's Legwraps",
-            "item_level": 295,
-            "track": "myth",
+            "item_id": 268261,
+            "item_name": "Bespittled Slitherslippers",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -4547,30 +4538,28 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 258962,
-            "item_name": "Tarnished Dawnlit Warglaive",
-            "item_level": 282,
-            "track": null,
-            "enchanted": false,
+            "item_id": 273780,
+            "item_name": "Venom-Etched Crescent",
+            "item_level": 321,
+            "track": "myth",
+            "enchanted": true,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 3,
+        "enchanted": 5,
         "required": 9,
         "missing_slots": [
           "chest",
-          "legs",
           "feet",
           "finger_1",
-          "finger_2",
-          "off_hand"
+          "finger_2"
         ],
         "status": "fail"
       },
@@ -4581,8 +4570,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 1,
+        "myth": 7,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 5
