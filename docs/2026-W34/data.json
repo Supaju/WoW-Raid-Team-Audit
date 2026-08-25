@@ -2,7 +2,7 @@
   "week": "2026-W34",
   "week_label": "Raid Week 2 \u00b7 Aug 18\u201324",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-25T02:51:45.561636+00:00",
+  "generated_at": "2026-08-25T04:30:56.471489+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 309.1,
-        "mythic_plus_weekly": 25,
+        "mythic_plus_weekly": 26,
         "mythic_plus_avg_level": 9.6,
         "mythic_plus_highest": 12,
         "items": [
@@ -188,7 +188,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 25,
+        "count": 26,
         "target": 8,
         "status": "pass"
       },
@@ -426,23 +426,19 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 307.1,
+        "item_level": 309.0,
         "mythic_plus_weekly": 33,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
-            "item_id": 249952,
-            "item_name": "Night Ender's Tusks",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 271456,
+            "item_name": "Tempered Horns of the Jade Warlord",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -495,9 +491,9 @@
           },
           {
             "slot": "legs",
-            "item_id": 249951,
-            "item_name": "Night Ender's Chausses",
-            "item_level": 289,
+            "item_id": 273776,
+            "item_name": "Ancient General's Obsidian Pillars",
+            "item_level": 298,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -623,14 +619,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 0,
+        "myth": 8,
+        "hero": 1,
         "champion": 0,
         "crafted": 1,
         "lower": 6
@@ -1455,7 +1451,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 299.2,
+        "item_level": 300.4,
         "mythic_plus_weekly": 15,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
@@ -1499,7 +1495,7 @@
             "slot": "chest",
             "item_id": 268235,
             "item_name": "Vestment of the Awakening",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -1601,7 +1597,7 @@
             "slot": "back",
             "item_id": 193763,
             "item_name": "Fireproof Drape",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1619,7 +1615,7 @@
             "slot": "off_hand",
             "item_id": 251191,
             "item_name": "Luminescent Sprout",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1672,7 +1668,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 310.6,
+        "item_level": 311.4,
         "mythic_plus_weekly": 36,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 12,
@@ -1688,10 +1684,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
+            "item_id": 268251,
+            "item_name": "Amulet of the Twin Fangs",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": [
               {
@@ -1728,10 +1724,10 @@
           },
           {
             "slot": "waist",
-            "item_id": 251185,
-            "item_name": "Lightblossom Cinch",
-            "item_level": 308,
-            "track": "myth",
+            "item_id": 268257,
+            "item_name": "Caustic Chain-Wrapped Sash",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1812,9 +1808,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
-            "item_level": 298,
+            "item_id": 274493,
+            "item_name": "Effigy of Ula'tek's Faithful",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -1869,8 +1865,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 1,
+        "myth": 6,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 6
@@ -2106,7 +2102,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 301.7,
+        "item_level": 304.3,
         "mythic_plus_weekly": 15,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 11,
@@ -2135,11 +2131,11 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 268226,
-            "item_name": "Swelling Sea Spaulders",
-            "item_level": 295,
-            "track": null,
-            "enchanted": false,
+            "item_id": 271472,
+            "item_name": "Baleful Grave-Knight's Gibbets",
+            "item_level": 305,
+            "track": "hero",
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2153,10 +2149,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 249973,
-            "item_name": "Relentless Rider's Cuirass",
-            "item_level": 298,
-            "track": null,
+            "item_id": 271477,
+            "item_name": "Baleful Grave-Knight's Breastplate",
+            "item_level": 308,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2198,10 +2194,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 249971,
-            "item_name": "Relentless Rider's Bonegrasps",
-            "item_level": 289,
-            "track": "myth",
+            "item_id": 277769,
+            "item_name": "Venom-Cursed Bear's Gauntlets",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2284,12 +2280,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "shoulders"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -2299,13 +2293,13 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 1,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2743,7 +2737,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 308.1,
+        "item_level": 308.3,
         "mythic_plus_weekly": 32,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
@@ -2878,10 +2872,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 274493,
-            "item_name": "Effigy of Ula'tek's Faithful",
-            "item_level": 308,
-            "track": null,
+            "item_id": 270161,
+            "item_name": "Fang of Umbral Malignance",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2933,10 +2927,10 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 1,
+        "hero": 2,
         "champion": 0,
         "crafted": 3,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -2950,8 +2944,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 296.1,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 7.3,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 7.8,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -3125,7 +3119,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
@@ -3787,7 +3781,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 305.5,
-        "mythic_plus_weekly": 39,
+        "mythic_plus_weekly": 40,
         "mythic_plus_avg_level": 9.3,
         "mythic_plus_highest": 12,
         "items": [
@@ -3949,7 +3943,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 39,
+        "count": 40,
         "target": 8,
         "status": "pass"
       },
@@ -3984,8 +3978,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 296.5,
-        "mythic_plus_weekly": 19,
-        "mythic_plus_avg_level": 6.8,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 6.9,
         "mythic_plus_highest": 10,
         "items": [
           {
@@ -4147,7 +4141,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
