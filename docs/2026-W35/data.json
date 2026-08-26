@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-26T12:34:30.913965+00:00",
+  "generated_at": "2026-08-26T14:35:54.356814+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -415,9 +415,9 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 314.8,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 10.8,
+        "item_level": 315.2,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -521,7 +521,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 324,
+            "item_level": 331,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -600,7 +600,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -2941,8 +2941,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.6,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3108,7 +3108,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
