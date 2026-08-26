@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-26T00:49:29.262039+00:00",
+  "generated_at": "2026-08-26T02:57:34.418020+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -222,7 +222,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 307.1,
+        "item_level": 306.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -255,9 +255,9 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 250022,
-            "item_name": "Seedpods of the Luminous Bloom",
-            "item_level": 289,
+            "item_id": 251223,
+            "item_name": "Somber Spaulders",
+            "item_level": 302,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -309,19 +309,19 @@
           },
           {
             "slot": "hands",
-            "item_id": 159312,
-            "item_name": "Desiccator's Blessed Gloves",
-            "item_level": 308,
+            "item_id": 250025,
+            "item_name": "Arbortenders of the Luminous Bloom",
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 275526,
-            "item_name": "Preyhunter's Band",
-            "item_level": 295,
-            "track": null,
+            "item_id": 162544,
+            "item_name": "Jade Ophidian Band",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -344,17 +344,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268292,
+            "item_name": "Sporelord's Mycelial Insignia",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 268292,
-            "item_name": "Sporelord's Mycelial Insignia",
+            "item_id": 248583,
+            "item_name": "Drum of Renewed Bonds",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -371,11 +371,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 277806,
-            "item_name": "Venom-Cursed Hidepiercer",
-            "item_level": 308,
-            "track": null,
-            "enchanted": false,
+            "item_id": 251156,
+            "item_name": "Fallen Speaker's Staff",
+            "item_level": 321,
+            "track": "myth",
+            "enchanted": true,
             "sockets": []
           }
         ]
@@ -386,12 +386,10 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "main_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -400,11 +398,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -636,10 +634,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 302.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 307.6,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -652,23 +650,23 @@
           },
           {
             "slot": "neck",
-            "item_id": 251234,
-            "item_name": "Graft of the Domanaar",
-            "item_level": 308,
+            "item_id": 273781,
+            "item_name": "Strand of Warding Fangs",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
           {
             "slot": "shoulders",
-            "item_id": 239037,
-            "item_name": "C'thraxxi Binders Pauldrons",
+            "item_id": 271472,
+            "item_name": "Baleful Grave-Knight's Gibbets",
             "item_level": 308,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -683,10 +681,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 249973,
-            "item_name": "Relentless Rider's Cuirass",
-            "item_level": 298,
-            "track": null,
+            "item_id": 271477,
+            "item_name": "Baleful Grave-Knight's Breastplate",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -701,11 +699,11 @@
           },
           {
             "slot": "legs",
-            "item_id": 249969,
-            "item_name": "Relentless Rider's Legguards",
-            "item_level": 289,
+            "item_id": 159435,
+            "item_name": "Legplates of Charged Duality",
+            "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -719,14 +717,14 @@
           },
           {
             "slot": "wrist",
-            "item_id": 237834,
-            "item_name": "Spellbreaker's Bracers",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 159409,
+            "item_name": "Embalmer's Steadying Bracers",
+            "item_level": 292,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -754,8 +752,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 251194,
+            "item_name": "Lightwarden's Bind",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -785,10 +783,10 @@
           },
           {
             "slot": "back",
-            "item_id": 239656,
-            "item_name": "Adherent's Silken Shroud",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 251132,
+            "item_name": "Speakeasy Shroud",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -813,30 +811,34 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 5,
         "required": 8,
         "missing_slots": [
           "head",
-          "shoulders"
+          "shoulders",
+          "legs"
         ],
         "status": "fail"
       },
       "sockets": {
-        "filled": 4,
+        "filled": 2,
         "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "neck",
+          "wrist"
+        ],
+        "status": "fail"
       },
       "gear": {
-        "myth": 9,
+        "myth": 11,
         "hero": 0,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 0,
         "lower": 4
       },
       "ambiguous_items": [],
@@ -1065,9 +1067,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 302.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1219,7 +1221,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2521,10 +2523,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 304.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 305.6,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2532,7 +2534,7 @@
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
             "item_level": 308,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2572,7 +2574,7 @@
             "item_name": "Enigmatic Dreamwatcher's Lunar Raiment",
             "item_level": 295,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2635,9 +2637,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251093,
-            "item_name": "Omission of Light",
-            "item_level": 289,
+            "item_id": 251194,
+            "item_name": "Lightwarden's Bind",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2694,19 +2696,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "head",
-          "chest",
           "off_hand"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 3,
@@ -2733,9 +2733,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.5,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 10.7,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 10.8,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2904,9 +2904,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2928,7 +2928,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3558,9 +3558,9 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 307.7,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 11.6,
+        "item_level": 308.1,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 11.9,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3576,7 +3576,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 302,
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3734,7 +3734,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -3771,9 +3771,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 305.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3933,7 +3933,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
