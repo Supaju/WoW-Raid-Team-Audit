@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-26T14:35:54.356814+00:00",
+  "generated_at": "2026-08-26T16:42:00.372106+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -416,9 +416,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 315.2,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 11.1,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 11.4,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -600,9 +600,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -4175,8 +4175,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 314.8,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 13.3,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4347,9 +4347,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -4373,7 +4373,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
