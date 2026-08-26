@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-26T16:42:00.372106+00:00",
+  "generated_at": "2026-08-26T19:38:37.030982+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1878,8 +1878,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.3,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 11.8,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -2063,9 +2063,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 10,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 9,
@@ -2087,7 +2087,7 @@
         "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3348,8 +3348,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 309.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 11.8,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -3528,9 +3528,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 10,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3777,9 +3777,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 308.9,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 10.4,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 11.1,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3935,7 +3935,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -3969,7 +3969,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 304.1,
+        "item_level": 304.3,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 9.2,
         "mythic_plus_highest": 10,
@@ -3978,7 +3978,7 @@
             "slot": "head",
             "item_id": 251199,
             "item_name": "Worldroot Canopy",
-            "item_level": 305,
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4175,8 +4175,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 314.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 11.9,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4347,9 +4347,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -4475,11 +4475,11 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272148,
-            "item_name": "Anguine Gyre",
+            "item_id": 272150,
+            "item_name": "Ouroboric Signet",
             "item_level": 311,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -4492,7 +4492,7 @@
             "item_name": "Ritual Binder's Ring",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -4519,10 +4519,10 @@
           },
           {
             "slot": "back",
-            "item_id": 251132,
-            "item_name": "Speakeasy Shroud",
+            "item_id": 171532,
+            "item_name": "Might of the Nerub",
             "item_level": 311,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -4552,13 +4552,11 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 5,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
           "chest",
-          "feet",
-          "finger_1",
-          "finger_2"
+          "feet"
         ],
         "status": "fail"
       },
@@ -4569,11 +4567,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 6,
         "hero": 3,
         "champion": 0,
         "crafted": 1,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
