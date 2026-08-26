@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-26T08:33:14.849261+00:00",
+  "generated_at": "2026-08-26T10:26:02.280283+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2941,9 +2941,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 308.6,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 10.3,
-        "mythic_plus_highest": 11,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3108,9 +3108,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 7,
@@ -3777,8 +3777,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 308.9,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 10.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3935,7 +3935,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
