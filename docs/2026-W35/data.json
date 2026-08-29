@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-28T15:51:53.813302+00:00",
+  "generated_at": "2026-08-29T00:17:04.954919+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -222,10 +222,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 307.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 307.1,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -255,10 +255,10 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 268246,
-            "item_name": "Frothing Venom Spaulders",
-            "item_level": 311,
-            "track": "hero",
+            "item_id": 250022,
+            "item_name": "Seedpods of the Luminous Bloom",
+            "item_level": 289,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -309,19 +309,19 @@
           },
           {
             "slot": "hands",
-            "item_id": 250025,
-            "item_name": "Arbortenders of the Luminous Bloom",
-            "item_level": 289,
+            "item_id": 159312,
+            "item_name": "Desiccator's Blessed Gloves",
+            "item_level": 308,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 162544,
-            "item_name": "Jade Ophidian Band",
-            "item_level": 298,
-            "track": "myth",
+            "item_id": 275526,
+            "item_name": "Preyhunter's Band",
+            "item_level": 295,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -344,17 +344,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 268292,
-            "item_name": "Sporelord's Mycelial Insignia",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
+            "item_id": 268292,
+            "item_name": "Sporelord's Mycelial Insignia",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -371,25 +371,27 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251156,
-            "item_name": "Fallen Speaker's Staff",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 277806,
+            "item_name": "Venom-Cursed Hidepiercer",
+            "item_level": 308,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "main_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -399,10 +401,10 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 1,
+        "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 7
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -636,7 +638,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 307.6,
+        "item_level": 308.5,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 12,
@@ -734,7 +736,7 @@
             "slot": "hands",
             "item_id": 271475,
             "item_name": "Baleful Grave-Knight's Deathgrips",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -796,7 +798,7 @@
             "slot": "main_hand",
             "item_id": 251134,
             "item_name": "Xathuux's Cleave",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1875,9 +1877,9 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 312.6,
-        "mythic_plus_weekly": 33,
-        "mythic_plus_avg_level": 11.6,
+        "item_level": 313.8,
+        "mythic_plus_weekly": 37,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -1940,11 +1942,11 @@
           },
           {
             "slot": "legs",
-            "item_id": 249978,
-            "item_name": "Leggings of the Primal Core",
-            "item_level": 298,
-            "track": null,
-            "enchanted": true,
+            "item_id": 159375,
+            "item_name": "Legguards of the Awakening Brood",
+            "item_level": 311,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1978,7 +1980,7 @@
             "slot": "finger_1",
             "item_id": 272147,
             "item_name": "Colubrine Band",
-            "item_level": 305,
+            "item_level": 311,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -2057,17 +2059,18 @@
         ]
       },
       "mythic_plus": {
-        "count": 33,
+        "count": 37,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
-          "head"
+          "head",
+          "legs"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 2,
@@ -2078,14 +2081,14 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2733,7 +2736,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 308.5,
+        "item_level": 309.0,
         "mythic_plus_weekly": 13,
         "mythic_plus_avg_level": 9.4,
         "mythic_plus_highest": 12,
@@ -2755,7 +2758,7 @@
             "slot": "neck",
             "item_id": 273781,
             "item_name": "Strand of Warding Fangs",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3144,9 +3147,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 303.3,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3311,9 +3314,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 7,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
@@ -3337,7 +3340,7 @@
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3348,7 +3351,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 313.5,
-        "mythic_plus_weekly": 33,
+        "mythic_plus_weekly": 39,
         "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 15,
         "items": [
@@ -3528,7 +3531,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 33,
+        "count": 39,
         "target": 8,
         "status": "pass"
       },
@@ -3563,8 +3566,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 308.1,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 12.1,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 11.9,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3738,7 +3741,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -3775,8 +3778,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 310.3,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 11.1,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 11.2,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3905,8 +3908,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
+            "item_id": 270174,
+            "item_name": "Idol of the Howling Nexus",
             "item_level": 308,
             "track": null,
             "enchanted": false,
@@ -3933,7 +3936,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -3968,8 +3971,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 304.7,
-        "mythic_plus_weekly": 23,
-        "mythic_plus_avg_level": 10.1,
+        "mythic_plus_weekly": 26,
+        "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -4131,7 +4134,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 26,
         "target": 8,
         "status": "pass"
       },
@@ -4174,8 +4177,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.1,
-        "mythic_plus_weekly": 17,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4346,7 +4349,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
