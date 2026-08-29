@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-29T14:50:42.073263+00:00",
+  "generated_at": "2026-08-29T19:02:12.174467+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -222,10 +222,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 307.1,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 11,
+        "item_level": 306.9,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -255,9 +255,9 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 250022,
-            "item_name": "Seedpods of the Luminous Bloom",
-            "item_level": 289,
+            "item_id": 251223,
+            "item_name": "Somber Spaulders",
+            "item_level": 302,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -309,19 +309,19 @@
           },
           {
             "slot": "hands",
-            "item_id": 159312,
-            "item_name": "Desiccator's Blessed Gloves",
-            "item_level": 308,
+            "item_id": 250025,
+            "item_name": "Arbortenders of the Luminous Bloom",
+            "item_level": 289,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 275526,
-            "item_name": "Preyhunter's Band",
-            "item_level": 295,
-            "track": null,
+            "item_id": 162544,
+            "item_name": "Jade Ophidian Band",
+            "item_level": 298,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -344,17 +344,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268292,
+            "item_name": "Sporelord's Mycelial Insignia",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 268292,
-            "item_name": "Sporelord's Mycelial Insignia",
+            "item_id": 248583,
+            "item_name": "Drum of Renewed Bonds",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -371,27 +371,25 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 277806,
-            "item_name": "Venom-Cursed Hidepiercer",
-            "item_level": 308,
-            "track": null,
-            "enchanted": false,
+            "item_id": 251156,
+            "item_name": "Fallen Speaker's Staff",
+            "item_level": 321,
+            "track": "myth",
+            "enchanted": true,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "main_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -400,11 +398,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 0,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -639,8 +637,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 313.9,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 10.3,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -811,7 +809,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -2516,8 +2514,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 305.4,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 11.2,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2688,7 +2686,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -3747,7 +3745,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 305.1,
-        "mythic_plus_weekly": 36,
+        "mythic_plus_weekly": 37,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 11,
         "items": [
@@ -3910,7 +3908,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 36,
+        "count": 37,
         "target": 8,
         "status": "pass"
       },
@@ -3953,7 +3951,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.4,
-        "mythic_plus_weekly": 23,
+        "mythic_plus_weekly": 24,
         "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 15,
         "items": [
@@ -4125,7 +4123,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 24,
         "target": 8,
         "status": "pass"
       },
@@ -4162,9 +4160,9 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 314.0,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 10.5,
+        "item_level": 313.4,
+        "mythic_plus_weekly": 15,
+        "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4193,7 +4191,7 @@
             "slot": "shoulders",
             "item_id": 271535,
             "item_name": "Abyssal Doomhound's Jaws",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4231,7 +4229,7 @@
             "item_name": "Bespittled Slitherslippers",
             "item_level": 311,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4267,8 +4265,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 159459,
-            "item_name": "Ritual Binder's Ring",
+            "item_id": 251136,
+            "item_name": "Signet of Snarling Servitude",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -4316,17 +4314,17 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 273780,
-            "item_name": "Venom-Etched Crescent",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": true,
+            "item_id": 272277,
+            "item_name": "Spirit-Reaver",
+            "item_level": 308,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 15,
         "target": 8,
         "status": "pass"
       },
@@ -4334,7 +4332,7 @@
         "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "feet"
+          "off_hand"
         ],
         "status": "warn"
       },
@@ -4345,11 +4343,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "warn"
