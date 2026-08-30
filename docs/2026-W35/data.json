@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-30T14:35:34.825618+00:00",
+  "generated_at": "2026-08-30T18:57:23.256342+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -664,8 +664,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 315.4,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 11.4,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -848,7 +848,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -885,8 +885,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 313.7,
-        "mythic_plus_weekly": 16,
-        "mythic_plus_avg_level": 10.4,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 10.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -1057,7 +1057,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 16,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -1094,8 +1094,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 315.3,
-        "mythic_plus_weekly": 16,
-        "mythic_plus_avg_level": 11.9,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -1273,7 +1273,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 16,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -1308,8 +1308,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 302.4,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 10.9,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -1462,9 +1462,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 7,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -1486,7 +1486,7 @@
         "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2119,8 +2119,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 314.8,
-        "mythic_plus_weekly": 53,
-        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_weekly": 57,
+        "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -2300,7 +2300,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 53,
+        "count": 57,
         "target": 8,
         "status": "pass"
       },
@@ -2759,8 +2759,8 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 312.0,
-        "mythic_plus_weekly": 15,
+        "item_level": 310.5,
+        "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.6,
         "mythic_plus_highest": 12,
         "items": [
@@ -2768,10 +2768,14 @@
             "slot": "head",
             "item_id": 271528,
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
+            "item_level": 308,
+            "track": null,
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -2886,19 +2890,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270166,
+            "item_name": "Vashnik's Sanguine Rancor",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2913,52 +2917,44 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 272266,
-            "item_name": "Forgotten Eidolon's Dagger",
-            "item_level": 321,
+            "item_id": 268199,
+            "item_name": "Tidepiercer's Bubble Popper",
+            "item_level": 308,
             "track": null,
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 245769,
-            "item_name": "Aln'hara Lantern",
-            "item_level": 331,
-            "track": "crafted",
             "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 9,
+        "enchanted": 6,
+        "required": 8,
         "missing_slots": [
-          "off_hand"
+          "head",
+          "main_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 0,
+        "myth": 8,
+        "hero": 1,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 1,
         "lower": 5
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2969,8 +2965,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 309.7,
-        "mythic_plus_weekly": 16,
-        "mythic_plus_avg_level": 9.9,
+        "mythic_plus_weekly": 18,
+        "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3140,7 +3136,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 16,
+        "count": 18,
         "target": 8,
         "status": "pass"
       },
@@ -3796,8 +3792,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 314.6,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 12.4,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 12.6,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3971,7 +3967,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -4201,7 +4197,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 306.2,
-        "mythic_plus_weekly": 41,
+        "mythic_plus_weekly": 42,
         "mythic_plus_avg_level": 10.1,
         "mythic_plus_highest": 11,
         "items": [
@@ -4364,7 +4360,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 41,
+        "count": 42,
         "target": 8,
         "status": "pass"
       },
@@ -4408,8 +4404,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.4,
-        "mythic_plus_weekly": 36,
-        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_weekly": 38,
+        "mythic_plus_avg_level": 10.9,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4580,7 +4576,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 36,
+        "count": 38,
         "target": 8,
         "status": "pass"
       },
@@ -4617,7 +4613,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 314.2,
-        "mythic_plus_weekly": 21,
+        "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 12,
         "items": [
@@ -4752,10 +4748,10 @@
           },
           {
             "slot": "back",
-            "item_id": 171532,
-            "item_name": "Might of the Nerub",
+            "item_id": 251132,
+            "item_name": "Speakeasy Shroud",
             "item_level": 311,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -4780,7 +4776,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -4797,11 +4793,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "pass"
