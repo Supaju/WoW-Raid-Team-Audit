@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-08-31T18:31:12.809831+00:00",
+  "generated_at": "2026-08-31T23:31:11.881235+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,16 +13,16 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 314.9,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 11.0,
+        "item_level": 316.8,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
-            "item_id": 193751,
-            "item_name": "Crown of Roaring Storms",
-            "item_level": 308,
+            "item_id": 251140,
+            "item_name": "Vilefiend's Guise",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -60,8 +60,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 251235,
-            "item_name": "Gravitic Girdle",
+            "item_id": 159317,
+            "item_name": "Whirling Dervish Sash",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -118,10 +118,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 162544,
+            "item_name": "Jade Ophidian Band",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -158,28 +158,28 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 273778,
-            "item_name": "Polished Lightwood Channeler",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268210,
+            "item_name": "Malevolent Spiritcudgel",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "off_hand",
-            "item_id": 193766,
-            "item_name": "Kokia's Burnout Rod",
+            "item_id": 268197,
+            "item_name": "Spine of the Hissing Abyss",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 10,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -196,11 +196,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 2,
+        "myth": 7,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -214,8 +214,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 315.4,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -1672,7 +1672,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 316.2,
-        "mythic_plus_weekly": 68,
+        "mythic_plus_weekly": 69,
         "mythic_plus_avg_level": 11.2,
         "mythic_plus_highest": 15,
         "items": [
@@ -1853,7 +1853,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 68,
+        "count": 69,
         "target": 8,
         "status": "pass"
       },
@@ -1887,8 +1887,8 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 311.0,
-        "mythic_plus_weekly": 6,
+        "item_level": 312.3,
+        "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -1943,8 +1943,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 155940,
-            "item_name": "Dragonslayer's Brace",
+            "item_id": 268259,
+            "item_name": "Girdle of Toxic Regret",
             "item_level": 308,
             "track": null,
             "enchanted": false,
@@ -2014,10 +2014,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 193762,
-            "item_name": "Blazebinder's Hoof",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 249344,
+            "item_name": "Light Company Guidon",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2032,19 +2032,19 @@
           },
           {
             "slot": "back",
-            "item_id": 251190,
-            "item_name": "Bloodthorn Burnous",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 239656,
+            "item_name": "Adherent's Silken Shroud",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "main_hand",
-            "item_id": 277802,
-            "item_name": "Venom-Cursed Guillotine",
-            "item_level": 308,
-            "track": null,
+            "item_id": 268198,
+            "item_name": "Caustic Keeper-Crusher",
+            "item_level": 321,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2060,9 +2060,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -2077,14 +2077,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 1,
+        "myth": 4,
+        "hero": 2,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2711,7 +2711,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 309.7,
+        "item_level": 312.3,
         "mythic_plus_weekly": 19,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
@@ -2720,14 +2720,10 @@
             "slot": "head",
             "item_id": 271546,
             "item_name": "Skull of the Damned Necrolyte",
-            "item_level": 295,
+            "item_level": 308,
             "track": null,
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -2855,10 +2851,10 @@
           },
           {
             "slot": "back",
-            "item_id": 239656,
-            "item_name": "Adherent's Silken Shroud",
-            "item_level": 285,
-            "track": "crafted",
+            "item_id": 193763,
+            "item_name": "Fireproof Drape",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2894,16 +2890,16 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 2,
         "champion": 0,
-        "crafted": 3,
+        "crafted": 2,
         "lower": 2
       },
       "ambiguous_items": [],
@@ -3324,7 +3320,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 314.8,
-        "mythic_plus_weekly": 55,
+        "mythic_plus_weekly": 56,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 15,
         "items": [
@@ -3504,7 +3500,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 55,
+        "count": 56,
         "target": 8,
         "status": "pass"
       },
