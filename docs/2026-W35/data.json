@@ -2,7 +2,7 @@
   "week": "2026-W35",
   "week_label": "Raid Week 3 \u00b7 Aug 25\u201331",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-01T02:51:57.337743+00:00",
+  "generated_at": "2026-09-01T09:02:24.304513+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.8,
-        "mythic_plus_weekly": 11,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 12,
         "items": [
@@ -177,7 +177,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -214,7 +214,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 315.4,
-        "mythic_plus_weekly": 18,
+        "mythic_plus_weekly": 19,
         "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 13,
         "items": [
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 18,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -434,7 +434,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 313.9,
+        "item_level": 317.1,
         "mythic_plus_weekly": 24,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
@@ -443,7 +443,7 @@
             "slot": "head",
             "item_id": 271474,
             "item_name": "Baleful Grave-Knight's Casque",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -483,8 +483,8 @@
             "slot": "chest",
             "item_id": 271477,
             "item_name": "Baleful Grave-Knight's Breastplate",
-            "item_level": 311,
-            "track": "myth",
+            "item_level": 331,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -492,7 +492,7 @@
             "slot": "waist",
             "item_id": 159418,
             "item_name": "Girdle of Pestilent Purification",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -537,7 +537,7 @@
             "slot": "finger_1",
             "item_id": 158366,
             "item_name": "Charged Sandstone Band",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -626,8 +626,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
-        "hero": 0,
+        "myth": 10,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -643,7 +643,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 314.6,
+        "item_level": 317.0,
         "mythic_plus_weekly": 26,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 15,
@@ -786,10 +786,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249342,
-            "item_name": "Heart of Ancient Hunger",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -841,10 +841,10 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 2,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -1049,7 +1049,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 311.1,
+        "item_level": 311.5,
         "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 13,
@@ -1107,8 +1107,8 @@
             "slot": "legs",
             "item_id": 271482,
             "item_name": "Leggings of the Ophidian Oracle",
-            "item_level": 308,
-            "track": null,
+            "item_level": 315,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -1226,10 +1226,10 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 3,
+        "hero": 4,
         "champion": 0,
         "crafted": 1,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -1455,7 +1455,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 313.2,
+        "item_level": 314.1,
         "mythic_plus_weekly": 30,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 12,
@@ -1488,7 +1488,7 @@
             "item_name": "Cosmic Penitent's Echoing Screams",
             "item_level": 308,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1529,10 +1529,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 268218,
-            "item_name": "Nek'zali's Spiritwalkers",
-            "item_level": 308,
-            "track": null,
+            "item_id": 268255,
+            "item_name": "Cackling Soultreads",
+            "item_level": 315,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1562,7 +1562,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -1586,8 +1586,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -1637,11 +1637,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 5,
+        "enchanted": 6,
         "required": 9,
         "missing_slots": [
           "head",
-          "shoulders",
           "feet",
           "off_hand"
         ],
@@ -1655,10 +1654,10 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 3,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2094,7 +2093,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 311.6,
+        "item_level": 313.6,
         "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
@@ -2103,7 +2102,7 @@
             "slot": "head",
             "item_id": 271465,
             "item_name": "Warhelm of the Consecrated Flame",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2177,10 +2176,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 159409,
-            "item_name": "Embalmer's Steadying Bracers",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 237834,
+            "item_name": "Spellbreaker's Bracers",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -2284,10 +2283,10 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 5,
         "hero": 3,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 5
       },
       "ambiguous_items": [],
@@ -2711,7 +2710,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 312.3,
+        "item_level": 312.5,
         "mythic_plus_weekly": 19,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
@@ -2851,10 +2850,10 @@
           },
           {
             "slot": "back",
-            "item_id": 193763,
-            "item_name": "Fireproof Drape",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268253,
+            "item_name": "Silken Voodoo Drape",
+            "item_level": 315,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2896,8 +2895,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -2913,7 +2912,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 311.0,
+        "item_level": 311.8,
         "mythic_plus_weekly": 31,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 12,
@@ -2929,9 +2928,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 268291,
-            "item_name": "Rotmire's Sporeheart",
-            "item_level": 298,
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3009,8 +3008,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 158366,
-            "item_name": "Charged Sandstone Band",
+            "item_id": 162544,
+            "item_name": "Jade Ophidian Band",
             "item_level": 308,
             "track": "myth",
             "enchanted": true,
@@ -3022,9 +3021,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
-            "item_level": 308,
+            "item_id": 159459,
+            "item_name": "Ritual Binder's Ring",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3035,26 +3034,26 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250214,
-            "item_name": "Lightspire Core",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
-            "slot": "trinket_2",
-            "item_id": 249346,
-            "item_name": "Vaelgor's Final Stare",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
             "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
+            "slot": "trinket_2",
+            "item_id": 250215,
+            "item_name": "Freightrunner's Flask",
+            "item_level": 311,
+            "track": "myth",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
             "slot": "back",
-            "item_id": 251132,
-            "item_name": "Speakeasy Shroud",
+            "item_id": 159288,
+            "item_name": "Cloak of the Restless Tribes",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3117,23 +3116,19 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 308.3,
+        "item_level": 312.1,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
-            "item_id": 249997,
-            "item_name": "Hornhelm of the Black Talon",
-            "item_level": 289,
+            "item_id": 251158,
+            "item_name": "Nalorakk's Nightmare",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -3168,9 +3163,9 @@
           },
           {
             "slot": "chest",
-            "item_id": 250000,
-            "item_name": "Frenzyward of the Black Talon",
-            "item_level": 289,
+            "item_id": 239046,
+            "item_name": "Loa-Blessed Chestguard",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3186,10 +3181,10 @@
           },
           {
             "slot": "legs",
-            "item_id": 268288,
-            "item_name": "Fungarian Folly Faulds",
-            "item_level": 298,
-            "track": null,
+            "item_id": 159375,
+            "item_name": "Legguards of the Awakening Brood",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3296,17 +3291,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -3319,7 +3314,7 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 314.8,
+        "item_level": 315.7,
         "mythic_plus_weekly": 57,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 15,
@@ -3454,8 +3449,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250228,
-            "item_name": "Resonant Bellowstone",
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3472,10 +3467,10 @@
           },
           {
             "slot": "back",
-            "item_id": 251132,
-            "item_name": "Speakeasy Shroud",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268253,
+            "item_name": "Silken Voodoo Drape",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3517,8 +3512,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 12,
-        "hero": 1,
+        "myth": 11,
+        "hero": 2,
         "champion": 0,
         "crafted": 1,
         "lower": 1
@@ -3985,7 +3980,7 @@
             "item_name": "Cosmic Penitent's Echoing Screams",
             "item_level": 308,
             "track": "hero",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4121,11 +4116,10 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 5,
+        "enchanted": 6,
         "required": 8,
         "missing_slots": [
           "head",
-          "shoulders",
           "finger_2"
         ],
         "status": "fail"
@@ -4363,8 +4357,8 @@
         "class_name": "Demon Hunter",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 314.8,
-        "mythic_plus_weekly": 24,
+        "item_level": 315.1,
+        "mythic_plus_weekly": 25,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 12,
         "items": [
@@ -4481,9 +4475,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270166,
-            "item_name": "Vashnik's Sanguine Rancor",
-            "item_level": 321,
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 318,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -4508,26 +4502,26 @@
           },
           {
             "slot": "main_hand",
+            "item_id": 268209,
+            "item_name": "Aman'muso, Warlord's Vengeance",
+            "item_level": 328,
+            "track": "hero",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
             "item_id": 237840,
             "item_name": "Spellbreaker's Warglaive",
             "item_level": 331,
             "track": "crafted",
             "enchanted": true,
             "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 251186,
-            "item_name": "Thorntalon Edge",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 24,
+        "count": 25,
         "target": 8,
         "status": "pass"
       },
@@ -4544,8 +4538,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 2
