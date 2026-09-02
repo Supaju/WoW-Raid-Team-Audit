@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-01T22:14:23.983468+00:00",
+  "generated_at": "2026-09-02T02:11:55.829949+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,9 +13,9 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 317.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 11.0,
+        "item_level": 317.8,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
           {
@@ -140,10 +140,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 248583,
-            "item_name": "Drum of Renewed Bonds",
-            "item_level": 308,
-            "track": null,
+            "item_id": 250214,
+            "item_name": "Lightspire Core",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -177,7 +177,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -196,11 +196,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -644,9 +644,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 317.0,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 13.6,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -823,9 +823,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -847,7 +847,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1050,9 +1050,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 311.5,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.3,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -1208,7 +1208,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1243,9 +1243,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 311.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1419,7 +1419,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1455,10 +1455,10 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 314.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 316.3,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1586,8 +1586,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249809,
-            "item_name": "Locus-Walker's Ribbon",
+            "item_id": 249346,
+            "item_name": "Vaelgor's Final Stare",
             "item_level": 298,
             "track": null,
             "enchanted": false,
@@ -1595,10 +1595,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1632,7 +1632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1654,10 +1654,10 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 4,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1670,10 +1670,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.2,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "item_level": 316.1,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.8,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -1686,14 +1686,14 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -1744,11 +1744,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 159371,
-            "item_name": "Boots of the Headlong Conqueror",
+            "item_id": 251125,
+            "item_name": "Felsoaked Soles",
             "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1771,9 +1771,9 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
-            "item_level": 311,
+            "item_id": 268252,
+            "item_name": "Apex Brute's Claw Ring",
+            "item_level": 308,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -1824,8 +1824,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 273780,
-            "item_name": "Venom-Etched Crescent",
+            "item_id": 273778,
+            "item_name": "Polished Lightwood Channeler",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -1837,7 +1837,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1852,21 +1852,26 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 7,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "feet",
+          "off_hand"
+        ],
+        "status": "fail"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 2,
         "total": 3,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "neck"
+        ],
+        "status": "warn"
       },
       "gear": {
         "myth": 11,
@@ -2300,17 +2305,17 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 304.5,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "item_level": 307.3,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
             "item_id": 271474,
             "item_name": "Baleful Grave-Knight's Casque",
-            "item_level": 295,
-            "track": null,
+            "item_level": 315,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2369,7 +2374,7 @@
             "item_name": "Scaleguard's Stalwart Greatboots",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -2405,9 +2410,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 193708,
-            "item_name": "Platinum Star Band",
-            "item_level": 289,
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2464,17 +2469,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 3,
@@ -2483,11 +2486,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 10,
         "hero": 0,
         "champion": 0,
         "crafted": 3,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2501,9 +2504,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 313.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2673,7 +2676,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2709,10 +2712,10 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 314.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 317.3,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2785,14 +2788,10 @@
             "slot": "wrist",
             "item_id": 239648,
             "item_name": "Martyr's Bindings",
-            "item_level": 285,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "hands",
@@ -2877,7 +2876,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2888,8 +2887,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 3,
+        "total": 3,
         "missing_slots": [],
         "status": "pass"
       },
@@ -2912,8 +2911,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 311.8,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.7,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3079,7 +3078,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3313,10 +3312,10 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 315.7,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "item_level": 317.0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.8,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -3404,17 +3403,17 @@
           },
           {
             "slot": "wrist",
-            "item_id": 159409,
-            "item_name": "Embalmer's Steadying Bracers",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 237834,
+            "item_name": "Spellbreaker's Bracers",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "hands",
-            "item_id": 251221,
-            "item_name": "Despondent's Gauntlets",
+            "item_id": 251214,
+            "item_name": "Bonds of the Hash'ura",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3494,9 +3493,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3511,14 +3510,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 2,
         "champion": 0,
-        "crafted": 1,
+        "crafted": 2,
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3740,7 +3739,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 312.9,
+        "item_level": 314.4,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
@@ -3871,9 +3870,9 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249339,
-            "item_name": "Gloom-Spattered Dreadscale",
-            "item_level": 285,
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 308,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -3916,11 +3915,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 2,
         "champion": 0,
         "crafted": 1,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4139,9 +4138,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -4311,7 +4310,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
