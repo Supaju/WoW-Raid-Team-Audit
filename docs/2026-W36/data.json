@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-02T17:41:47.836992+00:00",
+  "generated_at": "2026-09-02T20:20:15.756109+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -214,9 +214,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 315.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2910,8 +2910,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 312.0,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3077,9 +3077,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3116,9 +3116,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 312.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.7,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3162,8 +3162,8 @@
           },
           {
             "slot": "chest",
-            "item_id": 239046,
-            "item_name": "Loa-Blessed Chestguard",
+            "item_id": 271504,
+            "item_name": "Searing Caldera of Calamity",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -3180,8 +3180,8 @@
           },
           {
             "slot": "legs",
-            "item_id": 159375,
-            "item_name": "Legguards of the Awakening Brood",
+            "item_id": 271500,
+            "item_name": "Earthen Pillars of Calamity",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -3279,7 +3279,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3528,10 +3528,10 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 315.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 316.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 11.7,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3578,8 +3578,8 @@
           },
           {
             "slot": "chest",
-            "item_id": 239036,
-            "item_name": "Desert Guardian's Breastplate",
+            "item_id": 271468,
+            "item_name": "Bulwark of the Consecrated Flame",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -3623,10 +3623,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 271466,
-            "item_name": "Gauntlets of the Consecrated Flame",
-            "item_level": 308,
-            "track": null,
+            "item_id": 237836,
+            "item_name": "Spellbreaker's Resolve",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": false,
             "sockets": []
           },
@@ -3704,9 +3704,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3726,11 +3726,11 @@
         "myth": 7,
         "hero": 3,
         "champion": 0,
-        "crafted": 2,
-        "lower": 4
+        "crafted": 3,
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3741,9 +3741,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 314.9,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.2,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3899,7 +3899,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -4358,8 +4358,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 315.4,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -4521,7 +4521,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
