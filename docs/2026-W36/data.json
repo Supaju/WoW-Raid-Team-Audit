@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-02T20:20:15.756109+00:00",
+  "generated_at": "2026-09-02T23:43:37.942697+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -213,10 +213,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 315.4,
-        "mythic_plus_weekly": 2,
+        "item_level": 316.1,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -247,7 +247,7 @@
             "slot": "shoulders",
             "item_id": 271454,
             "item_name": "Raging Pauldrons of the Jade Warlord",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -310,7 +310,7 @@
             "slot": "hands",
             "item_id": 271457,
             "item_name": "Jeweled Gauntlets of the Jade Warlord",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -319,7 +319,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 331,
+            "item_level": 334,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -398,9 +398,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -424,7 +424,7 @@
         "lower": 7
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2909,9 +2909,9 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 312.0,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 11.4,
+        "item_level": 315.4,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 11.2,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2932,7 +2932,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -2940,7 +2940,7 @@
             "slot": "shoulders",
             "item_id": 271562,
             "item_name": "Primal Leywarden's Manaflux",
-            "item_level": 308,
+            "item_level": 311,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2949,7 +2949,7 @@
             "slot": "chest",
             "item_id": 271567,
             "item_name": "Crest of the Primal Leywarden",
-            "item_level": 311,
+            "item_level": 318,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2958,7 +2958,7 @@
             "slot": "waist",
             "item_id": 239649,
             "item_name": "Martyr's Waistwrap",
-            "item_level": 318,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": false,
             "sockets": []
@@ -2985,7 +2985,7 @@
             "slot": "wrist",
             "item_id": 268228,
             "item_name": "Venom-Singed Cuffs",
-            "item_level": 308,
+            "item_level": 311,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -2998,7 +2998,7 @@
             "slot": "hands",
             "item_id": 271565,
             "item_name": "Primal Leywarden's Manashapers",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3007,7 +3007,7 @@
             "slot": "finger_1",
             "item_id": 162544,
             "item_name": "Jade Ophidian Band",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3058,10 +3058,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 271092,
-            "item_name": "Jan'thrazet, the Soul Fang",
-            "item_level": 308,
-            "track": null,
+            "item_id": 237838,
+            "item_name": "Magister's Ritual Knife",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
@@ -3077,7 +3077,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -3090,19 +3090,17 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 4,
         "total": 4,
-        "missing_slots": [
-          "neck"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 8,
         "hero": 4,
         "champion": 0,
-        "crafted": 2,
-        "lower": 2
+        "crafted": 3,
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3803,8 +3801,8 @@
             "item_id": 271518,
             "item_name": "Pantaloons of the Monkey King",
             "item_level": 321,
-            "track": "hero",
-            "enchanted": true,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3904,10 +3902,12 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "legs"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -3916,8 +3916,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 10,
+        "hero": 1,
         "champion": 0,
         "crafted": 1,
         "lower": 3
