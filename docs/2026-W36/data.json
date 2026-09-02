@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-02T08:15:59.337462+00:00",
+  "generated_at": "2026-09-02T13:59:02.443136+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -643,7 +643,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 317.0,
+        "item_level": 318.3,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.6,
         "mythic_plus_highest": 15,
@@ -652,7 +652,7 @@
             "slot": "head",
             "item_id": 268229,
             "item_name": "Skullguard of the Risen Sacrifice",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -717,7 +717,7 @@
             "slot": "legs",
             "item_id": 271455,
             "item_name": "Greaves of the Jade Warlord",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2910,8 +2910,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 312.0,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 11.8,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3077,7 +3077,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3933,7 +3933,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 308.6,
+        "item_level": 310.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4022,7 +4022,7 @@
             "slot": "hands",
             "item_id": 271556,
             "item_name": "Cosmic Penitent's Celestial Grips",
-            "item_level": 308,
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4082,11 +4082,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 193761,
-            "item_name": "Chillworn's Infusion Staff",
+            "item_id": 251225,
+            "item_name": "Fang of Contagion",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 245769,
+            "item_name": "Aln'hara Lantern",
+            "item_level": 331,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -4107,10 +4116,11 @@
       },
       "enchants": {
         "enchanted": 6,
-        "required": 8,
+        "required": 9,
         "missing_slots": [
           "head",
-          "finger_2"
+          "finger_2",
+          "off_hand"
         ],
         "status": "fail"
       },
@@ -4124,7 +4134,7 @@
         "myth": 12,
         "hero": 2,
         "champion": 0,
-        "crafted": 0,
+        "crafted": 1,
         "lower": 1
       },
       "ambiguous_items": [],
@@ -4139,7 +4149,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.4,
-        "mythic_plus_weekly": 4,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
         "items": [
@@ -4311,7 +4321,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
