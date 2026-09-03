@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-02T23:43:37.942697+00:00",
+  "generated_at": "2026-09-03T02:18:59.149005+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -214,8 +214,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 316.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -435,9 +435,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 317.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -607,7 +607,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1670,7 +1670,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 316.1,
-        "mythic_plus_weekly": 4,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 15,
         "items": [
@@ -1851,7 +1851,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -1890,10 +1890,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 312.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 313.4,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 7.5,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1937,10 +1937,10 @@
           },
           {
             "slot": "chest",
-            "item_id": 271477,
-            "item_name": "Baleful Grave-Knight's Breastplate",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268222,
+            "item_name": "Reckless Spirit Breastplate",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -1957,8 +1957,8 @@
             "slot": "legs",
             "item_id": 271473,
             "item_name": "Baleful Grave-Knight's Greaves",
-            "item_level": 308,
-            "track": null,
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -2063,9 +2063,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2081,13 +2081,13 @@
       },
       "gear": {
         "myth": 4,
-        "hero": 2,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2502,8 +2502,8 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 313.6,
-        "mythic_plus_weekly": 2,
+        "item_level": 313.4,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -2511,10 +2511,14 @@
             "slot": "head",
             "item_id": 271528,
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
+            "item_level": 308,
+            "track": null,
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -2675,30 +2679,31 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
-      },
-      "enchants": {
-        "enchanted": 8,
-        "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
         "status": "warn"
       },
+      "enchants": {
+        "enchanted": 7,
+        "required": 9,
+        "missing_slots": [
+          "head",
+          "off_hand"
+        ],
+        "status": "fail"
+      },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2910,8 +2915,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 315.4,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3077,7 +3082,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -3114,8 +3119,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 312.1,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 11.7,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3277,9 +3282,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3301,7 +3306,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3312,7 +3317,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 317.0,
-        "mythic_plus_weekly": 4,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 15,
         "items": [
@@ -3492,7 +3497,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -3738,9 +3743,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 314.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 12.7,
+        "item_level": 315.1,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 12.8,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3756,7 +3761,7 @@
             "slot": "neck",
             "item_id": 251234,
             "item_name": "Graft of the Domanaar",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3802,7 +3807,7 @@
             "item_name": "Pantaloons of the Monkey King",
             "item_level": 321,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3897,17 +3902,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "legs"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -3923,7 +3926,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4148,7 +4151,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 316.4,
+        "item_level": 318.3,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 13,
@@ -4188,7 +4191,7 @@
             "slot": "chest",
             "item_id": 271567,
             "item_name": "Crest of the Primal Leywarden",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4233,8 +4236,8 @@
             "slot": "hands",
             "item_id": 271565,
             "item_name": "Primal Leywarden's Manashapers",
-            "item_level": 311,
-            "track": "myth",
+            "item_level": 328,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -4277,7 +4280,7 @@
             "slot": "trinket_2",
             "item_id": 270164,
             "item_name": "Gebbo's Bottomless Bag",
-            "item_level": 318,
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -4340,8 +4343,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 13,
-        "hero": 1,
+        "myth": 12,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
         "lower": 0
