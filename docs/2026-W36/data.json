@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-03T18:59:50.426162+00:00",
+  "generated_at": "2026-09-03T22:04:04.574575+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1669,8 +1669,8 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.1,
-        "mythic_plus_weekly": 5,
+        "item_level": 316.2,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 15,
         "items": [
@@ -1692,7 +1692,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -1770,10 +1770,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268252,
-            "item_name": "Apex Brute's Claw Ring",
-            "item_level": 308,
-            "track": null,
+            "item_id": 251148,
+            "item_name": "Pilfered Precious Band",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1836,7 +1836,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1851,35 +1851,34 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
-          "feet"
+          "feet",
+          "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
-        "filled": 2,
+        "filled": 3,
         "total": 3,
-        "missing_slots": [
-          "neck"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 12,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "fail"
     },
     {
       "character": {
@@ -2715,10 +2714,10 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 317.3,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 11.6,
-        "mythic_plus_highest": 12,
+        "item_level": 317.5,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 11.9,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2773,7 +2772,7 @@
             "slot": "legs",
             "item_id": 193750,
             "item_name": "Wind Soarer's Breeches",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2879,9 +2878,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -2903,7 +2902,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3315,8 +3314,8 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 317.9,
-        "mythic_plus_weekly": 6,
+        "item_level": 318.5,
+        "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 13.5,
         "mythic_plus_highest": 15,
         "items": [
@@ -3390,7 +3389,7 @@
             "slot": "legs",
             "item_id": 271473,
             "item_name": "Baleful Grave-Knight's Greaves",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3424,10 +3423,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
+            "item_id": 159459,
+            "item_name": "Ritual Binder's Ring",
             "item_level": 311,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -3496,9 +3495,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3513,14 +3512,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 3,
         "champion": 0,
         "crafted": 1,
-        "lower": 1
+        "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
