@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-04T02:14:26.267147+00:00",
+  "generated_at": "2026-09-04T08:21:06.940052+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -644,8 +644,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 319.2,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 12.4,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -823,9 +823,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -847,7 +847,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -1456,8 +1456,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.3,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 11.4,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 11.2,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -1632,7 +1632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -1669,9 +1669,9 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 13.8,
+        "item_level": 316.1,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 13.1,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -1685,12 +1685,15 @@
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
+            "item_id": 268265,
+            "item_name": "Aqirbane Reliquary",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -1747,7 +1750,7 @@
             "item_name": "Felsoaked Soles",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1770,10 +1773,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251148,
-            "item_name": "Pilfered Precious Band",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268252,
+            "item_name": "Apex Brute's Claw Ring",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -1836,7 +1839,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1851,34 +1854,31 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "feet",
-          "off_hand"
-        ],
-        "status": "fail"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 12,
+        "myth": 10,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 0
+        "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -2715,9 +2715,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 317.5,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 11.8,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 16,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -2878,7 +2878,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
@@ -2912,7 +2912,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 316.1,
+        "item_level": 316.9,
         "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
@@ -3034,10 +3034,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 250259,
+            "item_name": "Sapling of the Dawnroot",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3099,11 +3099,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 9,
         "hero": 4,
         "champion": 0,
         "crafted": 3,
-        "lower": 1
+        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3410,7 +3410,11 @@
             "item_level": 331,
             "track": "crafted",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -3506,8 +3510,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
@@ -3741,9 +3745,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 315.5,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 11.8,
+        "item_level": 314.6,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 10.6,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3757,9 +3761,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 251234,
-            "item_name": "Graft of the Domanaar",
-            "item_level": 321,
+            "item_id": 273781,
+            "item_name": "Strand of Warding Fangs",
+            "item_level": 311,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3810,11 +3814,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 159327,
-            "item_name": "Sand-Shined Snakeskin Sandals",
+            "item_id": 251153,
+            "item_name": "Arctic Explorer's Legwraps",
             "item_level": 311,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -3863,17 +3867,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 308,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
             "item_level": 308,
             "track": null,
             "enchanted": false,
@@ -3890,9 +3894,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251192,
-            "item_name": "Branch of Pride",
-            "item_level": 318,
+            "item_id": 251149,
+            "item_name": "Victor's Flashfrozen Blade",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3900,15 +3904,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "feet"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -3917,14 +3923,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 1,
         "champion": 0,
         "crafted": 1,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4149,9 +4155,9 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 318.3,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 11.8,
+        "item_level": 319.1,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -4165,12 +4171,15 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268265,
+            "item_name": "Aqirbane Reliquary",
+            "item_level": 334,
+            "track": null,
             "enchanted": false,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -4322,7 +4331,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -4335,17 +4344,17 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 12,
+        "myth": 11,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "warn"
