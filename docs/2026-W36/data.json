@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-03T22:04:04.574575+00:00",
+  "generated_at": "2026-09-04T02:14:26.267147+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -644,8 +644,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 319.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 13.2,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -823,7 +823,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -2303,8 +2303,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 307.3,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -2466,9 +2466,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2490,7 +2490,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2501,9 +2501,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 313.4,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 10.4,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2677,7 +2677,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -2715,8 +2715,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 317.5,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 11.9,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 11.8,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2878,7 +2878,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -2913,7 +2913,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.1,
-        "mythic_plus_weekly": 17,
+        "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
         "items": [
@@ -3080,7 +3080,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 17,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -3529,7 +3529,7 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.9,
+        "item_level": 318.4,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
@@ -3615,10 +3615,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251133,
-            "item_name": "Overseer's Vambraces",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268239,
+            "item_name": "Shellbound Bracers",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3724,8 +3724,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 3,
+        "myth": 6,
+        "hero": 4,
         "champion": 0,
         "crafted": 3,
         "lower": 3
