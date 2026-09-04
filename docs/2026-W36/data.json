@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-04T20:05:36.961572+00:00",
+  "generated_at": "2026-09-04T23:35:29.750326+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1456,8 +1456,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 316.3,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 11.2,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -1632,7 +1632,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -1670,7 +1670,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 316.1,
-        "mythic_plus_weekly": 8,
+        "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 13.1,
         "mythic_plus_highest": 15,
         "items": [
@@ -1854,7 +1854,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -3315,8 +3315,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 13.5,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 13.1,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -3334,8 +3334,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3427,10 +3427,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251194,
-            "item_name": "Lightwarden's Bind",
+            "item_id": 272147,
+            "item_name": "Colubrine Band",
             "item_level": 311,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -3453,8 +3453,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
+            "item_id": 158367,
+            "item_name": "Merektha's Fang",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3462,8 +3462,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250228,
-            "item_name": "Resonant Bellowstone",
+            "item_id": 250245,
+            "item_name": "Tumor of the Swarm",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3499,7 +3499,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -3516,11 +3516,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
+        "myth": 10,
         "hero": 3,
         "champion": 0,
         "crafted": 1,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "pass"
