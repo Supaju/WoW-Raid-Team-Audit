@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-05T02:14:51.708168+00:00",
+  "generated_at": "2026-09-05T07:57:09.413368+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -213,7 +213,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 316.1,
+        "item_level": 316.9,
         "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 13,
@@ -352,10 +352,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 193762,
+            "item_name": "Blazebinder's Hoof",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -379,10 +379,10 @@
           },
           {
             "slot": "off_hand",
-            "item_id": 251181,
-            "item_name": "Pruning Lance",
+            "item_id": 268214,
+            "item_name": "Malignant Toothed Edge",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -418,10 +418,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 0,
+        "hero": 1,
         "champion": 0,
         "crafted": 2,
-        "lower": 7
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -644,8 +644,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 319.2,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 12.4,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 12.9,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -823,7 +823,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -1664,9 +1664,9 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.1,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 13.1,
+        "item_level": 316.9,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 13.4,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -1682,7 +1682,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 321,
+            "item_level": 334,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -1794,19 +1794,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250215,
-            "item_name": "Freightrunner's Flask",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270162,
+            "item_name": "Soulcoiler Ritual Vessel",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270162,
-            "item_name": "Soulcoiler Ritual Vessel",
-            "item_level": 311,
-            "track": "hero",
+            "item_id": 250215,
+            "item_name": "Freightrunner's Flask",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1849,7 +1849,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -1883,7 +1883,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 313.8,
+        "item_level": 313.1,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 8.8,
         "mythic_plus_highest": 12,
@@ -1984,10 +1984,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 272149,
+            "item_name": "Hex Loop",
+            "item_level": 311,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2073,11 +2073,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
+        "myth": 4,
         "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -2090,7 +2090,7 @@
         "class_name": "Paladin",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 313.6,
+        "item_level": 314.3,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 11,
@@ -2121,7 +2121,7 @@
             "slot": "shoulders",
             "item_id": 271463,
             "item_name": "Pauldrons of the Consecrated Flame",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2709,7 +2709,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 317.5,
+        "item_level": 318.5,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 14,
@@ -2758,7 +2758,7 @@
             "slot": "waist",
             "item_id": 193691,
             "item_name": "Sky Saddle Cord",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2776,7 +2776,7 @@
             "slot": "feet",
             "item_id": 251137,
             "item_name": "Tempestuous Sandals",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2907,7 +2907,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 316.9,
+        "item_level": 316.1,
         "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
@@ -3029,10 +3029,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250259,
-            "item_name": "Sapling of the Dawnroot",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3094,11 +3094,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 4,
         "champion": 0,
         "crafted": 3,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3310,8 +3310,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 13.1,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 13.4,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -3448,10 +3448,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 158367,
-            "item_name": "Merektha's Fang",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3494,7 +3494,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -3511,8 +3511,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 3,
+        "myth": 9,
+        "hero": 4,
         "champion": 0,
         "crafted": 1,
         "lower": 1
@@ -3740,9 +3740,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 314.6,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 10.6,
+        "item_level": 317.5,
+        "mythic_plus_weekly": 15,
+        "mythic_plus_avg_level": 10.7,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3756,9 +3756,9 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
-            "item_level": 311,
+            "item_id": 251234,
+            "item_name": "Graft of the Domanaar",
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3809,11 +3809,11 @@
           },
           {
             "slot": "feet",
-            "item_id": 251153,
-            "item_name": "Arctic Explorer's Legwraps",
+            "item_id": 159327,
+            "item_name": "Sand-Shined Snakeskin Sandals",
             "item_level": 311,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -3862,19 +3862,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 308,
-            "track": null,
+            "item_id": 270175,
+            "item_name": "Voracious Heart of Ula'tek",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3889,9 +3889,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251149,
-            "item_name": "Victor's Flashfrozen Blade",
-            "item_level": 311,
+            "item_id": 251192,
+            "item_name": "Branch of Pride",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3899,17 +3899,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 15,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 8,
-        "missing_slots": [
-          "feet"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -3918,14 +3916,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
-        "hero": 1,
+        "myth": 10,
+        "hero": 2,
         "champion": 0,
         "crafted": 1,
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4151,9 +4149,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.1,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 11.6,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -4326,7 +4324,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
