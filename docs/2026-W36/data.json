@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-05T19:45:08.614027+00:00",
+  "generated_at": "2026-09-05T21:49:15.555666+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2495,7 +2495,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 313.4,
+        "item_level": 315.7,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 12,
@@ -2626,10 +2626,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2693,10 +2693,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 2,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2907,7 +2907,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 316.1,
+        "item_level": 317.1,
         "mythic_plus_weekly": 22,
         "mythic_plus_avg_level": 10.8,
         "mythic_plus_highest": 13,
@@ -3029,10 +3029,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270167,
+            "item_name": "Wavecaller's Seastone",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3040,7 +3040,7 @@
             "slot": "trinket_2",
             "item_id": 250215,
             "item_name": "Freightrunner's Flask",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3095,10 +3095,10 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 4,
+        "hero": 5,
         "champion": 0,
         "crafted": 3,
-        "lower": 1
+        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -4149,8 +4149,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.4,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 12.2,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 12.6,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -4324,7 +4324,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
