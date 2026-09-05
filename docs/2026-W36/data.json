@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-05T07:57:09.413368+00:00",
+  "generated_at": "2026-09-05T11:36:58.475198+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -4148,7 +4148,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 319.1,
+        "item_level": 319.4,
         "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 15,
@@ -4245,7 +4245,7 @@
             "slot": "finger_1",
             "item_id": 159459,
             "item_name": "Ritual Binder's Ring",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": true,
             "sockets": [
