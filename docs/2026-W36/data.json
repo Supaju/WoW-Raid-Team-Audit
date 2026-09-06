@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-06T13:18:56.262868+00:00",
+  "generated_at": "2026-09-06T16:36:30.061446+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -213,7 +213,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 317.4,
+        "item_level": 318.2,
         "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 13,
@@ -361,10 +361,10 @@
           },
           {
             "slot": "back",
-            "item_id": 272225,
-            "item_name": "Pyrewalker's Mantle",
-            "item_level": 318,
-            "track": null,
+            "item_id": 268253,
+            "item_name": "Silken Voodoo Drape",
+            "item_level": 331,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -418,10 +418,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 1,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 5
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -649,7 +649,7 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 319.2,
+        "item_level": 318.3,
         "mythic_plus_weekly": 14,
         "mythic_plus_avg_level": 13.7,
         "mythic_plus_highest": 17,
@@ -757,10 +757,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272149,
-            "item_name": "Hex Loop",
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
             "item_level": 311,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -783,10 +783,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270175,
+            "item_name": "Voracious Heart of Ula'tek",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -2501,9 +2501,9 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 315.7,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 10.3,
+        "item_level": 317.8,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2521,12 +2521,15 @@
           },
           {
             "slot": "neck",
-            "item_id": 251234,
-            "item_name": "Graft of the Domanaar",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268265,
+            "item_name": "Aqirbane Reliquary",
+            "item_level": 328,
+            "track": null,
             "enchanted": false,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -2606,10 +2609,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268266,
-            "item_name": "Alluring Bubbleband",
-            "item_level": 295,
-            "track": null,
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2678,9 +2681,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 7,
@@ -2692,8 +2695,8 @@
         "status": "fail"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
