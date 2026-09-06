@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-06T21:51:59.274507+00:00",
+  "generated_at": "2026-09-06T23:22:24.755519+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -214,8 +214,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 317.4,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_weekly": 15,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 15,
         "target": 8,
         "status": "pass"
       },
@@ -1671,8 +1671,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 317.1,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 14.3,
+        "mythic_plus_weekly": 22,
+        "mythic_plus_avg_level": 14.4,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -1855,7 +1855,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -3319,8 +3319,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 22,
-        "mythic_plus_avg_level": 14.2,
+        "mythic_plus_weekly": 23,
+        "mythic_plus_avg_level": 14.3,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3503,7 +3503,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 23,
         "target": 8,
         "status": "pass"
       },
