@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-06T02:10:28.153867+00:00",
+  "generated_at": "2026-09-06T08:14:47.600643+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -213,8 +213,8 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 316.9,
-        "mythic_plus_weekly": 10,
+        "item_level": 317.4,
+        "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 13,
         "items": [
@@ -363,7 +363,7 @@
             "slot": "back",
             "item_id": 272225,
             "item_name": "Pyrewalker's Mantle",
-            "item_level": 311,
+            "item_level": 318,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -435,9 +435,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 317.1,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 10.2,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
@@ -607,9 +607,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
@@ -633,7 +633,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -644,9 +644,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 319.2,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 12.9,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 13.7,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -823,7 +823,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -1455,7 +1455,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 319.5,
+        "item_level": 318.9,
         "mythic_plus_weekly": 13,
         "mythic_plus_avg_level": 10.9,
         "mythic_plus_highest": 13,
@@ -1582,9 +1582,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 274493,
-            "item_name": "Effigy of Ula'tek's Faithful",
-            "item_level": 308,
+            "item_id": 249809,
+            "item_name": "Locus-Walker's Ribbon",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
@@ -1664,10 +1664,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.9,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 13.6,
-        "mythic_plus_highest": 15,
+        "item_level": 317.1,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 14.1,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -1768,10 +1768,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268252,
-            "item_name": "Apex Brute's Claw Ring",
-            "item_level": 308,
-            "track": null,
+            "item_id": 251148,
+            "item_name": "Pilfered Precious Band",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1849,7 +1849,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -1866,11 +1866,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 11,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -3310,9 +3310,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 13.5,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -3494,7 +3494,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -3741,8 +3741,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 317.5,
-        "mythic_plus_weekly": 15,
-        "mythic_plus_avg_level": 10.7,
+        "mythic_plus_weekly": 16,
+        "mythic_plus_avg_level": 10.9,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3899,7 +3899,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 15,
+        "count": 16,
         "target": 8,
         "status": "pass"
       },
@@ -4149,9 +4149,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.4,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 12.6,
-        "mythic_plus_highest": 15,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 13.4,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -4324,7 +4324,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
