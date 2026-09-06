@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-06T19:49:01.345492+00:00",
+  "generated_at": "2026-09-06T21:51:59.274507+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -213,10 +213,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 318.2,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 11.3,
-        "mythic_plus_highest": 13,
+        "item_level": 317.4,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -343,19 +343,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270165,
-            "item_name": "Keeper's Seething Core",
-            "item_level": 308,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 193762,
-            "item_name": "Blazebinder's Hoof",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 270165,
+            "item_name": "Keeper's Seething Core",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -398,7 +398,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -417,11 +417,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 6,
         "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -1671,8 +1671,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 317.1,
-        "mythic_plus_weekly": 19,
-        "mythic_plus_avg_level": 14.1,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 14.3,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -1855,7 +1855,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
@@ -2501,7 +2501,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 317.8,
+        "item_level": 318.1,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 10.2,
         "mythic_plus_highest": 12,
@@ -2591,10 +2591,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251135,
-            "item_name": "Fury-fletched Armlets",
+            "item_id": 268240,
+            "item_name": "Restless Spirit Shackles",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2653,10 +2653,10 @@
           },
           {
             "slot": "back",
-            "item_id": 272227,
-            "item_name": "Galerider's Veil",
-            "item_level": 305,
-            "track": null,
+            "item_id": 251190,
+            "item_name": "Bloodthorn Burnous",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2702,10 +2702,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 3,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3319,8 +3319,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 20,
-        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_weekly": 22,
+        "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3503,7 +3503,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 22,
         "target": 8,
         "status": "pass"
       },
@@ -4158,8 +4158,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.4,
-        "mythic_plus_weekly": 20,
-        "mythic_plus_avg_level": 13.4,
+        "mythic_plus_weekly": 21,
+        "mythic_plus_avg_level": 13.6,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -4333,7 +4333,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 20,
+        "count": 21,
         "target": 8,
         "status": "pass"
       },
