@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-06T16:36:30.061446+00:00",
+  "generated_at": "2026-09-06T19:49:01.345492+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 317.8,
+        "item_level": 318.2,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
@@ -22,7 +22,7 @@
             "slot": "head",
             "item_id": 251140,
             "item_name": "Vilefiend's Guise",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -435,8 +435,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 317.5,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 10.4,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -611,9 +611,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 7,
@@ -3120,9 +3120,9 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 312.5,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 11.2,
+        "item_level": 313.6,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 10.9,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3214,8 +3214,8 @@
             "slot": "hands",
             "item_id": 271502,
             "item_name": "Calamitous Echo's Ebon Greathorns",
-            "item_level": 295,
-            "track": null,
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3284,9 +3284,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3301,14 +3301,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 7,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
