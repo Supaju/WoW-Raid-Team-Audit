@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-07T02:07:42.616814+00:00",
+  "generated_at": "2026-09-07T08:47:00.175128+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,8 +13,8 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 318.2,
-        "mythic_plus_weekly": 2,
+        "item_level": 318.6,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 10.5,
         "mythic_plus_highest": 11,
         "items": [
@@ -22,7 +22,7 @@
             "slot": "head",
             "item_id": 251140,
             "item_name": "Vilefiend's Guise",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -98,7 +98,7 @@
             "slot": "hands",
             "item_id": 271529,
             "item_name": "Enigmatic Dreamwatcher's Gauntlets",
-            "item_level": 315,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -177,9 +177,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -203,7 +203,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -650,8 +650,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 318.3,
-        "mythic_plus_weekly": 14,
-        "mythic_plus_avg_level": 13.7,
+        "mythic_plus_weekly": 19,
+        "mythic_plus_avg_level": 14.5,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -829,7 +829,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 14,
+        "count": 19,
         "target": 8,
         "status": "pass"
       },
@@ -1671,8 +1671,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 317.1,
-        "mythic_plus_weekly": 22,
-        "mythic_plus_avg_level": 14.4,
+        "mythic_plus_weekly": 27,
+        "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -1855,7 +1855,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 22,
+        "count": 27,
         "target": 8,
         "status": "pass"
       },
@@ -1889,7 +1889,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 313.1,
+        "item_level": 316.3,
         "mythic_plus_weekly": 9,
         "mythic_plus_avg_level": 8.8,
         "mythic_plus_highest": 12,
@@ -1936,8 +1936,8 @@
           },
           {
             "slot": "chest",
-            "item_id": 268222,
-            "item_name": "Reckless Spirit Breastplate",
+            "item_id": 271477,
+            "item_name": "Baleful Grave-Knight's Breastplate",
             "item_level": 334,
             "track": "hero",
             "enchanted": true,
@@ -1963,10 +1963,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 193728,
-            "item_name": "Scaleguard's Stalwart Greatboots",
+            "item_id": 268260,
+            "item_name": "Scaled Fiend's Warboots",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -1981,10 +1981,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 277769,
-            "item_name": "Venom-Cursed Bear's Gauntlets",
+            "item_id": 271475,
+            "item_name": "Baleful Grave-Knight's Deathgrips",
             "item_level": 308,
-            "track": null,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1992,7 +1992,7 @@
             "slot": "finger_1",
             "item_id": 272149,
             "item_name": "Hex Loop",
-            "item_level": 311,
+            "item_level": 315,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -2005,7 +2005,7 @@
             "slot": "finger_2",
             "item_id": 251136,
             "item_name": "Signet of Snarling Servitude",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2016,19 +2016,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249344,
-            "item_name": "Light Company Guidon",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270175,
+            "item_name": "Voracious Heart of Ula'tek",
+            "item_level": 318,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 249342,
-            "item_name": "Heart of Ancient Hunger",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 318,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2079,11 +2079,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 3,
+        "myth": 3,
+        "hero": 7,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "pass"
@@ -3319,8 +3319,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 23,
-        "mythic_plus_avg_level": 14.3,
+        "mythic_plus_weekly": 28,
+        "mythic_plus_avg_level": 14.7,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3338,8 +3338,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
+            "item_id": 273781,
+            "item_name": "Strand of Warding Fangs",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3503,7 +3503,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 23,
+        "count": 28,
         "target": 8,
         "status": "pass"
       },
@@ -3537,7 +3537,7 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 318.4,
+        "item_level": 319.0,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 13,
@@ -3555,7 +3555,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 308,
+            "item_level": 318,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3749,7 +3749,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 317.5,
+        "item_level": 315.3,
         "mythic_plus_weekly": 16,
         "mythic_plus_avg_level": 10.9,
         "mythic_plus_highest": 14,
@@ -3871,19 +3871,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
-            "item_level": 308,
-            "track": null,
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270175,
-            "item_name": "Voracious Heart of Ula'tek",
-            "item_level": 334,
-            "track": "hero",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3898,9 +3898,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251192,
-            "item_name": "Branch of Pride",
-            "item_level": 321,
+            "item_id": 251149,
+            "item_name": "Victor's Flashfrozen Blade",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3925,8 +3925,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 2,
+        "myth": 11,
+        "hero": 1,
         "champion": 0,
         "crafted": 1,
         "lower": 2
@@ -4158,8 +4158,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.4,
-        "mythic_plus_weekly": 21,
-        "mythic_plus_avg_level": 13.6,
+        "mythic_plus_weekly": 26,
+        "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -4333,7 +4333,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 21,
+        "count": 26,
         "target": 8,
         "status": "pass"
       },
