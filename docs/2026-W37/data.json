@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-08T19:09:32.585351+00:00",
+  "generated_at": "2026-09-08T22:13:02.176065+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -653,10 +653,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 318.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 319.7,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 12.6,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -714,7 +714,7 @@
             "slot": "waist",
             "item_id": 251144,
             "item_name": "Autumn's Boon Belt",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -807,7 +807,7 @@
             "slot": "back",
             "item_id": 193763,
             "item_name": "Fireproof Drape",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -833,9 +833,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 7,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -857,7 +857,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1678,16 +1678,16 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 317.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
             "item_id": 271483,
             "item_name": "Serpent Crown of the Ophidian Oracle",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -1862,9 +1862,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -1879,14 +1879,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
-        "hero": 2,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2930,9 +2930,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 318.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3097,7 +3097,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3331,10 +3331,10 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 318.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 319.4,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 12.6,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3366,7 +3366,7 @@
             "slot": "shoulders",
             "item_id": 271472,
             "item_name": "Baleful Grave-Knight's Gibbets",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3413,9 +3413,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 273777,
-            "item_name": "Poison-Proof Stompers",
-            "item_level": 308,
+            "item_id": 159412,
+            "item_name": "Auric Puddle Stompers",
+            "item_level": 311,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3470,10 +3470,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
+            "item_id": 158367,
+            "item_name": "Merektha's Fang",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3516,9 +3516,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 7,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3533,14 +3533,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
