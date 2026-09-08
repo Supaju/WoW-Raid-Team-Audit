@@ -2,7 +2,7 @@
   "week": "2026-W36",
   "week_label": "Raid Week 4 \u00b7 Sep 1\u20137",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-07T22:24:52.075832+00:00",
+  "generated_at": "2026-09-08T02:19:42.514904+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,10 +13,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 318.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 10.5,
-        "mythic_plus_highest": 11,
+        "item_level": 319.6,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 10.8,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -29,12 +29,15 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268265,
+            "item_name": "Aqirbane Reliquary",
+            "item_level": 334,
+            "track": null,
             "enchanted": false,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -177,7 +180,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -190,17 +193,17 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
+        "myth": 8,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2719,8 +2722,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 318.5,
-        "mythic_plus_weekly": 19,
-        "mythic_plus_avg_level": 11.6,
+        "mythic_plus_weekly": 20,
+        "mythic_plus_avg_level": 11.4,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2882,7 +2885,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 19,
+        "count": 20,
         "target": 8,
         "status": "pass"
       },
@@ -3121,8 +3124,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 313.6,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 10.9,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 11.1,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3284,7 +3287,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 9,
         "target": 8,
         "status": "pass"
       },
@@ -3457,10 +3460,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3520,8 +3523,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 1
