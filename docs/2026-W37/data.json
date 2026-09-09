@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-09T02:22:47.672661+00:00",
+  "generated_at": "2026-09-09T08:29:59.740019+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -216,10 +216,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 321.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 11.5,
-        "mythic_plus_highest": 12,
+        "item_level": 321.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 11.8,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -286,7 +286,7 @@
             "slot": "legs",
             "item_id": 271878,
             "item_name": "Chausses of Unbound Rancor",
-            "item_level": 328,
+            "item_level": 331,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -401,7 +401,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -652,17 +652,17 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 319.7,
+        "item_level": 320.5,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.6,
         "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
-            "item_id": 271456,
-            "item_name": "Tempered Horns of the Jade Warlord",
+            "item_id": 268229,
+            "item_name": "Skullguard of the Risen Sacrifice",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -687,7 +687,7 @@
             "item_id": 271454,
             "item_name": "Raging Pauldrons of the Jade Warlord",
             "item_level": 311,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -804,8 +804,8 @@
           },
           {
             "slot": "back",
-            "item_id": 193763,
-            "item_name": "Fireproof Drape",
+            "item_id": 251132,
+            "item_name": "Speakeasy Shroud",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -813,10 +813,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 273782,
-            "item_name": "Vile Writhefang Glaive",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268213,
+            "item_name": "Maze-roa, Warlord's Fury",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -849,11 +849,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 3,
+        "myth": 6,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -1058,7 +1058,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 316.7,
+        "item_level": 317.4,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1102,7 +1102,7 @@
             "item_id": 271486,
             "item_name": "Fanged Raiment of the Ophidian Oracle",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -1137,7 +1137,7 @@
             "slot": "wrist",
             "item_id": 268217,
             "item_name": "Rising Tide Wristguards",
-            "item_level": 305,
+            "item_level": 315,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -1237,11 +1237,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
+        "myth": 3,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 6
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1676,7 +1676,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 317.1,
+        "item_level": 319.1,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 14,
@@ -1685,8 +1685,8 @@
             "slot": "head",
             "item_id": 271483,
             "item_name": "Serpent Crown of the Ophidian Oracle",
-            "item_level": 311,
-            "track": "hero",
+            "item_level": 334,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -1728,8 +1728,8 @@
             "slot": "chest",
             "item_id": 271486,
             "item_name": "Fanged Raiment of the Ophidian Oracle",
-            "item_level": 321,
-            "track": "myth",
+            "item_level": 334,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -1780,10 +1780,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 251148,
-            "item_name": "Pilfered Precious Band",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268252,
+            "item_name": "Apex Brute's Claw Ring",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -1846,7 +1846,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1866,10 +1866,12 @@
         "status": "warn"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -1878,11 +1880,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 3,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -2513,7 +2515,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 318.3,
+        "item_level": 318.6,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -2576,9 +2578,9 @@
           },
           {
             "slot": "waist",
-            "item_id": 268227,
-            "item_name": "Unpossessed Skullsash",
-            "item_level": 311,
+            "item_id": 268256,
+            "item_name": "Sash of the Forlorn Vessel",
+            "item_level": 315,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2731,9 +2733,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2894,9 +2896,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2918,7 +2920,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2929,9 +2931,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 318.8,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3096,7 +3098,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3333,7 +3335,7 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 319.4,
+        "item_level": 320.3,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.6,
         "mythic_plus_highest": 14,
@@ -3386,8 +3388,8 @@
             "slot": "chest",
             "item_id": 271477,
             "item_name": "Baleful Grave-Knight's Breastplate",
-            "item_level": 321,
-            "track": "myth",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -3535,8 +3537,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 3,
+        "myth": 9,
+        "hero": 4,
         "champion": 0,
         "crafted": 1,
         "lower": 1
@@ -3764,7 +3766,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 317.5,
+        "item_level": 319.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3773,19 +3775,22 @@
             "slot": "head",
             "item_id": 271519,
             "item_name": "Monkey King's Unyielding Visage",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "neck",
-            "item_id": 251234,
-            "item_name": "Graft of the Domanaar",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268265,
+            "item_name": "Aqirbane Reliquary",
+            "item_level": 334,
+            "track": null,
             "enchanted": false,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -3795,7 +3800,7 @@
             "slot": "shoulders",
             "item_id": 271517,
             "item_name": "Tassels of the Monkey King",
-            "item_level": 321,
+            "item_level": 334,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3854,7 +3859,7 @@
             "item_id": 271520,
             "item_name": "Monkey King's Fighting Fists",
             "item_level": 308,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3886,8 +3891,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
             "item_level": 308,
             "track": null,
             "enchanted": false,
@@ -3934,17 +3939,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
-        "hero": 2,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -4172,7 +4177,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 319.4,
+        "item_level": 320.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4206,7 +4211,7 @@
             "slot": "shoulders",
             "item_id": 271562,
             "item_name": "Primal Leywarden's Manaflux",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4233,17 +4238,17 @@
             "slot": "legs",
             "item_id": 271563,
             "item_name": "Primal Leywarden's Tailored Legwraps",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
             "slot": "feet",
-            "item_id": 159259,
-            "item_name": "Sandswept Sandals",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268255,
+            "item_name": "Cackling Soultreads",
+            "item_level": 315,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -4353,12 +4358,13 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
+          "legs",
           "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 4,
@@ -4367,8 +4373,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 11,
-        "hero": 2,
+        "myth": 10,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 1
