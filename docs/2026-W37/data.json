@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-08T22:13:02.176065+00:00",
+  "generated_at": "2026-09-09T02:22:47.672661+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 319.6,
+        "item_level": 320.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -56,8 +56,8 @@
             "slot": "chest",
             "item_id": 271531,
             "item_name": "Enigmatic Dreamwatcher's Lunar Raiment",
-            "item_level": 308,
-            "track": null,
+            "item_level": 318,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -136,7 +136,7 @@
             "slot": "trinket_1",
             "item_id": 273796,
             "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 315,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -145,7 +145,7 @@
             "slot": "trinket_2",
             "item_id": 250214,
             "item_name": "Lightspire Core",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -200,10 +200,10 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 4,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -216,10 +216,10 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 318.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 321.1,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -268,17 +268,17 @@
             "slot": "chest",
             "item_id": 271459,
             "item_name": "Cuirass of the Jade Warlord",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 277765,
-            "item_name": "Venom-Cursed Bear's Warbelt",
-            "item_level": 308,
-            "track": null,
+            "item_id": 159418,
+            "item_name": "Girdle of Pestilent Purification",
+            "item_level": 318,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -286,9 +286,9 @@
             "slot": "legs",
             "item_id": 271878,
             "item_name": "Chausses of Unbound Rancor",
-            "item_level": 318,
+            "item_level": 328,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -346,10 +346,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249343,
-            "item_name": "Gaze of the Alnseer",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270163,
+            "item_name": "Sszorak's Ferocity",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -401,18 +401,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "legs",
           "feet"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -421,14 +420,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 2,
+        "myth": 7,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 6
+        "lower": 4
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -439,9 +438,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 317.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 4.5,
+        "mythic_plus_highest": 7,
         "items": [
           {
             "slot": "head",
@@ -615,7 +614,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2514,10 +2513,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 318.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 318.3,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2536,7 +2535,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 328,
+            "item_level": 331,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2694,7 +2693,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -2731,7 +2730,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 318.5,
+        "item_level": 319.8,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2740,7 +2739,7 @@
             "slot": "head",
             "item_id": 271546,
             "item_name": "Skull of the Damned Necrolyte",
-            "item_level": 308,
+            "item_level": 328,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -3149,12 +3148,15 @@
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
+            "item_id": 268265,
+            "item_name": "Aqirbane Reliquary",
             "item_level": 318,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": [
+              {
+                "filled": true
+              },
               {
                 "filled": true
               }
@@ -3308,17 +3310,17 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 6,
         "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3550,10 +3552,10 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 321.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 322.2,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3568,7 +3570,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 321,
+            "item_level": 328,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3726,7 +3728,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
