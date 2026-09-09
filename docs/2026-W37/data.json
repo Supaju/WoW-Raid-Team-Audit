@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-09T14:03:41.133525+00:00",
+  "generated_at": "2026-09-09T18:58:04.460083+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -217,7 +217,7 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 321.2,
-        "mythic_plus_weekly": 5,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 11.8,
         "mythic_plus_highest": 13,
         "items": [
@@ -401,7 +401,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -1676,7 +1676,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 319.1,
+        "item_level": 321.0,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 14,
@@ -1746,7 +1746,7 @@
             "slot": "legs",
             "item_id": 159375,
             "item_name": "Legguards of the Awakening Brood",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1755,7 +1755,7 @@
             "slot": "feet",
             "item_id": 251125,
             "item_name": "Felsoaked Soles",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1773,7 +1773,7 @@
             "slot": "hands",
             "item_id": 271484,
             "item_name": "Hexing Grips of the Ophidian Oracle",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3474,8 +3474,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 158367,
-            "item_name": "Merektha's Fang",
+            "item_id": 250228,
+            "item_name": "Resonant Bellowstone",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3554,7 +3554,7 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 322.2,
+        "item_level": 322.4,
         "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
@@ -3572,7 +3572,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 328,
+            "item_level": 331,
             "track": null,
             "enchanted": false,
             "sockets": [
