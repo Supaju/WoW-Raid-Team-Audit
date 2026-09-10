@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-10T13:58:41.662768+00:00",
+  "generated_at": "2026-09-10T17:30:45.985694+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -687,7 +687,7 @@
             "item_id": 271454,
             "item_name": "Raging Pauldrons of the Jade Warlord",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -849,8 +849,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 5,
+        "myth": 5,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -2729,9 +2729,9 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 320.2,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 12.3,
+        "item_level": 320.9,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2796,7 +2796,7 @@
             "slot": "feet",
             "item_id": 251137,
             "item_name": "Tempestuous Sandals",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2814,7 +2814,7 @@
             "slot": "hands",
             "item_id": 271547,
             "item_name": "Damned Necrolyte's Charred Grasps",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2893,9 +2893,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -2917,7 +2917,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3551,7 +3551,7 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 322.4,
+        "item_level": 323.7,
         "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 14,
@@ -3569,7 +3569,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 331,
+            "item_level": 334,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3603,7 +3603,7 @@
             "slot": "chest",
             "item_id": 271468,
             "item_name": "Bulwark of the Consecrated Flame",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3612,7 +3612,7 @@
             "slot": "waist",
             "item_id": 159442,
             "item_name": "Sand-Scoured Greatbelt",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3630,7 +3630,7 @@
             "slot": "feet",
             "item_id": 268245,
             "item_name": "Entombed Cultist's Sabatons",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3690,8 +3690,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250215,
-            "item_name": "Freightrunner's Flask",
+            "item_id": 250214,
+            "item_name": "Lightspire Core",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
