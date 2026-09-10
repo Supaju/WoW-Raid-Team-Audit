@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-10T20:16:04.145890+00:00",
+  "generated_at": "2026-09-10T23:34:58.478730+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -217,8 +217,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 321.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 11.7,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -401,9 +401,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -1677,8 +1677,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 321.0,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 14.1,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 14.4,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -1861,7 +1861,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -2514,8 +2514,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 321.8,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -2693,7 +2693,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2729,7 +2729,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 320.9,
+        "item_level": 321.3,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 14,
@@ -2760,7 +2760,7 @@
             "slot": "shoulders",
             "item_id": 271544,
             "item_name": "Spires of the Damned Necrolyte",
-            "item_level": 308,
+            "item_level": 311,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -2814,7 +2814,7 @@
             "slot": "hands",
             "item_id": 271547,
             "item_name": "Damned Necrolyte's Charred Grasps",
-            "item_level": 315,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3333,8 +3333,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 320.3,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 13.9,
+        "mythic_plus_weekly": 11,
+        "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3414,10 +3414,10 @@
           },
           {
             "slot": "feet",
-            "item_id": 159412,
-            "item_name": "Auric Puddle Stompers",
+            "item_id": 268260,
+            "item_name": "Scaled Fiend's Warboots",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -3471,10 +3471,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3517,7 +3517,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
@@ -3534,8 +3534,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 4,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 1,
         "lower": 1
