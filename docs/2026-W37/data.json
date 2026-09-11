@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-11T02:17:13.521521+00:00",
+  "generated_at": "2026-09-11T08:26:29.640624+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1677,8 +1677,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 321.0,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 14.4,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 14.8,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -1861,7 +1861,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -2513,16 +2513,16 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 321.8,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 11.3,
+        "item_level": 322.1,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
             "item_id": 271528,
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 324,
+            "item_level": 328,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -2693,9 +2693,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2719,7 +2719,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3333,8 +3333,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 320.3,
-        "mythic_plus_weekly": 11,
-        "mythic_plus_avg_level": 14.2,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 14.6,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3517,7 +3517,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -3763,9 +3763,9 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 319.7,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 11.5,
+        "item_level": 319.9,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3853,10 +3853,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 271520,
-            "item_name": "Monkey King's Fighting Fists",
-            "item_level": 308,
-            "track": "hero",
+            "item_id": 159337,
+            "item_name": "Grips of Electrified Defense",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3888,8 +3888,8 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
             "item_level": 308,
             "track": null,
             "enchanted": false,
@@ -3925,9 +3925,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3942,14 +3942,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 9,
+        "hero": 2,
         "champion": 0,
         "crafted": 1,
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4175,7 +4175,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 320.7,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 17,
         "items": [
@@ -4350,9 +4350,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
