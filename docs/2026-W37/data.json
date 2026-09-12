@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-12T02:24:19.640579+00:00",
+  "generated_at": "2026-09-12T08:15:14.511590+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1058,10 +1058,10 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 319.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 319.7,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -1101,7 +1101,7 @@
             "slot": "chest",
             "item_id": 271486,
             "item_name": "Fanged Raiment of the Ophidian Oracle",
-            "item_level": 321,
+            "item_level": 324,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -1157,10 +1157,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 162544,
+            "item_name": "Jade Ophidian Band",
+            "item_level": 311,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -1170,9 +1170,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 279010,
-            "item_name": "Ula'tek's Bind",
-            "item_level": 308,
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -1220,7 +1220,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1237,11 +1237,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
+        "myth": 4,
         "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 5
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2513,16 +2513,16 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 322.1,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 11.5,
+        "item_level": 322.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
             "item_id": 271528,
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 328,
+            "item_level": 331,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -2693,7 +2693,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -2928,8 +2928,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 319.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 12.4,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -3095,7 +3095,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -3261,18 +3261,18 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270167,
-            "item_name": "Wavecaller's Seastone",
-            "item_level": 321,
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270164,
-            "item_name": "Gebbo's Bottomless Bag",
-            "item_level": 334,
+            "item_id": 270167,
+            "item_name": "Wavecaller's Seastone",
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3764,9 +3764,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 319.9,
-        "mythic_plus_weekly": 7,
-        "mythic_plus_avg_level": 11.6,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3925,9 +3925,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 7,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3949,7 +3949,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -4175,7 +4175,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 320.7,
-        "mythic_plus_weekly": 5,
+        "mythic_plus_weekly": 7,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 17,
         "items": [
@@ -4350,7 +4350,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
