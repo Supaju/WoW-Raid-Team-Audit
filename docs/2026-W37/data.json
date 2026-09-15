@@ -2,7 +2,7 @@
   "week": "2026-W37",
   "week_label": "Raid Week 5 \u00b7 Sep 8\u201314",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-15T07:00:44.060556+00:00",
+  "generated_at": "2026-09-15T13:01:05.692129+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3757,7 +3757,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 319.9,
+        "item_level": 320.5,
         "mythic_plus_weekly": 10,
         "mythic_plus_avg_level": 12.1,
         "mythic_plus_highest": 14,
@@ -3766,7 +3766,7 @@
             "slot": "head",
             "item_id": 271519,
             "item_name": "Monkey King's Unyielding Visage",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3809,7 +3809,7 @@
             "slot": "waist",
             "item_id": 272245,
             "item_name": "Miststalker's Cinch",
-            "item_level": 311,
+            "item_level": 318,
             "track": null,
             "enchanted": false,
             "sockets": [
