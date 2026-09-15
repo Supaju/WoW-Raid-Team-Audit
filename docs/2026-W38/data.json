@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-15T20:41:54.956565+00:00",
+  "generated_at": "2026-09-15T23:52:09.761868+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -437,7 +437,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 317.5,
+        "item_level": 321.9,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -455,7 +455,7 @@
             "slot": "neck",
             "item_id": 273781,
             "item_name": "Strand of Warding Fangs",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -535,7 +535,7 @@
             "slot": "hands",
             "item_id": 271475,
             "item_name": "Baleful Grave-Knight's Deathgrips",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -557,7 +557,7 @@
             "slot": "finger_2",
             "item_id": 251194,
             "item_name": "Lightwarden's Bind",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -568,10 +568,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 249344,
-            "item_name": "Light Company Guidon",
-            "item_level": 298,
-            "track": null,
+            "item_id": 270175,
+            "item_name": "Voracious Heart of Ula'tek",
+            "item_level": 321,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -595,10 +595,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251134,
-            "item_name": "Xathuux's Cleave",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268213,
+            "item_name": "Maze-roa, Warlord's Fury",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -635,11 +635,11 @@
         "status": "warn"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1677,8 +1677,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 321.0,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.2,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -1861,9 +1861,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -1885,7 +1885,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1895,10 +1895,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 319.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 318.9,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1996,10 +1996,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272149,
-            "item_name": "Hex Loop",
-            "item_level": 315,
-            "track": null,
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2009,10 +2009,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251136,
-            "item_name": "Signet of Snarling Servitude",
+            "item_id": 272149,
+            "item_name": "Hex Loop",
             "item_level": 315,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2049,10 +2049,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268198,
-            "item_name": "Caustic Keeper-Crusher",
-            "item_level": 321,
-            "track": "hero",
+            "item_id": 277809,
+            "item_name": "Venom-Cursed Claymore",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -2068,7 +2068,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2086,10 +2086,10 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 9,
+        "hero": 8,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2508,9 +2508,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 322.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2687,7 +2687,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2928,10 +2928,10 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 319.8,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 320.6,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2959,7 +2959,7 @@
             "slot": "shoulders",
             "item_id": 271562,
             "item_name": "Primal Leywarden's Manaflux",
-            "item_level": 315,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3050,9 +3050,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270167,
-            "item_name": "Wavecaller's Seastone",
-            "item_level": 321,
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
+            "item_level": 328,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3096,7 +3096,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3334,8 +3334,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 321.6,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.2,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3518,9 +3518,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3542,7 +3542,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3552,10 +3552,10 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 324.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 324.8,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 15.2,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -3622,7 +3622,7 @@
             "slot": "legs",
             "item_id": 271464,
             "item_name": "Greaves of the Consecrated Flame",
-            "item_level": 318,
+            "item_level": 328,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -3728,9 +3728,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3754,7 +3754,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3960,7 +3960,7 @@
         "class_name": "Priest",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 310.2,
+        "item_level": 314.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4058,25 +4058,25 @@
             "slot": "finger_1",
             "item_id": 251194,
             "item_name": "Lightwarden's Bind",
-            "item_level": 305,
+            "item_level": 318,
             "track": "myth",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
           {
             "slot": "finger_2",
-            "item_id": 251217,
-            "item_name": "Occlusion of Void",
-            "item_level": 266,
-            "track": "hero",
+            "item_id": 158366,
+            "item_name": "Charged Sandstone Band",
+            "item_level": 318,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -4142,24 +4142,28 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 6,
+        "enchanted": 5,
         "required": 9,
         "missing_slots": [
           "head",
+          "finger_1",
           "finger_2",
           "off_hand"
         ],
         "status": "fail"
       },
       "sockets": {
-        "filled": 4,
+        "filled": 2,
         "total": 4,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "finger_1",
+          "finger_2"
+        ],
+        "status": "fail"
       },
       "gear": {
-        "myth": 12,
-        "hero": 2,
+        "myth": 13,
+        "hero": 1,
         "champion": 0,
         "crafted": 1,
         "lower": 1
