@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-15T23:52:09.761868+00:00",
+  "generated_at": "2026-09-16T02:37:39.374055+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2508,7 +2508,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 322.2,
-        "mythic_plus_weekly": 3,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -2687,9 +2687,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2713,7 +2713,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2929,7 +2929,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 320.6,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 10.0,
         "mythic_plus_highest": 10,
         "items": [
@@ -3096,7 +3096,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3132,7 +3132,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 314.9,
+        "item_level": 316.4,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3184,7 +3184,7 @@
             "slot": "chest",
             "item_id": 271504,
             "item_name": "Searing Caldera of Calamity",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3202,7 +3202,7 @@
             "slot": "legs",
             "item_id": 271500,
             "item_name": "Earthen Pillars of Calamity",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3229,7 +3229,7 @@
             "slot": "hands",
             "item_id": 271502,
             "item_name": "Calamitous Echo's Ebon Greathorns",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3289,11 +3289,20 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268205,
-            "item_name": "Venomancer's Winged Channeler",
-            "item_level": 308,
-            "track": null,
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
+            "item_level": 318,
+            "track": "hero",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 245769,
+            "item_name": "Aln'hara Lantern",
+            "item_level": 305,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           }
         ]
@@ -3305,9 +3314,11 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -3317,10 +3328,10 @@
       },
       "gear": {
         "myth": 6,
-        "hero": 4,
+        "hero": 5,
         "champion": 0,
-        "crafted": 2,
-        "lower": 3
+        "crafted": 3,
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3764,7 +3775,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 320.5,
+        "item_level": 321.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3816,7 +3827,7 @@
             "slot": "waist",
             "item_id": 272245,
             "item_name": "Miststalker's Cinch",
-            "item_level": 318,
+            "item_level": 321,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -3838,7 +3849,7 @@
             "slot": "feet",
             "item_id": 159327,
             "item_name": "Sand-Shined Snakeskin Sandals",
-            "item_level": 311,
+            "item_level": 315,
             "track": "myth",
             "enchanted": true,
             "sockets": []
