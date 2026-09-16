@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-16T02:37:39.374055+00:00",
+  "generated_at": "2026-09-16T08:57:36.560288+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,17 +13,17 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 322.7,
+        "item_level": 323.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
-            "item_id": 251140,
-            "item_name": "Vilefiend's Guise",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 271875,
+            "item_name": "Gaze of the Coiled Watcher",
+            "item_level": 331,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -199,11 +199,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 5,
         "hero": 5,
         "champion": 0,
         "crafted": 3,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1676,7 +1676,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 321.0,
+        "item_level": 321.8,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 13.2,
         "mythic_plus_highest": 17,
@@ -1833,10 +1833,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 273778,
-            "item_name": "Polished Lightwood Channeler",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -1878,8 +1878,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 3
@@ -2507,7 +2507,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 322.2,
+        "item_level": 323.9,
         "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -2516,7 +2516,7 @@
             "slot": "head",
             "item_id": 271528,
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 331,
+            "item_level": 334,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -2581,7 +2581,7 @@
             "slot": "legs",
             "item_id": 271527,
             "item_name": "Enigmatic Dreamwatcher's Leggings",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2668,10 +2668,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 272266,
-            "item_name": "Forgotten Eidolon's Dagger",
-            "item_level": 321,
-            "track": null,
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2707,10 +2707,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 4,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3344,7 +3344,7 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 321.6,
+        "item_level": 323.1,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 13.2,
         "mythic_plus_highest": 17,
@@ -3426,9 +3426,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 159412,
-            "item_name": "Auric Puddle Stompers",
-            "item_level": 311,
+            "item_id": 268245,
+            "item_name": "Entombed Cultist's Sabatons",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3457,10 +3457,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
             "item_level": 311,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -3483,19 +3483,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
+            "item_id": 273796,
+            "item_name": "Vile Vial of Volatile Venom",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250245,
-            "item_name": "Tumor of the Swarm",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3546,11 +3546,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
+        "myth": 8,
         "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -3775,7 +3775,7 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 321.0,
+        "item_level": 322.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3900,10 +3900,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 308,
-            "track": null,
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 321,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3927,10 +3927,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251192,
-            "item_name": "Branch of Pride",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268215,
+            "item_name": "Abyssal Broodfiend's Bardiche",
+            "item_level": 334,
+            "track": null,
             "enchanted": true,
             "sockets": []
           }
@@ -3954,8 +3954,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 2,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 3
@@ -4190,19 +4190,23 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 320.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 323.3,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.7,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
-            "item_id": 251199,
-            "item_name": "Worldroot Canopy",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
+            "item_id": 271874,
+            "item_name": "Venomkeeper's Horrific Cowl",
+            "item_level": 334,
+            "track": null,
+            "enchanted": false,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
@@ -4251,9 +4255,9 @@
             "slot": "legs",
             "item_id": 271563,
             "item_name": "Primal Leywarden's Tailored Legwraps",
-            "item_level": 318,
+            "item_level": 334,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -4287,7 +4291,7 @@
             "slot": "finger_1",
             "item_id": 159459,
             "item_name": "Ritual Binder's Ring",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -4300,7 +4304,7 @@
             "slot": "finger_2",
             "item_id": 251148,
             "item_name": "Pilfered Precious Band",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -4366,7 +4370,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4374,23 +4378,23 @@
         "enchanted": 7,
         "required": 9,
         "missing_slots": [
-          "legs",
+          "head",
           "off_hand"
         ],
         "status": "fail"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 10,
+        "myth": 9,
         "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
