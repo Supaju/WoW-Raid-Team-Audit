@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-16T08:57:36.560288+00:00",
+  "generated_at": "2026-09-16T14:29:25.287469+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3776,9 +3776,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 322.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3937,7 +3937,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -4191,9 +4191,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 323.3,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 13.7,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -4370,9 +4370,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 7,
