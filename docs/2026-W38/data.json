@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-17T02:41:45.915384+00:00",
+  "generated_at": "2026-09-17T09:03:18.082128+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -216,9 +216,9 @@
         "class_name": "Warrior",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 324.3,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 13.5,
+        "item_level": 324.7,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -286,7 +286,7 @@
             "slot": "legs",
             "item_id": 271878,
             "item_name": "Chausses of Unbound Rancor",
-            "item_level": 331,
+            "item_level": 334,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -357,7 +357,7 @@
             "slot": "trinket_2",
             "item_id": 270173,
             "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 331,
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -401,9 +401,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -427,7 +427,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1058,16 +1058,16 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 320.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 324.1,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
             "item_id": 271483,
             "item_name": "Serpent Crown of the Ophidian Oracle",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1135,10 +1135,10 @@
           },
           {
             "slot": "wrist",
-            "item_id": 268217,
-            "item_name": "Rising Tide Wristguards",
-            "item_level": 321,
-            "track": "hero",
+            "item_id": 244584,
+            "item_name": "Farstrider's Plated Bracers",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": false,
             "sockets": [
               {
@@ -1157,10 +1157,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 268290,
-            "item_name": "Sporecaller's Blooming Loop",
-            "item_level": 298,
-            "track": null,
+            "item_id": 268249,
+            "item_name": "Vile Alchemist's Band",
+            "item_level": 315,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -1192,10 +1192,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250214,
-            "item_name": "Lightspire Core",
-            "item_level": 308,
-            "track": "myth",
+            "item_id": 270170,
+            "item_name": "Vexhul's Everflowing Gland",
+            "item_level": 311,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1210,25 +1210,36 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 237849,
-            "item_name": "Magister's Valediction",
-            "item_level": 331,
-            "track": "crafted",
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 268262,
+            "item_name": "Bubblefin Splash Guard",
+            "item_level": 334,
+            "track": "myth",
+            "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
-        "required": 8,
-        "missing_slots": [],
-        "status": "pass"
+        "required": 9,
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 5,
@@ -1238,13 +1249,13 @@
       },
       "gear": {
         "myth": 5,
-        "hero": 4,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1895,7 +1906,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 319.3,
+        "item_level": 321.7,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
@@ -1904,7 +1915,7 @@
             "slot": "head",
             "item_id": 271474,
             "item_name": "Baleful Grave-Knight's Casque",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -1932,15 +1943,6 @@
             "sockets": []
           },
           {
-            "slot": "shirt",
-            "item_id": 167185,
-            "item_name": "Ebon Filigreed Shirt",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
-            "sockets": []
-          },
-          {
             "slot": "chest",
             "item_id": 271477,
             "item_name": "Baleful Grave-Knight's Breastplate",
@@ -1951,8 +1953,8 @@
           },
           {
             "slot": "waist",
-            "item_id": 268259,
-            "item_name": "Girdle of Toxic Regret",
+            "item_id": 271471,
+            "item_name": "Baleful Grave-Knight's Girdle",
             "item_level": 318,
             "track": "hero",
             "enchanted": false,
@@ -1998,7 +2000,7 @@
             "slot": "finger_1",
             "item_id": 272149,
             "item_name": "Hex Loop",
-            "item_level": 315,
+            "item_level": 321,
             "track": null,
             "enchanted": true,
             "sockets": [
@@ -2011,7 +2013,7 @@
             "slot": "finger_2",
             "item_id": 251136,
             "item_name": "Signet of Snarling Servitude",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2049,20 +2051,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268198,
-            "item_name": "Caustic Keeper-Crusher",
-            "item_level": 321,
+            "item_id": 268213,
+            "item_name": "Maze-roa, Warlord's Fury",
+            "item_level": 334,
             "track": "hero",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "tabard",
-            "item_id": 69210,
-            "item_name": "Renowned Guild Tabard",
-            "item_level": 1,
-            "track": null,
-            "enchanted": false,
             "sockets": []
           }
         ]
@@ -3775,15 +3768,15 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 322.7,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 11.5,
+        "item_level": 321.9,
+        "mythic_plus_weekly": 7,
+        "mythic_plus_avg_level": 11.3,
         "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
-            "item_id": 271519,
-            "item_name": "Monkey King's Unyielding Visage",
+            "item_id": 239033,
+            "item_name": "Hood of the Slithering Loa",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -3887,8 +3880,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251148,
-            "item_name": "Pilfered Precious Band",
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -3909,10 +3902,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
-            "item_level": 321,
-            "track": "hero",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3937,7 +3930,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 7,
         "target": 8,
         "status": "warn"
       },
@@ -3955,10 +3948,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 4,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
-        "lower": 3
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "warn"
