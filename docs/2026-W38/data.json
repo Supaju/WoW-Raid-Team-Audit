@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-16T22:30:37.504978+00:00",
+  "generated_at": "2026-09-17T02:41:45.915384+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1676,7 +1676,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 322.9,
+        "item_level": 323.5,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 14.7,
         "mythic_plus_highest": 18,
@@ -1710,7 +1710,7 @@
             "slot": "shoulders",
             "item_id": 271481,
             "item_name": "Hissing Mantle of the Ophidian Oracle",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1782,8 +1782,8 @@
             "slot": "finger_1",
             "item_id": 268252,
             "item_name": "Apex Brute's Claw Ring",
-            "item_level": 308,
-            "track": null,
+            "item_level": 315,
+            "track": "hero",
             "enchanted": true,
             "sockets": [
               {
@@ -1879,10 +1879,10 @@
       },
       "gear": {
         "myth": 8,
-        "hero": 3,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "warn"
@@ -1895,7 +1895,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 318.9,
+        "item_level": 319.3,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
@@ -1996,10 +1996,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 272149,
+            "item_name": "Hex Loop",
+            "item_level": 315,
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2009,10 +2009,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 272149,
-            "item_name": "Hex Loop",
+            "item_id": 251136,
+            "item_name": "Signet of Snarling Servitude",
             "item_level": 315,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2049,10 +2049,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 277809,
-            "item_name": "Venom-Cursed Claymore",
-            "item_level": 308,
-            "track": null,
+            "item_id": 268198,
+            "item_name": "Caustic Keeper-Crusher",
+            "item_level": 321,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2086,10 +2086,10 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 8,
+        "hero": 9,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2724,9 +2724,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 321.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2894,7 +2894,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2928,10 +2928,10 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 320.6,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 10.0,
-        "mythic_plus_highest": 10,
+        "item_level": 320.9,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.3,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3052,7 +3052,7 @@
             "slot": "trinket_1",
             "item_id": 270164,
             "item_name": "Gebbo's Bottomless Bag",
-            "item_level": 328,
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3096,7 +3096,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3344,7 +3344,7 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 323.1,
+        "item_level": 324.9,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 14.7,
         "mythic_plus_highest": 18,
@@ -3353,7 +3353,7 @@
             "slot": "head",
             "item_id": 271474,
             "item_name": "Baleful Grave-Knight's Casque",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -3364,8 +3364,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
+            "item_id": 273781,
+            "item_name": "Strand of Warding Fangs",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3426,9 +3426,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 159412,
-            "item_name": "Auric Puddle Stompers",
-            "item_level": 321,
+            "item_id": 268245,
+            "item_name": "Entombed Cultist's Sabatons",
+            "item_level": 328,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3450,15 +3450,15 @@
             "slot": "hands",
             "item_id": 251214,
             "item_name": "Bonds of the Hash'ura",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 159459,
-            "item_name": "Ritual Binder's Ring",
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -3483,19 +3483,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270160,
-            "item_name": "First Mate's Shellward",
-            "item_level": 321,
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 334,
-            "track": "hero",
+            "item_id": 250245,
+            "item_name": "Tumor of the Swarm",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3546,8 +3546,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 6,
+        "myth": 8,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -3776,9 +3776,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 322.7,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 12.5,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 11.5,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3847,8 +3847,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 159327,
-            "item_name": "Sand-Shined Snakeskin Sandals",
+            "item_id": 251153,
+            "item_name": "Arctic Explorer's Legwraps",
             "item_level": 315,
             "track": "myth",
             "enchanted": true,
@@ -3856,8 +3856,8 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251183,
-            "item_name": "Rootwarden Wraps",
+            "item_id": 251135,
+            "item_name": "Fury-fletched Armlets",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3865,10 +3865,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 159337,
-            "item_name": "Grips of Electrified Defense",
+            "item_id": 271520,
+            "item_name": "Monkey King's Fighting Fists",
             "item_level": 311,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3900,18 +3900,18 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270168,
-            "item_name": "Font of Venomous Rage",
-            "item_level": 321,
+            "item_id": 270175,
+            "item_name": "Voracious Heart of Ula'tek",
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270175,
-            "item_name": "Voracious Heart of Ula'tek",
-            "item_level": 334,
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3937,9 +3937,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3954,14 +3954,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 7,
+        "hero": 4,
         "champion": 0,
         "crafted": 1,
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
