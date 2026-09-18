@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-18T20:12:50.178890+00:00",
+  "generated_at": "2026-09-18T23:46:20.348535+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2922,7 +2922,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 320.9,
-        "mythic_plus_weekly": 4,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 14,
         "items": [
@@ -3089,7 +3089,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -3556,8 +3556,8 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 324.8,
-        "mythic_plus_weekly": 4,
+        "item_level": 325.1,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 15.2,
         "mythic_plus_highest": 16,
         "items": [
@@ -3590,7 +3590,7 @@
             "slot": "shoulders",
             "item_id": 271463,
             "item_name": "Pauldrons of the Consecrated Flame",
-            "item_level": 321,
+            "item_level": 324,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3617,7 +3617,7 @@
             "slot": "waist",
             "item_id": 159442,
             "item_name": "Sand-Scoured Greatbelt",
-            "item_level": 315,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3732,7 +3732,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
