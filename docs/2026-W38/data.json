@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-17T22:33:15.649483+00:00",
+  "generated_at": "2026-09-18T02:28:55.408480+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1688,8 +1688,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 323.5,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 14.7,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1872,9 +1872,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 9,
@@ -1896,7 +1896,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3338,8 +3338,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 324.9,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 14.7,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3522,9 +3522,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3546,7 +3546,7 @@
         "lower": 0
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
