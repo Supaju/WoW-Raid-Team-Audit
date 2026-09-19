@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-18T23:46:20.348535+00:00",
+  "generated_at": "2026-09-19T02:28:29.973458+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2716,10 +2716,10 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 323.0,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "item_level": 323.4,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 13.7,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -2738,7 +2738,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 328,
+            "item_level": 334,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2887,7 +2887,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
