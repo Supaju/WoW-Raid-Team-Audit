@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-20T17:11:38.939641+00:00",
+  "generated_at": "2026-09-20T20:03:29.871114+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2500,7 +2500,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 324.3,
+        "item_level": 323.0,
         "mythic_plus_weekly": 8,
         "mythic_plus_avg_level": 12.4,
         "mythic_plus_highest": 15,
@@ -2621,8 +2621,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 273792,
-            "item_name": "Band of the Amani Warlord",
+            "item_id": 251194,
+            "item_name": "Lightwarden's Bind",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -2652,8 +2652,8 @@
           },
           {
             "slot": "back",
-            "item_id": 251190,
-            "item_name": "Bloodthorn Burnous",
+            "item_id": 193763,
+            "item_name": "Fireproof Drape",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -2661,20 +2661,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 271092,
-            "item_name": "Jan'thrazet, the Soul Fang",
-            "item_level": 334,
-            "track": "hero",
+            "item_id": 273783,
+            "item_name": "Toxin-Coated Warstaff",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 245769,
-            "item_name": "Aln'hara Lantern",
-            "item_level": 331,
-            "track": "crafted",
-            "enchanted": false,
             "sockets": []
           }
         ]
@@ -2686,11 +2677,9 @@
       },
       "enchants": {
         "enchanted": 8,
-        "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 5,
@@ -2699,14 +2688,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 9,
+        "hero": 3,
         "champion": 0,
-        "crafted": 2,
+        "crafted": 1,
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
