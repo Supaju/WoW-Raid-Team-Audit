@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-20T20:03:29.871114+00:00",
+  "generated_at": "2026-09-20T23:44:39.229056+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -437,10 +437,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 321.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 321.2,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -453,10 +453,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
+            "item_id": 171726,
+            "item_name": "Choker of the Vanquished Lord",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -468,7 +468,7 @@
             "slot": "shoulders",
             "item_id": 271472,
             "item_name": "Baleful Grave-Knight's Gibbets",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -500,7 +500,7 @@
             "enchanted": false,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -542,10 +542,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 158366,
-            "item_name": "Charged Sandstone Band",
+            "item_id": 272147,
+            "item_name": "Colubrine Band",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -555,8 +555,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251194,
-            "item_name": "Lightwarden's Bind",
+            "item_id": 158366,
+            "item_name": "Charged Sandstone Band",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -570,7 +570,7 @@
             "slot": "trinket_1",
             "item_id": 270175,
             "item_name": "Voracious Heart of Ula'tek",
-            "item_level": 321,
+            "item_level": 328,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -595,10 +595,19 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268213,
-            "item_name": "Maze-roa, Warlord's Fury",
-            "item_level": 334,
-            "track": "hero",
+            "item_id": 251218,
+            "item_name": "Taz'Rah's Cosmic Edge",
+            "item_level": 321,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "off_hand",
+            "item_id": 268202,
+            "item_name": "Jaw of the Shackled Goddess",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -614,32 +623,30 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
-        "required": 8,
+        "enchanted": 8,
+        "required": 9,
         "missing_slots": [
           "shoulders"
         ],
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 4,
         "total": 4,
-        "missing_slots": [
-          "waist"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 7,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
-        "lower": 1
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1688,8 +1695,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 323.5,
-        "mythic_plus_weekly": 13,
-        "mythic_plus_avg_level": 14.9,
+        "mythic_plus_weekly": 17,
+        "mythic_plus_avg_level": 15.5,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1872,7 +1879,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 13,
+        "count": 17,
         "target": 8,
         "status": "pass"
       },
@@ -2501,8 +2508,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 323.0,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 12.4,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 12.3,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -2671,7 +2678,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
@@ -2706,8 +2713,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 323.4,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 13.7,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 13.8,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2876,9 +2883,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2900,7 +2907,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3326,9 +3333,9 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 324.9,
-        "mythic_plus_weekly": 10,
-        "mythic_plus_avg_level": 15.8,
+        "item_level": 324.5,
+        "mythic_plus_weekly": 14,
+        "mythic_plus_avg_level": 16.3,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3346,8 +3353,8 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
+            "item_id": 251173,
+            "item_name": "Yoke of the Charging Bear",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3386,16 +3393,12 @@
           },
           {
             "slot": "waist",
-            "item_id": 251144,
-            "item_name": "Autumn's Boon Belt",
+            "item_id": 159442,
+            "item_name": "Sand-Scoured Greatbelt",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
@@ -3408,9 +3411,9 @@
           },
           {
             "slot": "feet",
-            "item_id": 268245,
-            "item_name": "Entombed Cultist's Sabatons",
-            "item_level": 328,
+            "item_id": 159412,
+            "item_name": "Auric Puddle Stompers",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3430,8 +3433,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 251214,
-            "item_name": "Bonds of the Hash'ura",
+            "item_id": 159413,
+            "item_name": "Gauntlets of the Avian Sentinel",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3439,8 +3442,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 273792,
-            "item_name": "Band of the Amani Warlord",
+            "item_id": 159459,
+            "item_name": "Ritual Binder's Ring",
             "item_level": 311,
             "track": "myth",
             "enchanted": true,
@@ -3465,19 +3468,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 334,
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 250245,
-            "item_name": "Tumor of the Swarm",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3511,7 +3514,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 14,
         "target": 8,
         "status": "pass"
       },
@@ -3522,14 +3525,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 5,
+        "myth": 7,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 0
@@ -4173,8 +4176,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 324.1,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 14.4,
+        "mythic_plus_weekly": 12,
+        "mythic_plus_avg_level": 15.4,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -4352,7 +4355,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
