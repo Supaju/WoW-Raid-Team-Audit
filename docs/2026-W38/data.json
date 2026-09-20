@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-19T23:56:24.670702+00:00",
+  "generated_at": "2026-09-20T03:00:53.739936+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 323.3,
+        "item_level": 324.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -136,7 +136,7 @@
             "slot": "trinket_1",
             "item_id": 273796,
             "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -145,7 +145,7 @@
             "slot": "trinket_2",
             "item_id": 250214,
             "item_name": "Lightspire Core",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -154,7 +154,7 @@
             "slot": "back",
             "item_id": 251190,
             "item_name": "Bloodthorn Burnous",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
