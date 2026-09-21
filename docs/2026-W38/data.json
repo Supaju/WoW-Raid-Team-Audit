@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-21T16:06:44.288998+00:00",
+  "generated_at": "2026-09-21T21:29:08.372696+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,16 +13,16 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 324.1,
+        "item_level": 324.3,
         "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
-            "item_id": 271875,
-            "item_name": "Gaze of the Coiled Watcher",
-            "item_level": 331,
+            "item_id": 271528,
+            "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "item_level": 334,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -1913,9 +1913,9 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 321.7,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 12.5,
+        "item_level": 323.2,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 12.7,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -1950,6 +1950,15 @@
             "sockets": []
           },
           {
+            "slot": "shirt",
+            "item_id": 167185,
+            "item_name": "Ebon Filigreed Shirt",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
+            "sockets": []
+          },
+          {
             "slot": "chest",
             "item_id": 271477,
             "item_name": "Baleful Grave-Knight's Breastplate",
@@ -1978,21 +1987,25 @@
           },
           {
             "slot": "feet",
-            "item_id": 268260,
-            "item_name": "Scaled Fiend's Warboots",
-            "item_level": 311,
-            "track": "hero",
+            "item_id": 237828,
+            "item_name": "Spellbreaker's March",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "wrist",
-            "item_id": 237834,
-            "item_name": "Spellbreaker's Bracers",
-            "item_level": 331,
-            "track": "crafted",
+            "item_id": 268239,
+            "item_name": "Shellbound Bracers",
+            "item_level": 334,
+            "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -2068,7 +2081,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -2079,14 +2092,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 9,
+        "myth": 4,
+        "hero": 8,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -3121,16 +3134,16 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 316.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 319.2,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 10.6,
+        "mythic_plus_highest": 11,
         "items": [
           {
             "slot": "head",
             "item_id": 271501,
             "item_name": "Calamitous Echo's Magmashapers",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3271,7 +3284,7 @@
             "slot": "back",
             "item_id": 251132,
             "item_name": "Speakeasy Shroud",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3289,7 +3302,7 @@
             "slot": "off_hand",
             "item_id": 245769,
             "item_name": "Aln'hara Lantern",
-            "item_level": 305,
+            "item_level": 331,
             "track": "crafted",
             "enchanted": false,
             "sockets": []
@@ -3297,9 +3310,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3323,7 +3336,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3548,7 +3561,7 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 325.1,
+        "item_level": 326.2,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 15.2,
         "mythic_plus_highest": 16,
@@ -3582,7 +3595,7 @@
             "slot": "shoulders",
             "item_id": 271463,
             "item_name": "Pauldrons of the Consecrated Flame",
-            "item_level": 324,
+            "item_level": 331,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3609,7 +3622,7 @@
             "slot": "waist",
             "item_id": 159442,
             "item_name": "Sand-Scoured Greatbelt",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3689,7 +3702,7 @@
             "slot": "trinket_2",
             "item_id": 250214,
             "item_name": "Lightspire Core",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
