@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-22T00:26:35.712741+00:00",
+  "generated_at": "2026-09-22T07:06:18.763030+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 324.3,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -180,9 +180,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -206,7 +206,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -1864,7 +1864,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1884,10 +1884,12 @@
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -1903,7 +1905,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2725,9 +2727,9 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 323.4,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 14.0,
+        "item_level": 324.9,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 14.2,
         "mythic_plus_highest": 15,
         "items": [
           {
@@ -2818,14 +2820,14 @@
             "item_id": 271547,
             "item_name": "Damned Necrolyte's Charred Grasps",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -2850,9 +2852,9 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 250144,
-            "item_name": "Emberwing Feather",
-            "item_level": 298,
+            "item_id": 250215,
+            "item_name": "Freightrunner's Flask",
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2896,7 +2898,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -2913,8 +2915,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 2,
+        "myth": 7,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 3
@@ -3773,15 +3775,15 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 322.7,
+        "item_level": 321.9,
         "mythic_plus_weekly": 13,
         "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
-            "item_id": 239033,
-            "item_name": "Hood of the Slithering Loa",
+            "item_id": 271519,
+            "item_name": "Monkey King's Unyielding Visage",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -3845,8 +3847,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 251153,
-            "item_name": "Arctic Explorer's Legwraps",
+            "item_id": 159327,
+            "item_name": "Sand-Shined Snakeskin Sandals",
             "item_level": 315,
             "track": "myth",
             "enchanted": true,
@@ -3854,8 +3856,8 @@
           },
           {
             "slot": "wrist",
-            "item_id": 251135,
-            "item_name": "Fury-fletched Armlets",
+            "item_id": 251183,
+            "item_name": "Rootwarden Wraps",
             "item_level": 311,
             "track": "myth",
             "enchanted": false,
@@ -3863,10 +3865,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 271520,
-            "item_name": "Monkey King's Fighting Fists",
+            "item_id": 159337,
+            "item_name": "Grips of Electrified Defense",
             "item_level": 311,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3885,8 +3887,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 251148,
+            "item_name": "Pilfered Precious Band",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -3907,10 +3909,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 270168,
-            "item_name": "Font of Venomous Rage",
-            "item_level": 321,
-            "track": "hero",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -3952,11 +3954,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 4,
+        "myth": 8,
+        "hero": 2,
         "champion": 0,
         "crafted": 1,
-        "lower": 3
+        "lower": 4
       },
       "ambiguous_items": [],
       "overall_status": "pass"
