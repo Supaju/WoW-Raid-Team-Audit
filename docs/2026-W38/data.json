@@ -2,7 +2,7 @@
   "week": "2026-W38",
   "week_label": "Raid Week 6 \u00b7 Sep 15\u201321",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-21T21:29:08.372696+00:00",
+  "generated_at": "2026-09-22T00:26:35.712741+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1914,8 +1914,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 323.2,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 12.7,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.8,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2081,9 +2081,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2105,7 +2105,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2726,9 +2726,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 323.4,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 13.8,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 15,
         "items": [
           {
             "slot": "head",
@@ -2896,7 +2896,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
@@ -2930,9 +2930,9 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 320.9,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 12.0,
+        "item_level": 321.4,
+        "mythic_plus_weekly": 8,
+        "mythic_plus_avg_level": 11.6,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -2997,7 +2997,7 @@
             "slot": "feet",
             "item_id": 159259,
             "item_name": "Sandswept Sandals",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3098,9 +3098,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 8,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3561,9 +3561,9 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 326.2,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 15.2,
+        "item_level": 326.4,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 15.3,
         "mythic_plus_highest": 16,
         "items": [
           {
@@ -3702,7 +3702,7 @@
             "slot": "trinket_2",
             "item_id": 250214,
             "item_name": "Lightspire Core",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3737,9 +3737,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
