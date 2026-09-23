@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-22T23:55:42.812321+00:00",
+  "generated_at": "2026-09-23T02:45:54.907634+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1694,10 +1694,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 325.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 326.5,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -1755,8 +1755,8 @@
             "slot": "waist",
             "item_id": 268216,
             "item_name": "Cursed Reliquary Cincture",
-            "item_level": 311,
-            "track": "hero",
+            "item_level": 334,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1864,7 +1864,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": []
           },
           {
@@ -1879,17 +1879,15 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 9,
         "required": 9,
-        "missing_slots": [
-          "off_hand"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
         "filled": 4,
@@ -1898,8 +1896,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 9,
+        "hero": 3,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -3374,9 +3372,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 324.9,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3558,7 +3556,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3592,8 +3590,8 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 326.4,
-        "mythic_plus_weekly": 1,
+        "item_level": 326.8,
+        "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 16,
         "items": [
@@ -3626,7 +3624,7 @@
             "slot": "shoulders",
             "item_id": 271463,
             "item_name": "Pauldrons of the Consecrated Flame",
-            "item_level": 331,
+            "item_level": 334,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -3662,7 +3660,7 @@
             "slot": "legs",
             "item_id": 271464,
             "item_name": "Greaves of the Consecrated Flame",
-            "item_level": 328,
+            "item_level": 331,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -3768,7 +3766,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
