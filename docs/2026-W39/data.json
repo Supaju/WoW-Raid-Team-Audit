@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-23T19:21:25.055407+00:00",
+  "generated_at": "2026-09-23T22:35:07.379633+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -161,8 +161,8 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268210,
-            "item_name": "Malevolent Spiritcudgel",
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
             "item_level": 334,
             "track": "hero",
             "enchanted": true,
@@ -437,10 +437,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 321.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 323.2,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -453,10 +453,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 171726,
-            "item_name": "Choker of the Vanquished Lord",
+            "item_id": 273781,
+            "item_name": "Strand of Warding Fangs",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": false,
             "sockets": [
               {
@@ -542,10 +542,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
+            "item_id": 158366,
+            "item_name": "Charged Sandstone Band",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -555,8 +555,8 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 158366,
-            "item_name": "Charged Sandstone Band",
+            "item_id": 251194,
+            "item_name": "Lightwarden's Bind",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -595,19 +595,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251218,
-            "item_name": "Taz'Rah's Cosmic Edge",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 268202,
-            "item_name": "Jaw of the Shackled Goddess",
-            "item_level": 308,
-            "track": null,
+            "item_id": 268213,
+            "item_name": "Maze-roa, Warlord's Fury",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -623,13 +614,13 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 8,
-        "required": 9,
+        "enchanted": 7,
+        "required": 8,
         "missing_slots": [
           "shoulders"
         ],
@@ -642,11 +633,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 4,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 4
+        "lower": 1
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1695,9 +1686,9 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 326.9,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.5,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 14.3,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -1879,7 +1870,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3372,9 +3363,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 327.3,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 12.5,
-        "mythic_plus_highest": 14,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 14.3,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -3427,14 +3418,14 @@
           },
           {
             "slot": "waist",
-            "item_id": 251144,
-            "item_name": "Autumn's Boon Belt",
+            "item_id": 271471,
+            "item_name": "Baleful Grave-Knight's Girdle",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
               {
-                "filled": true
+                "filled": false
               }
             ]
           },
@@ -3449,8 +3440,8 @@
           },
           {
             "slot": "feet",
-            "item_id": 268245,
-            "item_name": "Entombed Cultist's Sabatons",
+            "item_id": 271476,
+            "item_name": "Baleful Grave-Knight's Sabatons",
             "item_level": 328,
             "track": "myth",
             "enchanted": true,
@@ -3471,8 +3462,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 159413,
-            "item_name": "Gauntlets of the Avian Sentinel",
+            "item_id": 271475,
+            "item_name": "Baleful Grave-Knight's Deathgrips",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3480,19 +3471,6 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 273792,
-            "item_name": "Band of the Amani Warlord",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
-            "slot": "finger_2",
             "item_id": 240949,
             "item_name": "Masterwork Sin'dorei Band",
             "item_level": 331,
@@ -3505,7 +3483,29 @@
             ]
           },
           {
+            "slot": "finger_2",
+            "item_id": 159459,
+            "item_name": "Ritual Binder's Ring",
+            "item_level": 321,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
             "slot": "trinket_1",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
+            "item_level": 321,
+            "track": "hero",
+            "enchanted": false,
+            "sockets": []
+          },
+          {
+            "slot": "trinket_2",
             "item_id": 270173,
             "item_name": "Zul'jin's Guillotine Technique",
             "item_level": 334,
@@ -3514,18 +3514,9 @@
             "sockets": []
           },
           {
-            "slot": "trinket_2",
-            "item_id": 250245,
-            "item_name": "Tumor of the Swarm",
-            "item_level": 321,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
-          },
-          {
             "slot": "back",
-            "item_id": 268253,
-            "item_name": "Silken Voodoo Drape",
+            "item_id": 271469,
+            "item_name": "Baleful Grave-Knight's Greatcloak",
             "item_level": 334,
             "track": "hero",
             "enchanted": false,
@@ -3552,7 +3543,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3563,14 +3554,16 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
+        "filled": 4,
         "total": 5,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "waist"
+        ],
+        "status": "warn"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 6,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -3586,8 +3579,8 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 326.8,
-        "mythic_plus_weekly": 4,
+        "item_level": 326.9,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 16,
         "items": [
@@ -3656,7 +3649,7 @@
             "slot": "legs",
             "item_id": 271464,
             "item_name": "Greaves of the Consecrated Flame",
-            "item_level": 331,
+            "item_level": 334,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -3762,7 +3755,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
