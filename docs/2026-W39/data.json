@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-23T14:34:28.278752+00:00",
+  "generated_at": "2026-09-23T19:21:25.055407+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -3371,7 +3371,7 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 327.1,
+        "item_level": 327.3,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 14,
@@ -3480,6 +3480,19 @@
           },
           {
             "slot": "finger_1",
+            "item_id": 273792,
+            "item_name": "Band of the Amani Warlord",
+            "item_level": 321,
+            "track": "myth",
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
+          },
+          {
+            "slot": "finger_2",
             "item_id": 240949,
             "item_name": "Masterwork Sin'dorei Band",
             "item_level": 331,
@@ -3492,33 +3505,20 @@
             ]
           },
           {
-            "slot": "finger_2",
-            "item_id": 159459,
-            "item_name": "Ritual Binder's Ring",
-            "item_level": 318,
-            "track": "myth",
-            "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
-          },
-          {
             "slot": "trinket_1",
-            "item_id": 273796,
-            "item_name": "Vile Vial of Volatile Venom",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270173,
+            "item_name": "Zul'jin's Guillotine Technique",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270173,
-            "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 334,
-            "track": "hero",
+            "item_id": 250245,
+            "item_name": "Tumor of the Swarm",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
