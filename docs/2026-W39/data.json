@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-23T02:45:54.907634+00:00",
+  "generated_at": "2026-09-23T08:57:50.382354+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1065,7 +1065,7 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 324.1,
+        "item_level": 326.5,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1083,7 +1083,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 328,
+            "item_level": 334,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -1117,7 +1117,7 @@
             "slot": "waist",
             "item_id": 268216,
             "item_name": "Cursed Reliquary Cincture",
-            "item_level": 321,
+            "item_level": 324,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1166,7 +1166,7 @@
             "slot": "finger_1",
             "item_id": 268249,
             "item_name": "Vile Alchemist's Band",
-            "item_level": 315,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": [
@@ -1199,10 +1199,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 270170,
-            "item_name": "Vexhul's Everflowing Gland",
-            "item_level": 311,
-            "track": "hero",
+            "item_id": 270167,
+            "item_name": "Wavecaller's Seastone",
+            "item_level": 334,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1255,8 +1255,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 6,
+        "myth": 6,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 3
@@ -1694,10 +1694,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 326.5,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "item_level": 326.9,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -1844,7 +1844,7 @@
             "slot": "back",
             "item_id": 193763,
             "item_name": "Fireproof Drape",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1879,9 +1879,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -1903,7 +1903,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2520,7 +2520,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 324.3,
+        "item_level": 325.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2542,7 +2542,7 @@
             "slot": "neck",
             "item_id": 268265,
             "item_name": "Aqirbane Reliquary",
-            "item_level": 331,
+            "item_level": 334,
             "track": null,
             "enchanted": false,
             "sockets": [
@@ -2630,7 +2630,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 315,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2643,7 +2643,7 @@
             "slot": "finger_2",
             "item_id": 273792,
             "item_name": "Band of the Amani Warlord",
-            "item_level": 311,
+            "item_level": 318,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2737,7 +2737,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 325.5,
-        "mythic_plus_weekly": 3,
+        "mythic_plus_weekly": 5,
         "mythic_plus_avg_level": 15.0,
         "mythic_plus_highest": 15,
         "items": [
@@ -2916,9 +2916,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2942,7 +2942,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2953,9 +2953,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 322.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -3123,7 +3123,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3371,29 +3371,25 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 324.9,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 12.0,
-        "mythic_plus_highest": 12,
+        "item_level": 327.1,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 12.5,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
             "item_id": 271474,
             "item_name": "Baleful Grave-Knight's Casque",
-            "item_level": 321,
-            "track": "hero",
+            "item_level": 334,
+            "track": "myth",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
-            "item_id": 251173,
-            "item_name": "Yoke of the Charging Bear",
-            "item_level": 311,
+            "item_id": 268250,
+            "item_name": "Sentinel's Vitriolic Chain",
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -3407,7 +3403,7 @@
             "item_id": 271472,
             "item_name": "Baleful Grave-Knight's Gibbets",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -3446,8 +3442,8 @@
             "slot": "legs",
             "item_id": 271473,
             "item_name": "Baleful Grave-Knight's Greaves",
-            "item_level": 321,
-            "track": "myth",
+            "item_level": 324,
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3484,10 +3480,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 273792,
-            "item_name": "Band of the Amani Warlord",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 240949,
+            "item_name": "Masterwork Sin'dorei Band",
+            "item_level": 331,
+            "track": "crafted",
             "enchanted": true,
             "sockets": [
               {
@@ -3497,10 +3493,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 240949,
-            "item_name": "Masterwork Sin'dorei Band",
-            "item_level": 331,
-            "track": "crafted",
+            "item_id": 159459,
+            "item_name": "Ritual Binder's Ring",
+            "item_level": 318,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -3556,9 +3552,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3567,20 +3563,20 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 6,
-        "total": 6,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
+        "myth": 7,
         "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 0
+        "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3591,7 +3587,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 326.8,
-        "mythic_plus_weekly": 3,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 16.0,
         "mythic_plus_highest": 16,
         "items": [
@@ -3766,9 +3762,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3792,7 +3788,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -4221,7 +4217,7 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 324.1,
+        "item_level": 325.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -4232,7 +4228,7 @@
             "item_name": "Venomkeeper's Horrific Cowl",
             "item_level": 334,
             "track": null,
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
                 "filled": true
@@ -4260,7 +4256,7 @@
             "item_id": 271562,
             "item_name": "Primal Leywarden's Manaflux",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -4268,7 +4264,7 @@
             "slot": "chest",
             "item_id": 271567,
             "item_name": "Crest of the Primal Leywarden",
-            "item_level": 321,
+            "item_level": 324,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4295,7 +4291,7 @@
             "slot": "feet",
             "item_id": 268255,
             "item_name": "Cackling Soultreads",
-            "item_level": 318,
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -4373,10 +4369,10 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 273778,
-            "item_name": "Polished Lightwood Channeler",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 271092,
+            "item_name": "Jan'thrazet, the Soul Fang",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -4406,13 +4402,12 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "head",
           "off_hand"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
         "filled": 5,
@@ -4421,8 +4416,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 3,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 2
