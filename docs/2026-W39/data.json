@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-24T14:32:49.344477+00:00",
+  "generated_at": "2026-09-24T19:39:29.934530+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1824,10 +1824,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250215,
-            "item_name": "Freightrunner's Flask",
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1887,8 +1887,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 9,
-        "hero": 3,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
         "lower": 2
