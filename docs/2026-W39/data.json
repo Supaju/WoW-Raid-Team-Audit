@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-25T02:45:07.048318+00:00",
+  "generated_at": "2026-09-25T09:14:05.451447+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1685,7 +1685,7 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 326.9,
+        "item_level": 327.6,
         "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 14.3,
         "mythic_plus_highest": 18,
@@ -1782,7 +1782,7 @@
             "slot": "hands",
             "item_id": 271484,
             "item_name": "Hexing Grips of the Ophidian Oracle",
-            "item_level": 321,
+            "item_level": 331,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -2511,7 +2511,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 325.1,
+        "item_level": 325.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2567,7 +2567,7 @@
             "slot": "chest",
             "item_id": 271531,
             "item_name": "Enigmatic Dreamwatcher's Lunar Raiment",
-            "item_level": 321,
+            "item_level": 324,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2621,7 +2621,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -2634,7 +2634,7 @@
             "slot": "finger_2",
             "item_id": 273792,
             "item_name": "Band of the Amani Warlord",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3394,7 +3394,7 @@
             "item_id": 271472,
             "item_name": "Baleful Grave-Knight's Gibbets",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3560,8 +3560,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 6,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 1
@@ -4204,10 +4204,10 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 325.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 326.1,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -4251,16 +4251,16 @@
             "slot": "chest",
             "item_id": 271567,
             "item_name": "Crest of the Primal Leywarden",
-            "item_level": 324,
+            "item_level": 331,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "waist",
-            "item_id": 159255,
-            "item_name": "Ouroborial Sash",
-            "item_level": 311,
+            "item_id": 268232,
+            "item_name": "Cincture of the Abyssal Grotto",
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4384,7 +4384,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
