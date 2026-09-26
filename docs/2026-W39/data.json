@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-26T02:48:09.402243+00:00",
+  "generated_at": "2026-09-26T08:57:22.828885+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1263,26 +1263,30 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 315.2,
+        "item_level": 310.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
-            "item_id": 271528,
-            "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": false,
-            "sockets": []
+            "item_id": 250024,
+            "item_name": "Branches of the Luminous Bloom",
+            "item_level": 298,
+            "track": null,
+            "enchanted": true,
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
-            "item_id": 251142,
-            "item_name": "Pendant of Malefic Fury",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 268251,
+            "item_name": "Amulet of the Twin Fangs",
+            "item_level": 308,
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -1355,14 +1359,14 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
-            "item_level": 311,
-            "track": "myth",
-            "enchanted": false,
+            "item_id": 268290,
+            "item_name": "Sporecaller's Blooming Loop",
+            "item_level": 298,
+            "track": null,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -1381,19 +1385,19 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 274493,
-            "item_name": "Effigy of Ula'tek's Faithful",
-            "item_level": 315,
+            "item_id": 249343,
+            "item_name": "Gaze of the Alnseer",
+            "item_level": 298,
             "track": null,
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270167,
-            "item_name": "Wavecaller's Seastone",
-            "item_level": 318,
-            "track": "hero",
+            "item_id": 274493,
+            "item_name": "Effigy of Ula'tek's Faithful",
+            "item_level": 315,
+            "track": null,
             "enchanted": false,
             "sockets": []
           },
@@ -1408,20 +1412,11 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 251225,
-            "item_name": "Fang of Contagion",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 268215,
+            "item_name": "Abyssal Broodfiend's Bardiche",
+            "item_level": 308,
+            "track": null,
             "enchanted": true,
-            "sockets": []
-          },
-          {
-            "slot": "off_hand",
-            "item_id": 245769,
-            "item_name": "Aln'hara Lantern",
-            "item_level": 331,
-            "track": "crafted",
-            "enchanted": false,
             "sockets": []
           },
           {
@@ -1441,29 +1436,23 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 6,
-        "required": 9,
-        "missing_slots": [
-          "head",
-          "finger_1",
-          "off_hand"
-        ],
-        "status": "fail"
+        "enchanted": 8,
+        "required": 8,
+        "missing_slots": [],
+        "status": "pass"
       },
       "sockets": {
-        "filled": 2,
-        "total": 3,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "warn"
+        "filled": 4,
+        "total": 4,
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 4,
+        "myth": 2,
+        "hero": 3,
         "champion": 0,
-        "crafted": 2,
-        "lower": 4
+        "crafted": 1,
+        "lower": 9
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3790,9 +3779,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 322.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3951,7 +3940,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
