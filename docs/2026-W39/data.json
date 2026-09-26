@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-25T22:59:03.747285+00:00",
+  "generated_at": "2026-09-26T02:48:09.402243+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1476,7 +1476,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 321.5,
+        "item_level": 321.7,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1579,7 +1579,7 @@
             "slot": "finger_1",
             "item_id": 252258,
             "item_name": "Sickening Signet of Atroxus",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -1904,7 +1904,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 323.7,
+        "item_level": 324.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1933,10 +1933,10 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 271472,
-            "item_name": "Baleful Grave-Knight's Gibbets",
+            "item_id": 156065,
+            "item_name": "Valorous Darkruned Shoulderplates",
             "item_level": 308,
-            "track": "hero",
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -1969,9 +1969,9 @@
           },
           {
             "slot": "legs",
-            "item_id": 271878,
-            "item_name": "Chausses of Unbound Rancor",
-            "item_level": 328,
+            "item_id": 271473,
+            "item_name": "Baleful Grave-Knight's Greaves",
+            "item_level": 334,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -2090,10 +2090,10 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 8,
+        "hero": 7,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3578,8 +3578,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 326.9,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 16.1,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 16.2,
         "mythic_plus_highest": 17,
         "items": [
           {
@@ -3753,7 +3753,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
