@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-26T17:38:43.199477+00:00",
+  "generated_at": "2026-09-26T20:26:33.408001+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -2500,10 +2500,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 325.7,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 326.3,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2556,7 +2556,7 @@
             "slot": "chest",
             "item_id": 271531,
             "item_name": "Enigmatic Dreamwatcher's Lunar Raiment",
-            "item_level": 324,
+            "item_level": 334,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -2680,7 +2680,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3352,8 +3352,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 327.3,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 14.3,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 15.1,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3532,9 +3532,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
@@ -3556,7 +3556,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "warn"
+      "overall_status": "pass"
     },
     {
       "character": {
@@ -3567,7 +3567,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 326.9,
-        "mythic_plus_weekly": 10,
+        "mythic_plus_weekly": 11,
         "mythic_plus_avg_level": 16.2,
         "mythic_plus_highest": 17,
         "items": [
@@ -3742,7 +3742,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 10,
+        "count": 11,
         "target": 8,
         "status": "pass"
       },
