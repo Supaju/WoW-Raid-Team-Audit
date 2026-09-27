@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-26T20:26:33.408001+00:00",
+  "generated_at": "2026-09-27T00:04:44.871442+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,9 +14,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 325.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -180,7 +180,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1675,8 +1675,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 327.6,
-        "mythic_plus_weekly": 8,
-        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 14.6,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1844,7 +1844,7 @@
             "item_name": "Spellbreaker's Rebuke",
             "item_level": 331,
             "track": "crafted",
-            "enchanted": true,
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1859,15 +1859,17 @@
         ]
       },
       "mythic_plus": {
-        "count": 8,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
       "enchants": {
-        "enchanted": 9,
+        "enchanted": 8,
         "required": 9,
-        "missing_slots": [],
-        "status": "pass"
+        "missing_slots": [
+          "off_hand"
+        ],
+        "status": "warn"
       },
       "sockets": {
         "filled": 4,
@@ -1883,7 +1885,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "pass"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -2501,8 +2503,8 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 326.3,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 4,
+        "mythic_plus_avg_level": 11.0,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2680,9 +2682,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2706,7 +2708,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3352,8 +3354,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 327.3,
-        "mythic_plus_weekly": 9,
-        "mythic_plus_avg_level": 15.1,
+        "mythic_plus_weekly": 10,
+        "mythic_plus_avg_level": 15.3,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3532,7 +3534,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 9,
+        "count": 10,
         "target": 8,
         "status": "pass"
       },
