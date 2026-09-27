@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-27T00:04:44.871442+00:00",
+  "generated_at": "2026-09-27T07:23:54.392499+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -14,7 +14,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 325.3,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -180,7 +180,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -438,8 +438,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 323.2,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 14.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -453,10 +453,10 @@
           },
           {
             "slot": "neck",
-            "item_id": 273781,
-            "item_name": "Strand of Warding Fangs",
+            "item_id": 171726,
+            "item_name": "Choker of the Vanquished Lord",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": false,
             "sockets": [
               {
@@ -542,10 +542,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 272147,
+            "item_name": "Colubrine Band",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -555,10 +555,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
+            "item_id": 158366,
+            "item_name": "Charged Sandstone Band",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -614,7 +614,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -633,11 +633,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
+        "myth": 5,
         "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1465,7 +1465,7 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 321.7,
+        "item_level": 322.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1541,7 +1541,7 @@
             "slot": "feet",
             "item_id": 251137,
             "item_name": "Tempestuous Sandals",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1896,9 +1896,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 324.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 10.0,
+        "mythic_plus_highest": 10,
         "items": [
           {
             "slot": "head",
@@ -2063,7 +2063,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3568,8 +3568,8 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 326.9,
-        "mythic_plus_weekly": 11,
+        "item_level": 327.4,
+        "mythic_plus_weekly": 12,
         "mythic_plus_avg_level": 16.2,
         "mythic_plus_highest": 17,
         "items": [
@@ -3709,7 +3709,7 @@
             "slot": "trinket_2",
             "item_id": 270162,
             "item_name": "Soulcoiler Ritual Vessel",
-            "item_level": 321,
+            "item_level": 328,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3744,7 +3744,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 11,
+        "count": 12,
         "target": 8,
         "status": "pass"
       },
@@ -4196,7 +4196,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 326.1,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
         "items": [
@@ -4375,7 +4375,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
