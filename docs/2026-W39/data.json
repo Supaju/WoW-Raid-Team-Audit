@@ -2,7 +2,7 @@
   "week": "2026-W39",
   "week_label": "Raid Week 7 \u00b7 Sep 22\u201328",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-28T19:01:21.415820+00:00",
+  "generated_at": "2026-09-29T00:04:57.260488+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1675,8 +1675,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 327.6,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 15.1,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 15.3,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1859,7 +1859,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
@@ -3140,8 +3140,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 322.7,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 11.5,
         "mythic_plus_highest": 12,
         "items": [
           {
@@ -3192,7 +3192,7 @@
             "item_id": 271504,
             "item_name": "Searing Caldera of Calamity",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3315,7 +3315,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3334,11 +3334,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
+        "myth": 4,
         "hero": 5,
         "champion": 0,
         "crafted": 4,
-        "lower": 2
+        "lower": 3
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -3352,8 +3352,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 327.3,
-        "mythic_plus_weekly": 12,
-        "mythic_plus_avg_level": 15.7,
+        "mythic_plus_weekly": 13,
+        "mythic_plus_avg_level": 15.8,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3532,7 +3532,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 12,
+        "count": 13,
         "target": 8,
         "status": "pass"
       },
