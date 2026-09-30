@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-30T00:55:49.848839+00:00",
+  "generated_at": "2026-09-30T07:46:04.061488+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1056,10 +1056,10 @@
         "class_name": "Shaman",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 326.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 327.1,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 15.5,
+        "mythic_plus_highest": 16,
         "items": [
           {
             "slot": "head",
@@ -1148,8 +1148,8 @@
             "slot": "hands",
             "item_id": 271484,
             "item_name": "Hexing Grips of the Ophidian Oracle",
-            "item_level": 321,
-            "track": "hero",
+            "item_level": 331,
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -1227,7 +1227,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1246,8 +1246,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 6,
-        "hero": 5,
+        "myth": 7,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
         "lower": 3
@@ -1263,7 +1263,7 @@
         "class_name": "Druid",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 315.4,
+        "item_level": 319.0,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1272,7 +1272,7 @@
             "slot": "head",
             "item_id": 271528,
             "item_name": "Enigmatic Dreamwatcher's Somnolent Stare",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1294,7 +1294,7 @@
             "slot": "shoulders",
             "item_id": 271526,
             "item_name": "Enigmatic Dreamwatcher's Plumage",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -1348,7 +1348,7 @@
             "slot": "hands",
             "item_id": 271529,
             "item_name": "Enigmatic Dreamwatcher's Gauntlets",
-            "item_level": 308,
+            "item_level": 315,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -1381,10 +1381,10 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 274493,
-            "item_name": "Effigy of Ula'tek's Faithful",
-            "item_level": 315,
-            "track": null,
+            "item_id": 270169,
+            "item_name": "Hex Lord's Dooming Idol",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -1392,7 +1392,7 @@
             "slot": "trinket_2",
             "item_id": 270167,
             "item_name": "Wavecaller's Seastone",
-            "item_level": 318,
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -1460,10 +1460,10 @@
       },
       "gear": {
         "myth": 7,
-        "hero": 4,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1685,10 +1685,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 327.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 328.6,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -1815,17 +1815,17 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270162,
-            "item_name": "Soulcoiler Ritual Vessel",
-            "item_level": 321,
+            "item_id": 270167,
+            "item_name": "Wavecaller's Seastone",
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270164,
-            "item_name": "Gebbo's Bottomless Bag",
+            "item_id": 270162,
+            "item_name": "Soulcoiler Ritual Vessel",
             "item_level": 321,
             "track": "hero",
             "enchanted": false,
@@ -1835,7 +1835,7 @@
             "slot": "back",
             "item_id": 193763,
             "item_name": "Fireproof Drape",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1870,7 +1870,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -1905,9 +1905,9 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 324.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -2072,7 +2072,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2511,10 +2511,10 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 326.3,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 327.1,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -2585,7 +2585,7 @@
             "slot": "legs",
             "item_id": 271527,
             "item_name": "Enigmatic Dreamwatcher's Leggings",
-            "item_level": 321,
+            "item_level": 334,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2663,10 +2663,10 @@
           },
           {
             "slot": "back",
-            "item_id": 251190,
-            "item_name": "Bloodthorn Burnous",
+            "item_id": 268253,
+            "item_name": "Silken Voodoo Drape",
             "item_level": 321,
-            "track": "myth",
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -2691,7 +2691,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -2710,8 +2710,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 4,
+        "myth": 7,
+        "hero": 5,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -3362,10 +3362,10 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 327.5,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 328.2,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -3462,8 +3462,8 @@
           },
           {
             "slot": "hands",
-            "item_id": 271475,
-            "item_name": "Baleful Grave-Knight's Deathgrips",
+            "item_id": 251221,
+            "item_name": "Despondent's Gauntlets",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3471,8 +3471,8 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 273792,
-            "item_name": "Band of the Amani Warlord",
+            "item_id": 159459,
+            "item_name": "Ritual Binder's Ring",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -3499,7 +3499,7 @@
             "slot": "trinket_1",
             "item_id": 270175,
             "item_name": "Voracious Heart of Ula'tek",
-            "item_level": 324,
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3543,7 +3543,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -3577,10 +3577,10 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 327.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 327.8,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -3629,7 +3629,7 @@
             "slot": "chest",
             "item_id": 271468,
             "item_name": "Bulwark of the Consecrated Flame",
-            "item_level": 318,
+            "item_level": 328,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3753,7 +3753,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3789,10 +3789,10 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 325.6,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 325.8,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 11.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -3850,7 +3850,7 @@
             "slot": "legs",
             "item_id": 271518,
             "item_name": "Pantaloons of the Monkey King",
-            "item_level": 331,
+            "item_level": 334,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3947,7 +3947,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -4200,10 +4200,10 @@
         "class_name": "Mage",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 326.4,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 327.8,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 15.4,
+        "mythic_plus_highest": 17,
         "items": [
           {
             "slot": "head",
@@ -4238,8 +4238,8 @@
             "slot": "shoulders",
             "item_id": 271562,
             "item_name": "Primal Leywarden's Manaflux",
-            "item_level": 321,
-            "track": "hero",
+            "item_level": 334,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -4247,7 +4247,7 @@
             "slot": "chest",
             "item_id": 271567,
             "item_name": "Crest of the Primal Leywarden",
-            "item_level": 331,
+            "item_level": 334,
             "track": "myth",
             "enchanted": true,
             "sockets": []
@@ -4345,7 +4345,7 @@
             "slot": "back",
             "item_id": 251132,
             "item_name": "Speakeasy Shroud",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -4380,9 +4380,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -4399,14 +4399,14 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 7,
-        "hero": 5,
+        "myth": 8,
+        "hero": 4,
         "champion": 0,
         "crafted": 2,
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
