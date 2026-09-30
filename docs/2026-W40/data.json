@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-29T20:21:22.631351+00:00",
+  "generated_at": "2026-09-30T00:55:49.848839+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1904,7 +1904,7 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 325.2,
+        "item_level": 324.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -1933,10 +1933,10 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 156065,
-            "item_name": "Valorous Darkruned Shoulderplates",
+            "item_id": 271472,
+            "item_name": "Baleful Grave-Knight's Gibbets",
             "item_level": 321,
-            "track": null,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -2009,10 +2009,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272149,
-            "item_name": "Hex Loop",
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2022,10 +2022,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 272149,
+            "item_name": "Hex Loop",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2062,9 +2062,9 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268213,
-            "item_name": "Maze-roa, Warlord's Fury",
-            "item_level": 334,
+            "item_id": 268198,
+            "item_name": "Caustic Keeper-Crusher",
+            "item_level": 321,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -2090,10 +2090,10 @@
       },
       "gear": {
         "myth": 3,
-        "hero": 7,
+        "hero": 8,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -2727,7 +2727,7 @@
         "class_name": "Warlock",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 325.5,
+        "item_level": 326.3,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -2854,7 +2854,7 @@
             "slot": "trinket_1",
             "item_id": 250215,
             "item_name": "Freightrunner's Flask",
-            "item_level": 321,
+            "item_level": 334,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3150,7 +3150,7 @@
         "class_name": "Evoker",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 324.8,
+        "item_level": 324.9,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -3258,10 +3258,10 @@
             "item_name": "Charged Sandstone Band",
             "item_level": 321,
             "track": "myth",
-            "enchanted": false,
+            "enchanted": true,
             "sockets": [
               {
-                "filled": false
+                "filled": true
               }
             ]
           },
@@ -3280,18 +3280,18 @@
           },
           {
             "slot": "trinket_1",
-            "item_id": 270167,
-            "item_name": "Wavecaller's Seastone",
-            "item_level": 321,
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "trinket_2",
-            "item_id": 270164,
-            "item_name": "Gebbo's Bottomless Bag",
-            "item_level": 334,
+            "item_id": 270167,
+            "item_name": "Wavecaller's Seastone",
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -3309,7 +3309,7 @@
             "slot": "main_hand",
             "item_id": 271092,
             "item_name": "Jan'thrazet, the Soul Fang",
-            "item_level": 328,
+            "item_level": 331,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3331,21 +3331,18 @@
         "status": "fail"
       },
       "enchants": {
-        "enchanted": 7,
+        "enchanted": 8,
         "required": 9,
         "missing_slots": [
-          "finger_1",
           "off_hand"
         ],
-        "status": "fail"
+        "status": "warn"
       },
       "sockets": {
-        "filled": 3,
+        "filled": 4,
         "total": 4,
-        "missing_slots": [
-          "finger_1"
-        ],
-        "status": "warn"
+        "missing_slots": [],
+        "status": "pass"
       },
       "gear": {
         "myth": 5,
@@ -3580,7 +3577,7 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 327.4,
+        "item_level": 327.2,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -3632,8 +3629,8 @@
             "slot": "chest",
             "item_id": 271468,
             "item_name": "Bulwark of the Consecrated Flame",
-            "item_level": 321,
-            "track": "myth",
+            "item_level": 318,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
@@ -3775,8 +3772,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 5,
+        "myth": 4,
+        "hero": 6,
         "champion": 0,
         "crafted": 3,
         "lower": 3
@@ -3792,17 +3789,17 @@
         "class_name": "Monk",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 322.9,
+        "item_level": 325.6,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
         "items": [
           {
             "slot": "head",
-            "item_id": 271519,
-            "item_name": "Monkey King's Unyielding Visage",
+            "item_id": 271875,
+            "item_name": "Gaze of the Coiled Watcher",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": []
           },
@@ -3842,50 +3839,46 @@
           },
           {
             "slot": "waist",
-            "item_id": 272245,
-            "item_name": "Miststalker's Cinch",
+            "item_id": 271516,
+            "item_name": "Agile Cord of the Monkey King",
             "item_level": 321,
-            "track": null,
+            "track": "hero",
             "enchanted": false,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "legs",
             "item_id": 271518,
             "item_name": "Pantaloons of the Monkey King",
-            "item_level": 321,
-            "track": "myth",
+            "item_level": 331,
+            "track": "hero",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "feet",
-            "item_id": 159327,
-            "item_name": "Sand-Shined Snakeskin Sandals",
-            "item_level": 315,
+            "item_id": 271521,
+            "item_name": "Shinguards of the Monkey King",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "wrist",
-            "item_id": 251183,
-            "item_name": "Rootwarden Wraps",
-            "item_level": 311,
+            "item_id": 271515,
+            "item_name": "Wristguards of the Monkey King",
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "hands",
-            "item_id": 159337,
-            "item_name": "Grips of Electrified Defense",
-            "item_level": 311,
-            "track": "myth",
+            "item_id": 271520,
+            "item_name": "Monkey King's Fighting Fists",
+            "item_level": 321,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -3904,9 +3897,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 251148,
-            "item_name": "Pilfered Precious Band",
-            "item_level": 334,
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3928,16 +3921,16 @@
             "slot": "trinket_2",
             "item_id": 270166,
             "item_name": "Vashnik's Sanguine Rancor",
-            "item_level": 311,
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "back",
-            "item_id": 251132,
-            "item_name": "Speakeasy Shroud",
-            "item_level": 311,
+            "item_id": 271514,
+            "item_name": "Cape of the Monkey King",
+            "item_level": 318,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -3965,14 +3958,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 8,
-        "hero": 3,
+        "myth": 5,
+        "hero": 6,
         "champion": 0,
         "crafted": 1,
         "lower": 3
