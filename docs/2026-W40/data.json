@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-30T14:27:44.318370+00:00",
+  "generated_at": "2026-09-30T20:25:34.780426+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -13,7 +13,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 325.3,
+        "item_level": 326.1,
         "mythic_plus_weekly": 0,
         "mythic_plus_avg_level": 0.0,
         "mythic_plus_highest": 0,
@@ -143,10 +143,10 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 250214,
-            "item_name": "Lightspire Core",
-            "item_level": 321,
-            "track": "myth",
+            "item_id": 270164,
+            "item_name": "Gebbo's Bottomless Bag",
+            "item_level": 334,
+            "track": "hero",
             "enchanted": false,
             "sockets": []
           },
@@ -199,8 +199,8 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 5,
+        "myth": 4,
+        "hero": 6,
         "champion": 0,
         "crafted": 3,
         "lower": 3
@@ -1905,8 +1905,8 @@
         "role": "Melee",
         "rank": "Main",
         "item_level": 324.3,
-        "mythic_plus_weekly": 1,
-        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_weekly": 2,
+        "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 13,
         "items": [
           {
@@ -2072,7 +2072,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3362,7 +3362,7 @@
         "class_name": "Death Knight",
         "role": "Tank",
         "rank": "Main",
-        "item_level": 328.2,
+        "item_level": 328.5,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 18.0,
         "mythic_plus_highest": 18,
@@ -3433,7 +3433,7 @@
             "slot": "legs",
             "item_id": 271473,
             "item_name": "Baleful Grave-Knight's Greaves",
-            "item_level": 324,
+            "item_level": 328,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -3790,9 +3790,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 325.8,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 11.0,
-        "mythic_plus_highest": 13,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -3947,9 +3947,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 5,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3971,7 +3971,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
