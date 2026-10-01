@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-09-30T20:25:34.780426+00:00",
+  "generated_at": "2026-10-01T00:56:53.899116+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1476,10 +1476,10 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 322.1,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 322.7,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 13.0,
+        "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
@@ -1534,7 +1534,7 @@
             "slot": "waist",
             "item_id": 268257,
             "item_name": "Caustic Chain-Wrapped Sash",
-            "item_level": 311,
+            "item_level": 318,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -1592,7 +1592,7 @@
             "slot": "finger_2",
             "item_id": 251136,
             "item_name": "Signet of Snarling Servitude",
-            "item_level": 318,
+            "item_level": 321,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -1649,7 +1649,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -1904,25 +1904,29 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 324.3,
-        "mythic_plus_weekly": 2,
+        "item_level": 326.5,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
-            "item_id": 271474,
-            "item_name": "Baleful Grave-Knight's Casque",
+            "item_id": 251229,
+            "item_name": "Visor of the Predator",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": true,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "neck",
             "item_id": 251234,
             "item_name": "Graft of the Domanaar",
-            "item_level": 315,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": [
@@ -2002,17 +2006,17 @@
             "slot": "hands",
             "item_id": 271475,
             "item_name": "Baleful Grave-Knight's Deathgrips",
-            "item_level": 308,
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": []
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
+            "item_id": 272149,
+            "item_name": "Hex Loop",
             "item_level": 321,
-            "track": "myth",
+            "track": null,
             "enchanted": true,
             "sockets": [
               {
@@ -2022,10 +2026,10 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 272149,
-            "item_name": "Hex Loop",
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -2062,19 +2066,28 @@
           },
           {
             "slot": "main_hand",
-            "item_id": 268198,
-            "item_name": "Caustic Keeper-Crusher",
-            "item_level": 321,
+            "item_id": 268213,
+            "item_name": "Maze-roa, Warlord's Fury",
+            "item_level": 334,
             "track": "hero",
             "enchanted": true,
+            "sockets": []
+          },
+          {
+            "slot": "tabard",
+            "item_id": 69210,
+            "item_name": "Renowned Guild Tabard",
+            "item_level": 1,
+            "track": null,
+            "enchanted": false,
             "sockets": []
           }
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -2083,20 +2096,20 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 3,
-        "hero": 8,
+        "myth": 4,
+        "hero": 7,
         "champion": 0,
         "crafted": 2,
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3363,7 +3376,7 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 328.5,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 2,
         "mythic_plus_avg_level": 18.0,
         "mythic_plus_highest": 18,
         "items": [
@@ -3543,7 +3556,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 2,
         "target": 8,
         "status": "fail"
       },
@@ -3578,7 +3591,7 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 327.8,
-        "mythic_plus_weekly": 2,
+        "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 17.0,
         "mythic_plus_highest": 17,
         "items": [
@@ -3753,9 +3766,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 4,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3779,7 +3792,7 @@
         "lower": 3
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
