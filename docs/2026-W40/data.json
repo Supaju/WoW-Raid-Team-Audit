@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-10-01T00:56:53.899116+00:00",
+  "generated_at": "2026-10-01T08:04:51.287896+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1477,7 +1477,7 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 322.7,
-        "mythic_plus_weekly": 1,
+        "mythic_plus_weekly": 3,
         "mythic_plus_avg_level": 13.0,
         "mythic_plus_highest": 13,
         "items": [
@@ -1537,7 +1537,11 @@
             "item_level": 318,
             "track": "hero",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
@@ -1649,7 +1653,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 1,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -1662,8 +1666,8 @@
         "status": "warn"
       },
       "sockets": {
-        "filled": 3,
-        "total": 3,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
@@ -1904,23 +1908,19 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 326.5,
+        "item_level": 328.0,
         "mythic_plus_weekly": 4,
         "mythic_plus_avg_level": 12.5,
         "mythic_plus_highest": 13,
         "items": [
           {
             "slot": "head",
-            "item_id": 251229,
-            "item_name": "Visor of the Predator",
-            "item_level": 321,
+            "item_id": 268229,
+            "item_name": "Skullguard of the Risen Sacrifice",
+            "item_level": 331,
             "track": "myth",
             "enchanted": true,
-            "sockets": [
-              {
-                "filled": true
-              }
-            ]
+            "sockets": []
           },
           {
             "slot": "neck",
@@ -2007,7 +2007,7 @@
             "item_id": 271475,
             "item_name": "Baleful Grave-Knight's Deathgrips",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -2041,7 +2041,7 @@
             "slot": "trinket_1",
             "item_id": 270175,
             "item_name": "Voracious Heart of Ula'tek",
-            "item_level": 321,
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -2096,14 +2096,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 4,
+        "total": 4,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 4,
-        "hero": 7,
+        "myth": 5,
+        "hero": 6,
         "champion": 0,
         "crafted": 2,
         "lower": 2
@@ -2524,7 +2524,7 @@
         "class_name": "Druid",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 327.1,
+        "item_level": 327.6,
         "mythic_plus_weekly": 1,
         "mythic_plus_avg_level": 12.0,
         "mythic_plus_highest": 12,
@@ -2632,9 +2632,9 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
-            "item_level": 321,
+            "item_id": 268249,
+            "item_name": "Vile Alchemist's Band",
+            "item_level": 328,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3809,10 +3809,10 @@
         "items": [
           {
             "slot": "head",
-            "item_id": 271875,
-            "item_name": "Gaze of the Coiled Watcher",
+            "item_id": 271519,
+            "item_name": "Monkey King's Unyielding Visage",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
@@ -3852,26 +3852,30 @@
           },
           {
             "slot": "waist",
-            "item_id": 271516,
-            "item_name": "Agile Cord of the Monkey King",
+            "item_id": 272245,
+            "item_name": "Miststalker's Cinch",
             "item_level": 321,
-            "track": "hero",
+            "track": null,
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "legs",
             "item_id": 271518,
             "item_name": "Pantaloons of the Monkey King",
-            "item_level": 334,
-            "track": "hero",
+            "item_level": 321,
+            "track": "myth",
             "enchanted": true,
             "sockets": []
           },
           {
             "slot": "feet",
-            "item_id": 271521,
-            "item_name": "Shinguards of the Monkey King",
+            "item_id": 159327,
+            "item_name": "Sand-Shined Snakeskin Sandals",
             "item_level": 321,
             "track": "myth",
             "enchanted": true,
@@ -3879,8 +3883,8 @@
           },
           {
             "slot": "wrist",
-            "item_id": 271515,
-            "item_name": "Wristguards of the Monkey King",
+            "item_id": 251183,
+            "item_name": "Rootwarden Wraps",
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
@@ -3888,10 +3892,10 @@
           },
           {
             "slot": "hands",
-            "item_id": 271520,
-            "item_name": "Monkey King's Fighting Fists",
+            "item_id": 159337,
+            "item_name": "Grips of Electrified Defense",
             "item_level": 321,
-            "track": "hero",
+            "track": "myth",
             "enchanted": false,
             "sockets": []
           },
@@ -3910,9 +3914,9 @@
           },
           {
             "slot": "finger_2",
-            "item_id": 252258,
-            "item_name": "Sickening Signet of Atroxus",
-            "item_level": 321,
+            "item_id": 251148,
+            "item_name": "Pilfered Precious Band",
+            "item_level": 334,
             "track": "myth",
             "enchanted": true,
             "sockets": [
@@ -3971,14 +3975,14 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 4,
-        "total": 4,
+        "filled": 5,
+        "total": 5,
         "missing_slots": [],
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
-        "hero": 6,
+        "myth": 8,
+        "hero": 3,
         "champion": 0,
         "crafted": 1,
         "lower": 3
