@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-10-01T16:48:13.160171+00:00",
+  "generated_at": "2026-10-01T22:11:10.302112+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1476,10 +1476,10 @@
         "class_name": "Priest",
         "role": "Ranged",
         "rank": "Main",
-        "item_level": 322.7,
-        "mythic_plus_weekly": 3,
+        "item_level": 324.5,
+        "mythic_plus_weekly": 6,
         "mythic_plus_avg_level": 13.0,
-        "mythic_plus_highest": 13,
+        "mythic_plus_highest": 14,
         "items": [
           {
             "slot": "head",
@@ -1505,11 +1505,11 @@
           },
           {
             "slot": "shoulders",
-            "item_id": 271553,
-            "item_name": "Cosmic Penitent's Echoing Screams",
-            "item_level": 308,
-            "track": null,
-            "enchanted": true,
+            "item_id": 239650,
+            "item_name": "Martyr's Mantle",
+            "item_level": 331,
+            "track": "crafted",
+            "enchanted": false,
             "sockets": []
           },
           {
@@ -1534,7 +1534,7 @@
             "slot": "waist",
             "item_id": 268257,
             "item_name": "Caustic Chain-Wrapped Sash",
-            "item_level": 318,
+            "item_level": 321,
             "track": "hero",
             "enchanted": false,
             "sockets": [
@@ -1609,7 +1609,7 @@
             "slot": "trinket_1",
             "item_id": 250215,
             "item_name": "Freightrunner's Flask",
-            "item_level": 321,
+            "item_level": 324,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1653,17 +1653,18 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
-        "enchanted": 8,
+        "enchanted": 7,
         "required": 9,
         "missing_slots": [
+          "shoulders",
           "off_hand"
         ],
-        "status": "warn"
+        "status": "fail"
       },
       "sockets": {
         "filled": 4,
@@ -1675,8 +1676,8 @@
         "myth": 8,
         "hero": 4,
         "champion": 0,
-        "crafted": 3,
-        "lower": 1
+        "crafted": 4,
+        "lower": 0
       },
       "ambiguous_items": [],
       "overall_status": "fail"
@@ -1690,8 +1691,8 @@
         "role": "Heal",
         "rank": "Main",
         "item_level": 328.6,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 15.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 15.7,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -1874,7 +1875,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3376,8 +3377,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 328.5,
-        "mythic_plus_weekly": 2,
-        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_weekly": 3,
+        "mythic_plus_avg_level": 17.7,
         "mythic_plus_highest": 18,
         "items": [
           {
@@ -3556,7 +3557,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 2,
+        "count": 3,
         "target": 8,
         "status": "fail"
       },
@@ -3590,10 +3591,10 @@
         "class_name": "Paladin",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 327.8,
-        "mythic_plus_weekly": 4,
-        "mythic_plus_avg_level": 17.0,
-        "mythic_plus_highest": 17,
+        "item_level": 328.0,
+        "mythic_plus_weekly": 5,
+        "mythic_plus_avg_level": 17.2,
+        "mythic_plus_highest": 18,
         "items": [
           {
             "slot": "head",
@@ -3642,7 +3643,7 @@
             "slot": "chest",
             "item_id": 271468,
             "item_name": "Bulwark of the Consecrated Flame",
-            "item_level": 328,
+            "item_level": 331,
             "track": "hero",
             "enchanted": true,
             "sockets": []
@@ -3766,7 +3767,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 4,
+        "count": 5,
         "target": 8,
         "status": "warn"
       },
