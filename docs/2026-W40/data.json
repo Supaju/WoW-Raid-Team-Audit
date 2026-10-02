@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-10-01T22:11:10.302112+00:00",
+  "generated_at": "2026-10-02T03:23:01.619499+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -437,10 +437,10 @@
         "class_name": "Death Knight",
         "role": "Melee",
         "rank": "Main",
-        "item_level": 323.2,
-        "mythic_plus_weekly": 0,
-        "mythic_plus_avg_level": 0.0,
-        "mythic_plus_highest": 0,
+        "item_level": 325.8,
+        "mythic_plus_weekly": 1,
+        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_highest": 12,
         "items": [
           {
             "slot": "head",
@@ -508,7 +508,7 @@
             "slot": "legs",
             "item_id": 271878,
             "item_name": "Chausses of Unbound Rancor",
-            "item_level": 308,
+            "item_level": 324,
             "track": null,
             "enchanted": true,
             "sockets": []
@@ -542,10 +542,10 @@
           },
           {
             "slot": "finger_1",
-            "item_id": 272147,
-            "item_name": "Colubrine Band",
+            "item_id": 252258,
+            "item_name": "Sickening Signet of Atroxus",
             "item_level": 321,
-            "track": null,
+            "track": "myth",
             "enchanted": true,
             "sockets": [
               {
@@ -570,7 +570,7 @@
             "slot": "trinket_1",
             "item_id": 270175,
             "item_name": "Voracious Heart of Ula'tek",
-            "item_level": 328,
+            "item_level": 331,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -579,7 +579,7 @@
             "slot": "trinket_2",
             "item_id": 270173,
             "item_name": "Zul'jin's Guillotine Technique",
-            "item_level": 324,
+            "item_level": 334,
             "track": "hero",
             "enchanted": false,
             "sockets": []
@@ -588,7 +588,7 @@
             "slot": "back",
             "item_id": 251132,
             "item_name": "Speakeasy Shroud",
-            "item_level": 311,
+            "item_level": 321,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -614,7 +614,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 0,
+        "count": 1,
         "target": 8,
         "status": "fail"
       },
@@ -633,11 +633,11 @@
         "status": "pass"
       },
       "gear": {
-        "myth": 5,
+        "myth": 6,
         "hero": 5,
         "champion": 0,
         "crafted": 2,
-        "lower": 3
+        "lower": 2
       },
       "ambiguous_items": [],
       "overall_status": "fail"
