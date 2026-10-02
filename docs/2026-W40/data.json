@@ -2,7 +2,7 @@
   "week": "2026-W40",
   "week_label": "Raid Week 8 \u00b7 Sep 29\u2013Oct 5",
   "season_start": "2026-08-11",
-  "generated_at": "2026-10-02T03:23:01.619499+00:00",
+  "generated_at": "2026-10-02T10:11:36.245425+00:00",
   "season": "Midnight S1",
   "characters": [
     {
@@ -1690,10 +1690,10 @@
         "class_name": "Shaman",
         "role": "Heal",
         "rank": "Main",
-        "item_level": 328.6,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 15.7,
-        "mythic_plus_highest": 18,
+        "item_level": 328.8,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 17.0,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -1787,7 +1787,7 @@
             "slot": "hands",
             "item_id": 271484,
             "item_name": "Hexing Grips of the Ophidian Oracle",
-            "item_level": 331,
+            "item_level": 334,
             "track": "myth",
             "enchanted": false,
             "sockets": []
@@ -1875,9 +1875,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 9,
@@ -1899,7 +1899,7 @@
         "lower": 2
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3377,9 +3377,9 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 328.5,
-        "mythic_plus_weekly": 3,
-        "mythic_plus_avg_level": 17.7,
-        "mythic_plus_highest": 18,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 18.0,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -3557,9 +3557,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 3,
+        "count": 6,
         "target": 8,
-        "status": "fail"
+        "status": "warn"
       },
       "enchants": {
         "enchanted": 8,
@@ -3581,7 +3581,7 @@
         "lower": 1
       },
       "ambiguous_items": [],
-      "overall_status": "fail"
+      "overall_status": "warn"
     },
     {
       "character": {
@@ -3804,8 +3804,8 @@
         "role": "Tank",
         "rank": "Main",
         "item_level": 325.8,
-        "mythic_plus_weekly": 5,
-        "mythic_plus_avg_level": 12.0,
+        "mythic_plus_weekly": 6,
+        "mythic_plus_avg_level": 12.2,
         "mythic_plus_highest": 14,
         "items": [
           {
@@ -3889,7 +3889,11 @@
             "item_level": 321,
             "track": "myth",
             "enchanted": false,
-            "sockets": []
+            "sockets": [
+              {
+                "filled": true
+              }
+            ]
           },
           {
             "slot": "hands",
@@ -3937,8 +3941,8 @@
           },
           {
             "slot": "trinket_2",
-            "item_id": 270166,
-            "item_name": "Vashnik's Sanguine Rancor",
+            "item_id": 270160,
+            "item_name": "First Mate's Shellward",
             "item_level": 321,
             "track": "hero",
             "enchanted": false,
@@ -3965,7 +3969,7 @@
         ]
       },
       "mythic_plus": {
-        "count": 5,
+        "count": 6,
         "target": 8,
         "status": "warn"
       },
@@ -3976,8 +3980,8 @@
         "status": "pass"
       },
       "sockets": {
-        "filled": 5,
-        "total": 5,
+        "filled": 6,
+        "total": 6,
         "missing_slots": [],
         "status": "pass"
       },
@@ -4219,9 +4223,9 @@
         "role": "Ranged",
         "rank": "Main",
         "item_level": 327.8,
-        "mythic_plus_weekly": 6,
-        "mythic_plus_avg_level": 15.5,
-        "mythic_plus_highest": 17,
+        "mythic_plus_weekly": 9,
+        "mythic_plus_avg_level": 16.4,
+        "mythic_plus_highest": 19,
         "items": [
           {
             "slot": "head",
@@ -4398,9 +4402,9 @@
         ]
       },
       "mythic_plus": {
-        "count": 6,
+        "count": 9,
         "target": 8,
-        "status": "warn"
+        "status": "pass"
       },
       "enchants": {
         "enchanted": 8,
